@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/fne8_2cyb.css';
+import '../../css/f/fb8tbxvyp.css';
+import '../../css/b/bsys6tb1q.css';
+import '../../css/b/bm17v2acr.css';
+import '../../css/v/vbzbhtims.css';
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="fne8_2cyb"/><path class="fb8tbxvyp"/><path class="bsys6tb1q"/><path class="bm17v2acr"/><path class="vbzbhtims"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fxemoji:present"} {...others} />);
+}
+
+export default Component;

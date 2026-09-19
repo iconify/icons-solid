@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/h/hoo5lszqv.css';
+
+const viewBox = {"width":472,"height":384};
+const content = `<path class="hoo5lszqv"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"zmdi:network-wifi-alt"} {...others} />);
+}
+
+export default Component;

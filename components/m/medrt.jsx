@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/c/clyii8_rv.css';
+
+const viewBox = {"width":544,"height":512};
+const content = `<path class="clyii8_rv"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fa-brands:medrt"} {...others} />);
+}
+
+export default Component;

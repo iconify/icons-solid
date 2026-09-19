@@ -1,0 +1,24 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/o/ou7hvz6ib.css';
+import '../../css/z/z0gjpq-pk.css';
+import '../../css/o/odgz4sc7j.css';
+import '../../css/k/kafrmhhqw.css';
+import '../../css/j/j6r7bxn8u.css';
+import '../../css/q/qy-66uisg.css';
+import '../../css/i/iyy_gzb4m.css';
+import '../../css/w/ws86gobdn.css';
+import '../../css/p/pqsc9ac6p.css';
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="ft5dv1b6b"><path class="ou7hvz6ib"/><path class="z0gjpq-pk"/><path class="odgz4sc7j"/><path class="kafrmhhqw"/><path class="j6r7bxn8u"/><path class="qy-66uisg"/><path class="iyy_gzb4m"/><path class="ws86gobdn"/><path class="pqsc9ac6p"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"icon-park:basketball-one"} {...others} />);
+}
+
+export default Component;

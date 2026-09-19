@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/s/s9cl3zbei.css';
+import '../../css/h/hrq90hfel.css';
+import '../../css/k/karhh3sue.css';
+import '../../css/y/ydwm7ozks.css';
+import '../../css/r/rc1-c96xu.css';
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="s9cl3zbei"><circle class="hrq90hfel"/><path class="karhh3sue"/><path class="ydwm7ozks"/><path class="rc1-c96xu"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"icon-park:delete-three"} {...others} />);
+}
+
+export default Component;

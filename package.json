@@ -1,0 +1,151 @@
+{
+  "name": "@iconify-solid/fontelico",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/fontelico/",
+  "bugs": "https://github.com/iconify/icons-solid/issues",
+  "license": "CC-BY-SA-3.0",
+  "exports": {
+    "./chrome": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chrome.jsx"
+    },
+    "./crown": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crown.jsx"
+    },
+    "./crown-minus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crown-minus.jsx"
+    },
+    "./crown-plus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crown-plus.jsx"
+    },
+    "./emo-angry": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-angry.jsx"
+    },
+    "./emo-beer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-beer.jsx"
+    },
+    "./emo-coffee": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-coffee.jsx"
+    },
+    "./emo-cry": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-cry.jsx"
+    },
+    "./emo-devil": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-devil.jsx"
+    },
+    "./emo-displeased": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-displeased.jsx"
+    },
+    "./emo-grin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-grin.jsx"
+    },
+    "./emo-happy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-happy.jsx"
+    },
+    "./emo-laugh": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-laugh.jsx"
+    },
+    "./emo-saint": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-saint.jsx"
+    },
+    "./emo-shoot": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-shoot.jsx"
+    },
+    "./emo-sleep": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-sleep.jsx"
+    },
+    "./emo-squint": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-squint.jsx"
+    },
+    "./emo-sunglasses": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-sunglasses.jsx"
+    },
+    "./emo-surprised": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-surprised.jsx"
+    },
+    "./emo-thumbsup": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-thumbsup.jsx"
+    },
+    "./emo-tongue": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-tongue.jsx"
+    },
+    "./emo-unhappy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-unhappy.jsx"
+    },
+    "./emo-wink": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-wink.jsx"
+    },
+    "./emo-wink2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/emo-wink2.jsx"
+    },
+    "./firefox": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/firefox.jsx"
+    },
+    "./ie": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/ie.jsx"
+    },
+    "./marquee": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/marquee.jsx"
+    },
+    "./opera": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/opera.jsx"
+    },
+    "./spin1": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spin1.jsx"
+    },
+    "./spin2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spin2.jsx"
+    },
+    "./spin3": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spin3.jsx"
+    },
+    "./spin4": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spin4.jsx"
+    },
+    "./spin5": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spin5.jsx"
+    },
+    "./spin6": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spin6.jsx"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-solid": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-solid#fontelico"
+}

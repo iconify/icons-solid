@@ -1,0 +1,25 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.c9gbovbnk {
+  cx: 18px;
+  cy: 16px;
+  r: 1px;
+  fill: currentColor;
+}
+
+.zrsrjmbut {
+  fill: currentColor;
+  d: path("M19 12h-1V4H6v8H5c-1.66 0-3 1.34-3 3v5h20v-5c0-1.66-1.34-3-3-3M8 6h8v6H8zm12 12H4v-3c0-.55.45-1 1-1h14c.55 0 1 .45 1 1z");
+}
+</style><path class="zrsrjmbut"/><circle class="c9gbovbnk"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ic:outline-adf-scanner"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.vj16msrsl {
+  fill: currentColor;
+  d: path("M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8zm4 18H6V4h7.17L18 8.83zm-9.55-9.43L7.28 9.4V13h3.6l-1.44-1.44a3.15 3.15 0 0 1 2.79-1.71a3.15 3.15 0 1 1 0 6.3a3.14 3.14 0 0 1-2.58-1.35H8.1a4.51 4.51 0 0 0 4.12 2.7c2.48 0 4.5-2.02 4.5-4.5s-2.02-4.5-4.5-4.5c-1.59 0-2.97.83-3.77 2.07");
+}
+</style><path class="vj16msrsl"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ic:outline-restore-page"} {...others} />);
+}
+
+export default Component;

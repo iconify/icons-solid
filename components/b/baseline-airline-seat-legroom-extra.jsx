@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.upy-qlbwb {
+  fill: currentColor;
+  d: path("M4 12V3H2v9c0 2.76 2.24 5 5 5h6v-2H7c-1.66 0-3-1.34-3-3m18.83 5.24c-.38-.72-1.29-.97-2.03-.63l-1.09.5l-3.41-6.98a2.01 2.01 0 0 0-1.79-1.12L11 9V3H5v8c0 1.66 1.34 3 3 3h7l3.41 7l3.72-1.7c.77-.36 1.1-1.3.7-2.06");
+}
+</style><path class="upy-qlbwb"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ic:baseline-airline-seat-legroom-extra"} {...others} />);
+}
+
+export default Component;

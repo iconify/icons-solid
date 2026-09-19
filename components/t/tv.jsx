@@ -1,0 +1,25 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/v/v49oygb2b.css';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/t/txenbkbwa.css';
+import '../../css/t/t-9pryb7l.css';
+import '../../css/v/vsgbyxjvr.css';
+import '../../css/t/t-rqbeb6u.css';
+import '../../css/r/rzyrhq-yw.css';
+import '../../css/p/p1j-_-ift.css';
+import '../../css/e/eemaawz4l.css';
+import '../../css/e/exr526b9x.css';
+import '../../css/w/wrku0q4pt.css';
+
+const viewBox = {"width":32,"height":24};
+const content = `<clipPath id="SVGwYlrpEiW"><path class="v49oygb2b"/></clipPath><g class="ft5dv1b6b"><path clip-rule="evenodd" class="txenbkbwa"/><g clip-path="url(#SVGwYlrpEiW)"><path class="t-9pryb7l"/><path class="vsgbyxjvr"/><path class="t-rqbeb6u"/><path class="rzyrhq-yw"/><path class="p1j-_-ift"/><path clip-rule="evenodd" class="eemaawz4l"/><path clip-rule="evenodd" class="exr526b9x"/></g><path clip-rule="evenodd" class="wrku0q4pt"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"flagpack:tv"} {...others} />);
+}
+
+export default Component;

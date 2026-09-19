@@ -1,0 +1,17 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/h/hntgybcog.css';
+import '../../css/t/t3u-_jbox.css';
+import '../../css/a/aua0i6bem.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="t3u-_jbox"/><path class="aua0i6bem"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"hugeicons:chat-add-01"} {...others} />);
+}
+
+export default Component;

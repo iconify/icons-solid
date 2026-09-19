@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/h/hntgybcog.css';
+import '../../css/q/qhx_7abdu.css';
+import '../../css/i/ic5ae1dgk.css';
+import '../../css/c/cvi76znce.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="hntgybcog"><path class="qhx_7abdu"/><path class="ic5ae1dgk"/><path class="cvi76znce"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"hugeicons:copy-check"} {...others} />);
+}
+
+export default Component;

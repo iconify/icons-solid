@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/v/v3_i3wktz.css';
+import '../../css/x/xdm0-sb7l.css';
+import '../../css/y/yd5ssobgf.css';
+import '../../css/b/bl95smbeo.css';
+
+const viewBox = {"width":48,"height":48};
+const content = `<defs><mask id="SVGwWf9HgGd"><g class="v3_i3wktz"><path class="xdm0-sb7l"/><path clip-rule="evenodd" class="yd5ssobgf"/></g></mask></defs><path mask="url(#SVGwWf9HgGd)" class="bl95smbeo"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"icon-park-twotone:hand-left"} {...others} />);
+}
+
+export default Component;

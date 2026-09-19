@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.b0pr8ac9d {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M16.003 13.493c0 4.414 3.58 7.993 7.997 7.993s7.997-3.579 7.997-7.993S28.417 5.5 24 5.5s-7.997 3.579-7.997 7.993");
+}
+
+.r4n6-z5bz {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.726 21.298v15.445l-1.75 5.757l-2.042-5.757V21.215");
+}
+</style><path class="r4n6-z5bz"/><path class="b0pr8ac9d"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:emoji-round-pushpin"} {...others} />);
+}
+
+export default Component;

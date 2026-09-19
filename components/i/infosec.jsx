@@ -1,0 +1,28 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.qffv-eb3l {
+  d: path("M16.57 19.656h15.191c1.04 0 1.882.843 1.882 1.882h0c0 1.04-.843 1.882-1.882 1.882h-15.19a1.88 1.88 0 0 1-1.883-1.882h0c0-1.04.843-1.882 1.883-1.882");
+}
+
+.w5ug-_h6s {
+  d: path("M5.91 12.061c3.5 14.363 9.92 27.649 15.495 30.918c1.308.767 3.957.666 5.227-.167c7.008-4.597 13.555-24.868 15.431-31.1c.304-1.006-.19-2.277-1.124-2.762c-4.851-2.525-19.577-8.713-33.876.203c-.892.556-1.401 1.886-1.152 2.908Z");
+}
+
+.y9tr6bcfx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+</style><g class="y9tr6bcfx"><path class="w5ug-_h6s"/><path class="qffv-eb3l"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:infosec"} {...others} />);
+}
+
+export default Component;

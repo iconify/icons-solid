@@ -1,0 +1,31 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.cpk0fnbgt {
+  cx: 24px;
+  cy: 24px;
+  r: 21.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ymzxrib7x {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.43 31.87a5.25 5.25 0 0 1-4.56 2.65h0a5.26 5.26 0 0 1-5.26-5.26v-3.42a5.26 5.26 0 0 1 5.26-5.26h0a5.25 5.25 0 0 1 4.56 2.64v1.25m3.44 6.42v1.32A5.89 5.89 0 0 0 29 34.52h3.11a5.26 5.26 0 0 0 5.25-5.26h0A5.25 5.25 0 0 0 32.14 24H28.7a5.25 5.25 0 0 1-5.24-5.26h0a5.26 5.26 0 0 1 5.24-5.26h3.12A5.89 5.89 0 0 1 37 15.79v1.32");
+}
+</style><circle class="cpk0fnbgt"/><path class="ymzxrib7x"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:csoundforandroid"} {...others} />);
+}
+
+export default Component;

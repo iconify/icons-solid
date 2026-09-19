@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.ap5r5mb7g {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.945 32.594c.183-6.495.113-16.125 2.127-19.792c5.845-10.649 25.404-10.123 30.525-.473c2.196 4.138 2.833 13.937 2.732 20.712M25.08 38.432l1.91 2.571l11.463-.146");
+}
+
+.g8czu8bpl {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M11.578 34.811c-.45 4.136-2.05 6.498-3.572 5.277s-2.393-5.564-1.944-9.702s2.046-6.505 3.57-5.289s2.395 5.555 1.948 9.695m29.631.466c-.37 3.4-1.516 5.6-2.757 5.599a1.3 1.3 0 0 1-.815-.322c-1.522-1.221-2.393-5.564-1.944-9.702s2.046-6.505 3.57-5.289s2.395 5.555 1.948 9.694");
+}
+</style><path class="g8czu8bpl"/><path class="ap5r5mb7g"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:smart-tutor"} {...others} />);
+}
+
+export default Component;

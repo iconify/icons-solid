@@ -1,0 +1,34 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.ftofplbbd {
+  width: 37px;
+  height: 37px;
+  x: 5.5px;
+  y: 5.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 5px;
+  ry: 5px;
+}
+
+.i8bgmhbsg {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.47 16.13h37m-27.12 14.3a4.98 4.98 0 0 0 4.96 5h.04a4.83 4.83 0 0 0 4.82-5v-5a4.94 4.94 0 0 0-4.82-5a5.1 5.1 0 0 0-5 5zm17.3-10v15M28.9 22.5l3.75-2.06M17.2 13.57l1.75-5.27l1.74 5.27m-.57-1.74h-2.34m4.47 1.77V8.31h1.73a1.77 1.77 0 0 1 0 3.54h-1.73m6.78.04l1.73 1.72m-3.45 0V8.36h1.72a1.77 1.77 0 0 1 0 3.54h-1.72");
+}
+</style><rect class="ftofplbbd"/><path class="i8bgmhbsg"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:skiff-calendar"} {...others} />);
+}
+
+export default Component;

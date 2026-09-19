@@ -1,0 +1,21 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.qxvkj4bva {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M8.89 21.139h17.362l6.968 9.99c.376.538 1.022.94 1.656.94s1.28-.402 1.656-.94l6.968-9.99m-19.075 5.208H8.034c-1.958 0-3.534-2.2-3.534-4.93v-.556c0-2.732 1.576-4.93 3.534-4.93h16.391");
+}
+</style><path class="qxvkj4bva"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:ptt-ev-station-pluz"} {...others} />);
+}
+
+export default Component;

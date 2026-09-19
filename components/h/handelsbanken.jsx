@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.jl6117dmc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M42.501 34.082a5.82 5.82 0 0 1-4.144 1.73H36.3c-2.144 0-3.883-1.752-3.883-3.913s1.739-3.912 3.883-3.912h6.2m-8.606-6.275c1.423-1.426 2.42-1.55 5.167-1.55c1.387 0 2.562.27 3.44.898");
+}
+
+.xyqjybbwn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M9.5 5.5h29a4 4 0 0 1 4 4v29a4 4 0 0 1-4 4h-29a4 4 0 0 1-4-4v-29a4 4 0 0 1 4-4m3.423 6.688v23.624m15.651-23.624v23.624M12.923 23.956h15.651");
+}
+</style><path class="xyqjybbwn"/><path class="jl6117dmc"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:handelsbanken"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,49 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.api32qbnr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M9.5 24.801V38.5m0-5.65a3.425 3.425 0 0 1 3.425-3.426h0a3.425 3.425 0 0 1 3.425 3.425V38.5");
+}
+
+.i9clfwm2k {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.5 5.5h-29a4 4 0 0 0-4 4v29a4 4 0 0 0 4 4h29a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4");
+}
+
+.xt1ntfb6d {
+  cx: 29.009px;
+  cy: 38.255px;
+  r: 0.75px;
+  fill: currentColor;
+}
+
+.yees3ibtb {
+  width: 6.85px;
+  height: 9.076px;
+  x: 19.65px;
+  y: 29.424px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 3.425px;
+  ry: 3.425px;
+}
+</style><path class="i9clfwm2k"/><rect class="yees3ibtb"/><path class="api32qbnr"/><circle class="xt1ntfb6d"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:ho"} {...others} />);
+}
+
+export default Component;

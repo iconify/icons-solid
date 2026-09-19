@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.fd5ejpbjq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.5 5.5h-29a4 4 0 0 0-4 4l.001 33h33a4 4 0 0 0 4-4v-29a4 4 0 0 0-4-4m-5.617 28.907a2.47 2.47 0 0 1-2.464-2.476a2.47 2.47 0 0 1 2.464-2.475a2.475 2.475 0 0 1 0 4.951");
+}
+
+.j6pveybsy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M22.89 24.406a5 5 0 0 1 0 9.998h-8.249V14.407h8.25a5 5 0 0 1 0 9.998zm0 0h-8.249");
+}
+</style><path class="fd5ejpbjq"/><path class="j6pveybsy"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:booking"} {...others} />);
+}
+
+export default Component;

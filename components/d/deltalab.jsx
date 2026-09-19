@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.ompr500ne {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M45.5 24c-.086 11.205-5.827 13.018-.259 20.899c-8.855-3.993-10.937.645-21.241.6A21.5 21.5 0 1 1 45.5 24");
+}
+
+.wfwxyybip {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.388 9.628c1.09 1.66 5.313 5.433 6.323 3.375c1.404-2.86-7.53-3.724-10.68-3.607c-3.266.121-6.087 2.637-1.755 6.424c3.978 3.477 9.863 3.181 12.42 7.28c9.769 15.66-16.269 21.164-17.517 8.523c-1.087-11.005 13.194-11.854 16.926-9.33");
+}
+</style><path class="ompr500ne"/><path class="wfwxyybip"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:deltalab"} {...others} />);
+}
+
+export default Component;

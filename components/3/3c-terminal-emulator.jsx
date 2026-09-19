@@ -1,0 +1,50 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.menzrtb4e {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.503 36.181c2.023 1.695 4.208 2.472 9.113 2.472h1.143a7.325 7.325 0 1 0 0-14.65M5.5 11.794c2.028-1.69 4.214-2.46 9.12-2.448l1.14.007a7.325 7.325 0 1 1 0 14.65m-5.632 0h5.631");
+}
+
+.q54nnjmpx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M42.5 28.826v.12c0 5.362-4.346 9.708-9.708 9.708s-9.708-4.347-9.708-9.708v-9.891c0-5.362 4.347-9.708 9.708-9.708s9.708 4.346 9.708 9.708v.12");
+}
+
+.ujbypzbwr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.197 20.863h13.207m-7.724 6.392h2.544m-6.09 0l2.544-1.227l-2.544-1.226");
+}
+
+.vuvrh43zi {
+  width: 13.207px;
+  height: 10.328px;
+  x: 26.197px;
+  y: 18.863px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 1px;
+  ry: 1px;
+}
+</style><path class="q54nnjmpx"/><path class="menzrtb4e"/><rect class="vuvrh43zi"/><path class="ujbypzbwr"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:3c-terminal-emulator"} {...others} />);
+}
+
+export default Component;

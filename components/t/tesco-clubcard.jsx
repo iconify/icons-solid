@@ -1,0 +1,34 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.r3ezx-bcw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.473 26.897h23.054M18.23 21.103h11.54");
+}
+
+.ydvga8btl {
+  width: 39px;
+  height: 27.56px;
+  x: 4.5px;
+  y: 10.22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 3.5px;
+  ry: 3.5px;
+}
+</style><rect class="ydvga8btl"/><path class="r3ezx-bcw"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:tesco-clubcard"} {...others} />);
+}
+
+export default Component;

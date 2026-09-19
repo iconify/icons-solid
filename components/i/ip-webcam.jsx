@@ -1,0 +1,64 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.b0smh1bld {
+  cx: 30.792px;
+  cy: 18px;
+  r: 1.923px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.cpk0fnbgt {
+  cx: 24px;
+  cy: 24px;
+  r: 21.5px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.k4o_yjbkq {
+  cx: 24px;
+  cy: 24px;
+  r: 14px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ufbccybaq {
+  cx: 34.075px;
+  cy: 22.146px;
+  r: 1.36px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.ukyzb9bkc {
+  cx: 19.094px;
+  cy: 16.183px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  rx: 3.518px;
+  ry: 1.88px;
+}
+</style><circle class="cpk0fnbgt"/><circle class="k4o_yjbkq"/><ellipse transform="rotate(-24.414 19.094 16.183)" class="ukyzb9bkc"/><circle class="b0smh1bld"/><circle class="ufbccybaq"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:ip-webcam"} {...others} />);
+}
+
+export default Component;

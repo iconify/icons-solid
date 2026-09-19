@@ -1,0 +1,21 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.mqgo5-b6p {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M13.75 13.75L24 24l10.25-10.25zm20.5 20.5L24 24L13.75 34.25zm0 0L44.5 24L34.25 13.75zm-20.5-20.5L3.5 24l10.25 10.25z");
+}
+</style><path class="mqgo5-b6p"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:hsbcuk"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.xxeuqebqp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M9 21.51h3.306L9 25.89h3.306m3.306 0c-.91 0-1.653-.744-1.653-1.653v-1.074c0-.91.743-1.653 1.653-1.653h0c.909 0 1.652.744 1.652 1.653v1.074c0 .91-.743 1.653-1.652 1.653m3.305-2.727c0-.91.744-1.653 1.653-1.653h0c.91 0 1.653.744 1.653 1.653v2.644m-3.306-4.297v4.298m3.306-2.645c0-.91.744-1.653 1.653-1.653h0c.91 0 1.653.744 1.653 1.653v2.644m4.959-1.57c0 .91-.744 1.653-1.653 1.653h0c-.91 0-1.653-.744-1.653-1.653v-1.074c0-.91.744-1.653 1.653-1.653h0c.909 0 1.653.744 1.653 1.653m0 2.727v-4.38m2.479-1.404v4.959c0 .495.33.826.826.826h.248m-1.9-4.363h1.735m3.471 4.362a1.66 1.66 0 0 1-1.653-1.653v-1.074c0-.91.744-1.653 1.653-1.653h0c.91 0 1.653.744 1.653 1.653v1.074c0 .91-.744 1.653-1.653 1.653");
+}
+
+.ydqthzbbt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M38.5 42.5h-29c-2.2 0-4-1.8-4-4v-29c0-2.2 1.8-4 4-4h29c2.2 0 4 1.8 4 4v29c0 2.2-1.8 4-4 4");
+}
+</style><path class="xxeuqebqp"/><path class="ydqthzbbt"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:zomato"} {...others} />);
+}
+
+export default Component;

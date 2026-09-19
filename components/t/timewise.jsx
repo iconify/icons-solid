@@ -1,0 +1,21 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.iba1arm8d {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M34.874 19.671h1.565m.835 2.4h-2.4v-4.8h2.4m-2.4 11.059h1.565m.835 2.4h-2.4v-4.8h2.4m-21.748-.001l-1.2 4.8l-1.2-4.8l-1.2 4.8l-1.2-4.8m.81-8.659h3.18m-1.59 4.801v-4.8m7.756-.001v4.8m0 3.859v4.8m5.026-8.663V17.27l2.4 4.8l2.4-4.793v4.793m-3.895 8.133c.295.383.664.526 1.177.526h.71c.662 0 1.198-.536 1.198-1.197v-.006c0-.66-.536-1.197-1.197-1.197h-.784a1.199 1.199 0 1 1 .003-2.4h.706c.514 0 .883.143 1.177.526");
+}
+</style><path class="iba1arm8d"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:timewise"} {...others} />);
+}
+
+export default Component;

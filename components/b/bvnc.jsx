@@ -1,0 +1,36 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.jorlmq7zf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 34.673h-5.968s-1.768.07-.864-1.496s2.262.474 2.262-5.07M24 43.5H5.686l3.237-6.751h15.076M24 34.673h5.968s1.768.07.864-1.496s-2.262.474-2.262-5.07M24 43.5h18.314l-3.237-6.751H24.001M6.725 4.5h34.551v23.577H6.725z");
+}
+
+.m17ajf4nb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  d: path("M24 21.177v-2.743m-2.296 2.743v-2.743m-2.295 2.743v-2.743m9.183 2.743v-2.743m-2.296 2.743v-2.743");
+}
+
+.vjjvpf_io {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 21.177h-7.862v-7.732h2.988V11.72h2.36v-1.016H24m0 10.473h7.862v-7.732h-2.988V11.72h-2.36v-1.016H24");
+}
+</style><path class="jorlmq7zf"/><path class="vjjvpf_io"/><path class="m17ajf4nb"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:bvnc"} {...others} />);
+}
+
+export default Component;

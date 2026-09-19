@@ -1,0 +1,21 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.spwoljbdp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.989 19.498L29.09 5.92c.194-1.25-1.4-1.941-2.18-.946L10.894 25.39a.9.9 0 0 0 .708 1.455h8.302l.943-6.085a1.49 1.49 0 0 1 1.473-1.262zm-5.523 9.004L19.363 42.08c-.193 1.25 1.4 1.941 2.18.946l15.47-19.718c.685-.873.063-2.151-1.047-2.151H28.55l-.943 6.084a1.49 1.49 0 0 1-1.473 1.262z");
+}
+</style><path class="spwoljbdp"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:flash-2"} {...others} />);
+}
+
+export default Component;

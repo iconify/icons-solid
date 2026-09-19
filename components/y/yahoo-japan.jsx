@@ -1,0 +1,21 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.xbwgiz7ci {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m38.543 16.19l-3.827 12.266l1.86.545l6.696-11.333zm-5.619 15.064l-.86 2.13l2.59.746l.94-1.994zM18.86 13.87H4.727m8.228 19.599h13.597M23.8 16.143h11.99M7.946 13.87l9.743 12.01v7.589M12.814 13.87l9.208 12.065c.504-1.883 8.032-7.304 8.698-9.792m-8.699 9.792v7.534");
+}
+</style><path class="xbwgiz7ci"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:yahoo-japan"} {...others} />);
+}
+
+export default Component;

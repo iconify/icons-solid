@@ -1,0 +1,45 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.c538vmb9c {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M5.5 30.564v9.022c0 .66.534 1.194 1.194 1.194h34.612c.66 0 1.194-.535 1.194-1.194v-9.022");
+}
+
+.mvmxnx5mk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M22.21 10.95a1.79 1.79 0 0 0 3.58.001v-.002a1.79 1.79 0 0 0-3.58-.002z");
+}
+
+.ntvcw5bpp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M24 10.204a2.983 2.983 0 0 1 2.984-2.984M9.23 30.957a2.984 2.984 0 0 0 4.22 0a2.986 2.986 0 0 1 4.22 0a2.984 2.984 0 0 0 4.22 0a2.986 2.986 0 0 1 4.22 0a2.984 2.984 0 0 0 4.22 0a2.986 2.986 0 0 1 4.22 0a2.984 2.984 0 0 0 4.22 0a2.985 2.985 0 0 1 3.73-.393V28.25a2.984 2.984 0 0 0-2.984-2.983H8.484A2.984 2.984 0 0 0 5.5 28.25v2.313a2.985 2.985 0 0 1 3.73.393");
+}
+
+.yb-gmvbda {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M9.23 30.957a2.984 2.984 0 0 0 4.22 0a2.986 2.986 0 0 1 4.22 0a2.984 2.984 0 0 0 4.22 0a2.986 2.986 0 0 1 4.22 0a2.984 2.984 0 0 0 4.22 0a2.986 2.986 0 0 1 4.22 0a2.984 2.984 0 0 0 4.22 0a2.985 2.985 0 0 1 3.73-.393V28.25a2.984 2.984 0 0 0-2.984-2.983H8.484A2.984 2.984 0 0 0 5.5 28.25v2.313a2.985 2.985 0 0 1 3.73.393m.447-14.086a2.984 2.984 0 0 1 3.773.365a2.986 2.986 0 0 0 4.22 0a2.985 2.985 0 0 1 4.22 0a2.986 2.986 0 0 0 4.22 0a2.985 2.985 0 0 1 4.22 0a2.986 2.986 0 0 0 4.22 0a2.984 2.984 0 0 1 3.773-.365v-1.148a2.984 2.984 0 0 0-2.984-2.983H12.66a2.984 2.984 0 0 0-2.984 2.983zm28.646 0v8.398M9.677 16.87v8.398");
+}
+</style><path class="ntvcw5bpp"/><path class="c538vmb9c"/><path class="yb-gmvbda"/><path class="mvmxnx5mk"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:emoji-birthday-cake"} {...others} />);
+}
+
+export default Component;

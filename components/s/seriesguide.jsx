@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.gwt_wbb2t {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M39.5 10.5h-31a4 4 0 0 0-4 4v19a4 4 0 0 0 4 4h31a4 4 0 0 0 4-4v-19a4 4 0 0 0-4-4");
+}
+
+.tqi02e-jv {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M35.001 16.872L20.36 31.513s-7.243-7.175-7.32-7.175");
+}
+</style><path class="tqi02e-jv"/><path class="gwt_wbb2t"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:seriesguide"} {...others} />);
+}
+
+export default Component;

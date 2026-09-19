@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.g441q_b9i {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.478 4.5S38.53 10.553 38.53 29.001a14.53 14.53 0 0 1-29.06 0c0-11.446 5.84-16.312 5.84-16.312c-.043 4.063 2.835 6.935 6.385 6.935a6.42 6.42 0 0 0 6.429-6.415c0-6.715-1.645-8.709-1.645-8.709");
+}
+
+.j38r0rmnx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M31.15 21.98s-3.537 4.505-7.86 4.505a5.543 5.543 0 1 0 0 11.086c9.539 0 9.896-11.494 7.86-15.59Z");
+}
+</style><path class="j38r0rmnx"/><path class="g441q_b9i"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:ktweak"} {...others} />);
+}
+
+export default Component;

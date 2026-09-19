@@ -1,0 +1,21 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.ejai3-bbc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M9.5 5.5h29a4 4 0 0 1 4 4v29a4 4 0 0 1-4 4h-29a4 4 0 0 1-4-4v-29a4 4 0 0 1 4-4m14.5 0v37M5.5 24h37m-13.773-8.574h9M30.29 28.692l6 9m-25.034-8.37l8 7.937m-.039-8l-7.961 7.969m4-26.302v9m-4.5-4.5h9");
+}
+</style><path class="ejai3-bbc"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:neumorphic-calculator"} {...others} />);
+}
+
+export default Component;

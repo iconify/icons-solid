@@ -1,0 +1,28 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.f_twyvgmi {
+  d: path("M11.219 9.39h8.716c1.698 0 2.42 1.538 2.42 3.775c0 2.188-.827 3.607-2.42 3.607h-3.196V11.23m-2.512-1.76v7.301M10.337 42.5c0-8.218 6.662-14.88 14.88-14.88s14.879 6.662 14.879 14.88m-14.088 0l-7.41-10.353");
+}
+
+.s7pq0ekpb {
+  d: path("M7.904 5.5h17.765v15.162H7.904z");
+}
+
+.y9tr6bcfx {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+</style><g class="y9tr6bcfx"><path class="f_twyvgmi"/><path class="s7pq0ekpb"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:td-myspend"} {...others} />);
+}
+
+export default Component;

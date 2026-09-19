@@ -1,0 +1,31 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/g/g9lco8bpe.css';
+import '../../css/o/o5ksslasi.css';
+import '../../css/z/z3crd8hsq.css';
+import '../../css/l/ltpknqbfh.css';
+import '../../css/w/ww9xcwbde.css';
+import '../../css/j/j6nazuboy.css';
+import '../../css/a/akz1bthld.css';
+import '../../css/i/il5s_hbvs.css';
+import '../../css/m/mxfleqv-a.css';
+import '../../css/k/kn7jv3-yl.css';
+import '../../css/n/nlwde00dz.css';
+import '../../css/d/d9st9p20x.css';
+import '../../css/b/b1y5k4wmh.css';
+import '../../css/x/x2eix9w8e.css';
+import '../../css/s/sl4bhdfcm.css';
+import '../../css/o/o46pa3bti.css';
+
+const viewBox = {"width":32,"height":32};
+const content = `<g class="ft5dv1b6b"><path class="g9lco8bpe"/><path class="o5ksslasi"/><path class="z3crd8hsq"/><path class="ltpknqbfh"/><path class="ww9xcwbde"/><path class="j6nazuboy"/><path class="akz1bthld"/><path class="il5s_hbvs"/><path class="mxfleqv-a"/><path class="kn7jv3-yl"/><path class="nlwde00dz"/><path class="d9st9p20x"/><path class="b1y5k4wmh"/><path class="x2eix9w8e"/><path class="sl4bhdfcm"/><path class="o46pa3bti"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent-emoji-flat:woman-construction-worker-medium-light"} {...others} />);
+}
+
+export default Component;

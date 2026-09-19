@@ -1,0 +1,31 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/r/rs8ri3bmd.css';
+import '../../css/h/hbcfsmruq.css';
+import '../../css/s/sxf39k76n.css';
+import '../../css/l/li-_qorwe.css';
+import '../../css/q/qeunx153e.css';
+import '../../css/d/df_l1h7vp.css';
+import '../../css/i/ihndtybiq.css';
+import '../../css/l/lhxvd0lwj.css';
+import '../../css/m/mo28d7bxw.css';
+import '../../css/m/mxa79ybee.css';
+import '../../css/t/tf_8x2byl.css';
+import '../../css/p/pwwfwxa7i.css';
+import '../../css/m/mdnyl6b3s.css';
+import '../../css/g/gutrm92hk.css';
+import '../../css/t/t_7l9zt7w.css';
+import '../../css/f/fogaevb6r.css';
+
+const viewBox = {"width":32,"height":32};
+const content = `<g class="ft5dv1b6b"><path class="rs8ri3bmd"/><path class="hbcfsmruq"/><path class="sxf39k76n"/><path class="li-_qorwe"/><path class="qeunx153e"/><path class="df_l1h7vp"/><path class="ihndtybiq"/><path class="lhxvd0lwj"/><path class="mo28d7bxw"/><path class="mxa79ybee"/><path class="tf_8x2byl"/><path class="pwwfwxa7i"/><path class="mdnyl6b3s"/><path class="gutrm92hk"/><path class="t_7l9zt7w"/><path class="fogaevb6r"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent-emoji-flat:man-superhero-medium"} {...others} />);
+}
+
+export default Component;

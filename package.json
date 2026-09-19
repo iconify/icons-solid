@@ -1,0 +1,371 @@
+{
+  "name": "@iconify-solid/topcoat",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/topcoat/",
+  "bugs": "https://github.com/iconify/icons-solid/issues",
+  "license": "Apache-2.0",
+  "exports": {
+    "./alert": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/alert.jsx"
+    },
+    "./arrow-down": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-down.jsx"
+    },
+    "./arrow-left": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-left.jsx"
+    },
+    "./arrow-right": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-right.jsx"
+    },
+    "./arrow-up": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-up.jsx"
+    },
+    "./attachment": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/attachment.jsx"
+    },
+    "./audio": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/audio.jsx"
+    },
+    "./audiooff": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/audiooff.jsx"
+    },
+    "./back": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/back.jsx"
+    },
+    "./back-light": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/back-light.jsx"
+    },
+    "./behance": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/behance.jsx"
+    },
+    "./bookmark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bookmark.jsx"
+    },
+    "./brush": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/brush.jsx"
+    },
+    "./build": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/build.jsx"
+    },
+    "./calendar": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/calendar.jsx"
+    },
+    "./call": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/call.jsx"
+    },
+    "./camera": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/camera.jsx"
+    },
+    "./cancel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cancel.jsx"
+    },
+    "./cart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cart.jsx"
+    },
+    "./chat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chat.jsx"
+    },
+    "./checkmark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/checkmark.jsx"
+    },
+    "./circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/circle.jsx"
+    },
+    "./circle-outline": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/circle-outline.jsx"
+    },
+    "./cloud": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cloud.jsx"
+    },
+    "./collapse": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/collapse.jsx"
+    },
+    "./comment": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/comment.jsx"
+    },
+    "./computer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/computer.jsx"
+    },
+    "./delete": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/delete.jsx"
+    },
+    "./download": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/download.jsx"
+    },
+    "./dribble": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dribble.jsx"
+    },
+    "./email": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/email.jsx"
+    },
+    "./error": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/error.jsx"
+    },
+    "./expand": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/expand.jsx"
+    },
+    "./facebook": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/facebook.jsx"
+    },
+    "./favorite": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/favorite.jsx"
+    },
+    "./feedback": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/feedback.jsx"
+    },
+    "./flickr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flickr.jsx"
+    },
+    "./folder": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/folder.jsx"
+    },
+    "./github": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/github.jsx"
+    },
+    "./github-text": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/github-text.jsx"
+    },
+    "./googleplus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/googleplus.jsx"
+    },
+    "./group": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/group.jsx"
+    },
+    "./home": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/home.jsx"
+    },
+    "./image": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/image.jsx"
+    },
+    "./image-outline": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/image-outline.jsx"
+    },
+    "./instagram": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/instagram.jsx"
+    },
+    "./like": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/like.jsx"
+    },
+    "./linkedin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/linkedin.jsx"
+    },
+    "./listview": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/listview.jsx"
+    },
+    "./location": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/location.jsx"
+    },
+    "./lock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lock.jsx"
+    },
+    "./minus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/minus.jsx"
+    },
+    "./next": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/next.jsx"
+    },
+    "./next-light": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/next-light.jsx"
+    },
+    "./page": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/page.jsx"
+    },
+    "./path": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/path.jsx"
+    },
+    "./pencil": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pencil.jsx"
+    },
+    "./phone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/phone.jsx"
+    },
+    "./picasa": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/picasa.jsx"
+    },
+    "./pinterest": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pinterest.jsx"
+    },
+    "./plugin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/plugin.jsx"
+    },
+    "./plus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/plus.jsx"
+    },
+    "./preview": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/preview.jsx"
+    },
+    "./print": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/print.jsx"
+    },
+    "./question": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/q/question.jsx"
+    },
+    "./rectangle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rectangle.jsx"
+    },
+    "./rectangle-outline": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rectangle-outline.jsx"
+    },
+    "./refresh": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/refresh.jsx"
+    },
+    "./retweet": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/retweet.jsx"
+    },
+    "./roundedrectangle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/roundedrectangle.jsx"
+    },
+    "./roundedrectangle-outline": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/roundedrectangle-outline.jsx"
+    },
+    "./rss": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rss.jsx"
+    },
+    "./save": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/save.jsx"
+    },
+    "./search": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/search.jsx"
+    },
+    "./settings": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/settings.jsx"
+    },
+    "./share": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/share.jsx"
+    },
+    "./tablet": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tablet.jsx"
+    },
+    "./text": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/text.jsx"
+    },
+    "./tileview": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tileview.jsx"
+    },
+    "./tumblr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tumblr.jsx"
+    },
+    "./twitter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/twitter.jsx"
+    },
+    "./unlock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/unlock.jsx"
+    },
+    "./user": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/user.jsx"
+    },
+    "./videocamera": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/videocamera.jsx"
+    },
+    "./view": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/view.jsx"
+    },
+    "./vimeo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vimeo.jsx"
+    },
+    "./w3c": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/w3c.jsx"
+    },
+    "./wifi": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wifi.jsx"
+    },
+    "./wordpress": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wordpress.jsx"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-solid": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-solid#topcoat"
+}

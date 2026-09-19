@@ -1,0 +1,1331 @@
+{
+  "name": "@iconify-solid/flat-color-icons",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/flat-color-icons/",
+  "bugs": "https://github.com/iconify/icons-solid/issues",
+  "license": "MIT",
+  "exports": {
+    "./about": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/about.jsx"
+    },
+    "./accept-database": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/accept-database.jsx"
+    },
+    "./add-column": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/add-column.jsx"
+    },
+    "./add-database": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/add-database.jsx"
+    },
+    "./add-image": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/add-image.jsx"
+    },
+    "./add-row": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/add-row.jsx"
+    },
+    "./address-book": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/address-book.jsx"
+    },
+    "./advance": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/advance.jsx"
+    },
+    "./advertising": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/advertising.jsx"
+    },
+    "./alarm-clock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/alarm-clock.jsx"
+    },
+    "./alphabetical-sorting-az": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/alphabetical-sorting-az.jsx"
+    },
+    "./alphabetical-sorting-za": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/alphabetical-sorting-za.jsx"
+    },
+    "./android-os": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/android-os.jsx"
+    },
+    "./answers": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/answers.jsx"
+    },
+    "./approval": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/approval.jsx"
+    },
+    "./approve": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/approve.jsx"
+    },
+    "./area-chart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/area-chart.jsx"
+    },
+    "./assistant": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/assistant.jsx"
+    },
+    "./audio-file": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/audio-file.jsx"
+    },
+    "./automatic": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/automatic.jsx"
+    },
+    "./automotive": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/automotive.jsx"
+    },
+    "./bad-decision": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bad-decision.jsx"
+    },
+    "./bar-chart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bar-chart.jsx"
+    },
+    "./bbc": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bbc.jsx"
+    },
+    "./bearish": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bearish.jsx"
+    },
+    "./binoculars": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/binoculars.jsx"
+    },
+    "./biohazard": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/biohazard.jsx"
+    },
+    "./biomass": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/biomass.jsx"
+    },
+    "./biotech": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/biotech.jsx"
+    },
+    "./bookmark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bookmark.jsx"
+    },
+    "./briefcase": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/briefcase.jsx"
+    },
+    "./broken-link": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/broken-link.jsx"
+    },
+    "./bullish": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bullish.jsx"
+    },
+    "./business": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/business.jsx"
+    },
+    "./business-contact": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/business-contact.jsx"
+    },
+    "./businessman": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/businessman.jsx"
+    },
+    "./businesswoman": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/businesswoman.jsx"
+    },
+    "./butting-in": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/butting-in.jsx"
+    },
+    "./cable-release": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cable-release.jsx"
+    },
+    "./calculator": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/calculator.jsx"
+    },
+    "./calendar": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/calendar.jsx"
+    },
+    "./call-transfer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/call-transfer.jsx"
+    },
+    "./callback": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/callback.jsx"
+    },
+    "./camcorder": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/camcorder.jsx"
+    },
+    "./camcorder-pro": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/camcorder-pro.jsx"
+    },
+    "./camera": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/camera.jsx"
+    },
+    "./camera-addon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/camera-addon.jsx"
+    },
+    "./camera-identification": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/camera-identification.jsx"
+    },
+    "./cancel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cancel.jsx"
+    },
+    "./candle-sticks": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/candle-sticks.jsx"
+    },
+    "./capacitor": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/capacitor.jsx"
+    },
+    "./cd-logo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cd-logo.jsx"
+    },
+    "./cell-phone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cell-phone.jsx"
+    },
+    "./charge-battery": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/charge-battery.jsx"
+    },
+    "./checkmark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/checkmark.jsx"
+    },
+    "./circuit": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/circuit.jsx"
+    },
+    "./clapperboard": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/clapperboard.jsx"
+    },
+    "./clear-filters": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/clear-filters.jsx"
+    },
+    "./clock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/clock.jsx"
+    },
+    "./close-up-mode": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/close-up-mode.jsx"
+    },
+    "./cloth": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cloth.jsx"
+    },
+    "./collaboration": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/collaboration.jsx"
+    },
+    "./collapse": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/collapse.jsx"
+    },
+    "./collect": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/collect.jsx"
+    },
+    "./combo-chart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/combo-chart.jsx"
+    },
+    "./command-line": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/command-line.jsx"
+    },
+    "./comments": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/comments.jsx"
+    },
+    "./compact-camera": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/compact-camera.jsx"
+    },
+    "./conference-call": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/conference-call.jsx"
+    },
+    "./contacts": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/contacts.jsx"
+    },
+    "./copyleft": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/copyleft.jsx"
+    },
+    "./copyright": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/copyright.jsx"
+    },
+    "./crystal-oscillator": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crystal-oscillator.jsx"
+    },
+    "./currency-exchange": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/currency-exchange.jsx"
+    },
+    "./cursor": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cursor.jsx"
+    },
+    "./customer-support": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/customer-support.jsx"
+    },
+    "./dam": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dam.jsx"
+    },
+    "./data-backup": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/data-backup.jsx"
+    },
+    "./data-configuration": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/data-configuration.jsx"
+    },
+    "./data-encryption": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/data-encryption.jsx"
+    },
+    "./data-protection": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/data-protection.jsx"
+    },
+    "./data-recovery": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/data-recovery.jsx"
+    },
+    "./data-sheet": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/data-sheet.jsx"
+    },
+    "./database": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/database.jsx"
+    },
+    "./debian": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/debian.jsx"
+    },
+    "./debt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/debt.jsx"
+    },
+    "./decision": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/decision.jsx"
+    },
+    "./delete-column": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/delete-column.jsx"
+    },
+    "./delete-database": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/delete-database.jsx"
+    },
+    "./delete-row": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/delete-row.jsx"
+    },
+    "./department": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/department.jsx"
+    },
+    "./deployment": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/deployment.jsx"
+    },
+    "./diploma-1": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/diploma-1.jsx"
+    },
+    "./diploma-2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/diploma-2.jsx"
+    },
+    "./disapprove": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/disapprove.jsx"
+    },
+    "./disclaimer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/disclaimer.jsx"
+    },
+    "./dislike": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dislike.jsx"
+    },
+    "./display": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/display.jsx"
+    },
+    "./do-not-inhale": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/do-not-inhale.jsx"
+    },
+    "./do-not-insert": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/do-not-insert.jsx"
+    },
+    "./do-not-mix": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/do-not-mix.jsx"
+    },
+    "./document": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/document.jsx"
+    },
+    "./donate": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/donate.jsx"
+    },
+    "./doughnut-chart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/doughnut-chart.jsx"
+    },
+    "./down": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/down.jsx"
+    },
+    "./down-left": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/down-left.jsx"
+    },
+    "./down-right": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/down-right.jsx"
+    },
+    "./download": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/download.jsx"
+    },
+    "./dribbble": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dribbble.jsx"
+    },
+    "./dvd-logo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dvd-logo.jsx"
+    },
+    "./edit-image": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/edit-image.jsx"
+    },
+    "./electrical-sensor": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/electrical-sensor.jsx"
+    },
+    "./electrical-threshold": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/electrical-threshold.jsx"
+    },
+    "./electricity": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/electricity.jsx"
+    },
+    "./electro-devices": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/electro-devices.jsx"
+    },
+    "./electronics": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/electronics.jsx"
+    },
+    "./empty-battery": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/empty-battery.jsx"
+    },
+    "./empty-filter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/empty-filter.jsx"
+    },
+    "./empty-trash": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/empty-trash.jsx"
+    },
+    "./end-call": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/end-call.jsx"
+    },
+    "./engineering": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/engineering.jsx"
+    },
+    "./entering-heaven-alive": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/entering-heaven-alive.jsx"
+    },
+    "./expand": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/expand.jsx"
+    },
+    "./expired": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/expired.jsx"
+    },
+    "./export": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/export.jsx"
+    },
+    "./external": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/external.jsx"
+    },
+    "./factory": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/factory.jsx"
+    },
+    "./factory-breakdown": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/factory-breakdown.jsx"
+    },
+    "./faq": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/faq.jsx"
+    },
+    "./feed-in": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/feed-in.jsx"
+    },
+    "./feedback": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/feedback.jsx"
+    },
+    "./file": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file.jsx"
+    },
+    "./filing-cabinet": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filing-cabinet.jsx"
+    },
+    "./filled-filter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filled-filter.jsx"
+    },
+    "./film": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/film.jsx"
+    },
+    "./film-reel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/film-reel.jsx"
+    },
+    "./fine-print": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fine-print.jsx"
+    },
+    "./flash-auto": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flash-auto.jsx"
+    },
+    "./flash-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flash-off.jsx"
+    },
+    "./flash-on": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flash-on.jsx"
+    },
+    "./flow-chart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flow-chart.jsx"
+    },
+    "./folder": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/folder.jsx"
+    },
+    "./frame": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/frame.jsx"
+    },
+    "./full-battery": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/full-battery.jsx"
+    },
+    "./full-trash": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/full-trash.jsx"
+    },
+    "./gallery": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gallery.jsx"
+    },
+    "./genealogy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/genealogy.jsx"
+    },
+    "./generic-sorting-asc": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/generic-sorting-asc.jsx"
+    },
+    "./generic-sorting-desc": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/generic-sorting-desc.jsx"
+    },
+    "./globe": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/globe.jsx"
+    },
+    "./good-decision": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/good-decision.jsx"
+    },
+    "./google": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/google.jsx"
+    },
+    "./graduation-cap": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/graduation-cap.jsx"
+    },
+    "./grid": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/grid.jsx"
+    },
+    "./headset": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/headset.jsx"
+    },
+    "./heat-map": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/heat-map.jsx"
+    },
+    "./high-battery": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/high-battery.jsx"
+    },
+    "./high-priority": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/high-priority.jsx"
+    },
+    "./home": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/home.jsx"
+    },
+    "./icons8-cup": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/icons8-cup.jsx"
+    },
+    "./idea": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/idea.jsx"
+    },
+    "./image-file": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/image-file.jsx"
+    },
+    "./import": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/import.jsx"
+    },
+    "./in-transit": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/in-transit.jsx"
+    },
+    "./info": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/info.jsx"
+    },
+    "./inspection": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/inspection.jsx"
+    },
+    "./integrated-webcam": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/integrated-webcam.jsx"
+    },
+    "./internal": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/internal.jsx"
+    },
+    "./invite": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/invite.jsx"
+    },
+    "./ipad": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/ipad.jsx"
+    },
+    "./iphone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/iphone.jsx"
+    },
+    "./key": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/key.jsx"
+    },
+    "./kindle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kindle.jsx"
+    },
+    "./landscape": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/landscape.jsx"
+    },
+    "./leave": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/leave.jsx"
+    },
+    "./left": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/left.jsx"
+    },
+    "./left-down": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/left-down.jsx"
+    },
+    "./left-down2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/left-down2.jsx"
+    },
+    "./left-up": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/left-up.jsx"
+    },
+    "./left-up2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/left-up2.jsx"
+    },
+    "./library": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/library.jsx"
+    },
+    "./light-at-the-end-of-tunnel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/light-at-the-end-of-tunnel.jsx"
+    },
+    "./like": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/like.jsx"
+    },
+    "./like-placeholder": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/like-placeholder.jsx"
+    },
+    "./line-chart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/line-chart.jsx"
+    },
+    "./link": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/link.jsx"
+    },
+    "./linux": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/linux.jsx"
+    },
+    "./list": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/list.jsx"
+    },
+    "./lock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lock.jsx"
+    },
+    "./lock-landscape": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lock-landscape.jsx"
+    },
+    "./lock-portrait": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lock-portrait.jsx"
+    },
+    "./low-battery": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/low-battery.jsx"
+    },
+    "./low-priority": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/low-priority.jsx"
+    },
+    "./make-decision": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/make-decision.jsx"
+    },
+    "./manager": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/manager.jsx"
+    },
+    "./medium-priority": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/medium-priority.jsx"
+    },
+    "./menu": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/menu.jsx"
+    },
+    "./middle-battery": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/middle-battery.jsx"
+    },
+    "./mind-map": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mind-map.jsx"
+    },
+    "./minus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/minus.jsx"
+    },
+    "./missed-call": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/missed-call.jsx"
+    },
+    "./mms": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mms.jsx"
+    },
+    "./money-transfer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/money-transfer.jsx"
+    },
+    "./multiple-cameras": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/multiple-cameras.jsx"
+    },
+    "./multiple-devices": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/multiple-devices.jsx"
+    },
+    "./multiple-inputs": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/multiple-inputs.jsx"
+    },
+    "./multiple-smartphones": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/multiple-smartphones.jsx"
+    },
+    "./music": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/music.jsx"
+    },
+    "./negative-dynamic": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/negative-dynamic.jsx"
+    },
+    "./neutral-decision": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/neutral-decision.jsx"
+    },
+    "./neutral-trading": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/neutral-trading.jsx"
+    },
+    "./news": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/news.jsx"
+    },
+    "./next": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/next.jsx"
+    },
+    "./nfc-sign": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/nfc-sign.jsx"
+    },
+    "./night-landscape": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/night-landscape.jsx"
+    },
+    "./night-portrait": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/night-portrait.jsx"
+    },
+    "./no-idea": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/no-idea.jsx"
+    },
+    "./no-video": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/no-video.jsx"
+    },
+    "./nook": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/nook.jsx"
+    },
+    "./numerical-sorting-12": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/numerical-sorting-12.jsx"
+    },
+    "./numerical-sorting-21": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/numerical-sorting-21.jsx"
+    },
+    "./ok": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/ok.jsx"
+    },
+    "./old-time-camera": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/old-time-camera.jsx"
+    },
+    "./online-support": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/online-support.jsx"
+    },
+    "./opened-folder": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/opened-folder.jsx"
+    },
+    "./org-unit": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/org-unit.jsx"
+    },
+    "./organization": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/organization.jsx"
+    },
+    "./overtime": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/overtime.jsx"
+    },
+    "./package": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/package.jsx"
+    },
+    "./paid": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/paid.jsx"
+    },
+    "./panorama": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/panorama.jsx"
+    },
+    "./parallel-tasks": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/parallel-tasks.jsx"
+    },
+    "./phone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/phone.jsx"
+    },
+    "./phone-android": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/phone-android.jsx"
+    },
+    "./photo-reel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/photo-reel.jsx"
+    },
+    "./picture": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/picture.jsx"
+    },
+    "./pie-chart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pie-chart.jsx"
+    },
+    "./planner": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/planner.jsx"
+    },
+    "./plus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/plus.jsx"
+    },
+    "./podium-with-audience": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/podium-with-audience.jsx"
+    },
+    "./podium-with-speaker": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/podium-with-speaker.jsx"
+    },
+    "./podium-without-speaker": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/podium-without-speaker.jsx"
+    },
+    "./portrait-mode": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/portrait-mode.jsx"
+    },
+    "./positive-dynamic": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/positive-dynamic.jsx"
+    },
+    "./previous": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/previous.jsx"
+    },
+    "./print": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/print.jsx"
+    },
+    "./privacy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/privacy.jsx"
+    },
+    "./process": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/process.jsx"
+    },
+    "./puzzle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/puzzle.jsx"
+    },
+    "./questions": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/q/questions.jsx"
+    },
+    "./radar-plot": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/radar-plot.jsx"
+    },
+    "./rating": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rating.jsx"
+    },
+    "./ratings": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/ratings.jsx"
+    },
+    "./reading": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/reading.jsx"
+    },
+    "./reading-ebook": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/reading-ebook.jsx"
+    },
+    "./reddit": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/reddit.jsx"
+    },
+    "./redo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/redo.jsx"
+    },
+    "./refresh": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/refresh.jsx"
+    },
+    "./registered-trademark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/registered-trademark.jsx"
+    },
+    "./remove-image": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/remove-image.jsx"
+    },
+    "./reuse": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/reuse.jsx"
+    },
+    "./right": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/right.jsx"
+    },
+    "./right-down": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/right-down.jsx"
+    },
+    "./right-down2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/right-down2.jsx"
+    },
+    "./right-up": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/right-up.jsx"
+    },
+    "./right-up2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/right-up2.jsx"
+    },
+    "./rotate-camera": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rotate-camera.jsx"
+    },
+    "./rotate-to-landscape": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rotate-to-landscape.jsx"
+    },
+    "./rotate-to-portrait": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rotate-to-portrait.jsx"
+    },
+    "./ruler": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/ruler.jsx"
+    },
+    "./rules": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rules.jsx"
+    },
+    "./safe": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/safe.jsx"
+    },
+    "./sales-performance": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sales-performance.jsx"
+    },
+    "./scatter-plot": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/scatter-plot.jsx"
+    },
+    "./search": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/search.jsx"
+    },
+    "./self-service-kiosk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/self-service-kiosk.jsx"
+    },
+    "./selfie": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/selfie.jsx"
+    },
+    "./serial-tasks": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/serial-tasks.jsx"
+    },
+    "./service-mark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/service-mark.jsx"
+    },
+    "./services": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/services.jsx"
+    },
+    "./settings": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/settings.jsx"
+    },
+    "./share": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/share.jsx"
+    },
+    "./shipped": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shipped.jsx"
+    },
+    "./shop": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shop.jsx"
+    },
+    "./signature": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/signature.jsx"
+    },
+    "./sim-card": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sim-card.jsx"
+    },
+    "./sim-card-chip": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sim-card-chip.jsx"
+    },
+    "./slr-back-side": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/slr-back-side.jsx"
+    },
+    "./smartphone-tablet": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/smartphone-tablet.jsx"
+    },
+    "./sms": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sms.jsx"
+    },
+    "./sound-recording-copyright": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sound-recording-copyright.jsx"
+    },
+    "./speaker": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/speaker.jsx"
+    },
+    "./sports-mode": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sports-mode.jsx"
+    },
+    "./stack-of-photos": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stack-of-photos.jsx"
+    },
+    "./start": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/start.jsx"
+    },
+    "./statistics": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/statistics.jsx"
+    },
+    "./steam": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/steam.jsx"
+    },
+    "./stumbleupon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stumbleupon.jsx"
+    },
+    "./support": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/support.jsx"
+    },
+    "./survey": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/survey.jsx"
+    },
+    "./switch-camera": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/switch-camera.jsx"
+    },
+    "./synchronize": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/synchronize.jsx"
+    },
+    "./tablet-android": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tablet-android.jsx"
+    },
+    "./template": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/template.jsx"
+    },
+    "./timeline": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/timeline.jsx"
+    },
+    "./todo-list": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/todo-list.jsx"
+    },
+    "./touchscreen-smartphone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/touchscreen-smartphone.jsx"
+    },
+    "./trademark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/trademark.jsx"
+    },
+    "./tree-structure": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tree-structure.jsx"
+    },
+    "./two-smartphones": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/two-smartphones.jsx"
+    },
+    "./undo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/undo.jsx"
+    },
+    "./unlock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/unlock.jsx"
+    },
+    "./up": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/up.jsx"
+    },
+    "./up-left": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/up-left.jsx"
+    },
+    "./up-right": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/up-right.jsx"
+    },
+    "./upload": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/upload.jsx"
+    },
+    "./usb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/usb.jsx"
+    },
+    "./video-call": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/video-call.jsx"
+    },
+    "./video-file": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/video-file.jsx"
+    },
+    "./video-projector": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/video-projector.jsx"
+    },
+    "./view-details": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/view-details.jsx"
+    },
+    "./vip": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vip.jsx"
+    },
+    "./vlc": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vlc.jsx"
+    },
+    "./voice-presentation": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/voice-presentation.jsx"
+    },
+    "./voicemail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/voicemail.jsx"
+    },
+    "./webcam": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/webcam.jsx"
+    },
+    "./wi-fi-logo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wi-fi-logo.jsx"
+    },
+    "./wikipedia": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wikipedia.jsx"
+    },
+    "./workflow": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/workflow.jsx"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-solid": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-solid#flat-color-icons"
+}

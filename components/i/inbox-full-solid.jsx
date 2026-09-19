@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/c/cp0we2b3o.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path clip-rule="evenodd" class="cp0we2b3o"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"flowbite:inbox-full-solid"} {...others} />);
+}
+
+export default Component;

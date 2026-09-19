@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/j/jn4vx2bme.css';
+
+const viewBox = {"width":640,"height":512};
+const content = `<path class="jn4vx2bme"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fa6-solid:road-circle-xmark"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,635 @@
+{
+  "name": "@iconify-solid/fad",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/fad/",
+  "bugs": "https://github.com/iconify/icons-solid/issues",
+  "license": "CC-BY-4.0",
+  "exports": {
+    "./adr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/adr.jsx"
+    },
+    "./adsr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/adsr.jsx"
+    },
+    "./ahdsr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/ahdsr.jsx"
+    },
+    "./ar": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/ar.jsx"
+    },
+    "./armrecording": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/armrecording.jsx"
+    },
+    "./arpchord": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arpchord.jsx"
+    },
+    "./arpdown": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arpdown.jsx"
+    },
+    "./arpdownandup": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arpdownandup.jsx"
+    },
+    "./arpdownup": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arpdownup.jsx"
+    },
+    "./arpplayorder": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arpplayorder.jsx"
+    },
+    "./arprandom": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arprandom.jsx"
+    },
+    "./arpup": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arpup.jsx"
+    },
+    "./arpupandown": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arpupandown.jsx"
+    },
+    "./arpupdown": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arpupdown.jsx"
+    },
+    "./arrows-horz": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrows-horz.jsx"
+    },
+    "./arrows-vert": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrows-vert.jsx"
+    },
+    "./automation-2p": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/automation-2p.jsx"
+    },
+    "./automation-3p": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/automation-3p.jsx"
+    },
+    "./automation-4p": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/automation-4p.jsx"
+    },
+    "./backward": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/backward.jsx"
+    },
+    "./bluetooth": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bluetooth.jsx"
+    },
+    "./caret-down": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/caret-down.jsx"
+    },
+    "./caret-left": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/caret-left.jsx"
+    },
+    "./caret-right": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/caret-right.jsx"
+    },
+    "./caret-up": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/caret-up.jsx"
+    },
+    "./close": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/close.jsx"
+    },
+    "./copy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/copy.jsx"
+    },
+    "./cpu": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cpu.jsx"
+    },
+    "./cutter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cutter.jsx"
+    },
+    "./digital-colon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/digital-colon.jsx"
+    },
+    "./digital-dot": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/digital-dot.jsx"
+    },
+    "./digital0": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/digital0.jsx"
+    },
+    "./digital1": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/digital1.jsx"
+    },
+    "./digital2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/digital2.jsx"
+    },
+    "./digital3": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/digital3.jsx"
+    },
+    "./digital4": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/digital4.jsx"
+    },
+    "./digital5": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/digital5.jsx"
+    },
+    "./digital6": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/digital6.jsx"
+    },
+    "./digital7": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/digital7.jsx"
+    },
+    "./digital8": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/digital8.jsx"
+    },
+    "./digital9": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/digital9.jsx"
+    },
+    "./diskio": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/diskio.jsx"
+    },
+    "./drumpad": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/drumpad.jsx"
+    },
+    "./duplicate": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/duplicate.jsx"
+    },
+    "./eraser": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/eraser.jsx"
+    },
+    "./ffwd": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/ffwd.jsx"
+    },
+    "./filter-bandpass": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filter-bandpass.jsx"
+    },
+    "./filter-bell": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filter-bell.jsx"
+    },
+    "./filter-bypass": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filter-bypass.jsx"
+    },
+    "./filter-highpass": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filter-highpass.jsx"
+    },
+    "./filter-lowpass": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filter-lowpass.jsx"
+    },
+    "./filter-notch": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filter-notch.jsx"
+    },
+    "./filter-rez-highpass": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filter-rez-highpass.jsx"
+    },
+    "./filter-rez-lowpass": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filter-rez-lowpass.jsx"
+    },
+    "./filter-shelving-hi": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filter-shelving-hi.jsx"
+    },
+    "./filter-shelving-lo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filter-shelving-lo.jsx"
+    },
+    "./foldback": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/foldback.jsx"
+    },
+    "./forward": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/forward.jsx"
+    },
+    "./h-expand": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/h-expand.jsx"
+    },
+    "./hardclip": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hardclip.jsx"
+    },
+    "./hardclipcurve": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hardclipcurve.jsx"
+    },
+    "./headphones": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/headphones.jsx"
+    },
+    "./keyboard": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/keyboard.jsx"
+    },
+    "./lock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lock.jsx"
+    },
+    "./logo-aax": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-aax.jsx"
+    },
+    "./logo-abletonlink": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-abletonlink.jsx"
+    },
+    "./logo-au": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-au.jsx"
+    },
+    "./logo-audacity": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-audacity.jsx"
+    },
+    "./logo-audiobus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-audiobus.jsx"
+    },
+    "./logo-cubase": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-cubase.jsx"
+    },
+    "./logo-fl": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-fl.jsx"
+    },
+    "./logo-juce": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-juce.jsx"
+    },
+    "./logo-ladspa": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-ladspa.jsx"
+    },
+    "./logo-live": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-live.jsx"
+    },
+    "./logo-lv2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-lv2.jsx"
+    },
+    "./logo-protools": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-protools.jsx"
+    },
+    "./logo-rackext": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-rackext.jsx"
+    },
+    "./logo-reaper": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-reaper.jsx"
+    },
+    "./logo-reason": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-reason.jsx"
+    },
+    "./logo-rewire": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-rewire.jsx"
+    },
+    "./logo-studioone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-studioone.jsx"
+    },
+    "./logo-tracktion": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-tracktion.jsx"
+    },
+    "./logo-vst": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-vst.jsx"
+    },
+    "./logo-waveform": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/logo-waveform.jsx"
+    },
+    "./loop": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/loop.jsx"
+    },
+    "./metronome": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/metronome.jsx"
+    },
+    "./microphone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/microphone.jsx"
+    },
+    "./midiplug": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/midiplug.jsx"
+    },
+    "./modrandom": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/modrandom.jsx"
+    },
+    "./modsawdown": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/modsawdown.jsx"
+    },
+    "./modsawup": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/modsawup.jsx"
+    },
+    "./modsh": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/modsh.jsx"
+    },
+    "./modsine": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/modsine.jsx"
+    },
+    "./modsquare": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/modsquare.jsx"
+    },
+    "./modtri": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/modtri.jsx"
+    },
+    "./modularplug": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/modularplug.jsx"
+    },
+    "./mono": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mono.jsx"
+    },
+    "./mute": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mute.jsx"
+    },
+    "./next": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/next.jsx"
+    },
+    "./open": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/open.jsx"
+    },
+    "./paste": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/paste.jsx"
+    },
+    "./pause": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pause.jsx"
+    },
+    "./pen": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pen.jsx"
+    },
+    "./phase": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/phase.jsx"
+    },
+    "./play": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/play.jsx"
+    },
+    "./pointer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pointer.jsx"
+    },
+    "./powerswitch": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/powerswitch.jsx"
+    },
+    "./preset-a": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/preset-a.jsx"
+    },
+    "./preset-ab": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/preset-ab.jsx"
+    },
+    "./preset-b": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/preset-b.jsx"
+    },
+    "./preset-ba": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/preset-ba.jsx"
+    },
+    "./prev": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/prev.jsx"
+    },
+    "./punch-in": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/punch-in.jsx"
+    },
+    "./punch-out": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/punch-out.jsx"
+    },
+    "./ram": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/ram.jsx"
+    },
+    "./random-1dice": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/random-1dice.jsx"
+    },
+    "./random-2dice": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/random-2dice.jsx"
+    },
+    "./record": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/record.jsx"
+    },
+    "./redo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/redo.jsx"
+    },
+    "./repeat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/repeat.jsx"
+    },
+    "./repeat-one": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/repeat-one.jsx"
+    },
+    "./rew": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rew.jsx"
+    },
+    "./roundswitch-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/roundswitch-off.jsx"
+    },
+    "./roundswitch-on": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/roundswitch-on.jsx"
+    },
+    "./save": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/save.jsx"
+    },
+    "./saveas": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/saveas.jsx"
+    },
+    "./scissors": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/scissors.jsx"
+    },
+    "./shuffle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shuffle.jsx"
+    },
+    "./slider-round-1": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/slider-round-1.jsx"
+    },
+    "./slider-round-2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/slider-round-2.jsx"
+    },
+    "./slider-round-3": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/slider-round-3.jsx"
+    },
+    "./sliderhandle-1": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sliderhandle-1.jsx"
+    },
+    "./sliderhandle-2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sliderhandle-2.jsx"
+    },
+    "./softclip": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/softclip.jsx"
+    },
+    "./softclipcurve": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/softclipcurve.jsx"
+    },
+    "./solo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/solo.jsx"
+    },
+    "./speaker": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/speaker.jsx"
+    },
+    "./squareswitch-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/squareswitch-off.jsx"
+    },
+    "./squareswitch-on": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/squareswitch-on.jsx"
+    },
+    "./stereo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stereo.jsx"
+    },
+    "./stop": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stop.jsx"
+    },
+    "./thunderbolt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/thunderbolt.jsx"
+    },
+    "./timeselect": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/timeselect.jsx"
+    },
+    "./undo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/undo.jsx"
+    },
+    "./unlock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/unlock.jsx"
+    },
+    "./usb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/usb.jsx"
+    },
+    "./v-expand": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/v-expand.jsx"
+    },
+    "./vroundswitch-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vroundswitch-off.jsx"
+    },
+    "./vroundswitch-on": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vroundswitch-on.jsx"
+    },
+    "./vsquareswitch-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vsquareswitch-off.jsx"
+    },
+    "./vsquareswitch-on": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vsquareswitch-on.jsx"
+    },
+    "./waveform": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/waveform.jsx"
+    },
+    "./xlrplug": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/x/xlrplug.jsx"
+    },
+    "./zoomin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/zoomin.jsx"
+    },
+    "./zoomout": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/zoomout.jsx"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-solid": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-solid#fad"
+}

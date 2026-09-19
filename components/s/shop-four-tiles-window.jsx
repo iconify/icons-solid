@@ -1,0 +1,20 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/b/b91p3obex.css';
+import '../../css/j/jv4_d7b6x.css';
+import '../../css/t/t5w0scc5d.css';
+import '../../css/k/k3pac-bjk.css';
+import '../../css/m/mmspps2as.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="jx0p4fbya"><path class="b91p3obex"/><path class="jv4_d7b6x"/><path class="t5w0scc5d"/><path class="k3pac-bjk"/><path class="mmspps2as"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconoir:shop-four-tiles-window"} {...others} />);
+}
+
+export default Component;

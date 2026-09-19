@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/j/jky9q57sn.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="jky9q57sn"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconoir:plus"} {...others} />);
+}
+
+export default Component;

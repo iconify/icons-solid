@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/f-30mbjbp.css';
+
+const viewBox = {"width":12,"height":12};
+const content = `<path class="f-30mbjbp"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"dinkie-icons:otfeature-calt"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,21 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/l/l4v7f-bwd.css';
+import '../../css/y/yerxmuvtl.css';
+import '../../css/z/zlkc42vxd.css';
+import '../../css/i/i_tz54_bx.css';
+import '../../css/m/m8a14abit.css';
+import '../../css/c/czggyxesy.css';
+import '../../css/m/m2o3sh-9c.css';
+
+const viewBox = {"width":36,"height":36};
+const content = `<path class="clr-i-outline clr-i-outline-path-1 l4v7f-bwd"/><path class="clr-i-outline clr-i-outline-path-2 yerxmuvtl"/><path class="clr-i-outline clr-i-outline-path-3 zlkc42vxd"/><path class="clr-i-outline clr-i-outline-path-4 i_tz54_bx"/><path class="clr-i-outline clr-i-outline-path-5 m8a14abit"/><path class="clr-i-outline clr-i-outline-path-6 czggyxesy"/><path class="m2o3sh-9c"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"clarity:number-list-line"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/l/laz9y4bgs.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="laz9y4bgs"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"griddy-icons:radar-alt-01"} {...others} />);
+}
+
+export default Component;

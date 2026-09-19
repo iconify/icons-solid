@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/g/gtycj1ond.css';
+import '../../css/h/h_5f6couv.css';
+import '../../css/l/ludnwn2qt.css';
+
+const viewBox = {"width":16,"height":16};
+const content = `<g class="cuyn6tgcc"><path class="gtycj1ond"/><path clip-rule="evenodd" class="h_5f6couv"/><path clip-rule="evenodd" class="ludnwn2qt"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"codicon:copilot-not-connected"} {...others} />);
+}
+
+export default Component;

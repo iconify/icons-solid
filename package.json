@@ -1,0 +1,811 @@
+{
+  "name": "@iconify-solid/cif",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/cif/",
+  "bugs": "https://github.com/iconify/icons-solid/issues",
+  "license": "CC0-1.0",
+  "exports": {
+    "./ad": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/ad.jsx"
+    },
+    "./ae": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/ae.jsx"
+    },
+    "./af": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/af.jsx"
+    },
+    "./ag": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/ag.jsx"
+    },
+    "./al": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/al.jsx"
+    },
+    "./am": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/am.jsx"
+    },
+    "./ao": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/ao.jsx"
+    },
+    "./ar": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/ar.jsx"
+    },
+    "./at": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/at.jsx"
+    },
+    "./au": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/au.jsx"
+    },
+    "./az": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/az.jsx"
+    },
+    "./ba": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/ba.jsx"
+    },
+    "./bb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bb.jsx"
+    },
+    "./bd": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bd.jsx"
+    },
+    "./be": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/be.jsx"
+    },
+    "./bf": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bf.jsx"
+    },
+    "./bg": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bg.jsx"
+    },
+    "./bh": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bh.jsx"
+    },
+    "./bi": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bi.jsx"
+    },
+    "./bj": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bj.jsx"
+    },
+    "./bn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bn.jsx"
+    },
+    "./bo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bo.jsx"
+    },
+    "./br": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/br.jsx"
+    },
+    "./bs": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bs.jsx"
+    },
+    "./bt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bt.jsx"
+    },
+    "./bw": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bw.jsx"
+    },
+    "./by": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/by.jsx"
+    },
+    "./bz": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bz.jsx"
+    },
+    "./ca": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/ca.jsx"
+    },
+    "./cd": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cd.jsx"
+    },
+    "./cf": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cf.jsx"
+    },
+    "./cg": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cg.jsx"
+    },
+    "./ch": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/ch.jsx"
+    },
+    "./ci": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/ci.jsx"
+    },
+    "./ck": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/ck.jsx"
+    },
+    "./cl": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cl.jsx"
+    },
+    "./cm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cm.jsx"
+    },
+    "./cn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cn.jsx"
+    },
+    "./co": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/co.jsx"
+    },
+    "./cr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cr.jsx"
+    },
+    "./cu": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cu.jsx"
+    },
+    "./cv": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cv.jsx"
+    },
+    "./cy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cy.jsx"
+    },
+    "./cz": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cz.jsx"
+    },
+    "./de": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/de.jsx"
+    },
+    "./dj": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dj.jsx"
+    },
+    "./dk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dk.jsx"
+    },
+    "./dm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dm.jsx"
+    },
+    "./do": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/do.jsx"
+    },
+    "./dz": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dz.jsx"
+    },
+    "./ec": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/ec.jsx"
+    },
+    "./ee": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/ee.jsx"
+    },
+    "./eg": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/eg.jsx"
+    },
+    "./er": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/er.jsx"
+    },
+    "./es": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/es.jsx"
+    },
+    "./et": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/et.jsx"
+    },
+    "./fi": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fi.jsx"
+    },
+    "./fj": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fj.jsx"
+    },
+    "./fm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fm.jsx"
+    },
+    "./fr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fr.jsx"
+    },
+    "./ga": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/ga.jsx"
+    },
+    "./gb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gb.jsx"
+    },
+    "./gd": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gd.jsx"
+    },
+    "./ge": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/ge.jsx"
+    },
+    "./gh": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gh.jsx"
+    },
+    "./gm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gm.jsx"
+    },
+    "./gn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gn.jsx"
+    },
+    "./gq": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gq.jsx"
+    },
+    "./gr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gr.jsx"
+    },
+    "./gt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gt.jsx"
+    },
+    "./gw": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gw.jsx"
+    },
+    "./gy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gy.jsx"
+    },
+    "./hk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hk.jsx"
+    },
+    "./hn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hn.jsx"
+    },
+    "./hr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hr.jsx"
+    },
+    "./ht": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/ht.jsx"
+    },
+    "./hu": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hu.jsx"
+    },
+    "./id": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/id.jsx"
+    },
+    "./ie": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/ie.jsx"
+    },
+    "./il": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/il.jsx"
+    },
+    "./in": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/in.jsx"
+    },
+    "./iq": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/iq.jsx"
+    },
+    "./ir": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/ir.jsx"
+    },
+    "./is": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/is.jsx"
+    },
+    "./it": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/it.jsx"
+    },
+    "./jm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/j/jm.jsx"
+    },
+    "./jo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/j/jo.jsx"
+    },
+    "./jp": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/j/jp.jsx"
+    },
+    "./ke": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/ke.jsx"
+    },
+    "./kg": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kg.jsx"
+    },
+    "./kh": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kh.jsx"
+    },
+    "./ki": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/ki.jsx"
+    },
+    "./km": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/km.jsx"
+    },
+    "./kn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kn.jsx"
+    },
+    "./kp": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kp.jsx"
+    },
+    "./kr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kr.jsx"
+    },
+    "./kw": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kw.jsx"
+    },
+    "./kz": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kz.jsx"
+    },
+    "./la": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/la.jsx"
+    },
+    "./lb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lb.jsx"
+    },
+    "./lc": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lc.jsx"
+    },
+    "./li": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/li.jsx"
+    },
+    "./lk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lk.jsx"
+    },
+    "./lr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lr.jsx"
+    },
+    "./ls": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/ls.jsx"
+    },
+    "./lt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lt.jsx"
+    },
+    "./lu": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lu.jsx"
+    },
+    "./lv": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lv.jsx"
+    },
+    "./ly": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/ly.jsx"
+    },
+    "./ma": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/ma.jsx"
+    },
+    "./mc": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mc.jsx"
+    },
+    "./md": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/md.jsx"
+    },
+    "./me": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/me.jsx"
+    },
+    "./mg": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mg.jsx"
+    },
+    "./mh": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mh.jsx"
+    },
+    "./mk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mk.jsx"
+    },
+    "./ml": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/ml.jsx"
+    },
+    "./mm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mm.jsx"
+    },
+    "./mn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mn.jsx"
+    },
+    "./mr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mr.jsx"
+    },
+    "./mt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mt.jsx"
+    },
+    "./mu": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mu.jsx"
+    },
+    "./mv": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mv.jsx"
+    },
+    "./mw": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mw.jsx"
+    },
+    "./mx": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mx.jsx"
+    },
+    "./my": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/my.jsx"
+    },
+    "./mz": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mz.jsx"
+    },
+    "./na": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/na.jsx"
+    },
+    "./ne": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/ne.jsx"
+    },
+    "./ng": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/ng.jsx"
+    },
+    "./ni": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/ni.jsx"
+    },
+    "./nl": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/nl.jsx"
+    },
+    "./no": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/no.jsx"
+    },
+    "./np": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/np.jsx"
+    },
+    "./nr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/nr.jsx"
+    },
+    "./nu": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/nu.jsx"
+    },
+    "./nz": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/nz.jsx"
+    },
+    "./om": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/om.jsx"
+    },
+    "./pa": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pa.jsx"
+    },
+    "./pe": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pe.jsx"
+    },
+    "./pg": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pg.jsx"
+    },
+    "./ph": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/ph.jsx"
+    },
+    "./pk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pk.jsx"
+    },
+    "./pl": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pl.jsx"
+    },
+    "./pt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pt.jsx"
+    },
+    "./pw": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pw.jsx"
+    },
+    "./py": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/py.jsx"
+    },
+    "./qa": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/q/qa.jsx"
+    },
+    "./ro": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/ro.jsx"
+    },
+    "./rs": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rs.jsx"
+    },
+    "./ru": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/ru.jsx"
+    },
+    "./rw": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rw.jsx"
+    },
+    "./sa": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sa.jsx"
+    },
+    "./sb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sb.jsx"
+    },
+    "./sc": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sc.jsx"
+    },
+    "./sd": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sd.jsx"
+    },
+    "./se": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/se.jsx"
+    },
+    "./sg": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sg.jsx"
+    },
+    "./si": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/si.jsx"
+    },
+    "./sk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sk.jsx"
+    },
+    "./sl": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sl.jsx"
+    },
+    "./sm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sm.jsx"
+    },
+    "./sn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sn.jsx"
+    },
+    "./so": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/so.jsx"
+    },
+    "./sr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sr.jsx"
+    },
+    "./ss": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/ss.jsx"
+    },
+    "./st": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/st.jsx"
+    },
+    "./sv": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sv.jsx"
+    },
+    "./sy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sy.jsx"
+    },
+    "./sz": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sz.jsx"
+    },
+    "./td": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/td.jsx"
+    },
+    "./tg": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tg.jsx"
+    },
+    "./th": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/th.jsx"
+    },
+    "./tj": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tj.jsx"
+    },
+    "./tl": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tl.jsx"
+    },
+    "./tm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tm.jsx"
+    },
+    "./tn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tn.jsx"
+    },
+    "./to": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/to.jsx"
+    },
+    "./tr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tr.jsx"
+    },
+    "./tt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tt.jsx"
+    },
+    "./tv": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tv.jsx"
+    },
+    "./tw": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tw.jsx"
+    },
+    "./tz": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tz.jsx"
+    },
+    "./ua": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/ua.jsx"
+    },
+    "./ug": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/ug.jsx"
+    },
+    "./us": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/us.jsx"
+    },
+    "./uy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/uy.jsx"
+    },
+    "./uz": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/uz.jsx"
+    },
+    "./va": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/va.jsx"
+    },
+    "./vc": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vc.jsx"
+    },
+    "./ve": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/ve.jsx"
+    },
+    "./vg": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vg.jsx"
+    },
+    "./vn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vn.jsx"
+    },
+    "./ws": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/ws.jsx"
+    },
+    "./xk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/x/xk.jsx"
+    },
+    "./ye": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/y/ye.jsx"
+    },
+    "./za": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/za.jsx"
+    },
+    "./zm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/zm.jsx"
+    },
+    "./zw": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/zw.jsx"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-solid": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-solid#cif"
+}

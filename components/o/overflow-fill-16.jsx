@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/e/einsz8zxl.css';
+import '../../css/z/z9edi6b_u.css';
+import '../../css/k/kd06ylh6g.css';
+
+const viewBox = {"width":16,"height":16};
+const content = `<g class="cuyn6tgcc"><circle class="einsz8zxl"/><circle class="z9edi6b_u"/><circle class="kd06ylh6g"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"garden:overflow-fill-16"} {...others} />);
+}
+
+export default Component;

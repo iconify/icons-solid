@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/h/h01tyzbfu.css';
+import '../../css/h/h2po03bxv.css';
+import '../../css/f/f1er5e3yx.css';
+import '../../css/d/dw0vfobux.css';
+
+const viewBox = {"width":12,"height":12};
+const content = `<g class="h01tyzbfu"><circle class="h2po03bxv"/><circle class="f1er5e3yx"/><path class="dw0vfobux"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"garden:voicemail-stroke-12"} {...others} />);
+}
+
+export default Component;

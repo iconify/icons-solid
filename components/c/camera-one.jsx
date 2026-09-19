@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/n/nz_20wbpz.css';
+import '../../css/y/yez7skblq.css';
+import '../../css/v/vydujvb8s.css';
+import '../../css/h/h2uo0wbmx.css';
+
+const viewBox = {"width":48,"height":48};
+const content = `<g class="nz_20wbpz"><circle class="yez7skblq"/><circle class="vydujvb8s"/><path class="h2uo0wbmx"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"icon-park-solid:camera-one"} {...others} />);
+}
+
+export default Component;

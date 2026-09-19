@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/z/zo9ugs2zi.css';
+
+const viewBox = {"width":1024,"height":1024};
+const content = `<path class="zo9ugs2zi"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ant-design:schedule-fill"} {...others} />);
+}
+
+export default Component;

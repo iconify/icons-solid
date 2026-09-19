@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/w/wj615pbjr.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wj615pbjr"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fontisto:superscript"} {...others} />);
+}
+
+export default Component;

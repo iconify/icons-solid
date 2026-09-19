@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/j/jm5x7_bdu.css';
+
+const viewBox = {"width":48,"height":48};
+const content = `<path clip-rule="evenodd" class="jm5x7_bdu"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"healthicons:girl-0105y-outline"} {...others} />);
+}
+
+export default Component;

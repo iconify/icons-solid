@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/r/rsyhdhbom.css';
+import '../../css/m/m1jkf5b-x.css';
+import '../../css/u/u72v5m6oj.css';
+import '../../css/u/uba14cccu.css';
+
+const viewBox = {"width":128,"height":128};
+const content = `<path class="rsyhdhbom"/><path class="m1jkf5b-x"/><path class="u72v5m6oj"/><path class="uba14cccu"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"devicon:vuejs-wordmark"} {...others} />);
+}
+
+export default Component;

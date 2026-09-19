@@ -1,0 +1,28 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":64,"height":64};
+const content = `<style>.ap8yibbhq {
+  fill: var(--svg-color--fff, #fff);
+  d: path("m60.925 32.19l-20.971-5.18L52.44 11.292L36.726 23.774L31.821 2.781L27.01 23.774L11.162 11.468l-.004.004L23.78 27.01L2.814 32.18l20.966 4.539L11.301 52.43L27.01 39.949l4.856 21l4.858-21L52.44 52.43L39.958 36.719L60.921 32.2z");
+}
+
+.k4-2c-88o {
+  fill: var(--svg-color--0f7b40, #0f7b40);
+  d: path("M.192 48.619v8.282a6.83 6.83 0 0 0 6.825 6.832h49.702a6.83 6.83 0 0 0 6.825-6.832V7.206C52.729 46.506 13.84 48.994.194 48.616");
+}
+
+.o4mk2lupn {
+  fill: var(--svg-color--37b34a, #37b34a);
+  d: path("M63.738 56.864a6.87 6.87 0 0 1-6.869 6.869H6.87A6.87 6.87 0 0 1 0 56.864V6.869A6.873 6.873 0 0 1 6.87 0h49.999a6.87 6.87 0 0 1 6.869 6.869z");
+}
+</style><path class="o4mk2lupn"/><path class="k4-2c-88o"/><path class="ap8yibbhq"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"emojione-v1:eight-spoked-asterisk"} {...others} />);
+}
+
+export default Component;

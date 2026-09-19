@@ -1,0 +1,28 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":64,"height":64};
+const content = `<style>.cqownccta {
+  fill: var(--svg-color--25333a, #25333a);
+  d: path("M10 10C3.373 10 0 14.925 0 21v22c0 6.075 3.373 11 10 11h12V10z");
+}
+
+.fohd6dqnc {
+  fill: var(--svg-color--f9cb38, #f9cb38);
+  d: path("M22 10h20v44H22z");
+}
+
+.t_rlincix {
+  fill: var(--svg-color--ec1c24, #ec1c24);
+  d: path("M54 10H42v44h12c6.627 0 10-4.925 10-11V21c0-6.075-3.373-11-10-11");
+}
+</style><path class="fohd6dqnc"/><path class="cqownccta"/><path class="t_rlincix"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"emojione-v1:flag-for-belgium"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/b/bc1fd0lxe.css';
+import '../../css/q/qp5p3d7zu.css';
+import '../../css/c/c_i9pnxhr.css';
+import '../../css/i/i1bqeia1p.css';
+import '../../css/f/fhafydb4c.css';
+
+const viewBox = {"width":512,"height":512};
+const content = `<mask id="SVGqdEcMdXs"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGqdEcMdXs)"><path class="qp5p3d7zu"/><path class="c_i9pnxhr"/><path class="i1bqeia1p"/><circle class="fhafydb4c"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"circle-flags:ne"} {...others} />);
+}
+
+export default Component;

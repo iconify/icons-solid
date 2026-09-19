@@ -1,0 +1,415 @@
+{
+  "name": "@iconify-solid/flat-ui",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/flat-ui/",
+  "bugs": "https://github.com/iconify/icons-solid/issues",
+  "license": "MIT",
+  "exports": {
+    "./android": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/android.jsx"
+    },
+    "./android1": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/android1.jsx"
+    },
+    "./app-store": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/app-store.jsx"
+    },
+    "./arrow": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow.jsx"
+    },
+    "./art": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/art.jsx"
+    },
+    "./bag": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bag.jsx"
+    },
+    "./basket": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/basket.jsx"
+    },
+    "./book": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/book.jsx"
+    },
+    "./bowling": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bowling.jsx"
+    },
+    "./box": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/box.jsx"
+    },
+    "./brush": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/brush.jsx"
+    },
+    "./building": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/building.jsx"
+    },
+    "./bulb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bulb.jsx"
+    },
+    "./button": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/button.jsx"
+    },
+    "./calculator": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/calculator.jsx"
+    },
+    "./calendar": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/calendar.jsx"
+    },
+    "./camera": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/camera.jsx"
+    },
+    "./car": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/car.jsx"
+    },
+    "./card": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/card.jsx"
+    },
+    "./chair": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chair.jsx"
+    },
+    "./chat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chat.jsx"
+    },
+    "./clipboard": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/clipboard.jsx"
+    },
+    "./clocks": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/clocks.jsx"
+    },
+    "./compas": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/compas.jsx"
+    },
+    "./converse": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/converse.jsx"
+    },
+    "./cup": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cup.jsx"
+    },
+    "./dj": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dj.jsx"
+    },
+    "./donut": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/donut.jsx"
+    },
+    "./dude": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dude.jsx"
+    },
+    "./dynamite": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dynamite.jsx"
+    },
+    "./earth": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/earth.jsx"
+    },
+    "./egg": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/egg.jsx"
+    },
+    "./eye": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/eye.jsx"
+    },
+    "./file": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file.jsx"
+    },
+    "./fit": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fit.jsx"
+    },
+    "./flag": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flag.jsx"
+    },
+    "./flask": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flask.jsx"
+    },
+    "./flower": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flower.jsx"
+    },
+    "./games": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/games.jsx"
+    },
+    "./gift-box": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gift-box.jsx"
+    },
+    "./girl": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/girl.jsx"
+    },
+    "./goal": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/goal.jsx"
+    },
+    "./google": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/google.jsx"
+    },
+    "./graph": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/graph.jsx"
+    },
+    "./icecream": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/icecream.jsx"
+    },
+    "./imac": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/imac.jsx"
+    },
+    "./ipad": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/ipad.jsx"
+    },
+    "./iphone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/iphone.jsx"
+    },
+    "./key": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/key.jsx"
+    },
+    "./lettersymbol": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lettersymbol.jsx"
+    },
+    "./lock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lock.jsx"
+    },
+    "./loop": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/loop.jsx"
+    },
+    "./macbook": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/macbook.jsx"
+    },
+    "./magic": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/magic.jsx"
+    },
+    "./magicmouse": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/magicmouse.jsx"
+    },
+    "./mail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mail.jsx"
+    },
+    "./map": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/map.jsx"
+    },
+    "./medal": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/medal.jsx"
+    },
+    "./mic": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mic.jsx"
+    },
+    "./money": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/money.jsx"
+    },
+    "./mortarboard": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mortarboard.jsx"
+    },
+    "./mountain": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mountain.jsx"
+    },
+    "./news": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/news.jsx"
+    },
+    "./paper-bag": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/paper-bag.jsx"
+    },
+    "./pc": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pc.jsx"
+    },
+    "./pencil": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pencil.jsx"
+    },
+    "./pencils": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pencils.jsx"
+    },
+    "./picture": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/picture.jsx"
+    },
+    "./pig": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pig.jsx"
+    },
+    "./pills": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pills.jsx"
+    },
+    "./play": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/play.jsx"
+    },
+    "./printer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/printer.jsx"
+    },
+    "./responsive": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/responsive.jsx"
+    },
+    "./retina": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/retina.jsx"
+    },
+    "./ring": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/ring.jsx"
+    },
+    "./rocket": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rocket.jsx"
+    },
+    "./rss": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rss.jsx"
+    },
+    "./safe": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/safe.jsx"
+    },
+    "./save": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/save.jsx"
+    },
+    "./search": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/search.jsx"
+    },
+    "./settings": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/settings.jsx"
+    },
+    "./shield": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shield.jsx"
+    },
+    "./shirt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shirt.jsx"
+    },
+    "./skateboard": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/skateboard.jsx"
+    },
+    "./spray": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spray.jsx"
+    },
+    "./storage": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/storage.jsx"
+    },
+    "./support": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/support.jsx"
+    },
+    "./ticket": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/ticket.jsx"
+    },
+    "./toilet-paper": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/toilet-paper.jsx"
+    },
+    "./touch": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/touch.jsx"
+    },
+    "./trash": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/trash.jsx"
+    },
+    "./trip-bag": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/trip-bag.jsx"
+    },
+    "./trunk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/trunk.jsx"
+    },
+    "./ubmrella": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/ubmrella.jsx"
+    },
+    "./user-interface": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/user-interface.jsx"
+    },
+    "./video": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/video.jsx"
+    },
+    "./weather": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/weather.jsx"
+    },
+    "./wi-fi": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wi-fi.jsx"
+    },
+    "./wine": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wine.jsx"
+    },
+    "./yinyang": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/y/yinyang.jsx"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-solid": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-solid#flat-ui"
+}

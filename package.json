@@ -1,0 +1,319 @@
+{
+  "name": "@iconify-solid/entypo-social",
+  "type": "module",
+  "version": "1.0.3",
+  "homepage": "https://icon-sets.iconify.design/entypo-social/",
+  "bugs": "https://github.com/iconify/icons-solid/issues",
+  "license": "CC-BY-SA-4.0",
+  "exports": {
+    "./500px": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/5/500px.jsx"
+    },
+    "./500px-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/5/500px-with-circle.jsx"
+    },
+    "./basecamp": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/basecamp.jsx"
+    },
+    "./behance": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/behance.jsx"
+    },
+    "./creative-cloud": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/creative-cloud.jsx"
+    },
+    "./dribbble": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dribbble.jsx"
+    },
+    "./dribbble-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dribbble-with-circle.jsx"
+    },
+    "./dropbox": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dropbox.jsx"
+    },
+    "./evernote": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/evernote.jsx"
+    },
+    "./facebook": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/facebook.jsx"
+    },
+    "./facebook-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/facebook-with-circle.jsx"
+    },
+    "./flattr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flattr.jsx"
+    },
+    "./flickr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flickr.jsx"
+    },
+    "./flickr-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flickr-with-circle.jsx"
+    },
+    "./foursquare": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/foursquare.jsx"
+    },
+    "./github": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/github.jsx"
+    },
+    "./github-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/github-with-circle.jsx"
+    },
+    "./google": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/google.jsx"
+    },
+    "./google-drive": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/google-drive.jsx"
+    },
+    "./google-hangouts": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/google-hangouts.jsx"
+    },
+    "./google-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/google-with-circle.jsx"
+    },
+    "./grooveshark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/grooveshark.jsx"
+    },
+    "./icloud": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/icloud.jsx"
+    },
+    "./instagram": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/instagram.jsx"
+    },
+    "./instagram-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/instagram-with-circle.jsx"
+    },
+    "./lastfm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lastfm.jsx"
+    },
+    "./lastfm-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lastfm-with-circle.jsx"
+    },
+    "./linkedin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/linkedin.jsx"
+    },
+    "./linkedin-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/linkedin-with-circle.jsx"
+    },
+    "./medium": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/medium.jsx"
+    },
+    "./medium-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/medium-with-circle.jsx"
+    },
+    "./mixi": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mixi.jsx"
+    },
+    "./onedrive": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/onedrive.jsx"
+    },
+    "./paypal": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/paypal.jsx"
+    },
+    "./picasa": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/picasa.jsx"
+    },
+    "./pinterest": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pinterest.jsx"
+    },
+    "./pinterest-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pinterest-with-circle.jsx"
+    },
+    "./qq": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/q/qq.jsx"
+    },
+    "./qq-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/q/qq-with-circle.jsx"
+    },
+    "./raft": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/raft.jsx"
+    },
+    "./raft-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/raft-with-circle.jsx"
+    },
+    "./rainbow": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rainbow.jsx"
+    },
+    "./rdio": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rdio.jsx"
+    },
+    "./rdio-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rdio-with-circle.jsx"
+    },
+    "./renren": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/renren.jsx"
+    },
+    "./scribd": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/scribd.jsx"
+    },
+    "./sina-weibo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sina-weibo.jsx"
+    },
+    "./skype": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/skype.jsx"
+    },
+    "./skype-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/skype-with-circle.jsx"
+    },
+    "./slideshare": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/slideshare.jsx"
+    },
+    "./smashing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/smashing.jsx"
+    },
+    "./soundcloud": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/soundcloud.jsx"
+    },
+    "./spotify": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spotify.jsx"
+    },
+    "./spotify-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spotify-with-circle.jsx"
+    },
+    "./stumbleupon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stumbleupon.jsx"
+    },
+    "./stumbleupon-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stumbleupon-with-circle.jsx"
+    },
+    "./swarm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/swarm.jsx"
+    },
+    "./tripadvisor": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tripadvisor.jsx"
+    },
+    "./tumblr": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tumblr.jsx"
+    },
+    "./tumblr-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tumblr-with-circle.jsx"
+    },
+    "./twitter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/twitter.jsx"
+    },
+    "./twitter-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/twitter-with-circle.jsx"
+    },
+    "./vimeo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vimeo.jsx"
+    },
+    "./vimeo-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vimeo-with-circle.jsx"
+    },
+    "./vine": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vine.jsx"
+    },
+    "./vine-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vine-with-circle.jsx"
+    },
+    "./vk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vk.jsx"
+    },
+    "./vk-alternitive": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vk-alternitive.jsx"
+    },
+    "./vk-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vk-with-circle.jsx"
+    },
+    "./xing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/x/xing.jsx"
+    },
+    "./xing-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/x/xing-with-circle.jsx"
+    },
+    "./yelp": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/y/yelp.jsx"
+    },
+    "./youko": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/y/youko.jsx"
+    },
+    "./youko-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/y/youko-with-circle.jsx"
+    },
+    "./youtube": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/y/youtube.jsx"
+    },
+    "./youtube-with-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/y/youtube-with-circle.jsx"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-solid": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-solid#entypo-social"
+}

@@ -1,0 +1,16 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/c/cjqs9ia_t.css';
+import '../../css/p/pofkdk1ny.css';
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="cjqs9ia_t"/><path class="pofkdk1ny"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ion:social-youtube-outline"} {...others} />);
+}
+
+export default Component;

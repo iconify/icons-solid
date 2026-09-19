@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/q/q_zincina.css';
+import '../../css/h/h1ltq8ifw.css';
+import '../../css/g/g9gmjl-2d.css';
+import '../../css/a/aja_aog3q.css';
+import '../../css/s/spy7zkbxn.css';
+
+const viewBox = {"width":512,"height":512};
+const content = `<circle class="q_zincina"/><path class="h1ltq8ifw"/><circle class="g9gmjl-2d"/><circle class="aja_aog3q"/><path class="spy7zkbxn"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ion:git-pull-request-outline"} {...others} />);
+}
+
+export default Component;

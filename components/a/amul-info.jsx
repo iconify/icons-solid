@@ -1,0 +1,16 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/a/ajmjvabeq.css';
+import '../../css/a/acfb3gbef.css';
+
+const viewBox = {"width":208,"height":92};
+const content = `<path class="ajmjvabeq"/><path class="acfb3gbef"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"thesvg-color:amul-info"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,17 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/g/gsze17b6g.css';
+import '../../css/k/kgy_1447z.css';
+import '../../css/i/i3ixtobot.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="gsze17b6g"><path class="kgy_1447z"/><path class="i3ixtobot"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"thesvg-color:nebius"} {...others} />);
+}
+
+export default Component;

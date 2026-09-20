@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/i/i4vpqbbpy.css';
+import '../../css/q/qq9dqmrph.css';
+import '../../css/j/jwr_hibhb.css';
+import '../../css/b/bhb0y-bai.css';
+
+const viewBox = {"width":89,"height":51};
+const content = `<g class="ft5dv1b6b"><path class="i4vpqbbpy"/><path fill="url(#SVGk6SpObOG)" class="qq9dqmrph"/><defs><linearGradient id="SVGk6SpObOG" x1="44.5" x2="44.5" y1="0" y2="33.287" gradientUnits="userSpaceOnUse"><stop class="jwr_hibhb"/><stop offset="1" class="bhb0y-bai"/></linearGradient></defs></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"thesvg-color:vinpearl-light"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,21 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/i/i-2foxx5h.css';
+import '../../css/q/qpqddt4wu.css';
+import '../../css/d/dzaaj0b8k.css';
+import '../../css/e/embf02bdb.css';
+import '../../css/y/yh-dubc4m.css';
+import '../../css/x/xo3t73_vs.css';
+import '../../css/w/wky2c7b8u.css';
+
+const viewBox = {"width":404.5,"height":45};
+const content = `<path class="i-2foxx5h"/><defs><filter id="SVG7l5lVrYg" width="120.8" height="18.8" x="98.1" y="24.8" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter><path id="SVGrKwEubVH" class="qpqddt4wu"/></defs><mask id="SVG4MomkeeN" width="120.8" height="18.8" x="98.1" y="24.8" maskUnits="userSpaceOnUse"><use href="#SVGrKwEubVH" filter="url(#SVG7l5lVrYg)"/></mask><g mask="url(#SVG4MomkeeN)" class="dzaaj0b8k"><path class="embf02bdb"/></g><path class="yh-dubc4m"/><defs><filter id="SVGy1UandPY" width="92.2" height="18.2" x="98.1" y="1.4" filterUnits="userSpaceOnUse"><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0"/></filter></defs><mask id="SVGw8IJzbEy" width="92.2" height="18.2" x="98.1" y="1.4" maskUnits="userSpaceOnUse"><use href="#SVGrKwEubVH" filter="url(#SVGy1UandPY)"/></mask><g mask="url(#SVGw8IJzbEy)" class="dzaaj0b8k"><path class="xo3t73_vs"/></g><path class="wky2c7b8u"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"thesvg-color:native-instruments-dark"} {...others} />);
+}
+
+export default Component;

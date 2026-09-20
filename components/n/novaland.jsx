@@ -1,0 +1,24 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/q/q1_tyo1ox.css';
+import '../../css/m/mwx6l8bwe.css';
+import '../../css/j/j-gtodbix.css';
+import '../../css/y/yoh-8tbwu.css';
+import '../../css/r/rqdn9jqkn.css';
+import '../../css/m/mgcjc6zik.css';
+import '../../css/t/trmn-v2tv.css';
+import '../../css/w/woynzmjiv.css';
+import '../../css/h/h1h7-xb2w.css';
+import '../../css/h/hc9we_byt.css';
+
+const viewBox = {"width":626,"height":485};
+const content = `<defs><clipPath id="SVG9yA7jbTv" clipPathUnits="userSpaceOnUse"><path class="q1_tyo1ox"/></clipPath></defs><g clip-path="url(#SVG9yA7jbTv)" transform="matrix(6.66667 0 0 -6.66667 -313.3 1108.33)"><path class="mwx6l8bwe"/><path class="j-gtodbix"/><path class="yoh-8tbwu"/><path class="rqdn9jqkn"/><path class="mgcjc6zik"/><path class="trmn-v2tv"/><path class="woynzmjiv"/><path class="h1h7-xb2w"/><path class="hc9we_byt"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"thesvg-color:novaland"} {...others} />);
+}
+
+export default Component;

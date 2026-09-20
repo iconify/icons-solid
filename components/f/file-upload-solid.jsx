@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/s/sdu8ar_ju.css';
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="sdu8ar_ju"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"la:file-upload-solid"} {...others} />);
+}
+
+export default Component;

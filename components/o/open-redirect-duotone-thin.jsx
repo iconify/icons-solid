@@ -1,0 +1,40 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.c13n5ccfl {
+  fill: currentColor;
+  d: path("M15 6h3a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3H6a3 3 0 0 1 -3 -3V9a3 3 0 0 1 3 -3h3");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.f7uckf-er {
+  d: path("M6 15h5l4 -4");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.hzne6tsnk {
+  d: path("M11.5 11H15v3.5");
+}
+
+.n09nomjwg {
+  d: path("M15 6h3a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3H6a3 3 0 0 1 -3 -3V9a3 3 0 0 1 3 -3h3");
+}
+</style><g class="hntgybcog"><path class="c13n5ccfl"/><path class="n09nomjwg"/><path class="f7uckf-er"/><path class="hzne6tsnk"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:open-redirect-duotone-thin"} {...others} />);
+}
+
+export default Component;

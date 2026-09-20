@@ -1,0 +1,84 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.ao2twdbti {
+  stroke-width: var(--svg-stroke-width--5-5px, 5.5px);
+  d: path("M8 6h12");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.bzecsub_a {
+  d: path("M8 12h12");
+}
+
+.c-wb1qndc {
+  fill: currentColor;
+  d: path("M3 18a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.fvrxg8amo {
+  fill: currentColor;
+  d: path("M3 6a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.i-zd2i_hi {
+  d: path("M3 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.ia46_gbxj {
+  d: path("M3 6a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.ikhputvuo {
+  stroke-width: var(--svg-stroke-width--5-5px, 5.5px);
+  d: path("M8 12h12");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.k-_zk7bee {
+  d: path("M8 18h12");
+}
+
+.p_zb4d-3a {
+  d: path("M8 6h12");
+}
+
+.rz_vrfdnw {
+  d: path("M3 18a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.ys1yigyvq {
+  fill: currentColor;
+  d: path("M3 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.zagnm8bry {
+  stroke-width: var(--svg-stroke-width--5-5px, 5.5px);
+  d: path("M8 18h12");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+</style><g class="s0phu2bbs"><path class="fvrxg8amo"/><path class="ys1yigyvq"/><path class="c-wb1qndc"/><path class="ao2twdbti"/><path class="ikhputvuo"/><path class="zagnm8bry"/><path class="ia46_gbxj"/><path class="p_zb4d-3a"/><path class="i-zd2i_hi"/><path class="bzecsub_a"/><path class="rz_vrfdnw"/><path class="k-_zk7bee"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:list-duotone-bold"} {...others} />);
+}
+
+export default Component;

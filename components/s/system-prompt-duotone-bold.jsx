@@ -1,0 +1,40 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.c5cmy2bxq {
+  d: path("M9 10h8");
+}
+
+.hiue4sblj {
+  fill: currentColor;
+  d: path("M15.5 6H18a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3H6a3 3 0 0 1 -3 -3v-4l5 -5h2.5");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.u5kuez3us {
+  d: path("M15.5 6H18a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3H6a3 3 0 0 1 -3 -3v-4l5 -5h2.5");
+}
+
+.y814rsb-q {
+  d: path("M9 14h5");
+}
+</style><g class="s0phu2bbs"><path class="hiue4sblj"/><path class="u5kuez3us"/><path class="c5cmy2bxq"/><path class="y814rsb-q"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:system-prompt-duotone-bold"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,45 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.a7ec6yb3q {
+  d: path("M9 11v3");
+}
+
+.e3dol68is {
+  d: path("M15 11v3");
+}
+
+.jq9hovbrs {
+  d: path("M14 4h5a3 3 0 0 1 3 3v7a3 3 0 0 1 -3 3H5a3 3 0 0 1 -3 -3V7a3 3 0 0 1 3 -3h5");
+}
+
+.kpspt_bpo {
+  d: path("M7 8h10");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.y5y9-x5ge {
+  d: path("M12 11v3");
+}
+
+.yomctlb4k {
+  d: path("M7 17v4l4 -4");
+}
+</style><g class="s0phu2bbs"><path class="jq9hovbrs"/><path class="yomctlb4k"/><path class="kpspt_bpo"/><path class="a7ec6yb3q"/><path class="y5y9-x5ge"/><path class="e3dol68is"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:speech-align-outline-bold"} {...others} />);
+}
+
+export default Component;

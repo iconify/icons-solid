@@ -1,0 +1,52 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.b_fzcqbeu {
+  d: path("M5 20a7 7 0 0 1 14 0");
+}
+
+.b58isb55w {
+  d: path("M12 6v7");
+}
+
+.eff5yibna {
+  fill: currentColor;
+  d: path("M10 4a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.ep0w1yb_q {
+  stroke-width: var(--svg-stroke-width--4-5px, 4.5px);
+  d: path("M12 6v7");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.kbj_e4xpx {
+  stroke-width: var(--svg-stroke-width--4-5px, 4.5px);
+  d: path("M5 20a7 7 0 0 1 14 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.pq9ly31-r {
+  d: path("M10 4a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+</style><g class="hntgybcog"><path class="eff5yibna"/><path class="kbj_e4xpx"/><path class="ep0w1yb_q"/><path class="b_fzcqbeu"/><path class="b58isb55w"/><path class="pq9ly31-r"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:joystick-duotone-thin"} {...others} />);
+}
+
+export default Component;

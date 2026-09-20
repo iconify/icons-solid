@@ -1,0 +1,58 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.bw1t57bti {
+  fill: currentColor;
+  d: path("M3 20v-8l9 -9 9 9v8Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.fkf_gcbra {
+  d: path("M10 15h4");
+}
+
+.hwufvfb8q {
+  d: path("M3 20v-8l9 -9 9 9v8Z");
+}
+
+.k8y9e5sub {
+  fill: currentColor;
+  d: path("M14 15a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.mkaclw6aw {
+  d: path("M14 15a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.u-6h9nqio {
+  fill: currentColor;
+  d: path("M6 15a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.veo4_yb-t {
+  d: path("M6 15a2 2 0 1 0 4 0 2 2 0 1 0 -4 0");
+}
+</style><g class="s0phu2bbs"><path class="bw1t57bti"/><path class="u-6h9nqio"/><path class="k8y9e5sub"/><path class="hwufvfb8q"/><path class="veo4_yb-t"/><path class="mkaclw6aw"/><path class="fkf_gcbra"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:gym-duotone-bold"} {...others} />);
+}
+
+export default Component;

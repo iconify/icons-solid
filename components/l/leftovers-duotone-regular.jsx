@@ -1,0 +1,40 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.mhnr27bap {
+  d: path("M12 7v3");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.vsuxsbsia {
+  fill: currentColor;
+  d: path("M5 13v7h14v-7Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.x50q_4bdr {
+  d: path("M3 10h18");
+}
+
+.ydwr2p6jl {
+  d: path("M5 13v7h14v-7Z");
+}
+</style><g class="nrj6p8qat"><path class="vsuxsbsia"/><path class="ydwr2p6jl"/><path class="x50q_4bdr"/><path class="mhnr27bap"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:leftovers-duotone-regular"} {...others} />);
+}
+
+export default Component;

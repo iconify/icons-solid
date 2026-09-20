@@ -1,0 +1,43 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.h9piesnqy {
+  fill: currentColor;
+  d: path("M8.5 10.5a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-3a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.ugdbidcqi {
+  d: path("M16.23 2.94a10 10 0 1 1 -8.46 0");
+}
+
+.xa771-t-o {
+  fill: currentColor;
+  d: path("M16.23 2.94a10 10 0 1 1 -8.46 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.zmj1nccll {
+  d: path("M8.5 10.5a2 2 0 0 1 2 -2h3a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-3a2 2 0 0 1 -2 -2Z");
+}
+</style><g class="nrj6p8qat"><path class="xa771-t-o"/><path class="h9piesnqy"/><path class="ugdbidcqi"/><path class="zmj1nccll"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:agent-stop-duotone-regular"} {...others} />);
+}
+
+export default Component;

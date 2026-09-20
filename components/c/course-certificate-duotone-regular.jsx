@@ -1,0 +1,55 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.htfprqbon {
+  d: path("M15 17v4l2 -2 2 2v-4");
+}
+
+.m3bzo61nx {
+  fill: currentColor;
+  d: path("M2 5a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.mmnpqegwb {
+  fill: currentColor;
+  d: path("M14 15a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.n8wwq96fg {
+  d: path("M14 15a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.soorsrbax {
+  d: path("M6 10h8");
+}
+
+.uxsptjbvt {
+  d: path("M6 7h12");
+}
+
+.yxv11bcbk {
+  d: path("M2 5a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+}
+</style><g class="nrj6p8qat"><path class="m3bzo61nx"/><path class="mmnpqegwb"/><path class="yxv11bcbk"/><path class="uxsptjbvt"/><path class="soorsrbax"/><path class="n8wwq96fg"/><path class="htfprqbon"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:course-certificate-duotone-regular"} {...others} />);
+}
+
+export default Component;

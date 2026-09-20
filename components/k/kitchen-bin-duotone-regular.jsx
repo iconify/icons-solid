@@ -1,0 +1,61 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.aqrf9ebcv {
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M3 8h18");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.azrfjy1oo {
+  d: path("M14 5v3");
+}
+
+.h2-rujbru {
+  d: path("M10 5v3");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.odlchqg5v {
+  d: path("M6 9c0.5 4 1 8 2 11h8c1 -3 1.5 -7 2 -11");
+}
+
+.qll6019sr {
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M14 5v3");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.t3ckr4baw {
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M6 9c0.5 4 1 8 2 11h8c1 -3 1.5 -7 2 -11");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+
+.vhnbtvbtn {
+  d: path("M3 8h18");
+}
+
+.y_c6uxv0i {
+  stroke-width: var(--svg-stroke-width--5px, 5px);
+  d: path("M10 5v3");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+</style><g class="nrj6p8qat"><path class="t3ckr4baw"/><path class="aqrf9ebcv"/><path class="y_c6uxv0i"/><path class="qll6019sr"/><path class="odlchqg5v"/><path class="vhnbtvbtn"/><path class="h2-rujbru"/><path class="azrfjy1oo"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:kitchen-bin-duotone-regular"} {...others} />);
+}
+
+export default Component;

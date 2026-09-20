@@ -1,0 +1,58 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.b5ic9acln {
+  d: path("m15 7 5 5 -8 8 -8 -8 5 -5");
+}
+
+.cjspteimf {
+  d: path("M14 9.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.gtlfk7rgu {
+  fill: currentColor;
+  d: path("m15 7 5 5 -8 8 -8 -8 5 -5");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.htl7tccnk {
+  d: path("M8 15.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.tizuxybym {
+  fill: currentColor;
+  d: path("M14 9.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.u7rq6cbha {
+  d: path("m10 14.5 4 -4");
+}
+
+.yff3crbfv {
+  fill: currentColor;
+  d: path("M8 15.5a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+</style><g class="hntgybcog"><path class="gtlfk7rgu"/><path class="yff3crbfv"/><path class="tizuxybym"/><path class="b5ic9acln"/><path class="htl7tccnk"/><path class="cjspteimf"/><path class="u7rq6cbha"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:similarity-euclidean-duotone-thin"} {...others} />);
+}
+
+export default Component;

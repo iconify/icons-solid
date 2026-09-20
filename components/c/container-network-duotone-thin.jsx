@@ -1,0 +1,51 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.b-pphqpeq {
+  d: path("M3 8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.numygebfx {
+  d: path("M10 12.5a3.5 3.5 0 1 0 7 0 3.5 3.5 0 1 0 -7 0");
+}
+
+.okqi2lbic {
+  fill: currentColor;
+  d: path("M3 8a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2H5a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.sfnyx4wnk {
+  d: path("M6 6v14");
+}
+
+.sra1v4bgz {
+  fill: currentColor;
+  d: path("M10 12.5a3.5 3.5 0 1 0 7 0 3.5 3.5 0 1 0 -7 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.xelgb6ber {
+  d: path("M10 12.5h7");
+}
+</style><g class="hntgybcog"><path class="okqi2lbic"/><path class="sra1v4bgz"/><path class="b-pphqpeq"/><path class="sfnyx4wnk"/><path class="numygebfx"/><path class="xelgb6ber"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:container-network-duotone-thin"} {...others} />);
+}
+
+export default Component;

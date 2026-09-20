@@ -1,0 +1,44 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.l1jjkky7x {
+  d: path("M8 18h8");
+}
+
+.m3tfe9bwc {
+  fill: currentColor;
+  d: path("M9 2.5H3l7 7V12h4V9.5l7 -7h-6");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.mes08rb3g {
+  d: path("M13.5 15.5 16 18l-2.5 2.5");
+}
+
+.mjze8rg7o {
+  d: path("M9 2.5H3l7 7V12h4V9.5l7 -7h-6");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.ts8wzccza {
+  d: path("M10.5 15.5 8 18l2.5 2.5");
+}
+</style><g class="s0phu2bbs"><path class="m3tfe9bwc"/><path class="mjze8rg7o"/><path class="l1jjkky7x"/><path class="ts8wzccza"/><path class="mes08rb3g"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:reciprocal-fusion-duotone-bold"} {...others} />);
+}
+
+export default Component;

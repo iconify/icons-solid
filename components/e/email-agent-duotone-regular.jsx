@@ -1,0 +1,40 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.cf6epupol {
+  d: path("M7.5 2.83a3.5 3.5 0 1 1 -2.96 0");
+}
+
+.h7689ssil {
+  fill: currentColor;
+  d: path("M10 13a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.pfe6vjb3x {
+  d: path("m12 12 3.5 3.5L19 12");
+}
+
+.rmp_51owx {
+  d: path("M10 13a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2Z");
+}
+</style><g class="nrj6p8qat"><path class="h7689ssil"/><path class="cf6epupol"/><path class="rmp_51owx"/><path class="pfe6vjb3x"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:email-agent-duotone-regular"} {...others} />);
+}
+
+export default Component;

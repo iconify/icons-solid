@@ -1,0 +1,44 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.eczutjtvu {
+  d: path("M5 13h10");
+}
+
+.hr6yi9b8a {
+  fill: currentColor;
+  d: path("M2 4a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.p3-3c1i1b {
+  d: path("M19 5v7");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.viv5gg8xx {
+  d: path("M2 4a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v16a2 2 0 0 1 -2 2H4a2 2 0 0 1 -2 -2Z");
+}
+
+.ze8z1jbtg {
+  d: path("M5 8h10");
+}
+</style><g class="s0phu2bbs"><path class="hr6yi9b8a"/><path class="viv5gg8xx"/><path class="ze8z1jbtg"/><path class="eczutjtvu"/><path class="p3-3c1i1b"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:scrollbar-duotone-bold"} {...others} />);
+}
+
+export default Component;

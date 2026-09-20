@@ -1,0 +1,58 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.enrpg0aoq {
+  d: path("M9 12a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+}
+
+.m0hvambgh {
+  d: path("M16 7a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.mxzk029nb {
+  d: path("M12 10v4");
+}
+
+.n2wmvdxwf {
+  fill: currentColor;
+  d: path("M16 7a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.pywr_yykw {
+  d: path("m4 12 8 -8h8v8l-8 8Z");
+}
+
+.unu7n2b0o {
+  fill: currentColor;
+  d: path("m4 12 8 -8h8v8l-8 8Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.wfyw8dbnu {
+  fill: currentColor;
+  d: path("M9 12a3 3 0 1 0 6 0 3 3 0 1 0 -6 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+</style><g class="nrj6p8qat"><path class="unu7n2b0o"/><path class="n2wmvdxwf"/><path class="wfyw8dbnu"/><path class="pywr_yykw"/><path class="m0hvambgh"/><path class="enrpg0aoq"/><path class="mxzk029nb"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:shipping-cost-duotone-regular"} {...others} />);
+}
+
+export default Component;

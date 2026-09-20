@@ -1,0 +1,33 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.afxv9_b8a {
+  d: path("M3 7h12a3 3 0 1 0 -3 -3");
+}
+
+.oq5d88tuy {
+  d: path("M3 12h15");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.x199_yb0z {
+  d: path("M3 17h11a3 3 0 1 1 -3 3");
+}
+</style><g class="s0phu2bbs"><path class="afxv9_b8a"/><path class="oq5d88tuy"/><path class="x199_yb0z"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:wind-outline-bold"} {...others} />);
+}
+
+export default Component;

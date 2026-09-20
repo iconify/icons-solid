@@ -1,0 +1,48 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.cnwhnbbmh {
+  d: path("M11 13a4 4 0 0 1 -8 0");
+}
+
+.d90oeycoz {
+  d: path("M4 7a3 3 0 0 1 3 -3 3 3 0 0 1 3 3v4a3 3 0 0 1 -3 3 3 3 0 0 1 -3 -3Z");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.u8eo2mbnw {
+  fill: currentColor;
+  d: path("M4 7a3 3 0 0 1 3 -3 3 3 0 0 1 3 3v4a3 3 0 0 1 -3 3 3 3 0 0 1 -3 -3Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.ub1mcfbjy {
+  d: path("M14 9h7");
+}
+
+.v90yymbhv {
+  d: path("M14 14h7");
+}
+
+.yy6mapbcz {
+  d: path("M14 19h4");
+}
+</style><g class="nrj6p8qat"><path class="u8eo2mbnw"/><path class="d90oeycoz"/><path class="cnwhnbbmh"/><path class="ub1mcfbjy"/><path class="v90yymbhv"/><path class="yy6mapbcz"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:speech-to-text-duotone-regular"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,51 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.h5gy-ctti {
+  d: path("m22 9.5 -5 5");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.lgr612izs {
+  d: path("M8 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+}
+
+.n95mv7bdf {
+  fill: currentColor;
+  d: path("M4 12a5 5 0 1 0 10 0 5 5 0 1 0 -10 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.oconzlhzu {
+  d: path("m17 9.5 5 5");
+}
+
+.sdgafkcgw {
+  d: path("M4 12a5 5 0 1 0 10 0 5 5 0 1 0 -10 0");
+}
+
+.wwnijrnro {
+  fill: currentColor;
+  d: path("M8 12a1 1 0 1 0 2 0 1 1 0 1 0 -2 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+</style><g class="hntgybcog"><path class="n95mv7bdf"/><path class="wwnijrnro"/><path class="sdgafkcgw"/><path class="lgr612izs"/><path class="oconzlhzu"/><path class="h5gy-ctti"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:goal-missed-duotone-thin"} {...others} />);
+}
+
+export default Component;

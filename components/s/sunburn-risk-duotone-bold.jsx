@@ -1,0 +1,48 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.b_fzcqbeu {
+  d: path("M5 20a7 7 0 0 1 14 0");
+}
+
+.ha96dokbt {
+  d: path("M5.5 7H8");
+}
+
+.nqq-ml3sz {
+  d: path("M16 7h2.5");
+}
+
+.rdx3slmde {
+  d: path("M8.5 7a3.5 3.5 0 1 0 7 0 3.5 3.5 0 1 0 -7 0");
+}
+
+.s0phu2bbs {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2-5px, 2.5px);
+}
+
+.tm88wrbeh {
+  fill: currentColor;
+  d: path("M8.5 7a3.5 3.5 0 1 0 7 0 3.5 3.5 0 1 0 -7 0");
+  opacity: var(--svg-opacity--0-2, 0.2);
+  stroke: none;
+}
+
+.ui32hib9b {
+  d: path("M5 20h14");
+}
+</style><g class="s0phu2bbs"><path class="tm88wrbeh"/><path class="rdx3slmde"/><path class="ha96dokbt"/><path class="nqq-ml3sz"/><path class="b_fzcqbeu"/><path class="ui32hib9b"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconmind:sunburn-risk-duotone-bold"} {...others} />);
+}
+
+export default Component;

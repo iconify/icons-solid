@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/n/n7a4osb1i.css';
+import '../../css/h/h47p_644n.css';
+import '../../css/q/q4f9vsb6j.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><circle class="n7a4osb1i"/><path class="h47p_644n"/><path class="q4f9vsb6j"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"majesticons:users-line"} {...others} />);
+}
+
+export default Component;

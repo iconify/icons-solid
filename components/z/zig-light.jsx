@@ -1,0 +1,24 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/d/djqetsxsa.css';
+import '../../css/i/im_s7ebtl.css';
+import '../../css/e/e6xuksrkm.css';
+import '../../css/l/lir7njbwk.css';
+import '../../css/f/fbt6xujtw.css';
+import '../../css/c/cg99--frq.css';
+import '../../css/h/hgb_gbb4q.css';
+import '../../css/l/lq2gpo66c.css';
+import '../../css/w/wd776pnud.css';
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="ft5dv1b6b"><rect class="djqetsxsa"/><path class="im_s7ebtl"/><path class="e6xuksrkm"/><path class="lir7njbwk"/><path class="fbt6xujtw"/><path class="cg99--frq"/><path class="hgb_gbb4q"/><path class="lq2gpo66c"/><path class="wd776pnud"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"skill-icons:zig-light"} {...others} />);
+}
+
+export default Component;

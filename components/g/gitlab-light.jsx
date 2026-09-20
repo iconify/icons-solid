@@ -1,0 +1,23 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/d/djqetsxsa.css';
+import '../../css/b/bgkvdxtwv.css';
+import '../../css/a/akt6vzbbw.css';
+import '../../css/k/ks7j75u6a.css';
+import '../../css/e/e39f-yb8v.css';
+import '../../css/n/n1igb436x.css';
+import '../../css/t/tzkr37bot.css';
+import '../../css/v/vjuf_fb9y.css';
+
+const viewBox = {"width":256,"height":256};
+const content = `<g class="ft5dv1b6b"><rect class="djqetsxsa"/><path class="bgkvdxtwv"/><path class="akt6vzbbw"/><path class="ks7j75u6a"/><path class="e39f-yb8v"/><path class="n1igb436x"/><path class="tzkr37bot"/><path class="vjuf_fb9y"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"skill-icons:gitlab-light"} {...others} />);
+}
+
+export default Component;

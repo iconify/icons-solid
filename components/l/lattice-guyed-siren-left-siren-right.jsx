@@ -1,0 +1,16 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/n/ngjzxub7r.css';
+import '../../css/b/bza6db8oy.css';
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="ngjzxub7r"/><path class="bza6db8oy"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"roentgen:lattice-guyed-siren-left-siren-right"} {...others} />);
+}
+
+export default Component;

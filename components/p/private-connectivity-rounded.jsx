@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.hqv4edbtc {
+  fill: currentColor;
+  d: path("M7.388 17.288Q5.425 15.575 5.075 13H3q-.425 0-.712-.288T2 12t.288-.712T3 11h2.075q.35-2.575 2.313-4.288T12 5t4.613 1.713T18.925 11H21q.425 0 .713.288T22 12t-.288.713T21 13h-2.075q-.35 2.575-2.312 4.288T12 19t-4.612-1.713M10 15.5h4q.425 0 .713-.288T15 14.5v-3q0-.425-.288-.712T14 10.5v-.9q0-.875-.575-1.487T12 7.5q-.825 0-1.412.588T10 9.5v1q-.425 0-.712.288T9 11.5v3q0 .425.288.713T10 15.5m2-1.75q-.325 0-.537-.213T11.25 13t.213-.537t.537-.213t.538.213t.212.537t-.213.538t-.537.212m-1-3.25v-1q0-.425.288-.712T12 8.5t.713.288T13 9.5v1z");
+}
+</style><path class="hqv4edbtc"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:private-connectivity-rounded"} {...others} />);
+}
+
+export default Component;

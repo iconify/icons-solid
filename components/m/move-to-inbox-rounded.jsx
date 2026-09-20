@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.el5a7cblu {
+  fill: currentColor;
+  d: path("M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21zm7-5q.8 0 1.475-.413t1.1-1.087q.15-.225.375-.363t.5-.137H19V5H5v9h3.55q.275 0 .5.138t.375.362q.425.675 1.1 1.088T12 16m-1-5.85V7q0-.425.288-.712T12 6t.713.288T13 7v3.15l.875-.875q.15-.15.338-.225t.375-.062t.375.087t.337.225q.275.3.288.7t-.288.7l-2.6 2.6q-.15.15-.325.213t-.375.062t-.375-.062t-.325-.213l-2.6-2.6q-.15-.15-.225-.337T8.4 9.988t.075-.363T8.7 9.3q.3-.3.713-.312t.712.287z");
+}
+</style><path class="el5a7cblu"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:move-to-inbox-rounded"} {...others} />);
+}
+
+export default Component;

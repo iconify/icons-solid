@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.ity0qbl4a {
+  fill: currentColor;
+  d: path("m4 23l-1.6-1.2L5.25 18l.775-4.45q.075-.6.475-1.062t1.025-.613L17 9l2-4l3-3l1 1l-2.5 2.9l-1.5 4.6l-5 3.5l-5.85 1.85L7 19zm-1-8q-.825 0-1.412-.587T1 13t.588-1.412T3 11t1.413.588T5 13t-.587 1.413T3 15m5.9-4.9q-.6.175-1.137-.137T7.05 9.05t.138-1.15t.912-.7L12.65 6l.775 2.9z");
+}
+</style><path class="ity0qbl4a"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:scuba-diving"} {...others} />);
+}
+
+export default Component;

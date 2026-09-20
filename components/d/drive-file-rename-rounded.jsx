@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.tm8-3ehls {
+  fill: currentColor;
+  d: path("M11.225 17H17q.425 0 .713-.288T18 16t-.288-.712T17 15h-3.775zM7 17h1.65q.2 0 .388-.075t.337-.225l6.2-6.2q.225-.225.325-.513t.1-.562t-.113-.55t-.312-.5l-.925-.925q-.225-.225-.5-.337T13.575 7q-.275 0-.55.1t-.5.325l-6.225 6.2q-.15.15-.225.338T6 14.35V16q0 .425.288.713T7 17m6.575-6.6l-.95-.95l.95-.95l.925.925zM5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21z");
+}
+</style><path class="tm8-3ehls"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:drive-file-rename-rounded"} {...others} />);
+}
+
+export default Component;

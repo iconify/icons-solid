@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.m_xoe_3mr {
+  fill: currentColor;
+  d: path("M15 20q-3.35 0-5.675-2.325T7 12q0-3.325 2.325-5.663T15 4q3.325 0 5.663 2.338T23 12q0 3.35-2.337 5.675T15 20m2.275-4.275L18.7 14.3L16 11.6V8h-2v4.425zM2 9V7h4v2zm-1 4v-2h5v2zm1 4v-2h4v2z");
+}
+</style><path class="m_xoe_3mr"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:acute"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.v5tn9qbuy {
+  fill: currentColor;
+  d: path("M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v3q0 .425-.288.713T21 10t-.712-.288T20 9V8l-7.475 4.675q-.125.075-.262.113t-.263.037t-.262-.037t-.263-.113L4 8v10h11q.425 0 .713.288T16 19t-.288.713T15 20zm8-9l8-5H4zm-8 7V8v.25v-1.475v.025V6v.8v-.012V8.25V8zm15 2q-.425 0-.712-.288T18 19v-3q0-.425.288-.712T19 15v-1q0-.825.588-1.412T21 12t1.413.588T23 14v1q.425 0 .713.288T24 16v3q0 .425-.288.713T23 20zm1-5h2v-1q0-.425-.288-.712T21 13t-.712.288T20 14z");
+}
+</style><path class="v5tn9qbuy"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:mail-lock-outline-rounded"} {...others} />);
+}
+
+export default Component;

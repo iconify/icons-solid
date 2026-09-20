@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.aw5ngpjmo {
+  fill: currentColor;
+  d: path("M19.85 22.525L1.475 4.15L2.9 2.725L21.275 21.1zM8 16h8.175l-2-2H8zm-3-3h2v-2H5zm3 0h2v-2H8zm9 0h2v-2h-2zM5 10h2V8H5zm9 0h2V8h-2zm3 0h2V8h-2zM4 19q-.825 0-1.412-.587T2 17V7q0-.825.588-1.412T4 5h1.175l14 14zm17.4-.575l-5.4-5.45V11h-2l-1-1.025V8h-1.975l-3-3H20q.825 0 1.413.588T22 7v10.025q0 .425-.162.775t-.438.625");
+}
+</style><path class="aw5ngpjmo"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:keyboard-off"} {...others} />);
+}
+
+export default Component;

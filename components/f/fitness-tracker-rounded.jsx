@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.wr8rh1b7y {
+  fill: currentColor;
+  d: path("M9.75 22q-.35 0-.612-.187t-.363-.513L7.8 18.025q-.375-.4-.587-.925T7 16V8q0-.6.213-1.125T7.8 5.95l.975-3.25q.1-.325.363-.513T9.75 2h4.5q.35 0 .6.2t.35.525l.95 3.2q.4.425.625.95T17 8v8q0 .6-.213 1.125t-.612.95l-.95 3.2q-.1.325-.362.525t-.613.2zm.25-5h4q.425 0 .713-.288T15 16V8q0-.425-.288-.712T14 7h-4q-.425 0-.712.288T9 8v8q0 .425.288.713T10 17");
+}
+</style><path class="wr8rh1b7y"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:fitness-tracker-rounded"} {...others} />);
+}
+
+export default Component;

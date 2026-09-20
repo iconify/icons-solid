@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.kdhbxqked {
+  fill: currentColor;
+  d: path("M12 20q.5 0 1-.062t1-.188V16h-4v3.75q.5.125 1 .188T12 20m0 2q-2 0-3.825-.763t-3.25-2.162L6.35 17.65q.375.375.788.688t.862.587V16H4V8q0-1.65 1.175-2.825T8 4h4v5h8v7h-4v2.925q.45-.275.863-.587t.787-.688l1.425 1.425q-1.425 1.4-3.25 2.163T12 22");
+}
+</style><path class="kdhbxqked"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:crib-sharp"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.gnv018bot {
+  fill: currentColor;
+  d: path("M5 23V1h14v5.1h1v4.8h-1V23zm2-2h10V3H7zm1-6h8l-2.625-3.5L11.5 14l-1.375-1.825zm7.713-5.288Q16 9.425 16 9t-.288-.712T15 8t-.712.288T14 9t.288.713T15 10t.713-.288M7 21V3z");
+}
+</style><path class="gnv018bot"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:mobile-screensaver-outline-sharp"} {...others} />);
+}
+
+export default Component;

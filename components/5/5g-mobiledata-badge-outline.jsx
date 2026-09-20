@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.lqzhtxbim {
+  fill: currentColor;
+  d: path("M3 21q-.825 0-1.412-.587T1 19V5q0-.825.588-1.412T3 3h18q.825 0 1.413.588T23 5v14q0 .825-.587 1.413T21 21zm0-2h18V5H3zm0 0V5zm16-8h-3v2h1v2h-3V9h5q0-.825-.587-1.412T17 7h-3q-.825 0-1.412.588T12 9v6q0 .825.588 1.413T14 17h3q.825 0 1.413-.587T19 15zM5 17h4q.825 0 1.413-.587T11 15v-2q0-.825-.587-1.412T9 11H7V9h4V7H5v6h4v2H5z");
+}
+</style><path class="lqzhtxbim"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:5g-mobiledata-badge-outline"} {...others} />);
+}
+
+export default Component;

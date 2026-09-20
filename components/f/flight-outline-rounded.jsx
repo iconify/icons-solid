@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.tizodue7w {
+  fill: currentColor;
+  d: path("m10 13.8l-6.325 2.525q-.6.25-1.137-.112T2 15.2v-.55q0-.3.138-.575t.387-.45L10 8.4V4q0-.825.588-1.412T12 2t1.413.588T14 4v4.4l7.475 5.225q.25.175.388.45t.137.575v.55q0 .65-.537 1.013t-1.138.112L14 13.8v3.6l2.575 1.8q.2.15.313.363t.112.462v.6q0 .5-.413.813t-.912.162L12 20.5l-3.675 1.1q-.5.15-.913-.162T7 20.625v-.6q0-.25.113-.462t.312-.363L10 17.4z");
+}
+</style><path class="tizodue7w"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:flight-outline-rounded"} {...others} />);
+}
+
+export default Component;

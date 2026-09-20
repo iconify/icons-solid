@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.uza1-jbkn {
+  fill: currentColor;
+  d: path("M12 19q0-2.5-1.75-4.25T6 13q0 2.5 1.75 4.25T12 19m1.1-5.5q.45-.45.45-1.1v-.15q.2.15.412.225t.488.075q.65 0 1.1-.45T16 11q0-.5-.238-.875T15.1 9.6q.425-.15.663-.525T16 8.2q0-.65-.45-1.1t-1.1-.45q-.275 0-.487.075t-.413.225V6.8q0-.65-.45-1.1T12 5.25t-1.1.45t-.45 1.1v.15q-.2-.15-.412-.225T9.55 6.65q-.65 0-1.1.45T8 8.2q0 .5.238.875T8.9 9.6q-.425.15-.662.525T8 11q0 .65.45 1.1t1.1.45q.275 0 .488-.075t.412-.225v.15q0 .65.45 1.1t1.1.45t1.1-.45m-2.2-2.787q-.45-.438-.45-1.113q0-.65.45-1.1t1.1-.45t1.1.45t.45 1.1q0 .675-.45 1.113t-1.1.437t-1.1-.437M12 19q2.5 0 4.25-1.75T18 13q-2.5 0-4.25 1.75T12 19M2 22V2h20v20z");
+}
+</style><path class="uza1-jbkn"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols:yard-sharp"} {...others} />);
+}
+
+export default Component;

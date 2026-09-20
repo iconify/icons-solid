@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/j/jgorcll_p.css';
+import '../../css/z/z9l4lcc3g.css';
+import '../../css/x/xkltaebhy.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path class="jgorcll_p"/><path class="z9l4lcc3g"/><path class="xkltaebhy"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"reicon:designtools-filled"} {...others} />);
+}
+
+export default Component;

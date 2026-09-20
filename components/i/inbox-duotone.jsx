@@ -1,0 +1,16 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/m/mbjt7ebfi.css';
+import '../../css/j/jhxqmf5zh.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="mbjt7ebfi"/><path class="jhxqmf5zh"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"stash:inbox-duotone"} {...others} />);
+}
+
+export default Component;

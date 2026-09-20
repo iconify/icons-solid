@@ -1,0 +1,24 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/u/u8ej3ywxe.css';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/c/c-m_s8b5h.css';
+import '../../css/f/fdxrwwb_g.css';
+import '../../css/a/apw3rfbvh.css';
+import '../../css/g/gp9sxtb0f.css';
+import '../../css/g/gdfi3tbgn.css';
+import '../../css/n/nd87hgb0n.css';
+import '../../css/a/adbxfrblr.css';
+import '../../css/x/x4u8vybwd.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<defs><path id="SVG5D35rdYK" class="u8ej3ywxe"/></defs><g class="ft5dv1b6b"><path class="c-m_s8b5h"/><use href="#SVG5D35rdYK"/><path class="fdxrwwb_g"/><path class="apw3rfbvh"/><path class="gp9sxtb0f"/><use href="#SVG5D35rdYK"/><path class="gdfi3tbgn"/><path class="nd87hgb0n"/><path class="adbxfrblr"/><path class="x4u8vybwd"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"streamline-ultimate-color:performance-increase"} {...others} />);
+}
+
+export default Component;

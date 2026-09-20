@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":256,"height":256};
+const content = `<style>.pib_1-bho {
+  fill: currentColor;
+  d: path("M200 42a6 6 0 0 0 0 12a18 18 0 0 1 18 18v58H38V72a18 18 0 0 1 18-18a6 6 0 0 0 0-12a30 30 0 0 0-30 30v92a42 42 0 0 0 84 0v-22h36v22a42 42 0 0 0 84 0V72a30 30 0 0 0-30-30M38 164v-21.52L84.53 189A30 30 0 0 1 38 164m60 0a29.83 29.83 0 0 1-5 16.53L54.48 142H98Zm60 0v-21.52L204.53 189A30 30 0 0 1 158 164m55 16.53L174.48 142H218v22a29.83 29.83 0 0 1-5 16.53");
+}
+</style><path class="pib_1-bho"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ph:sunglasses-light"} {...others} />);
+}
+
+export default Component;

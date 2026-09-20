@@ -1,0 +1,26 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":256,"height":256};
+const content = `<style>.ccakrft-u {
+  d: path("M236.55 149.42L194.05 120l42.5-29.42a8 8 0 0 0 0-13.16l-52-36a8 8 0 0 0-9.1 0L128 74.27L80.55 41.42a8 8 0 0 0-9.1 0l-52 36a8 8 0 0 0 0 13.16L62 120l-42.5 29.42a8 8 0 0 0 0 13.16l52 36a8 8 0 0 0 9.1 0l47.4-32.85l47.45 32.85a8 8 0 0 0 9.1 0l52-36a8 8 0 0 0 0-13.16M180 57.73L218 84l-38 26.27L142.05 84ZM38.05 84L76 57.73L114 84l-38 26.27Zm38 98.27l-38-26.27l38-26.27L114 156Zm14-62.27l38-26.27L166 120l-38 26.27Zm90 62.27l-38-26.27L180 129.73L218 156Zm-21.53 24.64a8 8 0 0 1-2 11.13l-23.89 16.54a8 8 0 0 1-9.1 0L99.56 218a8 8 0 0 1 9.1-13.16L128 218.27l19.34-13.39a8 8 0 0 1 11.13 2.03Z");
+}
+
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.drxv67b4h {
+  d: path("m128 84l-52 36l-52-36l52-36Zm104 0l-52-36l-52 36l52 36ZM24 156l52 36l52-36l-52-36Zm104 0l52 36l52-36l-52-36Z");
+  opacity: var(--svg-opacity--0-2, 0.2);
+}
+</style><g class="cuyn6tgcc"><path class="drxv67b4h"/><path class="ccakrft-u"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ph:dropbox-logo-duotone"} {...others} />);
+}
+
+export default Component;

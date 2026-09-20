@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":256,"height":256};
+const content = `<style>.p4dzlz_uv {
+  fill: currentColor;
+  d: path("M240 106h-13.51l-35.91-35.9a13.9 13.9 0 0 0-9.89-4.1H138V38h26a6 6 0 0 0 0-12h-64a6 6 0 0 0 0 12h26v28H64a14 14 0 0 0-14 14v54H22v-26a6 6 0 0 0-12 0v64a6 6 0 0 0 12 0v-26h28v22.69a13.9 13.9 0 0 0 4.1 9.89l39.32 39.32a13.9 13.9 0 0 0 9.89 4.1h77.38a13.9 13.9 0 0 0 9.89-4.1l35.91-35.9H240a14 14 0 0 0 14-14v-48a14 14 0 0 0-14-14m2 62a2 2 0 0 1-2 2h-16a6 6 0 0 0-4.24 1.76l-37.66 37.66a2 2 0 0 1-1.41.58h-77.38a2 2 0 0 1-1.41-.58L62.58 170.1a2 2 0 0 1-.58-1.41V80a2 2 0 0 1 2-2h116.69a2 2 0 0 1 1.41.58l37.66 37.66A6 6 0 0 0 224 118h16a2 2 0 0 1 2 2Z");
+}
+</style><path class="p4dzlz_uv"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ph:engine-light"} {...others} />);
+}
+
+export default Component;

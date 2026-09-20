@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":256,"height":256};
+const content = `<style>.gal8u0ble {
+  fill: currentColor;
+  d: path("m233.91 118.14l-96-96a13.93 13.93 0 0 0-19.72 0l-96 96.05a13.93 13.93 0 0 0 0 19.72l96.05 96a13.93 13.93 0 0 0 19.72 0l96-96a13.93 13.93 0 0 0 0-19.72ZM126.62 30.57a2 2 0 0 1 2.76 0L188.81 90H160a6 6 0 0 0-4.24 1.76L128 119.52l-27.76-27.76A6 6 0 0 0 96 90H67.19ZM30 128a1.94 1.94 0 0 1 .57-1.38L55.19 102h38.32l26 26l-26 26H55.19l-24.62-24.62A1.94 1.94 0 0 1 30 128m99.38 97.43a2 2 0 0 1-2.76 0L67.19 166H96a6 6 0 0 0 4.24-1.76L128 136.48l27.76 27.76A6 6 0 0 0 160 166h28.81Zm96.05-96.05L200.81 154h-38.32l-26-26l26-26h38.32l24.62 24.62a2 2 0 0 1 0 2.76");
+}
+</style><path class="gal8u0ble"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ph:pix-logo-light"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":256,"height":256};
+const content = `<style>.rwiygku7c {
+  fill: currentColor;
+  d: path("M128 26a102 102 0 1 0 30 199.52a6 6 0 0 0 2.48-1.49L224 160.46a6 6 0 0 0 1.49-2.49A102.06 102.06 0 0 0 128 26m86.47 127l-61.42 61.43A89.91 89.91 0 1 1 214.47 153M82 108a10 10 0 1 1 10 10a10 10 0 0 1-10-10m92 0a10 10 0 1 1-10-10a10 10 0 0 1 10 10m-.81 47c-9.92 17.16-26.39 27-45.19 27s-35.27-9.84-45.19-27a6 6 0 0 1 10.38-6c7.84 13.54 20.2 21 34.81 21s27-7.46 34.81-21a6 6 0 1 1 10.38 6");
+}
+</style><path class="rwiygku7c"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ph:smiley-sticker-light"} {...others} />);
+}
+
+export default Component;

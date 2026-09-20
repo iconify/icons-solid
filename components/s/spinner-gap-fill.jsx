@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":256,"height":256};
+const content = `<style>.yrz4xe06m {
+  fill: currentColor;
+  d: path("M128 24a104 104 0 1 0 104 104A104.11 104.11 0 0 0 128 24M48 136a8 8 0 0 1 0-16h24a8 8 0 0 1 0 16Zm46.06 37.25l-17 17a8 8 0 0 1-11.32-11.32l17-17a8 8 0 0 1 11.31 11.31Zm0-79.19a8 8 0 0 1-11.31 0l-17-17a8 8 0 0 1 11.34-11.29l17 17a8 8 0 0 1-.03 11.29M136 208a8 8 0 0 1-16 0v-24a8 8 0 0 1 16 0Zm0-136a8 8 0 0 1-16 0V48a8 8 0 0 1 16 0Zm54.23 118.23a8 8 0 0 1-11.32 0l-17-17a8 8 0 0 1 11.31-11.31l17 17a8 8 0 0 1 .01 11.31M208 136h-24a8 8 0 0 1 0-16h24a8 8 0 0 1 0 16");
+}
+</style><path class="yrz4xe06m"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ph:spinner-gap-fill"} {...others} />);
+}
+
+export default Component;

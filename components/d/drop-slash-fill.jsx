@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":256,"height":256};
+const content = `<style>.az-nopbuc {
+  fill: currentColor;
+  d: path("M213.92 210.62a8 8 0 1 1-11.84 10.76l-12.9-14.19A87.7 87.7 0 0 1 128 232c-48 0-87.49-38.93-88-86.88c-.27-24.34 8.22-49.84 24.73-74.81L42.3 45.63a8.23 8.23 0 0 1 .14-11.38a8 8 0 0 1 11.48.37Zm-10.07-34.86a4 4 0 0 0 6.7-1.27A87.7 87.7 0 0 0 216 144c0-31.4-14.51-64.68-42-96.25a254.2 254.2 0 0 0-41.45-38.3a8 8 0 0 0-9.18 0A251.3 251.3 0 0 0 87.17 42a4 4 0 0 0 0 5.41Z");
+}
+</style><path class="az-nopbuc"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ph:drop-slash-fill"} {...others} />);
+}
+
+export default Component;

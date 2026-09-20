@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":256,"height":256};
+const content = `<style>.ly8mhzb8g {
+  fill: currentColor;
+  d: path("M154.73 201.06a82 82 0 0 1 0-146.12a6 6 0 0 0 0-10.69A93 93 0 0 0 112 34a94 94 0 0 0 0 188a93 93 0 0 0 42.73-10.25a6 6 0 0 0 0-10.69M112 210a82 82 0 1 1 26.81-159.53a94 94 0 0 0 0 155.06A81.4 81.4 0 0 1 112 210m138.38-87.51l-27.61-11.91l-2.4-31a6 6 0 0 0-10.61-3.36l-19.39 23.45l-28.93-7.16a6 6 0 0 0-6.61 8.87L170.5 128l-15.67 26.62a6 6 0 0 0 6.61 8.87l28.93-7.16l19.39 23.49a6 6 0 0 0 10.61-3.36l2.4-31l27.61-11.91a6 6 0 0 0 0-11Zm-35.69 13.35a6 6 0 0 0-3.61 5l-1.53 19.83l-12.33-14.94a6 6 0 0 0-4.63-2.18a6 6 0 0 0-1.44.18l-18.74 4.63L182.64 131a6 6 0 0 0 0-6.08l-10.23-17.37l18.74 4.63a6 6 0 0 0 6.07-2l12.33-14.94l1.53 19.83a6 6 0 0 0 3.61 5l18.17 7.93Z");
+}
+</style><path class="ly8mhzb8g"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ph:star-and-crescent-light"} {...others} />);
+}
+
+export default Component;

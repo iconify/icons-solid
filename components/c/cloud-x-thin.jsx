@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":256,"height":256};
+const content = `<style>.dm491-b7x {
+  fill: currentColor;
+  d: path("M160 44a84.11 84.11 0 0 0-76.41 49.12A60.7 60.7 0 0 0 72 92a60 60 0 0 0 0 120h88a84 84 0 0 0 0-168m0 160H72a52 52 0 1 1 8.55-103.3A83.7 83.7 0 0 0 76 128a4 4 0 0 0 8 0a76 76 0 1 1 76 76m26.83-89.17L165.66 136l21.17 21.17a4 4 0 0 1-5.66 5.66L160 141.66l-21.17 21.17a4 4 0 0 1-5.66-5.66L154.34 136l-21.17-21.17a4 4 0 0 1 5.66-5.66L160 130.34l21.17-21.17a4 4 0 1 1 5.66 5.66");
+}
+</style><path class="dm491-b7x"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"ph:cloud-x-thin"} {...others} />);
+}
+
+export default Component;

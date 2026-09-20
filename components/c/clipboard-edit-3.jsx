@@ -1,0 +1,17 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/n/n8oo7gb6g.css';
+import '../../css/g/gfeblsb2v.css';
+import '../../css/j/jwpqpbcgn.css';
+
+const viewBox = {"width":50,"height":50};
+const content = `<g class="n8oo7gb6g"><path class="gfeblsb2v"/><path class="jwpqpbcgn"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"marketeq:clipboard-edit-3"} {...others} />);
+}
+
+export default Component;

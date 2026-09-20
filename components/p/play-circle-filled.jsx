@@ -1,0 +1,34 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":26,"height":26};
+const content = `<style>.bd9gczbnq {
+  cx: 13px;
+  cy: 13px;
+  r: 13px;
+  fill: currentColor;
+}
+
+.ft5dv1b6b {
+  fill: none;
+}
+
+.k5-vjlrin {
+  fill: var(--svg-color--fff, #fff);
+  d: path("M0 0h26v26H0z");
+}
+
+.zfzpe32mj {
+  fill: var(--svg-color--000, #000);
+  d: path("M18.544 12.59a1 1 0 0 1-.053 1.728L9.476 19.2A1 1 0 0 1 8 18.321V7.804a1 1 0 0 1 1.53-.848z");
+}
+</style><g class="ft5dv1b6b"><defs><mask id="SVGCRXgJdzz"><path class="k5-vjlrin"/><path class="zfzpe32mj"/></mask></defs><circle mask="url(#SVGCRXgJdzz)" class="bd9gczbnq"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"pepicons-pop:play-circle-filled"} {...others} />);
+}
+
+export default Component;

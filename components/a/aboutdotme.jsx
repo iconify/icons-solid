@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/l/la5tmqqxd.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="la5tmqqxd"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"thesvg:aboutdotme"} {...others} />);
+}
+
+export default Component;

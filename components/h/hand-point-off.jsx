@@ -1,0 +1,20 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/x/xyjtgccot.css';
+import '../../css/c/ck3rq6bkb.css';
+import '../../css/c/c63o3wabg.css';
+import '../../css/x/x6e3mnbvk.css';
+import '../../css/s/st8r_y1jl.css';
+
+const viewBox = {"width":20,"height":20};
+const content = `<g class="ft5dv1b6b"><g class="xyjtgccot"><path class="ck3rq6bkb"/><path class="c63o3wabg"/></g><path clip-rule="evenodd" class="x6e3mnbvk"/><path class="st8r_y1jl"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"pepicons-print:hand-point-off"} {...others} />);
+}
+
+export default Component;

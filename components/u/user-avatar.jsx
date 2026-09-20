@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/o/ocos3pbek.css';
+import '../../css/c/ch7mim7_x.css';
+import '../../css/g/gh16dbbue.css';
+import '../../css/l/lxhba64ej.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="ocos3pbek"/><path class="ch7mim7_x"/><path class="gh16dbbue"/><path class="lxhba64ej"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"tdesign:user-avatar"} {...others} />);
+}
+
+export default Component;

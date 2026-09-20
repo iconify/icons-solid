@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/a/awwm6x5ie.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="awwm6x5ie"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"tdesign:lock-off-filled"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/c/cmfv3actq.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="cmfv3actq"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"mdi:spider-web"} {...others} />);
+}
+
+export default Component;

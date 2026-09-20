@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/k/kxdm9zbni.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="kxdm9zbni"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"mdi:tab-minus"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/i/ipq1z-bjh.css';
+import '../../css/s/s-cr8mbps.css';
+import '../../css/v/vgqbud9cq.css';
+import '../../css/c/c9v1_5ibh.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ipq1z-bjh"><path class="s-cr8mbps"/><path class="vgqbud9cq"/><path class="c9v1_5ibh"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"mage:television-download"} {...others} />);
+}
+
+export default Component;

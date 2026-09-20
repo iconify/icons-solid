@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.srskg-avt {
+  fill: var(--svg-color--bff009, #bff009);
+  d: path("M12.162 7.468c0-.717.587-1.301 1.307-1.301h2.34V3h-2.34C10.99 3 8.98 5 8.98 7.468c0 .644.138 1.256.384 1.809c-1.925.81-3.203 2.531-3.5 4.71c-.349 2.39.614 4.97 2.71 6.216c1.871 1.173 4.796 1.096 6.377-.531v1.08h3.256V8.77h-4.736c-.721 0-1.31-.584-1.31-1.302m2.861 4.47v3.008a3.015 3.015 0 0 1-3.021 3.007a3.015 3.015 0 0 1-3.022-3.007a3.015 3.015 0 0 1 3.022-3.008z");
+}
+</style><path class="srskg-avt"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"token-branded:kaia"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.ib16r-zun {
+  fill: var(--svg-color--22996f, #22996f);
+  d: path("M12.774 4.638A.9.9 0 0 0 12 4.2c-.3 0-.6.144-.774.438L9.69 7.494a.6.6 0 0 0 .516.906H13.8a.6.6 0 0 0 .516-.906l-1.536-2.85zm3.558 6.15A1.2 1.2 0 0 0 15.3 10.2H8.7a1.2 1.2 0 0 0-1.032.588l-4.5 7.2A1.2 1.2 0 0 0 4.2 19.8h15.6a1.2 1.2 0 0 0 1.032-1.812z");
+}
+</style><path class="ib16r-zun"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"token-branded:fei"} {...others} />);
+}
+
+export default Component;

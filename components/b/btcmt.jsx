@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.dmvd9wl7u {
+  fill: var(--svg-color--6dd9bf, #6dd9bf);
+  d: path("M3.656 6.234c-.29-.16-.656.042-.656.37v2.68c0 .3.17.581.44.74l7.093 4.008a3.01 3.01 0 0 0 2.934 0l7.094-4.008a.87.87 0 0 0 .439-.74v-2.68c0-.328-.37-.53-.657-.37l-7.316 4.13a2.09 2.09 0 0 1-2.054 0zm0 5.146a.438.438 0 0 0-.656.37v2.573c0 .302.164.582.434.741l4.733 2.7a.44.44 0 0 0 .657-.37V14.82a.86.86 0 0 0-.435-.741zM21 11.75a.44.44 0 0 0-.657-.37l-4.732 2.7a.87.87 0 0 0-.434.74v2.574a.438.438 0 0 0 .656.37l4.733-2.7a.87.87 0 0 0 .434-.74z");
+}
+</style><path class="dmvd9wl7u"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"token-branded:btcmt"} {...others} />);
+}
+
+export default Component;

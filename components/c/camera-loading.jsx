@@ -1,0 +1,17 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/y/y9tr6bcfx.css';
+import '../../css/q/q7nk-vb-p.css';
+import '../../css/f/fhv2vcb-b.css';
+
+const viewBox = {"width":14,"height":14};
+const content = `<g class="y9tr6bcfx"><path class="q7nk-vb-p"/><path class="fhv2vcb-b"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"streamline:camera-loading"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/i/ibkxrtjjl.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ibkxrtjjl"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"mingcute:classify-ai-line"} {...others} />);
+}
+
+export default Component;

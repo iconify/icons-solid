@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/n/n1p3t8x8f.css';
+import '../../css/l/l-g6_fbox.css';
+import '../../css/i/i3khix54k.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="n1p3t8x8f"/><path class="l-g6_fbox"/><path clip-rule="evenodd" class="i3khix54k"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"solar:user-check-rounded-outline"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,23 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/r/r31cjccys.css';
+import '../../css/f/f5bubjfdm.css';
+import '../../css/b/bzkueu5le.css';
+import '../../css/m/mc2zb0bvp.css';
+import '../../css/u/u2pxmm3su.css';
+import '../../css/l/lce19bqir.css';
+import '../../css/n/n8iywbcyw.css';
+import '../../css/a/a4kem0bqe.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="r31cjccys"/><path clip-rule="evenodd" class="f5bubjfdm"/><path clip-rule="evenodd" class="bzkueu5le"/><g class="mc2zb0bvp"><path class="u2pxmm3su"/><path class="lce19bqir"/><path class="n8iywbcyw"/><path class="a4kem0bqe"/></g></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"solar:sun-fog-bold-duotone"} {...others} />);
+}
+
+export default Component;

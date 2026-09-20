@@ -1,0 +1,24 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/i/ipq1z-bjh.css';
+import '../../css/d/d9t7gkbpm.css';
+import '../../css/p/pllnv2f8o.css';
+import '../../css/p/psheptbge.css';
+import '../../css/p/p486gvbkz.css';
+import '../../css/r/ra2qqkb2q.css';
+import '../../css/t/tcmb89bxl.css';
+import '../../css/r/r81c58q3h.css';
+import '../../css/m/myuublmsr.css';
+import '../../css/g/g9fm93boy.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ipq1z-bjh"><path class="d9t7gkbpm"/><path class="pllnv2f8o"/><path class="psheptbge"/><path class="p486gvbkz"/><path class="ra2qqkb2q"/><path class="tcmb89bxl"/><path class="r81c58q3h"/><path class="myuublmsr"/><path class="g9fm93boy"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"solar:suspension-cross-broken"} {...others} />);
+}
+
+export default Component;

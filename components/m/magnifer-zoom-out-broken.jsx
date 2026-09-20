@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/i/ipq1z-bjh.css';
+import '../../css/k/kjxg36b_m.css';
+import '../../css/c/cq5xp9n1p.css';
+import '../../css/x/x09loybdy.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ipq1z-bjh"><path class="kjxg36b_m"/><path class="cq5xp9n1p"/><path class="x09loybdy"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"solar:magnifer-zoom-out-broken"} {...others} />);
+}
+
+export default Component;

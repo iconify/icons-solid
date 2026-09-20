@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/v/vji_uo4-j.css';
+import '../../css/b/bsx5zebbq.css';
+import '../../css/q/qb75cnf9c.css';
+import '../../css/j/j5c61kb4y.css';
+
+const viewBox = {"width":16,"height":16};
+const content = `<path clip-rule="evenodd" class="vji_uo4-j"/><path clip-rule="evenodd" class="bsx5zebbq"/><path class="qb75cnf9c"/><path clip-rule="evenodd" class="j5c61kb4y"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"nonicons:interface-16"} {...others} />);
+}
+
+export default Component;

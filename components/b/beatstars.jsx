@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/m/m6c2ulpvl.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="m6c2ulpvl"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"simple-icons:beatstars"} {...others} />);
+}
+
+export default Component;

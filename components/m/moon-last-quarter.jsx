@@ -1,0 +1,16 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/v/v1njp3l4b.css';
+import '../../css/e/eymp5g2ft.css';
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="v1njp3l4b"/><path class="eymp5g2ft"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"meteocons:moon-last-quarter"} {...others} />);
+}
+
+export default Component;

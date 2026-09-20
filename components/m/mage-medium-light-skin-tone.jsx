@@ -1,0 +1,26 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/e/ed-idh1qq.css';
+import '../../css/o/oychbz_cf.css';
+import '../../css/m/me83qybfj.css';
+import '../../css/i/ipqflkpvf.css';
+import '../../css/x/x6o_f8bzm.css';
+import '../../css/a/ahz0upblx.css';
+import '../../css/x/x2vjammnz.css';
+import '../../css/d/d5d9zrb0b.css';
+import '../../css/h/h2l9xs_0p.css';
+import '../../css/w/wkz0_n5gi.css';
+import '../../css/n/nk9i3irvx.css';
+import '../../css/q/q3aj0vory.css';
+
+const viewBox = {"width":72,"height":72};
+const content = `<path class="ed-idh1qq"/><path class="oychbz_cf"/><path class="me83qybfj"/><path class="ipqflkpvf"/><path class="x6o_f8bzm"/><path class="ahz0upblx"/><path class="x2vjammnz"/><path class="d5d9zrb0b"/><path class="h2l9xs_0p"/><path class="wkz0_n5gi"/><path class="nk9i3irvx"/><path class="q3aj0vory"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"openmoji:mage-medium-light-skin-tone"} {...others} />);
+}
+
+export default Component;

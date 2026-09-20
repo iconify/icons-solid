@@ -1,0 +1,26 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/r/r_xjuxbcz.css';
+import '../../css/k/k9pq-abme.css';
+import '../../css/n/n205lf90o.css';
+import '../../css/v/v2ow_ym3x.css';
+import '../../css/d/dfflm6bsq.css';
+import '../../css/v/vgmqedltx.css';
+import '../../css/f/fw4vj2qaf.css';
+import '../../css/b/bu01fybqr.css';
+import '../../css/z/z0q3xu_9s.css';
+import '../../css/x/xgyh4eb7e.css';
+import '../../css/j/jpjmo6b2d.css';
+import '../../css/x/xz--z4brf.css';
+
+const viewBox = {"width":72,"height":72};
+const content = `<path class="r_xjuxbcz"/><g class="k9pq-abme"><path class="n205lf90o"/><path class="v2ow_ym3x"/><path class="dfflm6bsq"/></g><path class="vgmqedltx"/><path class="fw4vj2qaf"/><path class="bu01fybqr"/><path class="z0q3xu_9s"/><path class="xgyh4eb7e"/><path class="jpjmo6b2d"/><path class="xz--z4brf"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"openmoji:person-shrugging-medium-skin-tone"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,26 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/x/x4u8pbwjc.css';
+import '../../css/a/ao5s1-buy.css';
+import '../../css/q/qd9g9yrru.css';
+import '../../css/b/brzn_0bpr.css';
+import '../../css/c/c6fjyszzx.css';
+import '../../css/b/bvx6a5ttx.css';
+import '../../css/l/l1r_f9joh.css';
+import '../../css/x/xxi1udb0t.css';
+import '../../css/b/bx06m8jcg.css';
+import '../../css/w/wjzpebcso.css';
+import '../../css/g/g8_-dxufn.css';
+import '../../css/p/pit_nrbcr.css';
+
+const viewBox = {"width":72,"height":72};
+const content = `<g class="x4u8pbwjc"><circle class="ao5s1-buy"/><path class="qd9g9yrru"/></g><g class="brzn_0bpr"><circle class="c6fjyszzx"/><path class="bvx6a5ttx"/><path class="l1r_f9joh"/><path class="xxi1udb0t"/></g><path class="bx06m8jcg"/><path class="wjzpebcso"/><circle class="g8_-dxufn"/><path class="pit_nrbcr"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"openmoji:man-with-white-cane"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,31 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/y/ypy_i9bod.css';
+import '../../css/r/r-d226bjg.css';
+import '../../css/k/kq4vz60zh.css';
+import '../../css/v/v_wxcsboi.css';
+import '../../css/l/lqhd61b5s.css';
+import '../../css/v/v8u0z7jtt.css';
+import '../../css/j/j4-5b-b9s.css';
+import '../../css/w/wg4j894xd.css';
+import '../../css/e/ezntoi8ae.css';
+import '../../css/m/m7drilfeg.css';
+import '../../css/n/niusl-mpj.css';
+import '../../css/o/o3eax4big.css';
+import '../../css/j/jqm-azb6c.css';
+import '../../css/u/urpjjnb7q.css';
+import '../../css/k/k5gf3cblr.css';
+import '../../css/x/xh33b4bdy.css';
+import '../../css/q/qoqrw8azq.css';
+
+const viewBox = {"width":72,"height":72};
+const content = `<path class="ypy_i9bod"/><path class="r-d226bjg"/><path class="kq4vz60zh"/><path class="v_wxcsboi"/><path class="lqhd61b5s"/><path class="v8u0z7jtt"/><path class="j4-5b-b9s"/><path class="wg4j894xd"/><path class="ezntoi8ae"/><path class="m7drilfeg"/><path class="niusl-mpj"/><path class="o3eax4big"/><path class="jqm-azb6c"/><path class="urpjjnb7q"/><path class="k5gf3cblr"/><path class="xh33b4bdy"/><path class="qoqrw8azq"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"openmoji:construction-worker-dark-skin-tone"} {...others} />);
+}
+
+export default Component;

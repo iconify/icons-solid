@@ -1,0 +1,28 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/i/itzcweb2v.css';
+import '../../css/v/vyf3e3wrd.css';
+import '../../css/c/c495tabsx.css';
+import '../../css/m/mleoe9bsc.css';
+import '../../css/c/cg31-rbkj.css';
+import '../../css/e/ehmch7_7s.css';
+import '../../css/t/teqn6kb3n.css';
+import '../../css/b/bc2myz9nw.css';
+import '../../css/z/zzcdjp8xu.css';
+import '../../css/o/oq5hypb3h.css';
+import '../../css/c/cuo5qyo8p.css';
+import '../../css/y/ye253ab5j.css';
+import '../../css/t/txdx-_o3k.css';
+import '../../css/r/rzj4c6xpp.css';
+
+const viewBox = {"width":72,"height":72};
+const content = `<path class="itzcweb2v"/><path class="vyf3e3wrd"/><path class="c495tabsx"/><path class="mleoe9bsc"/><path class="cg31-rbkj"/><circle class="ehmch7_7s"/><path class="teqn6kb3n"/><path class="bc2myz9nw"/><path class="zzcdjp8xu"/><path class="oq5hypb3h"/><circle class="cuo5qyo8p"/><path class="ye253ab5j"/><path class="txdx-_o3k"/><path class="rzj4c6xpp"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"openmoji:woman-getting-haircut-light-skin-tone"} {...others} />);
+}
+
+export default Component;

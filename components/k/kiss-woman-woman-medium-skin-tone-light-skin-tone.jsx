@@ -1,0 +1,27 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/f9p3nr4eq.css';
+import '../../css/c/ct01q3dja.css';
+import '../../css/i/iqp-q4xot.css';
+import '../../css/y/yym87xbmp.css';
+import '../../css/b/brzn_0bpr.css';
+import '../../css/l/led9pob1z.css';
+import '../../css/n/npm0uhbyg.css';
+import '../../css/e/eplbuhbzb.css';
+import '../../css/x/x883ecc5w.css';
+import '../../css/j/jnyz71djp.css';
+import '../../css/a/atg-bwb1r.css';
+import '../../css/d/dm5bcukse.css';
+import '../../css/d/dpsav04ry.css';
+
+const viewBox = {"width":72,"height":72};
+const content = `<path class="f9p3nr4eq"/><path class="ct01q3dja"/><path class="iqp-q4xot"/><path class="yym87xbmp"/><g class="brzn_0bpr"><path class="led9pob1z"/><path class="npm0uhbyg"/><path class="eplbuhbzb"/><path class="x883ecc5w"/><path class="jnyz71djp"/><path class="atg-bwb1r"/><path class="dm5bcukse"/><path class="dpsav04ry"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"openmoji:kiss-woman-woman-medium-skin-tone-light-skin-tone"} {...others} />);
+}
+
+export default Component;

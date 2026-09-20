@@ -1,0 +1,27 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/x/x4u8pbwjc.css';
+import '../../css/a/appa4vbkk.css';
+import '../../css/t/tgz478z6r.css';
+import '../../css/l/lfr4iwmsd.css';
+import '../../css/b/brzn_0bpr.css';
+import '../../css/r/rlry-pbbn.css';
+import '../../css/s/sbn8ipbbd.css';
+import '../../css/e/e1v06gd2w.css';
+import '../../css/a/arida7bbr.css';
+import '../../css/e/e5gtchbns.css';
+import '../../css/m/miv2a84wk.css';
+import '../../css/l/lbutbobzd.css';
+import '../../css/b/b9-n-gb8f.css';
+
+const viewBox = {"width":72,"height":72};
+const content = `<g class="x4u8pbwjc"><circle class="appa4vbkk"/><path class="tgz478z6r"/></g><path class="lfr4iwmsd"/><g class="brzn_0bpr"><path class="rlry-pbbn"/><circle class="sbn8ipbbd"/><circle class="e1v06gd2w"/><path class="arida7bbr"/><circle class="e5gtchbns"/><path class="miv2a84wk"/><path class="lbutbobzd"/><path class="b9-n-gb8f"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"openmoji:woman-mountain-biking"} {...others} />);
+}
+
+export default Component;

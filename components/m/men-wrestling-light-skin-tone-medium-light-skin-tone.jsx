@@ -1,0 +1,27 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/i/ig-dzq6hv.css';
+import '../../css/j/j_rre4ilo.css';
+import '../../css/r/r8wgg8n1g.css';
+import '../../css/g/gi8exnb9d.css';
+import '../../css/l/l-pq53bnn.css';
+import '../../css/v/vs72fdcif.css';
+import '../../css/y/yw_r9nb1p.css';
+import '../../css/j/jz953uqjj.css';
+import '../../css/x/x8poo_bjf.css';
+import '../../css/v/v7m2rybta.css';
+import '../../css/n/n1y86uh-s.css';
+import '../../css/m/msflncgxt.css';
+import '../../css/o/ou2j_7kyo.css';
+
+const viewBox = {"width":72,"height":72};
+const content = `<g class="ig-dzq6hv"><circle class="j_rre4ilo"/><path class="r8wgg8n1g"/><path class="gi8exnb9d"/></g><g class="l-pq53bnn"><circle class="vs72fdcif"/><path class="yw_r9nb1p"/><path class="jz953uqjj"/></g><g class="x8poo_bjf"><circle class="vs72fdcif"/><path class="v7m2rybta"/><path class="n1y86uh-s"/><path class="msflncgxt"/><path class="ou2j_7kyo"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"openmoji:men-wrestling-light-skin-tone-medium-light-skin-tone"} {...others} />);
+}
+
+export default Component;

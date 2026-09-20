@@ -1,0 +1,24 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/v/vl4agyblc.css';
+import '../../css/w/wkiualyqd.css';
+import '../../css/r/rkf585bao.css';
+import '../../css/j/jn8qy4bru.css';
+import '../../css/e/erfpcfglt.css';
+import '../../css/d/def3y6btw.css';
+import '../../css/s/si0-yvbkc.css';
+import '../../css/q/qbtheccnd.css';
+import '../../css/u/u7olocczg.css';
+import '../../css/r/rp169lb8c.css';
+
+const viewBox = {"width":72,"height":72};
+const content = `<path class="vl4agyblc"/><path class="wkiualyqd"/><path class="rkf585bao"/><g class="jn8qy4bru"><circle class="erfpcfglt"/><path class="def3y6btw"/><circle class="si0-yvbkc"/><path class="qbtheccnd"/><path class="u7olocczg"/><path class="rp169lb8c"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"openmoji:calendar"} {...others} />);
+}
+
+export default Component;

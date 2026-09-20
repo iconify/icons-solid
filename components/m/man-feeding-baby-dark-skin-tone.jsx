@@ -1,0 +1,27 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/fxon-_byi.css';
+import '../../css/h/h15lizbyz.css';
+import '../../css/q/qtqp3-xjq.css';
+import '../../css/y/yykkwmbei.css';
+import '../../css/e/e_raf5bng.css';
+import '../../css/v/vgfqv0bfg.css';
+import '../../css/g/gn_2_0brn.css';
+import '../../css/q/qkmw3099x.css';
+import '../../css/j/jn8qy4bru.css';
+import '../../css/l/lkb72ua0d.css';
+import '../../css/p/prg0-63tm.css';
+import '../../css/y/ywniddcnl.css';
+import '../../css/d/dn9uurz-v.css';
+
+const viewBox = {"width":72,"height":72};
+const content = `<path class="fxon-_byi"/><path class="h15lizbyz"/><path class="qtqp3-xjq"/><circle class="yykkwmbei"/><g class="e_raf5bng"><path class="vgfqv0bfg"/><path class="gn_2_0brn"/></g><path class="qkmw3099x"/><g class="jn8qy4bru"><path class="lkb72ua0d"/><circle class="prg0-63tm"/><path class="ywniddcnl"/><path class="dn9uurz-v"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"openmoji:man-feeding-baby-dark-skin-tone"} {...others} />);
+}
+
+export default Component;

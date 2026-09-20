@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/n/nrj6p8qat.css';
+import '../../css/i/igc2abbsm.css';
+import '../../css/s/sxpj81bji.css';
+import '../../css/q/q054rm63k.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="nrj6p8qat"><path class="igc2abbsm"/><path class="sxpj81bji"/><path class="q054rm63k"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"keyline-icons:git-pull-request-draft-fill"} {...others} />);
+}
+
+export default Component;

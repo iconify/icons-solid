@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/s/sajs9zlog.css';
+
+const viewBox = {"width":8,"height":8};
+const content = `<path class="sajs9zlog"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"picon:gsm0"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,20 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/c/cuyn6tgcc.css';
+import '../../css/g/g6ybgx9-u.css';
+import '../../css/t/tqi9df0br.css';
+import '../../css/v/vve2dil0o.css';
+import '../../css/g/gf77tvf2s.css';
+import '../../css/a/a666lh9aj.css';
+
+const viewBox = {"width":20,"height":20};
+const content = `<g class="cuyn6tgcc"><path clip-rule="evenodd" class="g6ybgx9-u"/><path clip-rule="evenodd" class="tqi9df0br"/><path clip-rule="evenodd" class="vve2dil0o"/><path class="gf77tvf2s"/><path clip-rule="evenodd" class="a666lh9aj"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"pepicons-pencil:monitor-eye"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/j/jx0p4fbya.css';
+import '../../css/g/goerp7bib.css';
+import '../../css/j/j5nhi9bbx.css';
+import '../../css/h/hfnzlwbvs.css';
+import '../../css/y/yq7deobye.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="jx0p4fbya"><path class="goerp7bib"/><path class="j5nhi9bbx"/><path class="hfnzlwbvs"/><path class="yq7deobye"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"streamline-ultimate:weather-cloud-snow-thunder"} {...others} />);
+}
+
+export default Component;

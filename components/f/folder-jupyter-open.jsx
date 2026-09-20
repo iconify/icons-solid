@@ -1,0 +1,20 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/g/gpyz49q5o.css';
+import '../../css/d/dvf_gvr6i.css';
+import '../../css/l/lq-djpb4j.css';
+import '../../css/l/l9o29qb_q.css';
+import '../../css/h/h3_2q8qzi.css';
+import '../../css/y/yodzen-to.css';
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="gpyz49q5o"/><g transform="matrix(.7 0 0 .7 10 10)" class="dvf_gvr6i"><path class="lq-djpb4j"/><circle class="l9o29qb_q"/><circle class="h3_2q8qzi"/><circle class="yodzen-to"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-icon-theme:folder-jupyter-open"} {...others} />);
+}
+
+export default Component;

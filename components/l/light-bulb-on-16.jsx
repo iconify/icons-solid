@@ -1,0 +1,17 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/i/iynd2kmao.css';
+import '../../css/p/pdenvtb1q.css';
+import '../../css/s/s43uxk1qx.css';
+
+const viewBox = {"width":16,"height":16};
+const content = `<path class="iynd2kmao"/><path clip-rule="evenodd" class="pdenvtb1q"/><path class="s43uxk1qx"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"qlementine-icons:light-bulb-on-16"} {...others} />);
+}
+
+export default Component;

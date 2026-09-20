@@ -1,0 +1,17 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/c/c2isdvbeo.css';
+import '../../css/r/rxb3jdv2n.css';
+import '../../css/y/yipyoybdp.css';
+
+const viewBox = {"width":32,"height":32};
+const content = `<path class="c2isdvbeo"/><path class="rxb3jdv2n"/><path class="yipyoybdp"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"streamline-pixel:interface-essential-paginate-filter-video"} {...others} />);
+}
+
+export default Component;

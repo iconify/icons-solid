@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/fa0z2b_vv.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="fa0z2b_vv"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"lucide:laptop"} {...others} />);
+}
+
+export default Component;

@@ -20,12 +20,12 @@ const content = `<style>.k_zcqphbo {
   d: path("M16.2 14.387A15.602 15.602 0 1 1 8.4 27.9");
 }
 
-.tgzxybcgy {
+.qb4e_3yms {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M16.2 27.9V8.4a3.9 3.9 0 0 0-3.9-3.9h0a3.9 3.9 0 0 0-3.9 3.9v19.5");
+  d: path("M16.2 27.9V8.4a3.9 3.9 0 0 0-3.9-3.9a3.9 3.9 0 0 0-3.9 3.9v19.5");
 }
 
 .uyxvgnbzk {
@@ -35,7 +35,7 @@ const content = `<style>.k_zcqphbo {
   stroke-linejoin: round;
   d: path("M16.2 19.18a11.7 11.7 0 1 1-3.9 8.72V8.4");
 }
-</style><path class="tgzxybcgy"/><path class="q7d3_kbri"/><path class="uyxvgnbzk"/><circle class="k_zcqphbo"/>`;
+</style><path class="qb4e_3yms"/><path class="q7d3_kbri"/><path class="uyxvgnbzk"/><circle class="k_zcqphbo"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

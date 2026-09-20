@@ -2,15 +2,7 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.c09h4ub_c {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M21.931 33.328v5.299m-4.131.001v-6.6a1.4 1.4 0 0 1 1.4-1.4h0a1.63 1.63 0 0 1 1.42.59m-3.999 2.11h2.8m4.655 2a2 2 0 0 1 2-2h0m-2 0v5.299m7.044-.999a2 2 0 0 1-1.74 1h0a2 2 0 0 1-2-2v-1.29a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v.65h-4m-9.983-20.784a6.604 6.604 0 0 1 13.207 0v3.116a.69.69 0 0 1-.68.688h-11.83a.69.69 0 0 1-.696-.688h0Z");
-}
-
-.ce1w7kb4e {
+const content = `<style>.ce1w7kb4e {
   cx: 21.931px;
   cy: 30.878px;
   r: 0.7px;
@@ -56,6 +48,14 @@ const content = `<style>.c09h4ub_c {
   fill: currentColor;
 }
 
+.oo1c-ybuw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M21.931 33.328v5.299m-4.131.001v-6.6a1.4 1.4 0 0 1 1.4-1.4a1.63 1.63 0 0 1 1.42.59m-3.999 2.11h2.8m4.655 2a2 2 0 0 1 2-2m-2 0v5.299m7.044-.999a2 2 0 0 1-1.74 1a2 2 0 0 1-2-2v-1.29a2 2 0 0 1 2-2a2 2 0 0 1 2 2v.65h-4m-9.983-20.784a6.604 6.604 0 0 1 13.207 0v3.116a.69.69 0 0 1-.68.688h-11.83a.69.69 0 0 1-.696-.688Z");
+}
+
 .s5cbacb7i {
   fill: none;
   stroke: currentColor;
@@ -63,7 +63,7 @@ const content = `<style>.c09h4ub_c {
   stroke-linejoin: round;
   d: path("M32.288 22.3c1.11-.45 3.09-1.05 3.69-.33s-.17 2.48-.92 3.8");
 }
-</style><circle class="cpk0fnbgt"/><path class="s5cbacb7i"/><path class="la0fvjztp"/><circle class="ce1w7kb4e"/><path class="c09h4ub_c"/><path class="d8mrafbjm"/><circle class="iu8ktwbun"/><circle class="lioofebld"/>`;
+</style><circle class="cpk0fnbgt"/><path class="s5cbacb7i"/><path class="la0fvjztp"/><circle class="ce1w7kb4e"/><path class="oo1c-ybuw"/><path class="d8mrafbjm"/><circle class="iu8ktwbun"/><circle class="lioofebld"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

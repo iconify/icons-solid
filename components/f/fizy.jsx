@@ -28,12 +28,12 @@ const content = `<style>.cpk0fnbgt {
   d: path("M34.141 24.964v2.893A2.15 2.15 0 0 1 31.998 30c-.643 0-1.178-.214-1.5-.643");
 }
 
-.jbeouunfl {
+.mh5txkbxm {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M20.638 21.321v5.786m-5.494 0v-7.179c0-.857.643-1.5 1.5-1.5h0c.75 0 1.179.215 1.5.643m-4.285 2.25h3");
+  d: path("M20.638 21.321v5.786m-5.494 0v-7.179c0-.857.643-1.5 1.5-1.5c.75 0 1.179.215 1.5.643m-4.285 2.25h3");
 }
 
 .zqud3ub3l {
@@ -42,7 +42,7 @@ const content = `<style>.cpk0fnbgt {
   r: 0.75px;
   fill: currentColor;
 }
-</style><circle class="cpk0fnbgt"/><path class="h6yd8gxxi"/><path class="e03lvbc2e"/><circle class="zqud3ub3l"/><path class="jbeouunfl"/>`;
+</style><circle class="cpk0fnbgt"/><path class="h6yd8gxxi"/><path class="e03lvbc2e"/><circle class="zqud3ub3l"/><path class="mh5txkbxm"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

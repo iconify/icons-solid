@@ -12,12 +12,12 @@ const content = `<style>.cpk0fnbgt {
   stroke-linejoin: round;
 }
 
-.gbl-tg9wm {
+.ijzt0mw8i {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M20.92 22.883c.266-1.438 1.648-2.603 3.086-2.603h0c1.438 0 2.387 1.165 2.12 2.603l-.797 4.296m-3.927-6.899l-1.28 6.899");
+  d: path("M20.92 22.883c.266-1.438 1.648-2.603 3.086-2.603s2.387 1.165 2.12 2.603l-.797 4.296m-3.927-6.899l-1.28 6.899");
 }
 
 .raz1dcc3w {
@@ -25,14 +25,6 @@ const content = `<style>.cpk0fnbgt {
   cy: 18.028px;
   r: 0.75px;
   fill: currentColor;
-}
-
-.sh3mzpbnc {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M26.126 22.883c.267-1.438 1.649-2.603 3.087-2.603h0c1.437 0 2.387 1.165 2.12 2.603l-.797 4.296m4.147-6.899l-1.28 6.899M17.64 24.575c-.266 1.438-1.64 2.604-3.066 2.604h-.907c-.945 0-1.568-.772-1.392-1.725s1.087-1.725 2.032-1.725h3.495");
 }
 
 .xp7m0k0ad {
@@ -52,7 +44,15 @@ const content = `<style>.cpk0fnbgt {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><circle class="cpk0fnbgt"/><path class="gbl-tg9wm"/><path class="sh3mzpbnc"/><path class="xp7m0k0ad"/><circle class="raz1dcc3w"/><circle class="xsqzccc6b"/>`;
+
+.zkh9261ls {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M26.126 22.883c.267-1.438 1.649-2.603 3.087-2.603c1.437 0 2.387 1.165 2.12 2.603l-.797 4.296m4.147-6.899l-1.28 6.899M17.64 24.575c-.266 1.438-1.64 2.604-3.066 2.604h-.907c-.945 0-1.568-.772-1.392-1.725s1.087-1.725 2.032-1.725h3.495");
+}
+</style><circle class="cpk0fnbgt"/><path class="ijzt0mw8i"/><path class="zkh9261ls"/><path class="xp7m0k0ad"/><circle class="raz1dcc3w"/><circle class="xsqzccc6b"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

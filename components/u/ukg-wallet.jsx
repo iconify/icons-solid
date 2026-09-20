@@ -2,7 +2,15 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.hws-dacnc {
+const content = `<style>.cdvfakbdt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M36.96 16.49v18.18a3.26 3.26 0 0 1-6.52 0V16.49m-12.89 0v18.18a3.26 3.26 0 0 1-6.52 0V16.49");
+}
+
+.hws-dacnc {
   width: 25.93px;
   height: 6.51px;
   x: 11.03px;
@@ -13,14 +21,6 @@ const content = `<style>.hws-dacnc {
   stroke-linejoin: round;
   rx: 2.99px;
   ry: 2.99px;
-}
-
-.ixf1mcbiq {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M36.96 16.49v18.18c0 1.8-1.46 3.26-3.26 3.26h0a3.26 3.26 0 0 1-3.26-3.26V16.49m-12.89 0v18.18c0 1.8-1.46 3.26-3.26 3.26h0a3.26 3.26 0 0 1-3.26-3.26V16.49");
 }
 
 .r7y3_fb3j {
@@ -45,7 +45,7 @@ const content = `<style>.hws-dacnc {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><rect class="hws-dacnc"/><path class="ixf1mcbiq"/><rect class="r7y3_fb3j"/><circle class="w7szwlvbt"/>`;
+</style><rect class="hws-dacnc"/><path class="cdvfakbdt"/><rect class="r7y3_fb3j"/><circle class="w7szwlvbt"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

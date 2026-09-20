@@ -2,7 +2,15 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.aroqe10_c {
+const content = `<style>.ahez2l0fo {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m8.198 22.696l1.818 1.819a2.573 2.573 0 0 1-3.637 3.637l-1.818-1.819zm-2.74 2.74L3.5 23.478m3.8.116l-1.958-1.958");
+}
+
+.aroqe10_c {
   cx: 19.342px;
   cy: 31.063px;
   r: 2.825px;
@@ -10,14 +18,6 @@ const content = `<style>.aroqe10_c {
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.eopdmxb1v {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m8.198 22.696l1.818 1.819a2.573 2.573 0 0 1 0 3.637h0a2.573 2.573 0 0 1-3.637 0l-1.818-1.819zm-2.74 2.74L3.5 23.478m3.8.116l-1.958-1.958");
 }
 
 .i5j2wphef {
@@ -37,7 +37,7 @@ const content = `<style>.aroqe10_c {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><circle class="aroqe10_c"/><circle class="ue0tod45w"/><path class="i5j2wphef"/><path class="eopdmxb1v"/>`;
+</style><circle class="aroqe10_c"/><circle class="ue0tod45w"/><path class="i5j2wphef"/><path class="ahez2l0fo"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

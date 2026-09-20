@@ -2,30 +2,30 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.cjr_sf4wu {
+const content = `<style>.fnh_fzb7o {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m24.864 43.142l14.25-14.25a1.22 1.22 0 0 0 0-1.728h0l-14.25-14.25a1.22 1.22 0 0 0-1.728 0h0l-14.25 14.25a1.22 1.22 0 0 0 0 1.728h0l14.25 14.25a1.22 1.22 0 0 0 1.728 0");
+  d: path("m24.864 39.114l14.25-14.25a1.22 1.22 0 0 0 0-1.728l-14.25-14.25a1.22 1.22 0 0 0-1.728 0l-14.25 14.25a1.22 1.22 0 0 0 0 1.728l14.25 14.25a1.22 1.22 0 0 0 1.728 0");
 }
 
-.drztn1bgm {
+.sw6lz3bwh {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m24.864 35.086l14.25-14.25a1.22 1.22 0 0 0 0-1.728h0l-14.25-14.25a1.22 1.22 0 0 0-1.728 0h0l-14.25 14.25a1.22 1.22 0 0 0 0 1.728h0l14.25 14.25a1.22 1.22 0 0 0 1.728 0");
+  d: path("m24.864 43.142l14.25-14.25a1.22 1.22 0 0 0 0-1.728l-14.25-14.25a1.22 1.22 0 0 0-1.728 0l-14.25 14.25a1.22 1.22 0 0 0 0 1.728l14.25 14.25a1.22 1.22 0 0 0 1.728 0");
 }
 
-.mjd6lfpmr {
+.zc7p01b2v {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m24.864 39.114l14.25-14.25a1.22 1.22 0 0 0 0-1.728h0l-14.25-14.25a1.22 1.22 0 0 0-1.728 0h0l-14.25 14.25a1.22 1.22 0 0 0 0 1.728h0l14.25 14.25a1.22 1.22 0 0 0 1.728 0");
+  d: path("m24.864 35.086l14.25-14.25a1.22 1.22 0 0 0 0-1.728l-14.25-14.25a1.22 1.22 0 0 0-1.728 0l-14.25 14.25a1.22 1.22 0 0 0 0 1.728l14.25 14.25a1.22 1.22 0 0 0 1.728 0");
 }
-</style><path class="mjd6lfpmr"/><path class="cjr_sf4wu"/><path class="drztn1bgm"/>`;
+</style><path class="fnh_fzb7o"/><path class="sw6lz3bwh"/><path class="zc7p01b2v"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

@@ -2,12 +2,12 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.g1y6hybax {
+const content = `<style>.qs33xqbmy {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M17.541 9.713a3.746 3.746 0 0 1 3.746 3.745h0a3.746 3.746 0 1 1-3.746-3.745M13.795 24h20.41m-20.41 6.319h20.41m-20.41 6.319h20.41");
+  d: path("M17.541 9.713a3.746 3.746 0 1 1 0 7.492a3.746 3.746 0 0 1 0-7.492M13.795 24h20.41m-20.41 6.319h20.41m-20.41 6.319h20.41");
 }
 
 .xx4_ifb6u {
@@ -22,7 +22,7 @@ const content = `<style>.g1y6hybax {
   rx: 4px;
   ry: 4px;
 }
-</style><path class="g1y6hybax"/><rect class="xx4_ifb6u"/>`;
+</style><path class="qs33xqbmy"/><rect class="xx4_ifb6u"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

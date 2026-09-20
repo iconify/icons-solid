@@ -2,7 +2,11 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.avb3z_b5d {
+const content = `<style>.ar9rddr-i {
+  d: path("M24 18.766h7.56v1.628a3.78 3.78 0 0 1-3.78 3.78a3.78 3.78 0 0 1-3.78-3.78z");
+}
+
+.avb3z_b5d {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
@@ -38,20 +42,16 @@ const content = `<style>.avb3z_b5d {
   stroke-linejoin: round;
 }
 
+.j13qz61-k {
+  d: path("M16.44 18.766H24v1.628a3.78 3.78 0 0 1-3.78 3.78a3.78 3.78 0 0 1-3.78-3.78z");
+}
+
 .kb3fg6dwe {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
   d: path("m24 10.84l-11.4 6.58v13.16L24 37.16l11.4-6.58V17.42z");
-}
-
-.l9wauobap {
-  d: path("M24 18.766h7.56v1.628a3.78 3.78 0 0 1-3.78 3.78h0a3.78 3.78 0 0 1-3.78-3.78z");
-}
-
-.n64-vomcg {
-  d: path("M16.44 18.766H24v1.628a3.78 3.78 0 0 1-3.78 3.78h0a3.78 3.78 0 0 1-3.78-3.78z");
 }
 
 .qzz2pwbuc {
@@ -100,7 +100,7 @@ const content = `<style>.avb3z_b5d {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><path class="kb3fg6dwe"/><circle class="ulff-ty2m"/><circle class="qzz2pwbuc"/><circle class="vrui_9ujd"/><circle class="boe79qjro"/><circle class="fvd-t06-t"/><circle class="sn7zuo60x"/><path class="avb3z_b5d"/><g class="y9tr6bcfx"><path class="n64-vomcg"/><path class="l9wauobap"/></g><path class="dw3zpybfl"/>`;
+</style><path class="kb3fg6dwe"/><circle class="ulff-ty2m"/><circle class="qzz2pwbuc"/><circle class="vrui_9ujd"/><circle class="boe79qjro"/><circle class="fvd-t06-t"/><circle class="sn7zuo60x"/><path class="avb3z_b5d"/><g class="y9tr6bcfx"><path class="j13qz61-k"/><path class="ar9rddr-i"/></g><path class="dw3zpybfl"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

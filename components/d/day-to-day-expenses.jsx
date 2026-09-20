@@ -2,15 +2,7 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.a6sah8blj {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M30.819 23.824a2.193 2.193 0 0 1-4.387 0v0c0-1.211.982-2.193 2.193-2.193h.001c1.211 0 2.193.982 2.193 2.193");
-}
-
-.is2vlfytl {
+const content = `<style>.is2vlfytl {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
@@ -33,7 +25,15 @@ const content = `<style>.a6sah8blj {
   stroke-linejoin: round;
   d: path("M35.85 30.562v2.75a2.78 2.78 0 0 1-2.773 2.787H14.41a2.78 2.78 0 0 1-2.786-2.774V14.592a2.78 2.78 0 0 1 2.774-2.786h18.665a2.78 2.78 0 0 1 2.785 2.774v2.504M1.45 16.563l5.395-3.952l.725 6.648");
 }
-</style><path class="m6vr5p7of"/><path class="a6sah8blj"/><path class="is2vlfytl"/><path class="sn3n0eket"/>`;
+
+.v2k0_xskf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M30.819 23.824a2.193 2.193 0 0 1-4.387 0c0-1.211.982-2.193 2.193-2.193h.001c1.211 0 2.193.982 2.193 2.193");
+}
+</style><path class="m6vr5p7of"/><path class="v2k0_xskf"/><path class="is2vlfytl"/><path class="sn3n0eket"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

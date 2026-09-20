@@ -20,14 +20,6 @@ const content = `<style>.fupfcpbpv {
   stroke-linejoin: round;
 }
 
-.i3untb0kt {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M32.197 25.9v2.7h3.3v-2.7h2.7v-3.3h-2.7v-2.7h-3.3v2.7h-2.7v3.3zm-23.8 5.9c-1.5-.8-2.4-2.3-2.4-3.9c0-2.4 2-4.4 4.4-4.4h0c2.4 0 4.4 2 4.4 4.4h0c0 1.6-.9 3.2-2.4 3.9");
-}
-
 .nyzjuko5t {
   fill: none;
   stroke: currentColor;
@@ -45,7 +37,15 @@ const content = `<style>.fupfcpbpv {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><circle class="xf_n6bbon"/><path class="fupfcpbpv"/><path class="i3untb0kt"/><circle class="g5jcv-tgq"/><path class="nyzjuko5t"/>`;
+
+.yjdzucc0y {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M32.197 25.9v2.7h3.3v-2.7h2.7v-3.3h-2.7v-2.7h-3.3v2.7h-2.7v3.3zm-23.8 5.9c-1.5-.8-2.4-2.3-2.4-3.9c0-2.4 2-4.4 4.4-4.4s4.4 2 4.4 4.4c0 1.6-.9 3.2-2.4 3.9");
+}
+</style><circle class="xf_n6bbon"/><path class="fupfcpbpv"/><path class="yjdzucc0y"/><circle class="g5jcv-tgq"/><path class="nyzjuko5t"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

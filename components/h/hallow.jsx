@@ -12,14 +12,14 @@ const content = `<style>.fdsqkbb7k {
   stroke-linejoin: round;
 }
 
-.m_nwlmbdp {
+.sivznz7oy {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M36.95 5.836c.079 1.043-5.655 2.327-12.807 2.867s-13.014.134-13.093-.91q0 0 0 0c-.079-1.043 5.655-2.327 12.807-2.867s13.014-.133 13.093.91q0 0 0 0");
+  d: path("M36.95 5.836c.079 1.043-5.655 2.327-12.807 2.867s-13.014.134-13.093-.91c-.079-1.043 5.655-2.327 12.807-2.867s13.014-.133 13.093.91");
 }
-</style><circle class="fdsqkbb7k"/><path class="m_nwlmbdp"/>`;
+</style><circle class="fdsqkbb7k"/><path class="sivznz7oy"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

@@ -24,12 +24,20 @@ const content = `<style>.i_yebpbox {
   fill: currentColor;
 }
 
-.os-qisfke {
+.q6l3nebmb {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M34.742 28.837v5.3m-9.915-3.3a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v1.3a2 2 0 0 1-2 2h0a2 2 0 0 1-2-2m0 2v-8");
+  d: path("M23.785 17.013v5.3m11.61-1.027a2 2 0 0 1-3.738-.99v-1.3a2 2 0 1 1 4 0v.65h-4m-1.925-.633a2 2 0 1 0-4 0v1.3a2 2 0 1 0 4 0m0 2v-8M16.839 26.137v8h4m9.969-3.3a2 2 0 0 1 2-2m-2 0v5.3");
+}
+
+.r268_vbla {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M34.742 28.837v5.3m-9.915-3.3a2 2 0 1 1 4 0v1.3a2 2 0 1 1-4 0m0 2v-8");
 }
 
 .vj-dqm-nt {
@@ -47,14 +55,6 @@ const content = `<style>.i_yebpbox {
   fill: currentColor;
 }
 
-.x7894mb_z {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M23.785 17.013v5.3m11.61-1.027a2 2 0 0 1-1.738 1.01h0a2 2 0 0 1-2-2v-1.3a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v.65h-4m-1.925-.633a2 2 0 0 0-2-2h0a2 2 0 0 0-2 2v1.3a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2m0 2v-8M16.839 26.137v8h4m9.969-3.3a2 2 0 0 1 2-2h0m-2 0v5.3");
-}
-
 .yen3lmb8j {
   fill: none;
   stroke: currentColor;
@@ -62,7 +62,7 @@ const content = `<style>.i_yebpbox {
   stroke-linejoin: round;
   d: path("M22.742 28.837v5.3");
 }
-</style><path class="l7by_bb1m"/><path class="vj-dqm-nt"/><circle class="i_yebpbox"/><path class="x7894mb_z"/><circle class="o_msmvslt"/><path class="yen3lmb8j"/><circle class="we5sl5bnl"/><path class="os-qisfke"/>`;
+</style><path class="l7by_bb1m"/><path class="vj-dqm-nt"/><circle class="i_yebpbox"/><path class="q6l3nebmb"/><circle class="o_msmvslt"/><path class="yen3lmb8j"/><circle class="we5sl5bnl"/><path class="r268_vbla"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

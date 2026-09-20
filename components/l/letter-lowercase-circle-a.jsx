@@ -12,14 +12,14 @@ const content = `<style>.cpk0fnbgt {
   stroke-linejoin: round;
 }
 
-.gzvdco7vr {
+.x75x8380s {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M28 25.3a4 4 0 0 1-4 4h0a4 4 0 0 1-4-4v-2.6a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4m0 6.6V18.7");
+  d: path("M28 25.3a4 4 0 0 1-8 0v-2.6a4 4 0 0 1 8 0m0 6.6V18.7");
 }
-</style><circle class="cpk0fnbgt"/><path class="gzvdco7vr"/>`;
+</style><circle class="cpk0fnbgt"/><path class="x75x8380s"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

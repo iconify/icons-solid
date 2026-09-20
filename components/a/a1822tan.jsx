@@ -12,20 +12,20 @@ const content = `<style>.cpk0fnbgt {
   stroke-linejoin: round;
 }
 
-.q4jp27afi {
+.llb8ksb-h {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M18.34 18.253a2.48 2.48 0 0 0-2.48 2.482h0a2.48 2.48 0 0 0 2.48 2.481h1.614a2.48 2.48 0 0 0 2.481-2.481h0a2.48 2.48 0 0 0-2.481-2.482");
+  d: path("M18.34 18.253a2.48 2.48 0 0 0-2.48 2.482a2.48 2.48 0 0 0 2.48 2.481h1.614a2.48 2.48 0 0 0 2.481-2.481a2.48 2.48 0 0 0-2.481-2.482");
 }
 
-.qw24efqny {
+.o192py0ei {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M19.954 18.253a2.48 2.48 0 0 0 2.481-2.481h0a2.48 2.48 0 0 0-2.481-2.482H18.34a2.48 2.48 0 0 0-2.482 2.482h0a2.48 2.48 0 0 0 2.482 2.481m.001 0h1.613");
+  d: path("M19.954 18.253a2.48 2.48 0 0 0 2.481-2.481a2.48 2.48 0 0 0-2.481-2.482H18.34a2.48 2.48 0 0 0-2.482 2.482a2.48 2.48 0 0 0 2.482 2.481m.001 0h1.613");
 }
 
 .uaaz6t0-w {
@@ -43,7 +43,7 @@ const content = `<style>.cpk0fnbgt {
   stroke-miterlimit: 7.467;
   d: path("M35.352 29.243v4.946m2.473-2.474h-4.946");
 }
-</style><path class="uaaz6t0-w"/><circle class="cpk0fnbgt"/><path class="ws_2hgcwx"/><path class="q4jp27afi"/><path class="qw24efqny"/>`;
+</style><path class="uaaz6t0-w"/><circle class="cpk0fnbgt"/><path class="ws_2hgcwx"/><path class="llb8ksb-h"/><path class="o192py0ei"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

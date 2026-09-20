@@ -2,12 +2,12 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.i16p0c1dh {
+const content = `<style>.g381j8rfr {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M27.755 26.764a2.35 2.35 0 0 0-2.474-2.35a2.44 2.44 0 0 0-2.222 2.483v2.18a2.35 2.35 0 0 0 2.348 2.353h0a2.35 2.35 0 0 0 2.348-2.353h-2.348M8.11 31.43v-7.02h2.298a2.358 2.358 0 0 1 0 4.715H8.11m2.298.001l2.298 2.303m2.884.001v-7.02h2.298a2.358 2.358 0 0 1 0 4.715h-2.299m2.299.001l2.298 2.303");
+  d: path("M27.755 26.764a2.35 2.35 0 0 0-2.474-2.35a2.44 2.44 0 0 0-2.222 2.483v2.18a2.35 2.35 0 0 0 2.348 2.353a2.35 2.35 0 0 0 2.348-2.353h-2.348M8.11 31.43v-7.02h2.298a2.358 2.358 0 0 1 0 4.715H8.11m2.298.001l2.298 2.303m2.884.001v-7.02h2.298a2.358 2.358 0 0 1 0 4.715h-2.299m2.299.001l2.298 2.303");
 }
 
 .qrtigw-ng {
@@ -35,7 +35,7 @@ const content = `<style>.i16p0c1dh {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><circle class="y_z2nob1n"/><path class="s-u_cgmle"/><path class="qrtigw-ng"/><path class="i16p0c1dh"/>`;
+</style><circle class="y_z2nob1n"/><path class="s-u_cgmle"/><path class="qrtigw-ng"/><path class="g381j8rfr"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

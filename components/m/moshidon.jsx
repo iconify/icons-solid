@@ -12,14 +12,18 @@ const content = `<style>.cpk0fnbgt {
   stroke-linejoin: round;
 }
 
+.kihi0bccx {
+  d: path("M17.917 26.765v-6.464a5.034 5.034 0 1 0-10.067 0v10.432");
+}
+
+.mi1auob3s {
+  d: path("M17.917 20.3a5.034 5.034 0 1 1 10.067 0v10.433");
+}
+
 .pzkm1rb7v {
   cx: 35.157px;
   cy: 25.74px;
   r: 4.993px;
-}
-
-.ufwizigbc {
-  d: path("M17.917 26.765v-6.464a5.034 5.034 0 0 0-5.034-5.034h0A5.034 5.034 0 0 0 7.849 20.3v10.432M17.917 20.3a5.034 5.034 0 0 1 5.033-5.033h0a5.034 5.034 0 0 1 5.034 5.034h0v10.432");
 }
 
 .y9tr6bcfx {
@@ -28,7 +32,7 @@ const content = `<style>.cpk0fnbgt {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><circle class="cpk0fnbgt"/><g class="y9tr6bcfx"><circle class="pzkm1rb7v"/><path class="ufwizigbc"/></g>`;
+</style><circle class="cpk0fnbgt"/><g class="y9tr6bcfx"><circle class="pzkm1rb7v"/><path class="kihi0bccx"/><path class="mi1auob3s"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

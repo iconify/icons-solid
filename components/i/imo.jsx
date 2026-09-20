@@ -2,7 +2,11 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.gtpbadbak {
+const content = `<style>.bym3uxb9b {
+  d: path("M22.736 22.797a2.909 2.909 0 1 1 5.818 0v4.8");
+}
+
+.gtpbadbak {
   cx: 13.56px;
   cy: 17.179px;
   r: 0.75px;
@@ -17,12 +21,8 @@ const content = `<style>.gtpbadbak {
   d: path("M13.56 19.888v7.709");
 }
 
-.qykds6r1n {
-  d: path("M22.736 22.797a2.91 2.91 0 0 1 2.909-2.91h0a2.91 2.91 0 0 1 2.909 2.91v4.8");
-}
-
-.u57bxxb3b {
-  d: path("M16.918 22.797a2.91 2.91 0 0 1 2.909-2.91h0a2.91 2.91 0 0 1 2.909 2.91v4.8m-5.818-7.709v7.709");
+.y_g1zob3m {
+  d: path("M16.918 22.797a2.909 2.909 0 1 1 5.818 0v4.8m-5.818-7.709v7.709");
 }
 
 .y9tr6bcfx {
@@ -52,7 +52,7 @@ const content = `<style>.gtpbadbak {
   rx: 2.909px;
   ry: 2.909px;
 }
-</style><path class="yprnc_z1f"/><rect class="yv2oy81lw"/><g class="y9tr6bcfx"><path class="u57bxxb3b"/><path class="qykds6r1n"/></g><circle class="gtpbadbak"/><path class="mgfa4bbuq"/>`;
+</style><path class="yprnc_z1f"/><rect class="yv2oy81lw"/><g class="y9tr6bcfx"><path class="y_g1zob3m"/><path class="bym3uxb9b"/></g><circle class="gtpbadbak"/><path class="mgfa4bbuq"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

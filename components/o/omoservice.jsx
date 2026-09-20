@@ -2,15 +2,7 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.in_vccc_h {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M35.008 38.142c.49.639 1.106.876 1.962.876h1.184a1.996 1.996 0 0 0 1.996-1.995v-.009a1.996 1.996 0 0 0-1.996-1.996h-1.307a2 2 0 0 1-1.997-1.997h0c0-1.106.896-2.003 2.002-2.003h1.178c.856 0 1.47.238 1.961.877");
-}
-
-.l8m8zfbyr {
+const content = `<style>.l8m8zfbyr {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
@@ -32,7 +24,15 @@ const content = `<style>.in_vccc_h {
   r: 0.923px;
   fill: currentColor;
 }
-</style><circle class="t-a91vb5u"/><path class="o49jr3b5l"/><path class="l8m8zfbyr"/><path class="in_vccc_h"/>`;
+
+.vnp6wfb8f {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M35.008 38.142c.49.639 1.106.876 1.962.876h1.184a1.996 1.996 0 0 0 1.996-1.995v-.009a1.996 1.996 0 0 0-1.996-1.996h-1.307a2 2 0 0 1-1.997-1.997c0-1.106.896-2.003 2.002-2.003h1.178c.856 0 1.47.238 1.961.877");
+}
+</style><circle class="t-a91vb5u"/><path class="o49jr3b5l"/><path class="l8m8zfbyr"/><path class="vnp6wfb8f"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

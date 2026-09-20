@@ -2,20 +2,12 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.id-6k0bxc {
+const content = `<style>.aksyo68gn {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M22.913 24a3.05 3.05 0 0 0-3.049 3.049h0a3.05 3.05 0 0 0 3.05 3.049h1.981a3.05 3.05 0 0 0 3.05-3.05h0A3.05 3.05 0 0 0 24.894 24");
-}
-
-.id72_3owk {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M24.895 24a3.05 3.05 0 0 0 3.05-3.049h0a3.05 3.05 0 0 0-3.05-3.049h-1.982a3.05 3.05 0 0 0-3.049 3.05h0A3.05 3.05 0 0 0 22.915 24m-.002 0h1.982M9.5 29.07c.842.704 1.659 1.028 3.7 1.028h.35a3.42 3.42 0 0 0 3.42-3.42h0a3.42 3.42 0 0 0-3.42-3.418H9.5v-5.358h7.47M31.03 29.07c.842.704 1.659 1.028 3.7 1.028h.351a3.42 3.42 0 0 0 3.419-3.42h0a3.42 3.42 0 0 0-3.419-3.418h-4.05v-5.358H38.5");
+  d: path("M22.913 24a3.049 3.049 0 1 0 0 6.098h1.982a3.049 3.049 0 1 0 0-6.098m0 0a3.049 3.049 0 1 0 0-6.098h-1.982a3.049 3.049 0 1 0 0 6.098m0 0h1.982M9.5 29.07c.842.704 1.659 1.028 3.7 1.028h.35a3.419 3.419 0 1 0 0-6.838H9.5v-5.358h7.47M31.03 29.07c.842.704 1.659 1.028 3.7 1.028h.351a3.419 3.419 0 1 0 0-6.838h-4.05v-5.358H38.5");
 }
 
 .j3s9ivbxi {
@@ -30,7 +22,7 @@ const content = `<style>.id-6k0bxc {
   rx: 4px;
   ry: 4px;
 }
-</style><rect class="j3s9ivbxi"/><path class="id-6k0bxc"/><path class="id72_3owk"/>`;
+</style><rect class="j3s9ivbxi"/><path class="aksyo68gn"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

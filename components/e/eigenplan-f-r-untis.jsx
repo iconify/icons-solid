@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.gtywr3byd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M36.311 21.494v11.19l-11.826 6.828l-13.03-7.523V21.205");
+}
+
+.m-7c2636w {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m5.5 17.997l18.696 10.074l18.21-9.886l-18.21-9.697zm36.906.188l.094 15.11");
+}
+</style><path class="m-7c2636w"/><path class="gtywr3byd"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:eigenplan-f-r-untis"} {...others} />);
+}
+
+export default Component;

@@ -2,12 +2,12 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.pto795dxr {
+const content = `<style>.nvw_fxues {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M28.25 24.708V45.08h0a21.6 21.6 0 0 1-4.25.42C12.126 45.5 2.5 35.874 2.5 24c0-7.291 3.63-13.735 9.18-17.623");
+  d: path("M28.25 24.708V45.08a21.6 21.6 0 0 1-4.25.42C12.126 45.5 2.5 35.874 2.5 24c0-7.291 3.63-13.735 9.18-17.623");
 }
 
 .v-zwobbwl {
@@ -24,7 +24,7 @@ const content = `<style>.pto795dxr {
   r: 0.75px;
   fill: currentColor;
 }
-</style><path class="v-zwobbwl"/><path class="pto795dxr"/><circle class="whh4kwbeq"/>`;
+</style><path class="v-zwobbwl"/><path class="nvw_fxues"/><circle class="whh4kwbeq"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

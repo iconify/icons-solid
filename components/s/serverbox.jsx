@@ -2,15 +2,7 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.a0i_k8sfs {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M12.662 4.5h22.674a3.453 3.453 0 0 1 3.452 3.453v3.274a3.453 3.453 0 0 1-3.452 3.452H12.662a3.453 3.453 0 0 1-3.453-3.452q0 0 0 0V7.953A3.453 3.453 0 0 1 12.662 4.5");
-}
-
-.btb1lkbit {
+const content = `<style>.btb1lkbit {
   cx: 14.386px;
   cy: 24.329px;
   r: 1.538px;
@@ -18,6 +10,22 @@ const content = `<style>.a0i_k8sfs {
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
+}
+
+.e8qa2k73v {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.662 19.24h22.674a3.453 3.453 0 0 1 3.452 3.453v3.274a3.453 3.453 0 0 1-3.452 3.452H12.662a3.453 3.453 0 0 1-3.453-3.452v-3.274a3.453 3.453 0 0 1 3.453-3.453");
+}
+
+.fq-3ms9pe {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12.662 4.5h22.674a3.453 3.453 0 0 1 3.452 3.453v3.274a3.453 3.453 0 0 1-3.452 3.452H12.662a3.453 3.453 0 0 1-3.453-3.452V7.953A3.453 3.453 0 0 1 12.662 4.5");
 }
 
 .mxogmygbt {
@@ -75,15 +83,7 @@ const content = `<style>.a0i_k8sfs {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-
-.tn5tgyaog {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M12.662 19.24h22.674a3.453 3.453 0 0 1 3.452 3.453v3.274a3.453 3.453 0 0 1-3.452 3.452H12.662a3.453 3.453 0 0 1-3.453-3.452q0 0 0 0v-3.274a3.453 3.453 0 0 1 3.453-3.453");
-}
-</style><path class="a0i_k8sfs"/><circle class="tkz3bkbvn"/><circle class="o37rxvb3r"/><path class="tn5tgyaog"/><circle class="btb1lkbit"/><circle class="qfo_199rn"/><path class="p2v5hcklt"/><circle class="ovm9-rd9o"/><path class="mxogmygbt"/>`;
+</style><path class="fq-3ms9pe"/><circle class="tkz3bkbvn"/><circle class="o37rxvb3r"/><path class="e8qa2k73v"/><circle class="btb1lkbit"/><circle class="qfo_199rn"/><path class="p2v5hcklt"/><circle class="ovm9-rd9o"/><path class="mxogmygbt"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

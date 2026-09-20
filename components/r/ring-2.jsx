@@ -2,7 +2,23 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.hlv9jkmva {
+const content = `<style>.fe97wd1lp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M12 21.574c0-.972.394-1.851 1.03-2.488s1.517-1.03 2.488-1.03M12 21.574v6.755");
+}
+
+.fo99r-b1j {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.525 18.055v10.274m9.253 0v-6.755a3.518 3.518 0 0 0-7.037 0v6.755");
+}
+
+.hlv9jkmva {
   cx: 17.525px;
   cy: 15.645px;
   r: 0.75px;
@@ -22,28 +38,12 @@ const content = `<style>.hlv9jkmva {
   ry: 4px;
 }
 
-.lmkag-afi {
+.s_q-kvbwl {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M36 21.574v7.986a3.52 3.52 0 0 1-3.518 3.519h0a3.5 3.5 0 0 1-2.488-1.03");
-}
-
-.m74kg2b3z {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M17.525 18.055v10.274m9.253 0v-6.755a3.52 3.52 0 0 0-3.518-3.519h0a3.52 3.52 0 0 0-3.518 3.519v6.755");
-}
-
-.pcam_-pqt {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M12 21.574c0-.972.394-1.851 1.03-2.488s1.517-1.03 2.488-1.03h0M12 21.574v6.755");
+  d: path("M36 21.574v7.986a3.52 3.52 0 0 1-3.518 3.519a3.5 3.5 0 0 1-2.488-1.03");
 }
 
 .xcc7c4b3d {
@@ -58,7 +58,7 @@ const content = `<style>.hlv9jkmva {
   rx: 3.518px;
   ry: 3.518px;
 }
-</style><rect class="j3s9ivbxi"/><path class="lmkag-afi"/><rect transform="matrix(-1 0 0 -1 64.963 46.384)" class="xcc7c4b3d"/><path class="pcam_-pqt"/><circle class="hlv9jkmva"/><path class="m74kg2b3z"/>`;
+</style><rect class="j3s9ivbxi"/><path class="s_q-kvbwl"/><rect transform="matrix(-1 0 0 -1 64.963 46.384)" class="xcc7c4b3d"/><path class="fe97wd1lp"/><circle class="hlv9jkmva"/><path class="fo99r-b1j"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

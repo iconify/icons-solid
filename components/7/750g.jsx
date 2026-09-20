@@ -15,6 +15,14 @@ const content = `<style>.fkb-81bzb {
   ry: 3.825px;
 }
 
+.i9zzc8cpt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.463 28.8c.797.668 1.571.974 3.504.974h.332a3.238 3.238 0 1 0 0-6.475h-3.836v-5.073h7.074");
+}
+
 .j3s9ivbxi {
   width: 37px;
   height: 37px;
@@ -28,14 +36,6 @@ const content = `<style>.fkb-81bzb {
   ry: 4px;
 }
 
-.j9fobbuut {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M20.463 28.8c.797.668 1.571.974 3.504.974h.332a3.24 3.24 0 0 0 3.238-3.237h0a3.24 3.24 0 0 0-3.238-3.238h-3.836v-5.073h7.074");
-}
-
 .n6m2vbcyn {
   fill: none;
   stroke: currentColor;
@@ -43,7 +43,7 @@ const content = `<style>.fkb-81bzb {
   stroke-linejoin: round;
   d: path("m11.437 29.774l6.214-11.548H10");
 }
-</style><rect class="j3s9ivbxi"/><path class="n6m2vbcyn"/><rect class="fkb-81bzb"/><path class="j9fobbuut"/>`;
+</style><rect class="j3s9ivbxi"/><path class="n6m2vbcyn"/><rect class="fkb-81bzb"/><path class="i9zzc8cpt"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

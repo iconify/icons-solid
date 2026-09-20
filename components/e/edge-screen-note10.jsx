@@ -21,8 +21,8 @@ const content = `<style>.cpk0fnbgt {
   ry: 4.002px;
 }
 
-.ramkzm7cd {
-  d: path("M20.98 30.041v-8.08a4 4 0 0 1 4.002-4.002h0a4 4 0 0 1 4.002 4.002v8.08M32.459 24h3.939m2.102 6.041h-2.039a4 4 0 0 1-4.002-4.002V21.96a4 4 0 0 1 4.002-4.002H38.5");
+.puq107bom {
+  d: path("M20.98 30.041v-8.08a4.002 4.002 0 0 1 8.005 0v8.08M32.459 24h3.939m2.102 6.041h-2.039a4 4 0 0 1-4.002-4.002V21.96a4 4 0 0 1 4.002-4.002H38.5");
 }
 
 .y9tr6bcfx {
@@ -31,7 +31,7 @@ const content = `<style>.cpk0fnbgt {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><circle class="cpk0fnbgt"/><g class="y9tr6bcfx"><path class="ramkzm7cd"/><rect class="oeeumh0go"/></g>`;
+</style><circle class="cpk0fnbgt"/><g class="y9tr6bcfx"><path class="puq107bom"/><rect class="oeeumh0go"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

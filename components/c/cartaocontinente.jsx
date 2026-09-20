@@ -2,7 +2,15 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.hmizyiyip {
+const content = `<style>.f7147tb6g {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M27.202 26.816a3.428 3.428 0 0 1-6.405-1.701v-2.23a3.43 3.43 0 0 1 3.429-3.427c1.271 0 2.381.692 2.973 1.72");
+}
+
+.hmizyiyip {
   cx: 24px;
   cy: 24px;
   r: 8.622px;
@@ -25,21 +33,13 @@ const content = `<style>.hmizyiyip {
   ry: 4px;
 }
 
-.sl4_z-bki {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M27.202 26.816a3.43 3.43 0 0 1-2.976 1.726h0a3.43 3.43 0 0 1-3.428-3.428v-2.228a3.43 3.43 0 0 1 3.428-3.428h0c1.271 0 2.381.692 2.973 1.72");
-}
-
 .zj59rjbnw {
   cx: 27.44px;
   cy: 24px;
   r: 0.75px;
   fill: currentColor;
 }
-</style><rect class="jc1oydeao"/><path class="sl4_z-bki"/><circle class="hmizyiyip"/><circle class="zj59rjbnw"/>`;
+</style><rect class="jc1oydeao"/><path class="f7147tb6g"/><circle class="hmizyiyip"/><circle class="zj59rjbnw"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

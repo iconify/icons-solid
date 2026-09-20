@@ -2,12 +2,12 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.pl6jdpbyr {
+const content = `<style>.p43owlbfd {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M32.155 22.464a3.39 3.39 0 0 0-3.381-3.38h0a3.39 3.39 0 0 0-3.38 3.38v2.197a3.39 3.39 0 0 0 3.38 3.381h0a3.39 3.39 0 0 0 3.38-3.38m.001 3.38V14.52M12.794 24.855a3.39 3.39 0 0 0 3.38 3.381h0a3.39 3.39 0 0 0 3.38-3.38v-2.198a3.39 3.39 0 0 0-3.38-3.38h0a3.39 3.39 0 0 0-3.38 3.38m0-3.381V32.8");
+  d: path("M32.155 22.464a3.39 3.39 0 0 0-3.381-3.38a3.39 3.39 0 0 0-3.38 3.38v2.197a3.39 3.39 0 0 0 3.38 3.381a3.39 3.39 0 0 0 3.38-3.38m.001 3.38V14.52M12.794 24.855a3.39 3.39 0 0 0 3.38 3.381a3.39 3.39 0 0 0 3.38-3.38v-2.198a3.39 3.39 0 0 0-3.38-3.38a3.39 3.39 0 0 0-3.38 3.38m0-3.381V32.8");
 }
 
 .su6lu1btr {
@@ -25,7 +25,7 @@ const content = `<style>.pl6jdpbyr {
   stroke-linejoin: round;
   d: path("M28.425 4.945C9.35 1.724 4.695 16.64 5.473 28.622C9.128 7.041 29.003 6.33 36.888 13.41c9.086 8.156 10.086 32.131-17.7 29.952");
 }
-</style><path class="x-o4j9b7q"/><path class="su6lu1btr"/><path class="pl6jdpbyr"/>`;
+</style><path class="x-o4j9b7q"/><path class="su6lu1btr"/><path class="p43owlbfd"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

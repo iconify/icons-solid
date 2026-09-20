@@ -72,14 +72,14 @@ const content = `<style>.bx8tmhbti {
   stroke-linejoin: round;
 }
 
-.t-q6uqbdw {
+.s-4qombze {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M21.916 26.86c.582.484.97.58 2.133.58h.581c.872 0 1.648-.774 1.648-1.647h0c0-.872-.775-1.648-1.648-1.648h-1.26c-.872 0-1.648-.775-1.648-1.647h0c0-.873.776-1.648 1.648-1.648h.582c1.26 0 1.648.097 2.132.581");
+  d: path("M21.916 26.86c.582.484.97.58 2.133.58h.581c.872 0 1.648-.774 1.648-1.647c0-.872-.775-1.648-1.648-1.648h-1.26c-.872 0-1.648-.775-1.648-1.647c0-.873.776-1.648 1.648-1.648h.582c1.26 0 1.648.097 2.132.581");
 }
-</style><circle class="hzwd9ccnz"/><circle class="ewwkavb8u"/><circle class="iuf-g2bzj"/><circle class="bx8tmhbti"/><circle class="rkpi26b-t"/><circle class="d2ic5ybid"/><circle class="fb6wc-bcd"/><path class="t-q6uqbdw"/>`;
+</style><circle class="hzwd9ccnz"/><circle class="ewwkavb8u"/><circle class="iuf-g2bzj"/><circle class="bx8tmhbti"/><circle class="rkpi26b-t"/><circle class="d2ic5ybid"/><circle class="fb6wc-bcd"/><path class="s-4qombze"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

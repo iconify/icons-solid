@@ -2,15 +2,7 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.g2wnhpbsn {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M30.097 22.696V10.613m8.403 4.268v4.856a2.96 2.96 0 0 1-5.92 0h0l.03-4.856");
-}
-
-.i9clfwm2k {
+const content = `<style>.i9clfwm2k {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
@@ -71,6 +63,14 @@ const content = `<style>.g2wnhpbsn {
   fill: currentColor;
 }
 
+.q8o2-9byk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M30.097 22.696V10.613m8.403 4.268v4.856a2.96 2.96 0 0 1-5.92 0l.03-4.856");
+}
+
 .wtn3ftb5d {
   fill: none;
   stroke: currentColor;
@@ -78,7 +78,7 @@ const content = `<style>.g2wnhpbsn {
   stroke-linejoin: round;
   d: path("M19.799 22.696V10.613");
 }
-</style><path class="i9clfwm2k"/><circle class="ldjzromgv"/><path class="wtn3ftb5d"/><circle class="m_pkn1baj"/><path class="g2wnhpbsn"/><circle class="kkh7ymbay"/><path class="k0ueyimco"/><circle class="o1z8cbpeq"/><path class="l1of_5owk"/>`;
+</style><path class="i9clfwm2k"/><circle class="ldjzromgv"/><path class="wtn3ftb5d"/><circle class="m_pkn1baj"/><path class="q8o2-9byk"/><circle class="kkh7ymbay"/><path class="k0ueyimco"/><circle class="o1z8cbpeq"/><path class="l1of_5owk"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

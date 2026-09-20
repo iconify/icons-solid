@@ -2,12 +2,12 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.drkuebb8u {
-  d: path("M24 14.6v6.974h-.176h0c-1.43 0-2.58 1.082-2.58 2.425s1.15 2.425 2.58 2.425l.176.001V33.4");
+const content = `<style>.o3xs745zd {
+  d: path("M13.79 14.6h20.42a9.274 9.274 0 0 1 9.29 9.3v.2a9.274 9.274 0 0 1-9.29 9.3H13.79a9.274 9.274 0 0 1-9.29-9.3v-.2a9.274 9.274 0 0 1 9.29-9.299");
 }
 
-.o3xs745zd {
-  d: path("M13.79 14.6h20.42a9.274 9.274 0 0 1 9.29 9.3v.2a9.274 9.274 0 0 1-9.29 9.3H13.79a9.274 9.274 0 0 1-9.29-9.3v-.2a9.274 9.274 0 0 1 9.29-9.299");
+.so86gtdgh {
+  d: path("M24 14.6v6.974h-.176c-1.43 0-2.58 1.082-2.58 2.425s1.15 2.425 2.58 2.425l.176.001V33.4");
 }
 
 .tdw_o5e8x {
@@ -24,7 +24,7 @@ const content = `<style>.drkuebb8u {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><g class="y9tr6bcfx"><path class="o3xs745zd"/><path class="drkuebb8u"/></g><path class="tdw_o5e8x"/>`;
+</style><g class="y9tr6bcfx"><path class="o3xs745zd"/><path class="so86gtdgh"/></g><path class="tdw_o5e8x"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

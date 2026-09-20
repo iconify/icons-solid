@@ -2,7 +2,11 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.mpzrdbbno {
+const content = `<style>.bahuyefbs {
+  d: path("M24.032 27.638zc7.67 0 13.887 6.218 13.887 13.887c0 1.09-.884 1.975-1.975 1.975H12.056a1.975 1.975 0 0 1-1.975-1.975c0-7.67 6.217-13.887 13.887-13.887zm-11.976-2.07l3.949 4.634m20.035-4.634l-3.934 4.634");
+}
+
+.mpzrdbbno {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
@@ -14,17 +18,13 @@ const content = `<style>.mpzrdbbno {
   d: path("M18.394 39.63a1.959 1.959 0 1 1 1.943-1.88a1.943 1.943 0 0 1-1.943 1.88m11.339 0a1.959 1.959 0 1 1 1.943-1.88a1.943 1.943 0 0 1-1.943 1.88");
 }
 
-.t64ok1xbt {
-  d: path("M24.032 27.638c7.67 0 13.887 6.218 13.887 13.887h0c0 1.09-.884 1.975-1.975 1.975H12.056a1.975 1.975 0 0 1-1.975-1.975h0c0-7.67 6.217-13.887 13.887-13.887zm-11.976-2.07l3.949 4.634m20.035-4.634l-3.934 4.634");
-}
-
 .y9tr6bcfx {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><g class="y9tr6bcfx"><path class="q2h3x-cqp"/><path class="t64ok1xbt"/></g><path class="mpzrdbbno"/>`;
+</style><g class="y9tr6bcfx"><path class="q2h3x-cqp"/><path class="bahuyefbs"/></g><path class="mpzrdbbno"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

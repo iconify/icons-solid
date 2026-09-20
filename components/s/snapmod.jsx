@@ -2,7 +2,15 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.ytezkibsj {
+const content = `<style>.y_jo5kxvu {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M17.644 14.009z");
+}
+
+.ytezkibsj {
   width: 21.7px;
   height: 39px;
   x: 13.15px;
@@ -13,7 +21,7 @@ const content = `<style>.ytezkibsj {
   stroke-linejoin: round;
   rx: 2.022px;
 }
-</style><rect class="ytezkibsj"/>`;
+</style><rect class="ytezkibsj"/><path class="y_jo5kxvu"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

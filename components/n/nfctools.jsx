@@ -2,7 +2,15 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.mb2brrx6f {
+const content = `<style>.krrk8-b7v {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M36.07 9.29za18.28 18.28 0 0 1 0 29.42m-4-24.16a11.84 11.84 0 0 1 5 9.45a11.84 11.84 0 0 1-5 9.45m-3.68-14a5.67 5.67 0 0 1 0 9.1");
+}
+
+.mb2brrx6f {
   width: 17.53px;
   height: 30.79px;
   x: 4.5px;
@@ -14,14 +22,6 @@ const content = `<style>.mb2brrx6f {
   rx: 1.58px;
 }
 
-.v5u49c_1e {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M36.07 9.29a18.28 18.28 0 0 1 0 29.42m-4-24.16a11.84 11.84 0 0 1 5 9.45a11.84 11.84 0 0 1-5 9.45m-3.68-14a5.67 5.67 0 0 1 0 9.1");
-}
-
 .wi_6vvruu {
   fill: none;
   stroke: currentColor;
@@ -29,7 +29,7 @@ const content = `<style>.mb2brrx6f {
   stroke-linejoin: round;
   d: path("M4.5 12.55h17.53M4.5 35.45h17.53");
 }
-</style><path class="v5u49c_1e"/><rect class="mb2brrx6f"/><path class="wi_6vvruu"/>`;
+</style><path class="krrk8-b7v"/><rect class="mb2brrx6f"/><path class="wi_6vvruu"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

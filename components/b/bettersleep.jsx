@@ -2,12 +2,12 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.g-zts3bkw {
+const content = `<style>.g_t6m5pje {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M12.542 32.822a13.54 13.54 0 0 1-2.155-7.329a13.54 13.54 0 0 1 13.54-13.539a13.54 13.54 0 0 1 13.54 13.54v0a13.5 13.5 0 0 1-.616 4.034");
+  d: path("M12.542 32.822a13.54 13.54 0 0 1-2.155-7.329a13.54 13.54 0 0 1 13.54-13.539a13.54 13.54 0 0 1 13.54 13.54a13.5 13.5 0 0 1-.616 4.034");
 }
 
 .g2wj9jbhp {
@@ -33,7 +33,7 @@ const content = `<style>.g-zts3bkw {
   stroke-linejoin: round;
   d: path("M27.025 29.849c-1.29-1.027-2.082-4.488-1.09-3.796c.711.495 1.232 1.111 1.676 1.775c.259-2.698 1.64-4.906 1.671-3.487l.077 3.575c1.848-3.416 5.047-3.093 4.466-2.407l-2.94 3.468c-.129.152-.243.425-.167.593");
 }
-</style><path class="g2wj9jbhp"/><path class="g-zts3bkw"/><path class="uou3x0bcp"/><path class="zme851i-x"/>`;
+</style><path class="g2wj9jbhp"/><path class="g_t6m5pje"/><path class="uou3x0bcp"/><path class="zme851i-x"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

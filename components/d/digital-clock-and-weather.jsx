@@ -2,15 +2,7 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.gslxkjqmw {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M25.347 27.325c.552.463 1.148.675 2.487.675h.312a2 2 0 0 0 2-2h0a2 2 0 0 0-2-1.999m-2.8-3.333c.553-.461 1.15-.672 2.49-.668l.31.002a2 2 0 0 1 2 2h0a2 2 0 0 1-2 1.999m-1.537 0h1.537");
-}
-
-.i9clfwm2k {
+const content = `<style>.i9clfwm2k {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
@@ -33,13 +25,29 @@ const content = `<style>.gslxkjqmw {
   fill: currentColor;
 }
 
+.tot0qib-j {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.347 27.325c.552.463 1.148.675 2.487.675h.312a2 2 0 1 0 0-3.999");
+}
+
+.vmr8z-0od {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M25.346 20.668c.553-.461 1.15-.672 2.49-.668l.31.002a2 2 0 1 1 0 3.999m-1.537 0h1.537");
+}
+
 .ylw0d86az {
   cx: 22.871px;
   cy: 21.35px;
   r: 0.75px;
   fill: currentColor;
 }
-</style><path class="i9clfwm2k"/><path class="lpu8_8bjy"/><circle class="rwwqqfblf"/><circle class="ylw0d86az"/><path class="gslxkjqmw"/>`;
+</style><path class="i9clfwm2k"/><path class="lpu8_8bjy"/><circle class="rwwqqfblf"/><circle class="ylw0d86az"/><path class="tot0qib-j"/><path class="vmr8z-0od"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

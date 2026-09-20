@@ -22,12 +22,12 @@ const content = `<style>.h_u7t_hpf {
   stroke-linejoin: round;
 }
 
-.lfclhcccl {
+.nqgnfjube {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M17.5 18.5h13c6.627 0 12 5.373 12 12h0c0 6.627-5.373 12-12 12h-13c-6.627 0-12-5.373-12-12h0c0-6.627 5.373-12 12-12");
+  d: path("M17.5 18.5h13c6.627 0 12 5.373 12 12s-5.373 12-12 12h-13c-6.627 0-12-5.373-12-12s5.373-12 12-12");
 }
 
 .qtrb3ibvp {
@@ -57,7 +57,7 @@ const content = `<style>.h_u7t_hpf {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><path class="lfclhcccl"/><circle class="sq363xb3s"/><circle class="h_u7t_hpf"/><circle class="v253bqifj"/><circle class="iwj34baar"/><path class="qtrb3ibvp"/>`;
+</style><path class="nqgnfjube"/><circle class="sq363xb3s"/><circle class="h_u7t_hpf"/><circle class="v253bqifj"/><circle class="iwj34baar"/><path class="qtrb3ibvp"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

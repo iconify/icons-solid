@@ -12,6 +12,14 @@ const content = `<style>.ceu-4923b {
   stroke-linejoin: round;
 }
 
+.eom_l4g3d {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M10.5 19za5 5 0 0 1 5 5v13.5a5 5 0 0 1-10 0V24a5 5 0 0 1 5-5m27-13.5za5 5 0 0 1 5 5V24a5 5 0 0 1-10 0V10.5a5 5 0 0 1 5-5");
+}
+
 .ll1-3kw5m {
   cx: 37.5px;
   cy: 37.5px;
@@ -20,14 +28,6 @@ const content = `<style>.ceu-4923b {
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-}
-
-.re5mqs64g {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M10.5 19a5 5 0 0 1 5 5v13.5a5 5 0 0 1-5 5h0a5 5 0 0 1-5-5V24a5 5 0 0 1 5-5m27-13.5a5 5 0 0 1 5 5V24a5 5 0 0 1-5 5h0a5 5 0 0 1-5-5V10.5a5 5 0 0 1 5-5");
 }
 
 .smh8hwt4g {
@@ -59,7 +59,7 @@ const content = `<style>.ceu-4923b {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><circle class="ceu-4923b"/><circle class="xyhhj5b6q"/><circle class="smh8hwt4g"/><circle class="tbqc6tb1l"/><circle class="ll1-3kw5m"/><path class="re5mqs64g"/>`;
+</style><circle class="ceu-4923b"/><circle class="xyhhj5b6q"/><circle class="smh8hwt4g"/><circle class="tbqc6tb1l"/><circle class="ll1-3kw5m"/><path class="eom_l4g3d"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

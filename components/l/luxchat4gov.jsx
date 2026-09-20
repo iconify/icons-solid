@@ -31,6 +31,14 @@ const content = `<style>.ar9icn-6t {
   ry: 4px;
 }
 
+.j4qwfiwxb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M20.036 23.1a1.768 1.768 0 1 0-3.536 0v1.8a1.768 1.768 0 1 0 3.536 0h-1.768");
+}
+
 .u-6k40fzf {
   width: 3.536px;
   height: 5.337px;
@@ -43,15 +51,7 @@ const content = `<style>.ar9icn-6t {
   rx: 1.768px;
   ry: 1.768px;
 }
-
-.z_742oatv {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("M20.036 23.1c0-.977-.792-1.768-1.768-1.768h0c-.977 0-1.768.791-1.768 1.767v1.802c0 .976.791 1.767 1.768 1.767h0c.976 0 1.768-.791 1.768-1.767h-1.768");
-}
-</style><rect class="j3s9ivbxi"/><path class="hamlhzrfg"/><path class="ar9icn-6t"/><rect class="u-6k40fzf"/><path class="z_742oatv"/>`;
+</style><rect class="j3s9ivbxi"/><path class="hamlhzrfg"/><path class="ar9icn-6t"/><rect class="u-6k40fzf"/><path class="j4qwfiwxb"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

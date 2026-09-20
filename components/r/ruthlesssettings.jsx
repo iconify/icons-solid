@@ -21,14 +21,14 @@ const content = `<style>.hzf_3_rgu {
   ry: 12.07px;
 }
 
-.qynm4ibmz {
+.x5ts-4bsb {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("m41.12 38.36l-2.37-3.6h0a18.53 18.53 0 1 0-33.26-11.2v-.11v16.63");
+  d: path("m41.12 38.36l-2.37-3.6a18.53 18.53 0 1 0-33.26-11.2v-.11v16.63");
 }
-</style><path class="hzf_3_rgu"/><ellipse class="qksh4hbpd"/><path class="qynm4ibmz"/>`;
+</style><path class="hzf_3_rgu"/><ellipse class="qksh4hbpd"/><path class="x5ts-4bsb"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

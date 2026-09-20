@@ -18,14 +18,6 @@ const content = `<style>.cymxiyole {
   fill: currentColor;
 }
 
-.r568g6b5e {
-  fill: none;
-  stroke: currentColor;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  d: path("m20.4 15.7l-2.7 8l-2.6-8m9.6 4.8a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v3.2m-4-5.2v5.2m4-3.2a2 2 0 0 1 2-2h0a2 2 0 0 1 2 2v3.2");
-}
-
 .ro3rxgb0v {
   fill: none;
   stroke: currentColor;
@@ -49,12 +41,20 @@ const content = `<style>.cymxiyole {
   d: path("M22.5 18.4v5.3");
 }
 
+.yth42ccxw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m20.4 15.7l-2.7 8l-2.6-8m9.6 4.8a2 2 0 0 1 2-2a2 2 0 0 1 2 2v3.2m-4-5.2v5.2m4-3.2a2 2 0 0 1 2-2a2 2 0 0 1 2 2v3.2");
+}
+
 .ywfni3b7n {
   fill: none;
   stroke: currentColor;
   d: path("M12.5 35.4h22.7");
 }
-</style><path class="ro3rxgb0v"/><path class="vyet1y67i"/><path class="ywfni3b7n"/><path class="cymxiyole"/><path class="r568g6b5e"/><circle class="qtlohj0es"/><path class="w3ynj1b7h"/>`;
+</style><path class="ro3rxgb0v"/><path class="vyet1y67i"/><path class="ywfni3b7n"/><path class="cymxiyole"/><path class="yth42ccxw"/><circle class="qtlohj0es"/><path class="w3ynj1b7h"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

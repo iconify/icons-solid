@@ -2,12 +2,12 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":48,"height":48};
-const content = `<style>.mq31jvb5o {
+const content = `<style>.pni6t7mzz {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
-  d: path("M24 2.5c11.872 0 21.497 9.624 21.497 21.497c0 3.554-.863 6.907-2.39 9.86h0C40.885 25.382 33.172 19.129 24 19.129M24 45.5c-11.872 0-21.497-9.624-21.497-21.497c0-3.554.863-6.907 2.39-9.86h0C7.115 22.618 14.828 28.871 24 28.871");
+  d: path("M24 2.5c11.872 0 21.497 9.624 21.497 21.497c0 3.554-.863 6.907-2.39 9.86C40.885 25.382 33.172 19.129 24 19.129M24 45.5c-11.872 0-21.497-9.624-21.497-21.497c0-3.554.863-6.907 2.39-9.86C7.115 22.618 14.828 28.871 24 28.871");
 }
 
 .qz-j4nozx {
@@ -29,7 +29,7 @@ const content = `<style>.mq31jvb5o {
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-</style><circle class="v1zu3mb9h"/><circle class="qz-j4nozx"/><path class="mq31jvb5o"/>`;
+</style><circle class="v1zu3mb9h"/><circle class="qz-j4nozx"/><path class="pni6t7mzz"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

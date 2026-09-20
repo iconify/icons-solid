@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.ayqsjlbst {
+  fill: currentColor;
+  d: path("M16.116 10q.213 0 .356-.143q.144-.143.144-.357t-.144-.357T16.115 9H12.5q-.213 0-.357.143T12 9.5t.143.357t.357.143zm0 5q.213 0 .356-.143q.144-.143.144-.357t-.144-.357t-.357-.143H12.5q-.213 0-.357.143T12 14.5t.143.357t.357.143zm-6.242-4.626q.357-.357.357-.874t-.357-.874T9 8.269t-.874.357t-.357.874t.357.874t.874.357t.874-.357m0 5q.357-.357.357-.874t-.357-.874T9 13.269t-.874.357t-.357.874t.357.874t.874.357t.874-.357M5.616 20q-.691 0-1.153-.462T4 18.384V5.616q0-.691.463-1.153T5.616 4h12.769q.69 0 1.153.463T20 5.616v12.769q0 .69-.462 1.153T18.384 20z");
+}
+</style><path class="ayqsjlbst"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols-light:ballot-rounded"} {...others} />);
+}
+
+export default Component;

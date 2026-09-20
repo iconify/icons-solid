@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.pqrkf1b8e {
+  fill: currentColor;
+  d: path("M12 20q-1.671 0-2.835-1.164Q8 17.67 8 16q0-1.084.544-1.987T10 12.539V6q0-.846.577-1.423T12 4t1.423.577T14 6v6.539q.912.57 1.446 1.474q.535.903.554 1.987q-.02 1.671-1.184 2.836T12 20m0-1q1.25 0 2.125-.875T15 16q0-.725-.312-1.35T13.8 13.6L13 13V6q0-.425-.288-.712T12 5t-.712.288T11 6v7l-.8.6q-.575.425-.888 1.05T9 16q0 1.25.875 2.125T12 19m0-3");
+}
+</style><path class="pqrkf1b8e"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols-light:thermometer-outline-rounded"} {...others} />);
+}
+
+export default Component;

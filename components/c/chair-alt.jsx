@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.pg8cntbfo {
+  fill: currentColor;
+  d: path("M6.385 19.808v-5.962q0-.69.462-1.153T8 12.231h.885v-2.077H8q-.69 0-1.153-.463T6.384 8.54V6.192q0-.69.463-1.152T8 4.577h8q.69 0 1.153.463t.463 1.152V8.54q0 .69-.463 1.152T16 10.154h-.885v2.077H16q.69 0 1.153.462t.463 1.153v5.962h-1v-3H7.384v3zm3.5-7.577h4.23v-2.077h-4.23z");
+}
+</style><path class="pg8cntbfo"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols-light:chair-alt"} {...others} />);
+}
+
+export default Component;

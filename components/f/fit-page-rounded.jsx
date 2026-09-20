@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.yrj_qtbah {
+  fill: currentColor;
+  d: path("M4 19.385V4.615q0-.251.182-.433T4.615 4t.434.182t.182.434v14.769q0 .252-.182.433T4.615 20t-.433-.182T4 19.385m14.77 0V4.615q0-.251.181-.433T19.385 4t.433.182t.182.434v14.769q0 .252-.182.433t-.433.182t-.434-.182t-.182-.434M11.566 8.741q-.182-.182-.182-.433q0-.252.182-.434T12 7.692t.434.182t.182.434t-.182.433t-.434.182t-.434-.182m-3.692 3.693q-.182-.182-.182-.434t.182-.434t.434-.182t.433.182t.182.434t-.182.434t-.433.182t-.434-.182m3.692 0q-.182-.182-.182-.434t.182-.434t.434-.182t.434.182t.182.434t-.182.434t-.434.182t-.434-.182m3.693 0q-.182-.182-.182-.434t.182-.434t.433-.182t.434.182t.182.434t-.182.434t-.434.182t-.433-.182m-3.693 3.692q-.182-.182-.182-.434q0-.251.182-.433t.434-.182t.434.182t.182.433t-.182.434t-.434.182t-.434-.182m0-11.077q-.182-.182-.182-.434t.182-.433T12 4t.434.182t.182.433t-.182.434t-.434.182t-.434-.182m0 14.77q-.182-.183-.182-.435q0-.251.182-.433t.434-.182t.434.182t.182.434q0 .251-.182.433T12 20t-.434-.182");
+}
+</style><path class="yrj_qtbah"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols-light:fit-page-rounded"} {...others} />);
+}
+
+export default Component;

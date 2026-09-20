@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.ejhqsckhn {
+  fill: currentColor;
+  d: path("m20.902 10.289l-5.683 5.682l-.675-.727l5.645-5.663q.338-.339.517-.757t.179-.88q0-.452-.174-.875t-.522-.761L17.002 3.14h-5.536l2.936 1.705l-5.79 5.783l-.733-.675l4.883-4.883l-2.666-1.483V2.135h7.34L20.903 5.6q.479.477.718 1.09q.24.611.24 1.254q.006.64-.24 1.254t-.718 1.09m-6.96-1.02l-4.675 4.707l-.713-.721l4.694-4.694zm2.01 1.99l-4.046 4.046l-.708-.713l4.04-4.047zm-3.28 6.958l.974.14l-.552 3.752l-11.202-1.675l2.624-17.66l2.598.358l-.147.975l-1.603-.212l-2.325 15.71l9.207 1.358zm4.397 3.765l-.627-.627l3.022-3.046h-2.656v-.885h4.173v4.173h-.885v-2.655z");
+}
+</style><path class="ejhqsckhn"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols-light:mobile-theft-outline-sharp"} {...others} />);
+}
+
+export default Component;

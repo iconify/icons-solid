@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.vd859lxmf {
+  fill: currentColor;
+  d: path("M6.385 19.583v-6.737h2.08q.137 0 .283.028t.283.078l6.021 2.21q.446.163.736.536q.289.373.289.839q0 .275-.18.446t-.443.17h-1.202q-.51 0-.995-.06t-.951-.226l-1.792-.644l-.287.744l1.964.675q.472.16.976.22q.504.061 1.021.061h5.158q.685 0 1.17.45T21 19.5l-6.994 2.308zm-4 1.417v-8.154h3V21zm13.307-8.615l-3.765-3.608q-.66-.635-1.101-1.422q-.442-.788-.442-1.709q0-1.106.77-1.876T13.032 3q.819 0 1.49.443t1.171 1.076q.5-.633 1.172-1.076q.67-.443 1.49-.443q1.106 0 1.876.77T21 5.646q0 .921-.438 1.709t-1.099 1.422z");
+}
+</style><path class="vd859lxmf"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols-light:volunteer-activism"} {...others} />);
+}
+
+export default Component;

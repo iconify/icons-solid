@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.idpxgdche {
+  fill: currentColor;
+  d: path("M3.5 20.5q-.213 0-.357-.143T3 20t.143-.357t.357-.143h17q.214 0 .357.143T21 20t-.143.357t-.357.143zm4.495-3.88q-.303-.303-.303-.716V4.5q0-.413.303-.716t.717-.303t.716.303t.303.716v11.404q0 .413-.303.716t-.716.303t-.717-.303m6.577 0q-.303-.303-.303-.716V10.5q0-.413.303-.716t.717-.303t.716.303t.303.716v5.404q0 .413-.303.716t-.717.303t-.716-.303");
+}
+</style><path class="idpxgdche"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols-light:align-vertical-bottom-rounded"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.u6zducbrg {
+  fill: currentColor;
+  d: path("M9 19.616q-.425 0-.712-.288T8 18.616v-2.231h8.077v2.23q0 .426-.288.713t-.712.288zm8.77-12.231v3.577q0 .074-.05.2l-.636 3.069q-.075.334-.331.552q-.257.217-.6.217H7.809q-.342 0-.6-.217t-.331-.552L6.281 11.2q-.05-.125-.05-.2V5.462q0-.69.462-1.153t1.16-.463h6.756q.697 0 1.16.463t.462 1.153v1.923q0-.327.221-.548q.222-.221.55-.221t.547.22q.22.222.22.549M7.881 14h8.238l.65-3.323v-.908h-1.538V5.462q0-.231-.192-.423t-.423-.193h-6.77q-.23 0-.423.193q-.192.192-.192.423v5.254zM9 9.77h4.462V8H9zm3-.347");
+}
+</style><path class="u6zducbrg"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols-light:sports-mma-outline"} {...others} />);
+}
+
+export default Component;

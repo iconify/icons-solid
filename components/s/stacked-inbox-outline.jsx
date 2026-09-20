@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.eeir7c_5r {
+  fill: currentColor;
+  d: path("M7.116 17.116q-.691 0-1.153-.463T5.5 15.5V6.73q0-.69.463-1.152t1.153-.463h12.769q.69 0 1.153.463T21.5 6.73v8.77q0 .69-.462 1.153t-1.153.463zM6.5 12.692V15.5q0 .27.173.442q.173.173.443.173h12.769q.269 0 .442-.173t.173-.442v-2.808h-4.204q-.332.958-1.098 1.48q-.765.52-1.698.52t-1.698-.52t-1.098-1.48zm7 1q.825 0 1.413-.587t.587-1.413h5V6.731q0-.27-.173-.442q-.173-.173-.442-.173H7.115q-.269 0-.442.173T6.5 6.73v4.961h5q0 .825.588 1.413t1.412.587m3.73 6.424H4.117q-.691 0-1.153-.463T2.5 18.5v-11h1v11q0 .27.173.442q.173.174.443.174H17.23zm-10.73-4h14z");
+}
+</style><path class="eeir7c_5r"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"material-symbols-light:stacked-inbox-outline"} {...others} />);
+}
+
+export default Component;

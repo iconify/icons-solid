@@ -1,0 +1,2243 @@
+{
+  "name": "@iconify-solid/temaki",
+  "type": "module",
+  "version": "1.0.4",
+  "homepage": "https://icon-sets.iconify.design/temaki/",
+  "bugs": "https://github.com/iconify/icons-solid/issues",
+  "license": "CC0-1.0",
+  "exports": {
+    "./abseiling": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/abseiling.jsx"
+    },
+    "./accessible-space": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/accessible-space.jsx"
+    },
+    "./accounting": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/accounting.jsx"
+    },
+    "./activity-panel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/activity-panel.jsx"
+    },
+    "./adit-profile": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/adit-profile.jsx"
+    },
+    "./aerialway-pole": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/aerialway-pole.jsx"
+    },
+    "./airport": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/airport.jsx"
+    },
+    "./amusement-park": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/amusement-park.jsx"
+    },
+    "./anchor-medal": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/anchor-medal.jsx"
+    },
+    "./antenna": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/antenna.jsx"
+    },
+    "./anvil": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/anvil.jsx"
+    },
+    "./anvil-and-hammer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/anvil-and-hammer.jsx"
+    },
+    "./app-terminal": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/app-terminal.jsx"
+    },
+    "./archery": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/archery.jsx"
+    },
+    "./army-tent": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/army-tent.jsx"
+    },
+    "./asterisk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/asterisk.jsx"
+    },
+    "./atm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/atm.jsx"
+    },
+    "./atm2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/atm2.jsx"
+    },
+    "./balance-beam": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/balance-beam.jsx"
+    },
+    "./balloon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/balloon.jsx"
+    },
+    "./barn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/barn.jsx"
+    },
+    "./basketswing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/basketswing.jsx"
+    },
+    "./beach": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/beach.jsx"
+    },
+    "./beauty-salon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/beauty-salon.jsx"
+    },
+    "./bench": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bench.jsx"
+    },
+    "./benchmark-disk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/benchmark-disk.jsx"
+    },
+    "./bicycle-box": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bicycle-box.jsx"
+    },
+    "./bicycle-locker": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bicycle-locker.jsx"
+    },
+    "./bicycle-parked": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bicycle-parked.jsx"
+    },
+    "./bicycle-rental": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bicycle-rental.jsx"
+    },
+    "./bicycle-repair": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bicycle-repair.jsx"
+    },
+    "./bicycle-shed": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bicycle-shed.jsx"
+    },
+    "./bicycle-structure": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bicycle-structure.jsx"
+    },
+    "./bicycle-wash": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bicycle-wash.jsx"
+    },
+    "./bikini": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bikini.jsx"
+    },
+    "./billboard": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/billboard.jsx"
+    },
+    "./binoculars": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/binoculars.jsx"
+    },
+    "./bleachers": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bleachers.jsx"
+    },
+    "./blind": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/blind.jsx"
+    },
+    "./board-bus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-bus.jsx"
+    },
+    "./board-ferry": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-ferry.jsx"
+    },
+    "./board-gondola-lift": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-gondola-lift.jsx"
+    },
+    "./board-hanging-rail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-hanging-rail.jsx"
+    },
+    "./board-heavy-rail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-heavy-rail.jsx"
+    },
+    "./board-light-rail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-light-rail.jsx"
+    },
+    "./board-monorail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-monorail.jsx"
+    },
+    "./board-school-bus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-school-bus.jsx"
+    },
+    "./board-subway": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-subway.jsx"
+    },
+    "./board-train": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-train.jsx"
+    },
+    "./board-train-bullet": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-train-bullet.jsx"
+    },
+    "./board-train-diesel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-train-diesel.jsx"
+    },
+    "./board-train-kids": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-train-kids.jsx"
+    },
+    "./board-train-steam": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-train-steam.jsx"
+    },
+    "./board-tram": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-tram.jsx"
+    },
+    "./board-transit": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-transit.jsx"
+    },
+    "./board-trolleybus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/board-trolleybus.jsx"
+    },
+    "./boat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/boat.jsx"
+    },
+    "./boat-dry-dock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/boat-dry-dock.jsx"
+    },
+    "./boat-floating": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/boat-floating.jsx"
+    },
+    "./boat-ramp": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/boat-ramp.jsx"
+    },
+    "./boat-rental": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/boat-rental.jsx"
+    },
+    "./boat-repair": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/boat-repair.jsx"
+    },
+    "./boat-tour": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/boat-tour.jsx"
+    },
+    "./boating": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/boating.jsx"
+    },
+    "./bollard": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bollard.jsx"
+    },
+    "./bollard-row": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bollard-row.jsx"
+    },
+    "./book-store": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/book-store.jsx"
+    },
+    "./bottles": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bottles.jsx"
+    },
+    "./boulder1": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/boulder1.jsx"
+    },
+    "./boulder2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/boulder2.jsx"
+    },
+    "./boulder3": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/boulder3.jsx"
+    },
+    "./bow-and-arrow": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bow-and-arrow.jsx"
+    },
+    "./bowling": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bowling.jsx"
+    },
+    "./bowling-alt1": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bowling-alt1.jsx"
+    },
+    "./bread": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bread.jsx"
+    },
+    "./brick-trowel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/brick-trowel.jsx"
+    },
+    "./bridge": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bridge.jsx"
+    },
+    "./briefcase": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/briefcase.jsx"
+    },
+    "./briefcase-asterisk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/briefcase-asterisk.jsx"
+    },
+    "./briefcase-bolt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/briefcase-bolt.jsx"
+    },
+    "./briefcase-cross": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/briefcase-cross.jsx"
+    },
+    "./briefcase-info": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/briefcase-info.jsx"
+    },
+    "./briefcase-shield": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/briefcase-shield.jsx"
+    },
+    "./bubble-tea": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bubble-tea.jsx"
+    },
+    "./buffer-stop": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/buffer-stop.jsx"
+    },
+    "./bulb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bulb.jsx"
+    },
+    "./bulb2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bulb2.jsx"
+    },
+    "./bulb3": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bulb3.jsx"
+    },
+    "./bulldozer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bulldozer.jsx"
+    },
+    "./bulletin-board": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bulletin-board.jsx"
+    },
+    "./bunk-beds": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bunk-beds.jsx"
+    },
+    "./bunker": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bunker.jsx"
+    },
+    "./bunker-silo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bunker-silo.jsx"
+    },
+    "./buoy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/buoy.jsx"
+    },
+    "./bus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bus.jsx"
+    },
+    "./bus-guided": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bus-guided.jsx"
+    },
+    "./cabin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cabin.jsx"
+    },
+    "./cable": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cable.jsx"
+    },
+    "./cable-device": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cable-device.jsx"
+    },
+    "./cable-manhole": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cable-manhole.jsx"
+    },
+    "./cable-meter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cable-meter.jsx"
+    },
+    "./cable-shutoff": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cable-shutoff.jsx"
+    },
+    "./cairn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cairn.jsx"
+    },
+    "./camper-trailer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/camper-trailer.jsx"
+    },
+    "./camper-trailer-dump": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/camper-trailer-dump.jsx"
+    },
+    "./campfire": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/campfire.jsx"
+    },
+    "./can": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/can.jsx"
+    },
+    "./canoe": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/canoe.jsx"
+    },
+    "./cape-landform": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cape-landform.jsx"
+    },
+    "./capitol": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/capitol.jsx"
+    },
+    "./car-dealer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/car-dealer.jsx"
+    },
+    "./car-parked": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/car-parked.jsx"
+    },
+    "./car-pool": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/car-pool.jsx"
+    },
+    "./car-structure": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/car-structure.jsx"
+    },
+    "./car-wash": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/car-wash.jsx"
+    },
+    "./carport": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/carport.jsx"
+    },
+    "./casino": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/casino.jsx"
+    },
+    "./catering": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/catering.jsx"
+    },
+    "./cattle-grid": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cattle-grid.jsx"
+    },
+    "./chairlift": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chairlift.jsx"
+    },
+    "./checkpoint": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/checkpoint.jsx"
+    },
+    "./chefs-knife": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chefs-knife.jsx"
+    },
+    "./chicane-arrow": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chicane-arrow.jsx"
+    },
+    "./chimney": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chimney.jsx"
+    },
+    "./chocolate": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chocolate.jsx"
+    },
+    "./cleaver": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cleaver.jsx"
+    },
+    "./cliff-falling-rocks": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cliff-falling-rocks.jsx"
+    },
+    "./climbing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/climbing.jsx"
+    },
+    "./climbing-frame": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/climbing-frame.jsx"
+    },
+    "./climbing-wall": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/climbing-wall.jsx"
+    },
+    "./clock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/clock.jsx"
+    },
+    "./cloth": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cloth.jsx"
+    },
+    "./clothes-hanger": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/clothes-hanger.jsx"
+    },
+    "./coffee": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/coffee.jsx"
+    },
+    "./compass": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/compass.jsx"
+    },
+    "./conveyor": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/conveyor.jsx"
+    },
+    "./cooling-tower": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cooling-tower.jsx"
+    },
+    "./cooling-tower-radiation": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cooling-tower-radiation.jsx"
+    },
+    "./coral-reef": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/coral-reef.jsx"
+    },
+    "./courthouse": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/courthouse.jsx"
+    },
+    "./crane": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crane.jsx"
+    },
+    "./cross-country-skiing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cross-country-skiing.jsx"
+    },
+    "./crossing-markings-dashes": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-markings-dashes.jsx"
+    },
+    "./crossing-markings-dots": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-markings-dots.jsx"
+    },
+    "./crossing-markings-ladder": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-markings-ladder.jsx"
+    },
+    "./crossing-markings-ladder-paired": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-markings-ladder-paired.jsx"
+    },
+    "./crossing-markings-ladder-skewed": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-markings-ladder-skewed.jsx"
+    },
+    "./crossing-markings-lines": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-markings-lines.jsx"
+    },
+    "./crossing-markings-lines-paired": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-markings-lines-paired.jsx"
+    },
+    "./crossing-markings-surface": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-markings-surface.jsx"
+    },
+    "./crossing-markings-zebra": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-markings-zebra.jsx"
+    },
+    "./crossing-markings-zebra-bicolour": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-markings-zebra-bicolour.jsx"
+    },
+    "./crossing-markings-zebra-double": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-markings-zebra-double.jsx"
+    },
+    "./crossing-markings-zebra-paired": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-markings-zebra-paired.jsx"
+    },
+    "./crossing-rail-rail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-rail-rail.jsx"
+    },
+    "./crossing-rail-road": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-rail-road.jsx"
+    },
+    "./crossing-rail-solid": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-rail-solid.jsx"
+    },
+    "./crossing-rail-striped": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-rail-striped.jsx"
+    },
+    "./crossing-tram-road": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-tram-road.jsx"
+    },
+    "./crossing-tram-solid": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-tram-solid.jsx"
+    },
+    "./crossing-tram-striped": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crossing-tram-striped.jsx"
+    },
+    "./curtains": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/curtains.jsx"
+    },
+    "./cushion": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cushion.jsx"
+    },
+    "./cycle-barrier": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cycle-barrier.jsx"
+    },
+    "./cyclist-crosswalk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cyclist-crosswalk.jsx"
+    },
+    "./dagger": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dagger.jsx"
+    },
+    "./desk-lamp": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/desk-lamp.jsx"
+    },
+    "./detergent-bottle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/detergent-bottle.jsx"
+    },
+    "./diamond": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/diamond.jsx"
+    },
+    "./dice": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dice.jsx"
+    },
+    "./disc-golf-basket": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/disc-golf-basket.jsx"
+    },
+    "./diving": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/diving.jsx"
+    },
+    "./dog-shelter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dog-shelter.jsx"
+    },
+    "./domed-tower": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/domed-tower.jsx"
+    },
+    "./donut": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/donut.jsx"
+    },
+    "./drag-lift": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/drag-lift.jsx"
+    },
+    "./dress": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dress.jsx"
+    },
+    "./drink-cup": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/drink-cup.jsx"
+    },
+    "./ear": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/ear.jsx"
+    },
+    "./egg": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/egg.jsx"
+    },
+    "./electronic": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/electronic.jsx"
+    },
+    "./elevator": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/elevator.jsx"
+    },
+    "./embassy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/embassy.jsx"
+    },
+    "./fashion-accessories": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fashion-accessories.jsx"
+    },
+    "./ferry": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/ferry.jsx"
+    },
+    "./field-hockey": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/field-hockey.jsx"
+    },
+    "./fighter-jet": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fighter-jet.jsx"
+    },
+    "./fire-hydrant": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fire-hydrant.jsx"
+    },
+    "./fire-hydrant-underground": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fire-hydrant-underground.jsx"
+    },
+    "./fireplace": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fireplace.jsx"
+    },
+    "./fish-cleaning": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fish-cleaning.jsx"
+    },
+    "./fish-ladder": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fish-ladder.jsx"
+    },
+    "./fishing-pier": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fishing-pier.jsx"
+    },
+    "./florist": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/florist.jsx"
+    },
+    "./food": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/food.jsx"
+    },
+    "./footwear-decontamination": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/footwear-decontamination.jsx"
+    },
+    "./fountain": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fountain.jsx"
+    },
+    "./freight-car": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/freight-car.jsx"
+    },
+    "./furniture": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/furniture.jsx"
+    },
+    "./garden-bed": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/garden-bed.jsx"
+    },
+    "./gas": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gas.jsx"
+    },
+    "./gas-device": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gas-device.jsx"
+    },
+    "./gas-manhole": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gas-manhole.jsx"
+    },
+    "./gas-meter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gas-meter.jsx"
+    },
+    "./gas-shutoff": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gas-shutoff.jsx"
+    },
+    "./gate": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gate.jsx"
+    },
+    "./geyser-from-ground": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/geyser-from-ground.jsx"
+    },
+    "./golf-cart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/golf-cart.jsx"
+    },
+    "./golf-green": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/golf-green.jsx"
+    },
+    "./gondola-lift": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gondola-lift.jsx"
+    },
+    "./goods-lift": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/goods-lift.jsx"
+    },
+    "./gown": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gown.jsx"
+    },
+    "./grapes": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/grapes.jsx"
+    },
+    "./grass": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/grass.jsx"
+    },
+    "./guard-rail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/guard-rail.jsx"
+    },
+    "./gym": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gym.jsx"
+    },
+    "./hair-care": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hair-care.jsx"
+    },
+    "./hammer-shoe": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hammer-shoe.jsx"
+    },
+    "./hand": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hand.jsx"
+    },
+    "./handbag": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/handbag.jsx"
+    },
+    "./hang-gliding": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hang-gliding.jsx"
+    },
+    "./hangar": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hangar.jsx"
+    },
+    "./hanging-rail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hanging-rail.jsx"
+    },
+    "./hearing-aid": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hearing-aid.jsx"
+    },
+    "./heart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/heart.jsx"
+    },
+    "./heavy-rail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/heavy-rail.jsx"
+    },
+    "./hedge": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hedge.jsx"
+    },
+    "./height-restrictor": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/height-restrictor.jsx"
+    },
+    "./hinduism": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hinduism.jsx"
+    },
+    "./horizontal-bar": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/horizontal-bar.jsx"
+    },
+    "./horn-cleat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/horn-cleat.jsx"
+    },
+    "./horse-shelter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/horse-shelter.jsx"
+    },
+    "./horseshoe": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/horseshoe.jsx"
+    },
+    "./horseshoes": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/horseshoes.jsx"
+    },
+    "./hot-drink-cup": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hot-drink-cup.jsx"
+    },
+    "./hotpot": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hotpot.jsx"
+    },
+    "./houseboat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/houseboat.jsx"
+    },
+    "./hunting-blind": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hunting-blind.jsx"
+    },
+    "./hut": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hut.jsx"
+    },
+    "./ice-fishing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/ice-fishing.jsx"
+    },
+    "./ice-skating": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/ice-skating.jsx"
+    },
+    "./info-board": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/info-board.jsx"
+    },
+    "./inline-skating": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/inline-skating.jsx"
+    },
+    "./island-trees-building": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/island-trees-building.jsx"
+    },
+    "./islet-tree": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/islet-tree.jsx"
+    },
+    "./j-bar-lift": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/j/j-bar-lift.jsx"
+    },
+    "./jet-skiing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/j/jet-skiing.jsx"
+    },
+    "./jetplane-front": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/j/jetplane-front.jsx"
+    },
+    "./jewelry-store": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/j/jewelry-store.jsx"
+    },
+    "./junction": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/j/junction.jsx"
+    },
+    "./junk-car": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/j/junk-car.jsx"
+    },
+    "./kayaking": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kayaking.jsx"
+    },
+    "./kerb-flush": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kerb-flush.jsx"
+    },
+    "./kerb-lowered": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kerb-lowered.jsx"
+    },
+    "./kerb-raised": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kerb-raised.jsx"
+    },
+    "./kerb-rolled": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kerb-rolled.jsx"
+    },
+    "./kerb-unspecified": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kerb-unspecified.jsx"
+    },
+    "./kitchen-sink": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kitchen-sink.jsx"
+    },
+    "./latrine": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/latrine.jsx"
+    },
+    "./laundry": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/laundry.jsx"
+    },
+    "./lawn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lawn.jsx"
+    },
+    "./lawyer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lawyer.jsx"
+    },
+    "./letter-box": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/letter-box.jsx"
+    },
+    "./library": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/library.jsx"
+    },
+    "./lift-gate": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lift-gate.jsx"
+    },
+    "./light-rail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/light-rail.jsx"
+    },
+    "./lipstick": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lipstick.jsx"
+    },
+    "./lock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lock.jsx"
+    },
+    "./lounger": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lounger.jsx"
+    },
+    "./lounging": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lounging.jsx"
+    },
+    "./manhole": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/manhole.jsx"
+    },
+    "./manufactured-home": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/manufactured-home.jsx"
+    },
+    "./mast": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mast.jsx"
+    },
+    "./mast-communication": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mast-communication.jsx"
+    },
+    "./mast-lighting": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mast-lighting.jsx"
+    },
+    "./maze": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/maze.jsx"
+    },
+    "./meat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/meat.jsx"
+    },
+    "./milestone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/milestone.jsx"
+    },
+    "./military": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/military.jsx"
+    },
+    "./military-checkpoint": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/military-checkpoint.jsx"
+    },
+    "./milk-jug": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/milk-jug.jsx"
+    },
+    "./mineshaft-cage": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mineshaft-cage.jsx"
+    },
+    "./mineshaft-profile": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mineshaft-profile.jsx"
+    },
+    "./money-hand": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/money-hand.jsx"
+    },
+    "./monorail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/monorail.jsx"
+    },
+    "./motorcycle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/motorcycle.jsx"
+    },
+    "./motorcycle-parked": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/motorcycle-parked.jsx"
+    },
+    "./motorcycle-rental": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/motorcycle-rental.jsx"
+    },
+    "./motorcycle-repair": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/motorcycle-repair.jsx"
+    },
+    "./mountain-asterisk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mountain-asterisk.jsx"
+    },
+    "./mountain-cross": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mountain-cross.jsx"
+    },
+    "./mountain-range": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mountain-range.jsx"
+    },
+    "./movie-rental": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/movie-rental.jsx"
+    },
+    "./museum": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/museum.jsx"
+    },
+    "./natural-arch": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/natural-arch.jsx"
+    },
+    "./needle-and-spool": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/needle-and-spool.jsx"
+    },
+    "./obelisk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/obelisk.jsx"
+    },
+    "./oil-well": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/oil-well.jsx"
+    },
+    "./os-benchmark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/os-benchmark.jsx"
+    },
+    "./paifang": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/paifang.jsx"
+    },
+    "./parking-space": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/parking-space.jsx"
+    },
+    "./passport-checkpoint": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/passport-checkpoint.jsx"
+    },
+    "./ped-cyclist-crosswalk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/ped-cyclist-crosswalk.jsx"
+    },
+    "./pedestrian": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pedestrian.jsx"
+    },
+    "./pedestrian-and-cyclist": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pedestrian-and-cyclist.jsx"
+    },
+    "./pedestrian-crosswalk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pedestrian-crosswalk.jsx"
+    },
+    "./pedestrian-walled": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pedestrian-walled.jsx"
+    },
+    "./perfume": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/perfume.jsx"
+    },
+    "./pet-grooming": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pet-grooming.jsx"
+    },
+    "./pet-store": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pet-store.jsx"
+    },
+    "./pharmacy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pharmacy.jsx"
+    },
+    "./physiotherapist": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/physiotherapist.jsx"
+    },
+    "./pick-hammer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pick-hammer.jsx"
+    },
+    "./pickleball": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pickleball.jsx"
+    },
+    "./picnic-shelter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/picnic-shelter.jsx"
+    },
+    "./pier-fixed": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pier-fixed.jsx"
+    },
+    "./pier-floating": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pier-floating.jsx"
+    },
+    "./pin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pin.jsx"
+    },
+    "./pipe": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pipe.jsx"
+    },
+    "./plane-taxiing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/plane-taxiing.jsx"
+    },
+    "./planes": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/planes.jsx"
+    },
+    "./planes-bidirectional": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/planes-bidirectional.jsx"
+    },
+    "./plant": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/plant.jsx"
+    },
+    "./plaque": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/plaque.jsx"
+    },
+    "./platter-lift": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/platter-lift.jsx"
+    },
+    "./play-structure": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/play-structure.jsx"
+    },
+    "./playhouse": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/playhouse.jsx"
+    },
+    "./plumber": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/plumber.jsx"
+    },
+    "./police-checkpoint": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/police-checkpoint.jsx"
+    },
+    "./police-officer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/police-officer.jsx"
+    },
+    "./polished-nail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/polished-nail.jsx"
+    },
+    "./portrait": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/portrait.jsx"
+    },
+    "./portrait-framed": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/portrait-framed.jsx"
+    },
+    "./post-box": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/post-box.jsx"
+    },
+    "./poster-box": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/poster-box.jsx"
+    },
+    "./power": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power.jsx"
+    },
+    "./power-cb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-cb.jsx"
+    },
+    "./power-cb2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-cb2.jsx"
+    },
+    "./power-circuit": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-circuit.jsx"
+    },
+    "./power-ct": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-ct.jsx"
+    },
+    "./power-device": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-device.jsx"
+    },
+    "./power-isolator": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-isolator.jsx"
+    },
+    "./power-la": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-la.jsx"
+    },
+    "./power-manhole": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-manhole.jsx"
+    },
+    "./power-meter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-meter.jsx"
+    },
+    "./power-pole": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-pole.jsx"
+    },
+    "./power-shutoff": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-shutoff.jsx"
+    },
+    "./power-switch": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-switch.jsx"
+    },
+    "./power-tower": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-tower.jsx"
+    },
+    "./power-transformer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/power-transformer.jsx"
+    },
+    "./powered-pump": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/powered-pump.jsx"
+    },
+    "./propane-tank": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/propane-tank.jsx"
+    },
+    "./psychic": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/psychic.jsx"
+    },
+    "./quakerism": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/q/quakerism.jsx"
+    },
+    "./quay": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/q/quay.jsx"
+    },
+    "./racetrack-oval": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/racetrack-oval.jsx"
+    },
+    "./radiation": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/radiation.jsx"
+    },
+    "./radio": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/radio.jsx"
+    },
+    "./rafting": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rafting.jsx"
+    },
+    "./rail-flag": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rail-flag.jsx"
+    },
+    "./rail-profile": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rail-profile.jsx"
+    },
+    "./railing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/railing.jsx"
+    },
+    "./railway-cable-track": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/railway-cable-track.jsx"
+    },
+    "./railway-signals": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/railway-signals.jsx"
+    },
+    "./railway-track": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/railway-track.jsx"
+    },
+    "./railway-track-askew": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/railway-track-askew.jsx"
+    },
+    "./railway-track-mini": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/railway-track-mini.jsx"
+    },
+    "./railway-track-narrow": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/railway-track-narrow.jsx"
+    },
+    "./railway-track-partial": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/railway-track-partial.jsx"
+    },
+    "./real-estate-agency": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/real-estate-agency.jsx"
+    },
+    "./rigging": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rigging.jsx"
+    },
+    "./rocket-firework": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rocket-firework.jsx"
+    },
+    "./roller-coaster": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/roller-coaster.jsx"
+    },
+    "./room": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/room.jsx"
+    },
+    "./rope-fence": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rope-fence.jsx"
+    },
+    "./row-houses": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/row-houses.jsx"
+    },
+    "./ruins": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/ruins.jsx"
+    },
+    "./rumble-strip": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rumble-strip.jsx"
+    },
+    "./saddle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/saddle.jsx"
+    },
+    "./sail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sail.jsx"
+    },
+    "./sailboat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sailboat.jsx"
+    },
+    "./sailing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sailing.jsx"
+    },
+    "./sandbox": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sandbox.jsx"
+    },
+    "./sandwich": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sandwich.jsx"
+    },
+    "./scaffold": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/scaffold.jsx"
+    },
+    "./school": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/school.jsx"
+    },
+    "./school-bus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/school-bus.jsx"
+    },
+    "./scuba-diving": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/scuba-diving.jsx"
+    },
+    "./sculpture": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sculpture.jsx"
+    },
+    "./security-camera": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/security-camera.jsx"
+    },
+    "./seesaw": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/seesaw.jsx"
+    },
+    "./shield": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shield.jsx"
+    },
+    "./shinto": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shinto.jsx"
+    },
+    "./shopping-mall": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shopping-mall.jsx"
+    },
+    "./shower": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shower.jsx"
+    },
+    "./shrub": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shrub.jsx"
+    },
+    "./shrub-low": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shrub-low.jsx"
+    },
+    "./shuffleboard": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shuffleboard.jsx"
+    },
+    "./sign-and-bench": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sign-and-bench.jsx"
+    },
+    "./sign-and-car": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sign-and-car.jsx"
+    },
+    "./sign-and-pedestrian": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sign-and-pedestrian.jsx"
+    },
+    "./sikhism": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sikhism.jsx"
+    },
+    "./silo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/silo.jsx"
+    },
+    "./skateboarding": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/skateboarding.jsx"
+    },
+    "./ski-jumping": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/ski-jumping.jsx"
+    },
+    "./skiing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/skiing.jsx"
+    },
+    "./sledding": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sledding.jsx"
+    },
+    "./sleep-shelter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sleep-shelter.jsx"
+    },
+    "./slide": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/slide.jsx"
+    },
+    "./slide2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/slide2.jsx"
+    },
+    "./snow": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/snow.jsx"
+    },
+    "./snow-shoeing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/snow-shoeing.jsx"
+    },
+    "./snowboarding": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/snowboarding.jsx"
+    },
+    "./snowmobile": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/snowmobile.jsx"
+    },
+    "./social-facility": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/social-facility.jsx"
+    },
+    "./spa": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spa.jsx"
+    },
+    "./speaker": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/speaker.jsx"
+    },
+    "./speed-bump": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/speed-bump.jsx"
+    },
+    "./speed-dip": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/speed-dip.jsx"
+    },
+    "./speed-dip-double": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/speed-dip-double.jsx"
+    },
+    "./speed-hump": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/speed-hump.jsx"
+    },
+    "./speed-table": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/speed-table.jsx"
+    },
+    "./speedway-8": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/speedway-8.jsx"
+    },
+    "./speedway-oval": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/speedway-oval.jsx"
+    },
+    "./spice-bottle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spice-bottle.jsx"
+    },
+    "./spike-strip": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spike-strip.jsx"
+    },
+    "./splash-pad": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/splash-pad.jsx"
+    },
+    "./spotting-scope": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spotting-scope.jsx"
+    },
+    "./spring-rider": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spring-rider.jsx"
+    },
+    "./stamp": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stamp.jsx"
+    },
+    "./statue": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/statue.jsx"
+    },
+    "./stile-squeezer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stile-squeezer.jsx"
+    },
+    "./stop": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stop.jsx"
+    },
+    "./storage": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/storage.jsx"
+    },
+    "./storage-drum": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/storage-drum.jsx"
+    },
+    "./storage-fermenter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/storage-fermenter.jsx"
+    },
+    "./storage-rental": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/storage-rental.jsx"
+    },
+    "./storage-tank": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/storage-tank.jsx"
+    },
+    "./street-lamp-arm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/street-lamp-arm.jsx"
+    },
+    "./striped-way": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/striped-way.jsx"
+    },
+    "./striped-zone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/striped-zone.jsx"
+    },
+    "./subway": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/subway.jsx"
+    },
+    "./suitcase": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/suitcase.jsx"
+    },
+    "./suitcase-key": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/suitcase-key.jsx"
+    },
+    "./suitcase-xray": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/suitcase-xray.jsx"
+    },
+    "./surfing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/surfing.jsx"
+    },
+    "./swamp": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/swamp.jsx"
+    },
+    "./swing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/swing.jsx"
+    },
+    "./t-bar-lift": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/t-bar-lift.jsx"
+    },
+    "./table-soccer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/table-soccer.jsx"
+    },
+    "./tall-gate": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tall-gate.jsx"
+    },
+    "./tanning": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tanning.jsx"
+    },
+    "./tanning2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tanning2.jsx"
+    },
+    "./taoism": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/taoism.jsx"
+    },
+    "./tattoo-machine": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tattoo-machine.jsx"
+    },
+    "./taxi-stand": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/taxi-stand.jsx"
+    },
+    "./telephone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/telephone.jsx"
+    },
+    "./telescope": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/telescope.jsx"
+    },
+    "./temaki": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/temaki.jsx"
+    },
+    "./tennis": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tennis.jsx"
+    },
+    "./tents": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tents.jsx"
+    },
+    "./ticket": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/ticket.jsx"
+    },
+    "./tiling": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tiling.jsx"
+    },
+    "./tire": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tire.jsx"
+    },
+    "./tire-course": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tire-course.jsx"
+    },
+    "./toll-gantry": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/toll-gantry.jsx"
+    },
+    "./toolbox": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/toolbox.jsx"
+    },
+    "./tools": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tools.jsx"
+    },
+    "./tower": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tower.jsx"
+    },
+    "./tower-communication": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tower-communication.jsx"
+    },
+    "./town-hall": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/town-hall.jsx"
+    },
+    "./traffic-signals": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/traffic-signals.jsx"
+    },
+    "./train": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/train.jsx"
+    },
+    "./train-bullet": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/train-bullet.jsx"
+    },
+    "./train-diesel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/train-diesel.jsx"
+    },
+    "./train-kids": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/train-kids.jsx"
+    },
+    "./train-steam": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/train-steam.jsx"
+    },
+    "./train-wash": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/train-wash.jsx"
+    },
+    "./tram": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tram.jsx"
+    },
+    "./tram-side": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tram-side.jsx"
+    },
+    "./trampoline": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/trampoline.jsx"
+    },
+    "./transit": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/transit.jsx"
+    },
+    "./transit-shelter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/transit-shelter.jsx"
+    },
+    "./tree-and-bench": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tree-and-bench.jsx"
+    },
+    "./tree-broadleaved": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tree-broadleaved.jsx"
+    },
+    "./tree-cactus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tree-cactus.jsx"
+    },
+    "./tree-leafless": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tree-leafless.jsx"
+    },
+    "./tree-needleleaved": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tree-needleleaved.jsx"
+    },
+    "./tree-palm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tree-palm.jsx"
+    },
+    "./tree-row": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tree-row.jsx"
+    },
+    "./tree-stump": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tree-stump.jsx"
+    },
+    "./trench": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/trench.jsx"
+    },
+    "./trolleybus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/trolleybus.jsx"
+    },
+    "./truck": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/truck.jsx"
+    },
+    "./tunnel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tunnel.jsx"
+    },
+    "./turnstile": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/turnstile.jsx"
+    },
+    "./utility-pole": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/utility-pole.jsx"
+    },
+    "./vacuum": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vacuum.jsx"
+    },
+    "./vacuum-station": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vacuum-station.jsx"
+    },
+    "./valley": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/valley.jsx"
+    },
+    "./vase": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vase.jsx"
+    },
+    "./vending-bread": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-bread.jsx"
+    },
+    "./vending-cigarettes": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-cigarettes.jsx"
+    },
+    "./vending-cold-drink": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-cold-drink.jsx"
+    },
+    "./vending-cold-drink2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-cold-drink2.jsx"
+    },
+    "./vending-eggs": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-eggs.jsx"
+    },
+    "./vending-flat-coin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-flat-coin.jsx"
+    },
+    "./vending-hot-drink": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-hot-drink.jsx"
+    },
+    "./vending-hot-drink2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-hot-drink2.jsx"
+    },
+    "./vending-ice": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-ice.jsx"
+    },
+    "./vending-ice-cream": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-ice-cream.jsx"
+    },
+    "./vending-ice-cream2": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-ice-cream2.jsx"
+    },
+    "./vending-lockers": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-lockers.jsx"
+    },
+    "./vending-love": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-love.jsx"
+    },
+    "./vending-machine": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-machine.jsx"
+    },
+    "./vending-medicine": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-medicine.jsx"
+    },
+    "./vending-newspaper": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-newspaper.jsx"
+    },
+    "./vending-pet-waste": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-pet-waste.jsx"
+    },
+    "./vending-stamps": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-stamps.jsx"
+    },
+    "./vending-tickets": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-tickets.jsx"
+    },
+    "./vending-venus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vending-venus.jsx"
+    },
+    "./vertex": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vertex.jsx"
+    },
+    "./vertical-rotisserie": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vertical-rotisserie.jsx"
+    },
+    "./veterinary-care": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/veterinary-care.jsx"
+    },
+    "./viewpoint": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/viewpoint.jsx"
+    },
+    "./wall": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wall.jsx"
+    },
+    "./waste": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/waste.jsx"
+    },
+    "./waste-device": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/waste-device.jsx"
+    },
+    "./waste-manhole": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/waste-manhole.jsx"
+    },
+    "./waste-meter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/waste-meter.jsx"
+    },
+    "./waste-shutoff": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/waste-shutoff.jsx"
+    },
+    "./water": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/water.jsx"
+    },
+    "./water-bottle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/water-bottle.jsx"
+    },
+    "./water-device": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/water-device.jsx"
+    },
+    "./water-manhole": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/water-manhole.jsx"
+    },
+    "./water-meter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/water-meter.jsx"
+    },
+    "./water-shutoff": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/water-shutoff.jsx"
+    },
+    "./water-tap": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/water-tap.jsx"
+    },
+    "./water-tap-drinkable": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/water-tap-drinkable.jsx"
+    },
+    "./water-tower": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/water-tower.jsx"
+    },
+    "./waterskiing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/waterskiing.jsx"
+    },
+    "./well-pump-manual": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/well-pump-manual.jsx"
+    },
+    "./well-pump-powered": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/well-pump-powered.jsx"
+    },
+    "./whale-watching": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/whale-watching.jsx"
+    },
+    "./wheel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wheel.jsx"
+    },
+    "./wheelchair": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wheelchair.jsx"
+    },
+    "./wheelchair-active": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wheelchair-active.jsx"
+    },
+    "./wind-surfing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wind-surfing.jsx"
+    },
+    "./wind-turbine": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wind-turbine.jsx"
+    },
+    "./windmill": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/windmill.jsx"
+    },
+    "./window": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/window.jsx"
+    },
+    "./windpump": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/windpump.jsx"
+    },
+    "./windsock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/windsock.jsx"
+    },
+    "./x-oblique": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/x/x-oblique.jsx"
+    },
+    "./yield": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/y/yield.jsx"
+    },
+    "./zip-wire": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/zip-wire.jsx"
+    },
+    "./zoo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/zoo.jsx"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-solid": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-solid#temaki"
+}

@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/w/wds76yb_c.css';
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="wds76yb_c"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"selfhst:yugabytedb-light"} {...others} />);
+}
+
+export default Component;

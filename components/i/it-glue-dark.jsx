@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/w/wtm8l_bup.css';
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="wtm8l_bup"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"selfhst:it-glue-dark"} {...others} />);
+}
+
+export default Component;

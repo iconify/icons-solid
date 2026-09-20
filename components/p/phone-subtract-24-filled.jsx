@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.rj8gptb1j {
+  fill: currentColor;
+  d: path("M13.75 2A2.25 2.25 0 0 1 16 4.25v6.924a6.5 6.5 0 0 0-5 6.326H8.75a.75.75 0 0 0 0 1.5h2.424a6.5 6.5 0 0 0 1.636 3H6.25A2.25 2.25 0 0 1 4 19.75V4.25A2.25 2.25 0 0 1 6.25 2zm3.75 10a5.5 5.5 0 1 1 0 11a5.5 5.5 0 0 1 0-11m-3.092 5.008a.5.5 0 0 0-.402.402l-.008.09l.008.09a.5.5 0 0 0 .402.402l.09.008h6.007l.09-.008a.5.5 0 0 0 .402-.402l.008-.09l-.008-.09a.5.5 0 0 0-.403-.402l-.09-.008h-6.006z");
+}
+</style><path class="rj8gptb1j"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:phone-subtract-24-filled"} {...others} />);
+}
+
+export default Component;

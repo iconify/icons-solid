@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":20,"height":20};
+const content = `<style>.jl10hxb9x {
+  fill: currentColor;
+  d: path("M4.5 3A1.5 1.5 0 0 0 3 4.5v2a.5.5 0 0 1-1 0v-2A2.5 2.5 0 0 1 4.5 2h2a.5.5 0 0 1 0 1zm0 14A1.5 1.5 0 0 1 3 15.5v-2a.5.5 0 0 0-1 0v2A2.5 2.5 0 0 0 4.5 18h2a.5.5 0 0 0 0-1zM17 4.5A1.5 1.5 0 0 0 15.5 3h-2a.5.5 0 0 1 0-1h2A2.5 2.5 0 0 1 18 4.5v2a.5.5 0 0 1-1 0zm-1.115 12.45q-.186.05-.386.05H13.5a.5.5 0 0 0 0 1h2a2.5 2.5 0 0 0 2.5-2.5v-2a.5.5 0 0 0-1 0v2a1.5 1.5 0 0 1-1.115 1.45M4.999 16h-.5a.5.5 0 0 1-.472-.334A2 2 0 0 1 6 14h8a2 2 0 0 1 1.972 1.664a.5.5 0 0 1-.473.336h-.5a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1m7.5-7.5a2.5 2.5 0 1 0-5 0a2.5 2.5 0 0 0 5 0m1 0a3.5 3.5 0 1 1-7 0a3.5 3.5 0 0 1 7 0");
+}
+</style><path class="jl10hxb9x"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:scan-person-20-regular"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.fjukcabzw {
+  fill: currentColor;
+  d: path("M4 5.25A3.25 3.25 0 0 1 7.25 2h9.5A3.25 3.25 0 0 1 20 5.25v13.5A3.25 3.25 0 0 1 16.75 22h-9.5A3.25 3.25 0 0 1 4 18.75zM9 5a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2zm.5 8.25a1.25 1.25 0 1 0-2.5 0a1.25 1.25 0 0 0 2.5 0M8.25 18.5a1.25 1.25 0 1 0 0-2.5a1.25 1.25 0 0 0 0 2.5M17 13.25a1.25 1.25 0 1 0-2.5 0a1.25 1.25 0 0 0 2.5 0m-1.25 5.25a1.25 1.25 0 1 0 0-2.5a1.25 1.25 0 0 0 0 2.5m-2.5-5.25a1.25 1.25 0 1 0-2.5 0a1.25 1.25 0 0 0 2.5 0M12 18.5a1.25 1.25 0 1 0 0-2.5a1.25 1.25 0 0 0 0 2.5");
+}
+</style><path class="fjukcabzw"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:calculator-24-filled"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":16,"height":16};
+const content = `<style>.abnghebpo {
+  fill: currentColor;
+  d: path("M8 1v3.5A1.5 1.5 0 0 0 9.5 6H13v7.5a1.5 1.5 0 0 1-1.5 1.5H6.976Q7 14.88 7 14.75v-3.105a4 4 0 0 0-4-6.52V2.5A1.5 1.5 0 0 1 4.5 1zm1 .25V4.5a.5.5 0 0 0 .5.5h3.25zM7 9a3 3 0 1 1-6 0a3 3 0 0 1 6 0m-1 3.464A4 4 0 0 1 4 13a4 4 0 0 1-2-.535v2.286a.25.25 0 0 0 .378.214L4 14l1.622.965A.25.25 0 0 0 6 14.75z");
+}
+</style><path class="abnghebpo"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:document-ribbon-16-filled"} {...others} />);
+}
+
+export default Component;

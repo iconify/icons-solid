@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.dj5ga5gtc {
+  fill: currentColor;
+  d: path("M15.75 2A2.25 2.25 0 0 1 18 4.25v15.5A2.25 2.25 0 0 1 15.75 22h-7.5A2.25 2.25 0 0 1 6 19.75V4.25A2.25 2.25 0 0 1 8.25 2zm-2.5 16h-2.5a.75.75 0 0 0-.103 1.493l.102.007h2.5a.75.75 0 0 0 0-1.5m6.878-10.428a1 1 0 0 1 1.25.45l.05.107l.582 1.456a3 3 0 0 1-.266 2.743l-.12.171l-.15.202a1 1 0 0 0-.17.848l.041.123l.582 1.457a1 1 0 0 1-1.807.848l-.05-.106l-.582-1.456a3 3 0 0 1 .266-2.743l.12-.171l.15-.202a1 1 0 0 0 .17-.848l-.04-.123l-.583-1.457a1 1 0 0 1 .557-1.3m-17.5 0a1 1 0 0 1 1.25.45l.05.107l.582 1.456a3 3 0 0 1-.266 2.743l-.12.171l-.15.202a1 1 0 0 0-.17.848l.041.123l.583 1.457a1 1 0 0 1-1.808.848l-.05-.106l-.582-1.456a3 3 0 0 1 .266-2.743l.12-.171l.15-.202a1 1 0 0 0 .17-.848l-.04-.123L2.07 8.87a1 1 0 0 1 .557-1.3");
+}
+</style><path class="dj5ga5gtc"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:phone-vibrate-24-filled"} {...others} />);
+}
+
+export default Component;

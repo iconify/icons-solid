@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.xi-9s-bmx {
+  fill: currentColor;
+  d: path("M12.75 4H14v6a2 2 0 0 0 2 2h6v6a2 2 0 0 1-2 2h-7.25a.75.75 0 0 1-.75-.75V4.75a.75.75 0 0 1 .75-.75m8.737 6.427l.07.073H16a.5.5 0 0 1-.5-.5V4.443q.038.034.073.07zM3.5 10.25a.75.75 0 0 0-1.5 0v3.5a.75.75 0 0 0 1.5 0zM7 4.75A.75.75 0 0 1 7.75 4h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 7 4.75m.75 13.75a.75.75 0 0 0 0 1.5h2a.75.75 0 0 0 0-1.5zM2 6a2 2 0 0 1 2-2h.75a.75.75 0 0 1 0 1.5H4a.5.5 0 0 0-.5.5v1.25a.75.75 0 0 1-1.5 0zm2 14a2 2 0 0 1-2-2v-1.25a.75.75 0 0 1 1.5 0V18a.5.5 0 0 0 .5.5h.75a.75.75 0 0 1 0 1.5z");
+}
+</style><path class="xi-9s-bmx"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:document-landscape-split-hint-24-filled"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":20,"height":20};
+const content = `<style>.rvdpupbfb {
+  fill: currentColor;
+  d: path("M5.585 5.414L2.414 8.585a2 2 0 0 0 0 2.829l3.171 3.172a2 2 0 0 0 2.829 0l3.172-3.172a2 2 0 0 0 0-2.829L8.414 5.414a2 2 0 0 0-2.829 0m6 9.172l-.878-.88l1.586-1.585a3 3 0 0 0 0-4.243l-1.586-1.585l.878-.88a2 2 0 0 1 2.829 0l3.172 3.172a2 2 0 0 1 0 2.829l-3.172 3.172a2 2 0 0 1-2.828 0");
+}
+</style><path class="rvdpupbfb"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:protocol-handler-20-filled"} {...others} />);
+}
+
+export default Component;

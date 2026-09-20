@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":20,"height":20};
+const content = `<style>.zb7exhdog {
+  fill: currentColor;
+  d: path("M17 3.5a.5.5 0 0 0-1 0v13a.5.5 0 1 0 1 0zM3 4.252c0-1 1.117-1.595 1.947-1.038l8.5 5.707a1.25 1.25 0 0 1 .007 2.071l-8.5 5.793A1.25 1.25 0 0 1 3 15.752zm1.39-.207a.25.25 0 0 0-.39.207v11.5c0 .2.225.32.391.207l8.5-5.793a.25.25 0 0 0-.002-.414z");
+}
+</style><path class="zb7exhdog"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:next-20-regular"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.ruluqwbyd {
+  fill: currentColor;
+  d: path("M2 6a3 3 0 0 1 3-3h1.5a1 1 0 0 1 0 2H5a1 1 0 0 0-1 1v1.5a1 1 0 0 1-2 0zm14.5-2a1 1 0 0 1 1-1H19a3 3 0 0 1 3 3v1.5a1 1 0 1 1-2 0V6a1 1 0 0 0-1-1h-1.5a1 1 0 0 1-1-1M3 15.5a1 1 0 0 1 1 1V18a1 1 0 0 0 1 1h1.5a1 1 0 1 1 0 2H5a3 3 0 0 1-3-3v-1.5a1 1 0 0 1 1-1m18 0a1 1 0 0 1 1 1V18a3 3 0 0 1-3 3h-1.5a1 1 0 1 1 0-2H19a1 1 0 0 0 1-1v-1.5a1 1 0 0 1 1-1M6 6.75a1 1 0 0 1 1 1v8.5a1 1 0 1 1-2 0v-8.5a1 1 0 0 1 1-1m5 1a1 1 0 1 0-2 0v8.5a1 1 0 1 0 2 0zm3-1a1 1 0 0 1 1 1v8.5a1 1 0 1 1-2 0v-8.5a1 1 0 0 1 1-1m5 1a1 1 0 1 0-2 0v8.5a1 1 0 1 0 2 0z");
+}
+</style><path class="ruluqwbyd"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:barcode-scanner-24-filled"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":16,"height":16};
+const content = `<style>.gduy8hbow {
+  fill: currentColor;
+  d: path("M15 5.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0M10.5 3a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5H12a.5.5 0 0 0 0-1h-1V3.5a.5.5 0 0 0-.5-.5M12 13v-2.207q.524-.149 1-.393V13a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2.022a5.6 5.6 0 0 0 0 1H3a1 1 0 0 0-1 1v.74l5 2.692l.544-.293q.517.331 1.104.542l-1.41.76a.5.5 0 0 1-.475 0L2 8.875V13a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1");
+}
+</style><path class="gduy8hbow"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:mail-clock-16-regular"} {...others} />);
+}
+
+export default Component;

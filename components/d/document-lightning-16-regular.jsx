@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":16,"height":16};
+const content = `<style>.cn-txsace {
+  fill: currentColor;
+  d: path("M6 1a2 2 0 0 0-2 2v2h1V3a1 1 0 0 1 1-1h3v2.5A1.5 1.5 0 0 0 10.5 6H13v7a1 1 0 0 1-1 1H6a1 1 0 0 1-.13-.008l-.822.767c.283.154.607.241.952.241h6a2 2 0 0 0 2-2V5.414a1.5 1.5 0 0 0-.439-1.06l-2.914-2.915A1.5 1.5 0 0 0 9.587 1zm6.793 4h-2.292a.5.5 0 0 1-.5-.5V2.207zm-11.29 7h1.75l-.59 2.36c-.121.482.462.826.826.486l4.872-4.548A.75.75 0 0 0 7.85 9H6.752l.781-2.342A.5.5 0 0 0 7.06 6H3.586a.5.5 0 0 0-.462.308l-2.083 5a.5.5 0 0 0 .461.692");
+}
+</style><path class="cn-txsace"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:document-lightning-16-regular"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":20,"height":20};
+const content = `<style>.xave-_xwb {
+  fill: currentColor;
+  d: path("M7.826 8.62a8.8 8.8 0 0 1-.952 2.764c-.649 1.18-1.476 2.011-2.228 2.762a.5.5 0 0 0 .708.708l.011-.012c.747-.747 1.664-1.664 2.386-2.976C8.48 10.538 9 8.83 9 6.5a2.5 2.5 0 1 0-1.174 2.12M8 6.5a1.5 1.5 0 1 1-3 0a1.5 1.5 0 0 1 3 0m6.826 2.12a8.8 8.8 0 0 1-.952 2.764c-.649 1.18-1.476 2.011-2.228 2.762a.5.5 0 0 0 .708.708l.012-.012c.746-.747 1.663-1.664 2.385-2.976C15.48 10.538 16 8.83 16 6.5a2.5 2.5 0 1 0-1.174 2.12M13.5 8a1.5 1.5 0 1 1 0-3a1.5 1.5 0 0 1 0 3");
+}
+</style><path class="xave-_xwb"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:text-quote-20-regular"} {...others} />);
+}
+
+export default Component;

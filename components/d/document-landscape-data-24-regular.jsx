@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.kvut2rvmh {
+  fill: currentColor;
+  d: path("M10 9a2 2 0 1 1 4 0v6a2 2 0 1 1-4 0zm2-.5a.5.5 0 0 0-.5.5v6a.5.5 0 0 0 1 0V9a.5.5 0 0 0-.5-.5M5 14a2 2 0 1 1 4 0v1a2 2 0 1 1-4 0zm2.5 0a.5.5 0 0 0-1 0v1a.5.5 0 0 0 1 0zm9.5-4a2 2 0 0 0-2 2v3a2 2 0 1 0 4 0v-3a2 2 0 0 0-2-2m.5 2v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 1 0M2 6.75A2.75 2.75 0 0 1 4.75 4h14.5A2.75 2.75 0 0 1 22 6.75v10.5A2.75 2.75 0 0 1 19.25 20H4.75A2.75 2.75 0 0 1 2 17.25zM4.75 5.5c-.69 0-1.25.56-1.25 1.25v10.5c0 .69.56 1.25 1.25 1.25h14.5c.69 0 1.25-.56 1.25-1.25V6.75c0-.69-.56-1.25-1.25-1.25z");
+}
+</style><path class="kvut2rvmh"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:document-landscape-data-24-regular"} {...others} />);
+}
+
+export default Component;

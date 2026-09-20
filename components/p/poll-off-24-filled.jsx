@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.c9_blxiso {
+  fill: currentColor;
+  d: path("M9 10.06v9.19a2.752 2.752 0 0 0 5.504 0v-3.685L16 17.06v2.189a2.752 2.752 0 0 0 4.396 2.207l.323.323a.75.75 0 0 0 1.061-1.06L3.28 2.22a.75.75 0 1 0-1.06 1.06zm7 2.758l5.504 5.504v-8.57a2.752 2.752 0 1 0-5.504 0zm-7-7l5.504 5.504v-6.57a2.752 2.752 0 1 0-5.504 0zM4.752 12a2.75 2.75 0 0 1 2.752 2.751v4.499a2.752 2.752 0 0 1-5.504 0v-4.5A2.75 2.75 0 0 1 4.752 12");
+}
+</style><path class="c9_blxiso"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:poll-off-24-filled"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.r13jh_b-b {
+  fill: currentColor;
+  d: path("M13.82 20.04q-.183.684-.563 1.275a1.5 1.5 0 0 1-2.467.079l-.082-.122l-.124-.218a4.8 4.8 0 0 1-.393-1.014a5.6 5.6 0 0 1-.156-2.04h3.93q.111 1.082-.145 2.04M18.477 9l-3.465 7.085a1.75 1.75 0 0 1-1.096.915h-3.737l-.107-.03a1.74 1.74 0 0 1-.908-.72l-.085-.151L5.537 9zm1.773-7.002a.75.75 0 0 1 .743.648l.007.102v3.5a1.75 1.75 0 0 1-1.607 1.744l-.143.006H4.752a1.75 1.75 0 0 1-1.744-1.606l-.006-.144v-3.5a.75.75 0 0 1 .648-.743l.102-.007z");
+}
+</style><path class="r13jh_b-b"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:inking-tool-24-filled"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":16,"height":16};
+const content = `<style>.mdf3lfbfj {
+  fill: currentColor;
+  d: path("M6.354 6.146a.5.5 0 0 1 0 .708l-.647.646h4.586l-.647-.646a.5.5 0 1 1 .708-.708l1.5 1.5a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708-.708l.647-.646H5.707l.647.646a.5.5 0 1 1-.708.708l-1.5-1.5a.5.5 0 0 1 0-.708l1.5-1.5a.5.5 0 0 1 .708 0M4.5 2A2.5 2.5 0 0 0 2 4.5v7A2.5 2.5 0 0 0 4.5 14h7a2.5 2.5 0 0 0 2.5-2.5v-7A2.5 2.5 0 0 0 11.5 2zm8.415 2h-9.83A1.5 1.5 0 0 1 4.5 3h7a1.5 1.5 0 0 1 1.415 1M3 5h10v6H3zm.085 7h9.83a1.5 1.5 0 0 1-1.415 1h-7a1.5 1.5 0 0 1-1.415-1");
+}
+</style><path class="mdf3lfbfj"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:table-cells-merge-16-regular"} {...others} />);
+}
+
+export default Component;

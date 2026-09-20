@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.dgk6r9jnv {
+  fill: currentColor;
+  d: path("M8 4.5a2.5 2.5 0 0 1 5 0V6h3.379a2.25 2.25 0 0 1 1.59.659l2.811 2.81a.75.75 0 0 1 0 1.061l-2.81 2.811a2.25 2.25 0 0 1-1.591.659H13v6.75c0 .69-.56 1.25-1.25 1.25h-2.5C8.56 22 8 21.44 8 20.75V14H5.25A2.25 2.25 0 0 1 3 11.75v-3.5A2.25 2.25 0 0 1 5.25 6H8zm3.5 0a1 1 0 1 0-2 0V6h2zm-2 16h2V14h-2z");
+}
+</style><path class="dgk6r9jnv"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:street-sign-24-filled"} {...others} />);
+}
+
+export default Component;

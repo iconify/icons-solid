@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":16,"height":16};
+const content = `<style>.s1lly_myo {
+  fill: currentColor;
+  d: path("M4.5 2A2.5 2.5 0 0 0 2 4.5v7A2.5 2.5 0 0 0 4.5 14h3.672a2.5 2.5 0 0 0 1.767-.732l3.329-3.329A2.5 2.5 0 0 0 14 8.172V4.5A2.5 2.5 0 0 0 11.5 2zM3 4.5A1.5 1.5 0 0 1 4.5 3h7A1.5 1.5 0 0 1 13 4.5V8h-2.5A2.5 2.5 0 0 0 8 10.5V13H4.5A1.5 1.5 0 0 1 3 11.5zm6 8.25V10.5A1.5 1.5 0 0 1 10.5 9h2.25q-.082.124-.19.232l-3.328 3.329q-.107.106-.232.19");
+}
+</style><path class="s1lly_myo"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:note-16-regular"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":16,"height":16};
+const content = `<style>.tv58fzrmx {
+  fill: currentColor;
+  d: path("M3.874 1a1 1 0 0 0-.959.714L1.032 8.036A.75.75 0 0 0 1.75 9h1.584l-1.28 4.389c-.384 1.316 1.324 2.2 2.178 1.128l1.306-1.64a5.5 5.5 0 0 1 4.782-7.873L10.252 5h-2.03l.994-2.649A1 1 0 0 0 8.28 1zM15 10.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-2.854-1.854L9.5 11.293l-.646-.647a.5.5 0 0 0-.708.708l1 1a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708");
+}
+</style><path class="tv58fzrmx"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:flash-checkmark-16-filled"} {...others} />);
+}
+
+export default Component;

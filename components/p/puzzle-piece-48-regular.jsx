@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.uawrt9tue {
+  fill: currentColor;
+  d: path("M25 6.5a3.5 3.5 0 0 0-3.5 3.5v2.5h-6.75c-.69 0-1.25.56-1.25 1.25v6.75H11a3.5 3.5 0 1 0 0 7h2.5v6.75c0 .69.56 1.25 1.25 1.25h6.75V38a3.5 3.5 0 1 0 7 0v-2.5h6.75c.69 0 1.25-.56 1.25-1.25V30H36a6 6 0 0 1 0-12h.5v-4.25c0-.69-.56-1.25-1.25-1.25H28.5V10A3.5 3.5 0 0 0 25 6.5M19 10a6 6 0 0 1 12 0h4.25A3.75 3.75 0 0 1 39 13.75v6.75h-3a3.5 3.5 0 1 0 0 7h3v6.75A3.75 3.75 0 0 1 35.25 38H31a6 6 0 0 1-12 0h-4.25A3.75 3.75 0 0 1 11 34.25V30a6 6 0 0 1 0-12v-4.25A3.75 3.75 0 0 1 14.75 10z");
+}
+</style><path class="uawrt9tue"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:puzzle-piece-48-regular"} {...others} />);
+}
+
+export default Component;

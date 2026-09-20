@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":32,"height":32};
+const content = `<style>.fuv95pk8u {
+  fill: currentColor;
+  d: path("M15.25 3a1.25 1.25 0 1 0 0 2.5h9.482l-3.366 3.366a1.25 1.25 0 0 0 1.768 1.768L26.5 7.268v9.482a1.25 1.25 0 1 0 2.5 0V4.25C29 3.56 28.44 3 27.75 3zm-4.616 20.134a1.25 1.25 0 0 0-1.768-1.768l-5.5 5.5a1.25 1.25 0 0 0 1.768 1.768zm9-10.768a1.25 1.25 0 0 1 0 1.768l-5.5 5.5a1.25 1.25 0 0 1-1.768-1.768l5.5-5.5a1.25 1.25 0 0 1 1.768 0");
+}
+</style><path class="fuv95pk8u"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:arrow-up-right-dashes-32-filled"} {...others} />);
+}
+
+export default Component;

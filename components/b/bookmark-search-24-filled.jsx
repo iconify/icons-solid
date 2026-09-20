@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.d6kam2bsw {
+  fill: currentColor;
+  d: path("M19.107 9.168a4.5 4.5 0 1 1 1.06-1.06l2.613 2.612a.75.75 0 1 1-1.06 1.06zM19.5 5.5a3 3 0 1 0-6 0a3 3 0 0 0 6 0m-.5 4.976v10.769a.75.75 0 0 1-1.188.609l-5.81-4.181l-5.812 4.18a.75.75 0 0 1-1.188-.608V6.249a3.25 3.25 0 0 1 3.25-3.25H11.6a5.5 5.5 0 0 0 7.35 7.426z");
+}
+</style><path class="d6kam2bsw"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:bookmark-search-24-filled"} {...others} />);
+}
+
+export default Component;

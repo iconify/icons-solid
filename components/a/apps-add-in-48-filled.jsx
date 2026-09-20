@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.acm5nmzut {
+  fill: currentColor;
+  d: path("M36 4a1.5 1.5 0 0 1 1.5 1.5v4.75h5a1.5 1.5 0 0 1 0 3h-5v5.25a1.5 1.5 0 0 1-3 0v-5.25h-5a1.5 1.5 0 0 1 0-3h5V5.5A1.5 1.5 0 0 1 36 4M6 10.25A4.25 4.25 0 0 1 10.25 6h11a4.25 4.25 0 0 1 4.25 4.25V22.5h12.25A4.25 4.25 0 0 1 42 26.75v11A4.25 4.25 0 0 1 37.75 42h-27.5A4.25 4.25 0 0 1 6 37.75zM22.5 22.5V10.25c0-.69-.56-1.25-1.25-1.25h-11C9.56 9 9 9.56 9 10.25V22.5zM9 25.5v12.25c0 .69.56 1.25 1.25 1.25H22.5V25.5zM25.5 39h12.25c.69 0 1.25-.56 1.25-1.25v-11c0-.69-.56-1.25-1.25-1.25H25.5z");
+}
+</style><path class="acm5nmzut"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:apps-add-in-48-filled"} {...others} />);
+}
+
+export default Component;

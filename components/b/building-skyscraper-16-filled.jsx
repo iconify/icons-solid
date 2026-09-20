@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":16,"height":16};
+const content = `<style>.l-2h4bbel {
+  fill: currentColor;
+  d: path("M6.75 1h-.5a.25.25 0 0 0-.25.25V2h1v-.75A.25.25 0 0 0 6.75 1M8.5 3h-4a.5.5 0 0 0-.5.5V4h5v-.5a.5.5 0 0 0-.5-.5m3 9a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1m.5-2.5a.5.5 0 1 1-1 0a.5.5 0 0 1 1 0M3 6.45A1.7 1.7 0 0 1 3.812 5h5.376A1.7 1.7 0 0 1 10 6.45v.05h.3a3.7 3.7 0 0 1 3.7 3.7v3.3a.5.5 0 0 1-.5.5H7v-2.1a.4.4 0 0 0-.4-.4h-.2a.4.4 0 0 0-.4.4V14H3.5a.5.5 0 0 1-.5-.5zm10 3.75a2.7 2.7 0 0 0-2.7-2.7H10V13h3zM6 7.5a.5.5 0 1 0-1 0a.5.5 0 0 0 1 0m1.5.5a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1M6 9.5a.5.5 0 1 0-1 0a.5.5 0 0 0 1 0m1.5.5a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1");
+}
+</style><path class="l-2h4bbel"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:building-skyscraper-16-filled"} {...others} />);
+}
+
+export default Component;

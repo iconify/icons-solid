@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.n-xgicbzv {
+  fill: currentColor;
+  d: path("M8 12.25A4.25 4.25 0 0 1 12.25 8h23.5A4.25 4.25 0 0 1 40 12.25v8.424A7 7 0 0 0 32.101 32H12.25A4.25 4.25 0 0 1 8 27.75zm18 24.748c0-.522.08-1.025.228-1.498H5.25a1.25 1.25 0 1 0 0 2.5h20.766a8 8 0 0 1-.016-.5zM42 27a5 5 0 1 1-10 0a5 5 0 0 1 10 0m4 10.5c0 3.5-3.15 6.5-9 6.5s-9-3-9-6.5v-.502A3 3 0 0 1 31 34h12c1.657 0 3 1.34 3 2.998z");
+}
+</style><path class="n-xgicbzv"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:laptop-person-48-filled"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":20,"height":20};
+const content = `<style>.x_rna_ben {
+  fill: currentColor;
+  d: path("M6 2a2 2 0 0 0-2 2v6h1V4a1 1 0 0 1 1-1h4v3.5A1.5 1.5 0 0 0 11.5 8H15v8a1 1 0 0 1-1 1h-3v1h3a2 2 0 0 0 2-2V7.414a1.5 1.5 0 0 0-.44-1.06l-3.914-3.915A1.5 1.5 0 0 0 10.586 2zm8.793 5H11.5a.5.5 0 0 1-.5-.5V3.207zM3.5 11a.5.5 0 0 1 0 1h-1a.5.5 0 0 0-.5.5v5a.5.5 0 0 0 .5.5h1a.5.5 0 0 1 0 1h-1A1.5 1.5 0 0 1 1 17.5v-5A1.5 1.5 0 0 1 2.5 11zm4 7a.5.5 0 0 0 0 1h1a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 8.5 11h-1a.5.5 0 0 0 0 1h1a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-.5.5zm-2.001-4a.5.5 0 0 1 .5.5l.001 3a.5.5 0 1 1-1 0v-3a.5.5 0 0 1 .5-.5m.001-1a.5.5 0 1 0 0-1a.5.5 0 0 0 0 1");
+}
+</style><path class="x_rna_ben"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:document-endnote-20-regular"} {...others} />);
+}
+
+export default Component;

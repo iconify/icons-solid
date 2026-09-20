@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.gows3b59k {
+  fill: currentColor;
+  d: path("M12.707 2.293a1 1 0 0 0-1.414 0l-3 3a1 1 0 0 0 1.414 1.414L11 5.414V15a1 1 0 1 0 2 0V5.414l1.293 1.293a1 1 0 1 0 1.414-1.414zM4.5 15A7.5 7.5 0 0 1 10 7.77v2.105A5.502 5.502 0 0 0 12 20.5a5.5 5.5 0 0 0 2-10.625V7.77A7.5 7.5 0 1 1 4.5 15m3 0a4.5 4.5 0 0 1 2.5-4.032V13.5a2.5 2.5 0 1 0 4 0v-2.532A4.5 4.5 0 1 1 7.5 15");
+}
+</style><path class="gows3b59k"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:double-tap-swipe-up-24-filled"} {...others} />);
+}
+
+export default Component;

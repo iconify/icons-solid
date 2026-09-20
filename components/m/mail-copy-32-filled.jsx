@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":32,"height":32};
+const content = `<style>.lsltbjb3i {
+  fill: currentColor;
+  d: path("M10.5 5a4.5 4.5 0 0 0-4.372 3.432l11.871 6.43l11.874-6.43A4.5 4.5 0 0 0 25.5 5zM6 19.5v-8.863l11.523 6.242a1 1 0 0 0 .953 0L30 10.637V19.5a4.5 4.5 0 0 1-4.5 4.5h-15A4.5 4.5 0 0 1 6 19.5M4 9.758A4.5 4.5 0 0 0 2 13.5v6a8.5 8.5 0 0 0 8.5 8.5h11c1.56 0 2.935-.794 3.742-2H10.5A6.5 6.5 0 0 1 4 19.5z");
+}
+</style><path class="lsltbjb3i"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:mail-copy-32-filled"} {...others} />);
+}
+
+export default Component;

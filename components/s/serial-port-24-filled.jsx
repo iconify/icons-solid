@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.w93hn9bye {
+  fill: currentColor;
+  d: path("M2.231 10.386a2.75 2.75 0 0 1 2.676-3.387H19.09a2.75 2.75 0 0 1 2.675 3.388l-1.074 4.502A2.75 2.75 0 0 1 18.017 17H5.978a2.75 2.75 0 0 1-2.675-2.113zM7 11.5A.75.75 0 1 0 7 10a.75.75 0 0 0 0 1.5m3.25-.75a.75.75 0 1 0-1.5 0a.75.75 0 0 0 1.5 0m-2 3.25a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m3.25-.75a.75.75 0 1 0-1.5 0a.75.75 0 0 0 1.5 0m1.75.75a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m3.25-.75a.75.75 0 1 0-1.5 0a.75.75 0 0 0 1.5 0M12 11.5a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5m3.25-.75a.75.75 0 1 0-1.5 0a.75.75 0 0 0 1.5 0m1.75.75a.75.75 0 1 0 0-1.5a.75.75 0 0 0 0 1.5");
+}
+</style><path class="w93hn9bye"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:serial-port-24-filled"} {...others} />);
+}
+
+export default Component;

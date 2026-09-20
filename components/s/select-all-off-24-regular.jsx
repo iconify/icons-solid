@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.tmibwesve {
+  fill: currentColor;
+  d: path("M6.25 3A3.25 3.25 0 0 0 3 6.25v9a3.25 3.25 0 0 0 3.25 3.25h9a3.25 3.25 0 0 0 3.25-3.25v-9A3.25 3.25 0 0 0 15.25 3zM4.5 6.25c0-.966.784-1.75 1.75-1.75h9c.966 0 1.75.784 1.75 1.75v9A1.75 1.75 0 0 1 15.25 17h-9a1.75 1.75 0 0 1-1.75-1.75zM6.01 19.5A3.25 3.25 0 0 0 8.75 21h7c2.9 0 5.25-2.35 5.25-5.25v-7c0-1.15-.598-2.161-1.5-2.739v9.74a3.75 3.75 0 0 1-3.75 3.75h-7l-.026-.001z");
+}
+</style><path class="tmibwesve"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:select-all-off-24-regular"} {...others} />);
+}
+
+export default Component;

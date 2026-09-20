@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.u9ccuheju {
+  fill: currentColor;
+  d: path("M4.524 6.25a.75.75 0 0 1 .75-.75H18.73a.75.75 0 0 1 .75.75v3.5a.75.75 0 0 1-.75.75H5.274a.75.75 0 0 1-.75-.75zm1.5.75v2H17.98V7zm8.206 4.979a.75.75 0 0 0-.75.75v4.5c0 .414.335.75.75.75h4.5a.75.75 0 0 0 .75-.75v-4.5a.75.75 0 0 0-.75-.75zm.75 4.5v-3h3v3zM4.524 13.25a.75.75 0 0 1 .75-.75h5.976a.75.75 0 0 1 0 1.5H5.274a.75.75 0 0 1-.75-.75m.75 2.75a.75.75 0 0 0 0 1.5h5.976a.75.75 0 0 0 0-1.5zM2 5.75A2.75 2.75 0 0 1 4.75 3h14.5A2.75 2.75 0 0 1 22 5.75v12.5A2.75 2.75 0 0 1 19.25 21H4.75A2.75 2.75 0 0 1 2 18.25zM4.75 4.5c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25h14.5c.69 0 1.25-.56 1.25-1.25V5.75c0-.69-.56-1.25-1.25-1.25z");
+}
+</style><path class="u9ccuheju"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:preview-link-24-regular"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":12,"height":12};
+const content = `<style>.lpg-mmv5o {
+  fill: currentColor;
+  d: path("M1 3.75A.75.75 0 0 1 1.75 3h3.5a.75.75 0 0 1 0 1.5H3.56L6.5 7.44l3.22-3.22a.75.75 0 1 1 1.06 1.06L7.03 9.03a.75.75 0 0 1-1.06 0L2.5 5.56v1.69a.75.75 0 0 1-1.5 0z");
+}
+</style><path class="lpg-mmv5o"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:arrow-bounce-12-filled"} {...others} />);
+}
+
+export default Component;

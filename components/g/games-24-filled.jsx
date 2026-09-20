@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.j_ldb8bqj {
+  fill: currentColor;
+  d: path("M14.998 5a7 7 0 0 1 .24 13.996l-.24.004H9.002a7 7 0 0 1-.24-13.996L9.001 5zm-.248 7.5a1.25 1.25 0 1 0 0 2.5a1.25 1.25 0 0 0 0-2.5M8 9a.75.75 0 0 0-.743.648l-.007.102v1.498h-1.5a.75.75 0 0 0-.102 1.494l.102.007l1.5-.001v1.502a.75.75 0 0 0 1.493.102l.007-.102v-1.502h1.5a.75.75 0 0 0 .102-1.492l-.102-.007l-1.5-.001V9.75A.75.75 0 0 0 8 9m8.75 0a1.25 1.25 0 1 0 0 2.5a1.25 1.25 0 0 0 0-2.5");
+}
+</style><path class="j_ldb8bqj"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:games-24-filled"} {...others} />);
+}
+
+export default Component;

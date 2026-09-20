@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":32,"height":32};
+const content = `<style>.jxlbdtbwl {
+  fill: currentColor;
+  d: path("M10 6a4.5 4.5 0 0 0-4.5 4.5v8A4.5 4.5 0 0 0 10 23h7.5a4.5 4.5 0 0 0 4.5-4.5v-8A4.5 4.5 0 0 0 17.5 6zm-5.995 4.254A6 6 0 0 0 4 10.5v8q.002.76.18 1.463A6 6 0 0 0 10 24.5h7.5q.123 0 .245-.005A4.5 4.5 0 0 1 14 26.5h-4a8 8 0 0 1-8-8V14c0-1.562.796-2.939 2.005-3.746m25.993-.75c0-1.996-2.225-3.187-3.886-2.08L23.5 9.164v10.674l2.612 1.74c1.661 1.108 3.886-.083 3.886-2.08z");
+}
+</style><path class="jxlbdtbwl"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:video-multiple-32-filled"} {...others} />);
+}
+
+export default Component;

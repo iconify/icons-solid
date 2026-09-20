@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":16,"height":16};
+const content = `<style>.q_tzybccm {
+  fill: currentColor;
+  d: path("M4.5 6a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-1 0v-3a.5.5 0 0 1 .5-.5m7 2c0 .232-.053.45-.146.647l.5.5a.5.5 0 0 1-.708.707l-.5-.5a1.5 1.5 0 0 1-1.293 0l-.5.5a.5.5 0 0 1-.707-.708l.5-.5a1.5 1.5 0 0 1 0-1.293l-.5-.5a.5.5 0 1 1 .708-.707l.5.5a1.5 1.5 0 0 1 1.293 0l.5-.5a.5.5 0 0 1 .707.708l-.5.5c.094.195.146.414.146.646m-1 0a.5.5 0 1 0-1 0a.5.5 0 0 0 1 0M1 5.5A2.5 2.5 0 0 1 3.5 3h9A2.5 2.5 0 0 1 15 5.5v5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 10.5zM3.5 4A1.5 1.5 0 0 0 2 5.5v5A1.5 1.5 0 0 0 3.5 12h9a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 12.5 4z");
+}
+</style><path class="q_tzybccm"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:vault-16-regular"} {...others} />);
+}
+
+export default Component;

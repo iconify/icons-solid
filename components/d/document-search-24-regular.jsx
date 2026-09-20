@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.ietc1qblz {
+  fill: currentColor;
+  d: path("M4 4a2 2 0 0 1 2-2h6.172a2 2 0 0 1 1.414.586l5.828 5.828A2 2 0 0 1 20 9.828V20a2 2 0 0 1-2 2h-4.018a1.74 1.74 0 0 0-.495-.987l-.512-.513H18a.5.5 0 0 0 .5-.5V10H14a2 2 0 0 1-2-2V3.5H6a.5.5 0 0 0-.5.5v7.09a5.5 5.5 0 0 0-1.5.51zm10 4.5h3.38L13.5 4.62V8a.5.5 0 0 0 .5.5M6.5 21a4.5 4.5 0 0 0 2.607-.832l2.613 2.612a.75.75 0 1 0 1.06-1.06l-2.612-2.613A4.5 4.5 0 1 0 6.5 21m0-1.5a3 3 0 1 1 0-6a3 3 0 0 1 0 6");
+}
+</style><path class="ietc1qblz"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:document-search-24-regular"} {...others} />);
+}
+
+export default Component;

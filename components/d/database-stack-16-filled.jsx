@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":16,"height":16};
+const content = `<style>.pl4lq4dug {
+  fill: currentColor;
+  d: path("M3 5.487V8c0 1.355 2.29 2.5 5 2.5s5-1.145 5-2.5V5.487C11.943 6.413 10.136 7 8 7s-3.943-.587-5-1.513M8 6c2.761 0 5-1.119 5-2.5S10.761 1 8 1S3 2.119 3 3.5S5.239 6 8 6M3 9.959V12.5C3 13.925 5.149 15 8 15s5-1.075 5-2.5V9.959c-1.066.936-2.889 1.541-5 1.541s-3.934-.606-5-1.541");
+}
+</style><path class="pl4lq4dug"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:database-stack-16-filled"} {...others} />);
+}
+
+export default Component;

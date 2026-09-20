@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":16,"height":16};
+const content = `<style>.xlquvnb_e {
+  fill: currentColor;
+  d: path("M8.808 2.102a.9.9 0 0 0-1.614 0L5.673 5.184l-3.401.495a.9.9 0 0 0-.5 1.535l2.462 2.399L3.653 13a.9.9 0 0 0 1.306.949l.91-.479a5.5 5.5 0 0 1 4.372-8.464zM15 10.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-2.146-1.854a.5.5 0 0 0-.708 0L9.5 11.293l-.646-.647a.5.5 0 0 0-.708.708l1 1a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0 0-.708");
+}
+</style><path class="xlquvnb_e"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:star-checkmark-16-filled"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":20,"height":20};
+const content = `<style>.qiqvm4b6j {
+  fill: currentColor;
+  d: path("M10.147 2.022A.5.5 0 0 0 9.5 2.5v9.905a3.25 3.25 0 1 0 .995 2.165l.005-.07V7.177l5.853 1.8A.5.5 0 0 0 17 8.5V5.977a2.5 2.5 0 0 0-1.765-2.39zM16 7.823l-5.5-1.692V3.177l4.441 1.366A1.5 1.5 0 0 1 16 5.977zM5 14.75a2.25 2.25 0 1 1 4.5 0a2.25 2.25 0 0 1-4.5 0");
+}
+</style><path class="qiqvm4b6j"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:music-note-20-regular"} {...others} />);
+}
+
+export default Component;

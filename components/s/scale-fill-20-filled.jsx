@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":20,"height":20};
+const content = `<style>.d8qs3oy-c {
+  fill: currentColor;
+  d: path("M3 5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2zm3.309 1.038a.5.5 0 0 0-.16.106l-.005.005A.5.5 0 0 0 6 6.5v2a.5.5 0 0 0 1 0v-.793l1.146 1.147a.5.5 0 1 0 .708-.708L7.707 7H8.5a.5.5 0 0 0 0-1h-2a.5.5 0 0 0-.191.038M6 11.5v2a.5.5 0 0 0 .144.351l.005.005a.5.5 0 0 0 .348.144H8.5a.5.5 0 0 0 0-1h-.793l1.147-1.146a.5.5 0 0 0-.708-.708L7 12.293V11.5a.5.5 0 0 0-1 0m7.851-5.356A.5.5 0 0 0 13.5 6h-2a.5.5 0 0 0 0 1h.793l-1.147 1.146a.5.5 0 0 0 .708.708L13 7.707V8.5a.5.5 0 0 0 1 0v-2a.5.5 0 0 0-.144-.351zm-.16 7.818a.5.5 0 0 0 .16-.106l.005-.005A.5.5 0 0 0 14 13.5v-2a.5.5 0 0 0-1 0v.793l-1.146-1.147a.5.5 0 0 0-.708.708L12.293 13H11.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 .191-.038");
+}
+</style><path class="d8qs3oy-c"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:scale-fill-20-filled"} {...others} />);
+}
+
+export default Component;

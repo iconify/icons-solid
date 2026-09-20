@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.widl7oxnw {
+  fill: currentColor;
+  d: path("M24 41.5c9.665 0 17.5-7.835 17.5-17.5S33.665 6.5 24 6.5S6.5 14.335 6.5 24S14.335 41.5 24 41.5M44 24c0 11.046-8.954 20-20 20S4 35.046 4 24S12.954 4 24 4s20 8.954 20 20m-16.366 8.616a1.25 1.25 0 0 1-1.768 1.768l-9.5-9.5a1.25 1.25 0 0 1 0-1.768l9.5-9.5a1.25 1.25 0 0 1 1.768 1.768L19.018 24z");
+}
+</style><path class="widl7oxnw"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:chevron-circle-left-48-regular"} {...others} />);
+}
+
+export default Component;

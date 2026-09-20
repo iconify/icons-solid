@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.zw66c5z6h {
+  fill: currentColor;
+  d: path("M22.5 6a8.5 8.5 0 0 0-8.5 8.5a1.5 1.5 0 0 0 3 0a5.5 5.5 0 1 1 5.5 5.5h-17a1.5 1.5 0 0 0 0 3h17a8.5 8.5 0 0 0 0-17m14.904 12a6.5 6.5 0 0 0-6.306 4.924l-.053.212a1.5 1.5 0 1 0 2.91.728l.053-.213A3.5 3.5 0 0 1 37.404 21h.096a3.5 3.5 0 1 1 0 7h-32a1.5 1.5 0 0 0 0 3H30a3 3 0 1 1-2.77 4.154l-.095-.23a1.5 1.5 0 1 0-2.77 1.153l.097.23A6 6 0 1 0 35.197 31H37.5a6.5 6.5 0 1 0 0-13zM17.5 42a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5M10 9.5a2.5 2.5 0 1 1-5 0a2.5 2.5 0 0 1 5 0M38.5 14a2.5 2.5 0 1 0 0-5a2.5 2.5 0 0 0 0 5");
+}
+</style><path class="zw66c5z6h"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:weather-blowing-snow-48-filled"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":16,"height":16};
+const content = `<style>.raigth0gk {
+  fill: currentColor;
+  d: path("M12 2.5a1.5 1.5 0 0 0-3 0v4.1a5.5 5.5 0 0 1 3-.578zm-4 3v1.757A5.49 5.49 0 0 0 6 11.5c0 .509.07 1.002.199 1.47A1.5 1.5 0 0 1 5 11.5v-6a1.5 1.5 0 1 1 3 0M2.5 7A1.5 1.5 0 0 1 4 8.5v3a1.5 1.5 0 0 1-3 0v-3A1.5 1.5 0 0 1 2.5 7M16 11.5a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m-4.024-2.64a.494.494 0 0 0-.952 0l-.477 1.532H9c-.484 0-.686.647-.294.944l1.25.947l-.477 1.532c-.15.48.378.88.77.583l1.25-.947l1.25.947c.392.297.92-.103.77-.583l-.477-1.532l1.25-.947c.392-.297.19-.944-.294-.944h-1.546z");
+}
+</style><path class="raigth0gk"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:data-bar-vertical-star-16-filled"} {...others} />);
+}
+
+export default Component;

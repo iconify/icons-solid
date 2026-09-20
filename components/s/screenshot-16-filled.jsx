@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":16,"height":16};
+const content = `<style>.dmgk-cckb {
+  fill: currentColor;
+  d: path("M4.5 2A2.5 2.5 0 0 0 2 4.5v7A2.5 2.5 0 0 0 4.5 14h7a2.5 2.5 0 0 0 2.5-2.5v-7A2.5 2.5 0 0 0 11.5 2zm.75 3a.25.25 0 0 0-.25.25V6.5a.5.5 0 0 1-1 0V5.25C4 4.56 4.56 4 5.25 4H6.5a.5.5 0 0 1 0 1zM5 10.75c0 .138.112.25.25.25H6.5a.5.5 0 0 1 0 1H5.25C4.56 12 4 11.44 4 10.75V9.5a.5.5 0 0 1 1 0zM10.75 5H9.5a.5.5 0 0 1 0-1h1.25c.69 0 1.25.56 1.25 1.25V6.5a.5.5 0 0 1-1 0V5.25a.25.25 0 0 0-.25-.25m.25 5.75V9.5a.5.5 0 0 1 1 0v1.25c0 .69-.56 1.25-1.25 1.25H9.5a.5.5 0 0 1 0-1h1.25a.25.25 0 0 0 .25-.25");
+}
+</style><path class="dmgk-cckb"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"fluent:screenshot-16-filled"} {...others} />);
+}
+
+export default Component;

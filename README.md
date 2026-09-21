@@ -4,6 +4,7 @@ This repository contains icon components for SolidJS for all 222 icon sets avail
 
 Each icon set is published in a separate branch of this repository, see list of branches below.
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/solid).
 
 ## Why not NPM ???
 
@@ -50,11 +51,21 @@ Each icon set is published in a separate branch of this repository, which makes 
 npm install github:iconify/icons-solid#{prefix}
 ```
 
+or
+```bash
+npm install gitlab:iconify-icons/solid#{prefix}
+```
+
 where {prefix} is icon set prefix.
 For example, for `mdi` icon set, installation command is:
 
 ```bash
 npm install github:iconify/icons-solid#mdi
+```
+
+or
+```bash
+npm install gitlab:iconify-icons/solid#mdi
 ```
 
 

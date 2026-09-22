@@ -1,5 +1,6 @@
 # @iconify-solid/devicon-plain
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/solid/-/tree/devicon-plain).
 **Devicon Plain**
 
 Author: [konpa](https://github.com/devicons/devicon/tree/master)
@@ -10,6 +11,11 @@ Browse all icons: [preview Devicon Plain on Iconify](https://icon-sets.iconify.d
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/solid#devicon-plain
+```
+
+or
 ```bash
 npm install github:iconify/icons-solid#devicon-plain
 ```

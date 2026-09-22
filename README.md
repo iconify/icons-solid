@@ -1,5 +1,6 @@
 # @iconify-solid/material-symbols
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/solid/-/tree/material-symbols).
 **Material Symbols**
 
 Author: [Google](https://github.com/google/material-design-icons)
@@ -10,6 +11,11 @@ Browse all icons: [preview Material Symbols on Iconify](https://icon-sets.iconif
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/solid#material-symbols
+```
+
+or
 ```bash
 npm install github:iconify/icons-solid#material-symbols
 ```

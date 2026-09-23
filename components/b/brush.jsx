@@ -1,11 +1,9 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/j/jx0p4fbya.css';
-import '../../css/s/sjx_u5vdi.css';
-import '../../css/t/tseqcgbor.css';
+import '../../css/g/g9d-6sbrt.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="sjx_u5vdi"/><path vector-effect="non-scaling-stroke" class="tseqcgbor"/></g>`;
+const content = `<path vector-effect="non-scaling-stroke" class="g9d-6sbrt"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

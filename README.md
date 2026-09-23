@@ -1,5 +1,6 @@
 # @iconify-solid/wordpress
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/solid/-/tree/wordpress).
 **WordPress Icons**
 
 Author: [The WordPress Contributors](https://github.com/WordPress/gutenberg/tree/HEAD/packages/icons)
@@ -10,6 +11,11 @@ Browse all icons: [preview WordPress Icons on Iconify](https://icon-sets.iconify
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/solid#wordpress
+```
+
+or
 ```bash
 npm install github:iconify/icons-solid#wordpress
 ```

@@ -1,5 +1,6 @@
 # @iconify-solid/pinhead
 
+⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/solid/-/tree/pinhead).
 **Pinhead Map Icons**
 
 Author: [Quincy Morgan](https://github.com/waysidemapping/pinhead)
@@ -10,6 +11,11 @@ Browse all icons: [preview Pinhead Map Icons on Iconify](https://icon-sets.iconi
 
 ## Installation
 
+```bash
+npm install gitlab:iconify-icons/solid#pinhead
+```
+
+or
 ```bash
 npm install github:iconify/icons-solid#pinhead
 ```

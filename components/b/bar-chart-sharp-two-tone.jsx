@@ -1,11 +1,23 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/e/epm6m9bbq.css';
-import '../../css/k/k4zpahbdz.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="epm6m9bbq"/><path class="k4zpahbdz"/></g>`;
+const content = `<style>.epm6m9bbq {
+  stroke-opacity: 0.4;
+  d: path("M4 8L4 23M12 1L12 23");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.k4zpahbdz {
+  d: path("M20 15L20 23");
+}
+</style><g class="gp_8x1bzb"><path class="epm6m9bbq"/><path class="k4zpahbdz"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

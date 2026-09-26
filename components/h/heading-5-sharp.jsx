@@ -1,9 +1,15 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/f/f540g9cop.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="f540g9cop"/>`;
+const content = `<style>.f540g9cop {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2 3L2 21M11 3L11 21M2 12L11 12M22 13L17 13L17 16L19 16C20.1046 16 21 16.8954 21 18C21 19.1046 20.1046 20 19 20C18.2855 20 17.3573 19.6188 17 19L16.7113 18.5");
+}
+</style><path class="f540g9cop"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

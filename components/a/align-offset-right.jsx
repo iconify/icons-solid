@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/m/mo3v1db4r.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="mo3v1db4r"/>`;
+const content = `<style>.mo3v1db4r {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 16V22M12 4V22M20 2V14");
+}
+</style><path class="mo3v1db4r"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

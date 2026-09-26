@@ -1,11 +1,24 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/v/v49pi3bmt.css';
-import '../../css/o/odmsiccqr.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="v49pi3bmt"/><path class="odmsiccqr"/></g>`;
+const content = `<style>.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.odmsiccqr {
+  d: path("M19.5 12L22 12M17.3033 17.3033L19.0711 19.0711M12 19.5L12 22M6.6967 17.3033L4.9289 19.0711M4.5 12L2 12M6.6967 6.6967L4.9289 4.9289M12 4.5L12 2M17.3033 6.6967L19.0711 4.9289");
+}
+
+.v49pi3bmt {
+  fill: currentColor;
+  d: path("M17.5 12C17.5 15.0376 15.0376 17.5 12 17.5C8.9624 17.5 6.5 15.0376 6.5 12C6.5 8.9624 8.9624 6.5 12 6.5C15.0376 6.5 17.5 8.9624 17.5 12Z");
+  stroke: none;
+}
+</style><g class="gp_8x1bzb"><path class="v49pi3bmt"/><path class="odmsiccqr"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

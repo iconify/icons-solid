@@ -1,9 +1,13 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/e/e5sqdxj-j.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="e5sqdxj-j"/>`;
+const content = `<style>.e5sqdxj-j {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M12 1C17.937 1 23 6.0629 23 12C23 17.937 17.937 23 12 23C6.0629 23 1 17.937 1 12C1 6.0629 6.0629 1 12 1ZM6.5144 12.8742L15.5144 17.8742C16.1809 18.2445 17 17.7625 17 17L17 7C17 6.2375 16.1809 5.7555 15.5144 6.1258L6.5144 11.1258C5.8285 11.5068 5.8285 12.4932 6.5144 12.8742Z");
+}
+</style><path clip-rule="evenodd" class="e5sqdxj-j"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/k/kt--3pvpr.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="kt--3pvpr"/>`;
+const content = `<style>.kt--3pvpr {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M11 17L6 12L11 7M18 17L13 12L18 7");
+}
+</style><path class="kt--3pvpr"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

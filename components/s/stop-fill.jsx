@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/j/jsodg2gky.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="jsodg2gky"/>`;
+const content = `<style>.jsodg2gky {
+  fill: currentColor;
+  d: path("M4 7C4 5.343146 5.343146 4 7 4L17 4C18.656854 4 20 5.343146 20 7L20 17C20 18.656854 18.656854 20 17 20L7 20C5.343146 20 4 18.656854 4 17Z");
+}
+</style><path class="jsodg2gky"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

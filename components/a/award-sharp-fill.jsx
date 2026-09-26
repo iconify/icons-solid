@@ -1,11 +1,24 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/g/gp_8x1bzb.css';
-import '../../css/x/xgeiq7btn.css';
-import '../../css/l/l8iufbc7b.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="gp_8x1bzb"><path class="xgeiq7btn"/><path class="l8iufbc7b"/></g>`;
+const content = `<style>.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.l8iufbc7b {
+  d: path("M19 9C19 12.866 15.866 16 12 16C8.134 16 5 12.866 5 9C5 5.134 8.134 2 12 2C15.866 2 19 5.134 19 9ZM16.1787 14.6159L19 22L12 19.2077L5 22L7.8213 14.6159");
+}
+
+.xgeiq7btn {
+  fill: currentColor;
+  d: path("M19 9C19 12.866 15.866 16 12 16C8.134 16 5 12.866 5 9C5 5.134 8.134 2 12 2C15.866 2 19 5.134 19 9Z");
+  stroke: none;
+}
+</style><g class="gp_8x1bzb"><path class="xgeiq7btn"/><path class="l8iufbc7b"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

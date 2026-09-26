@@ -1,9 +1,15 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/y/yox_8jbpe.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="yox_8jbpe"/>`;
+const content = `<style>.yox_8jbpe {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M7 3L17 3L17 21L7 21L7 3ZM3 2L3 22M21 2L21 22");
+}
+</style><path class="yox_8jbpe"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

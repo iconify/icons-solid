@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/a/ayrup6xiw.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ayrup6xiw"/>`;
+const content = `<style>.ayrup6xiw {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 3V10M3 7L6 10L9 7M6 21V14M3 17L6 14L9 17M13 6H21M13 12H21M13 18H21");
+}
+</style><path class="ayrup6xiw"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

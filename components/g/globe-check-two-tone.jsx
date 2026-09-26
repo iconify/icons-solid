@@ -1,11 +1,26 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/k/k0aallhpc.css';
-import '../../css/x/xe23n77vd.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="k0aallhpc"/><path class="xe23n77vd"/></g>`;
+const content = `<style>.k0aallhpc {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M12 1C18.0751 1 23 5.9249 23 12L8 12C8 15.5 9.3333 19 12 22L12 23C5.9249 23 1 18.0751 1 12C1 5.9249 5.9249 1 12 1Z");
+  stroke: none;
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.xe23n77vd {
+  d: path("M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12M2 12H22M12 2C14.6667 5 16 8.5 16 12M12 2C9.33333 5 8 8.5 8 12C8 15.5 9.33333 19 12 22M16 19.6L18.3333 22L22 16");
+}
+</style><g class="nrj6p8qat"><path class="k0aallhpc"/><path class="xe23n77vd"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

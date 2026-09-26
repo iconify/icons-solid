@@ -1,9 +1,15 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/q/qem3v3brf.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="qem3v3brf"/>`;
+const content = `<style>.qem3v3brf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 5L6 18M1.7071 13.7071L6 18L10.2929 13.7071M13 6L23 6M13 10L21 10M13 14L19 14M13 18L17 18");
+}
+</style><path class="qem3v3brf"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

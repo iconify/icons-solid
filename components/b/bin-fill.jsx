@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/q/qgnltabyg.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="qgnltabyg"/>`;
+const content = `<style>.qgnltabyg {
+  fill: currentColor;
+  d: path("M20 6C20.5523 6 21 6.4477 21 7C21 7.5523 20.5523 8 20 8L19 8L19 19C19 21.2091 17.2091 23 15 23L9 23C6.7909 23 5 21.2091 5 19L5 8L4 8C3.4477 8 3 7.5523 3 7C3 6.4477 3.4477 6 4 6L20 6ZM14 1C14.5523 1 15 1.4477 15 2C15 2.5523 14.5523 3 14 3L10 3C9.4477 3 9 2.5523 9 2C9 1.4477 9.4477 1 10 1L14 1Z");
+}
+</style><path class="qgnltabyg"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

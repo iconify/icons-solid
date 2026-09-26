@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/v/veyfuxbpn.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="veyfuxbpn"/>`;
+const content = `<style>.veyfuxbpn {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 15L12 9L18 15");
+}
+</style><path class="veyfuxbpn"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

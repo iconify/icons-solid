@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/m/msi7434ap.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="msi7434ap"/>`;
+const content = `<style>.msi7434ap {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 6H17.5C17.77614 6 18 6.22386 18 6.5V18M7.2 16.8L17.4 6.6");
+}
+</style><path class="msi7434ap"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

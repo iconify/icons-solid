@@ -1,9 +1,15 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/g/gsaecdcax.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="gsaecdcax"/>`;
+const content = `<style>.gsaecdcax {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9.5 21L14.5 21M3 14.5L3 9.5M8 3L3 3L3 7M3 17L3 21L7 21M21 16L21 21.0001L17 21M15.5 3.3243L15.5 15M9.7028 9.3243L15.5 3L21.2628 9.2868");
+}
+</style><path class="gsaecdcax"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

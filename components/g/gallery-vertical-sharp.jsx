@@ -1,9 +1,15 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/i/ie-dnl_yl.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ie-dnl_yl"/>`;
+const content = `<style>.ie-dnl_yl {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 7L21 7L21 17L3 17L3 7ZM2 3L22 3M2 21L22 21");
+}
+</style><path class="ie-dnl_yl"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

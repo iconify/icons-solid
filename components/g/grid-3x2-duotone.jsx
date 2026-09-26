@@ -1,11 +1,26 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/n/nrj6p8qat.css';
-import '../../css/t/tpvw9jb-i.css';
-import '../../css/l/l1a2lyb3a.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="tpvw9jb-i"/><path class="l1a2lyb3a"/></g>`;
+const content = `<style>.l1a2lyb3a {
+  d: path("M9 5L9 19M15 5L15 19M5 12L19 12");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.tpvw9jb-i {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6C2 3.79086 3.79086 2 6 2Z");
+  stroke: none;
+}
+</style><g class="nrj6p8qat"><path class="tpvw9jb-i"/><path class="l1a2lyb3a"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

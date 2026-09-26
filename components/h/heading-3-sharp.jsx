@@ -1,9 +1,15 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/w/w_lglebah.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="w_lglebah"/>`;
+const content = `<style>.w_lglebah {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M2 3L2 21M11 3L11 21M2 12L11 12M16 13L21 13L18.8564 16C20.0403 16 21 16.8954 21 18C21 19.1046 20.0403 20 18.8564 20C18.0906 20 17.3829 19.6188 17 19L16.7068 18.5262");
+}
+</style><path class="w_lglebah"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

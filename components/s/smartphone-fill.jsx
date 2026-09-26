@@ -1,9 +1,13 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/f/fkhujqbrl.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="fkhujqbrl"/>`;
+const content = `<style>.fkhujqbrl {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M15 1C17.7614 1 20 3.23858 20 6V18C20 20.7614 17.7614 23 15 23H9C6.23858 23 4 20.7614 4 18V6C4 3.23858 6.23858 1 9 1H15ZM10.5 5C9.94772 5 9.5 5.44772 9.5 6C9.5 6.55228 9.94772 7 10.5 7H13.5C14.0523 7 14.5 6.55228 14.5 6C14.5 5.44772 14.0523 5 13.5 5H10.5Z");
+}
+</style><path clip-rule="evenodd" class="fkhujqbrl"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/wordpress",
   "type": "module",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "homepage": "https://icon-sets.iconify.design/wordpress/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "GPL-2.0-or-later",
@@ -641,6 +641,10 @@
     "./justify-right": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/j/justify-right.jsx"
+    },
+    "./justify-space-around": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/j/justify-space-around.jsx"
     },
     "./justify-space-between": {
       "types": "./types/vn2rmosy.d.ts",

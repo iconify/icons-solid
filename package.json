@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/lucide",
   "type": "module",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "ISC",
@@ -561,6 +561,10 @@
     "./bandage": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/bandage.jsx"
+    },
+    "./bangladeshi-taka": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bangladeshi-taka.jsx"
     },
     "./banknote": {
       "types": "./types/vn2rmosy.d.ts",
@@ -3658,6 +3662,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/h/house.jsx"
     },
+    "./house-cog": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/house-cog.jsx"
+    },
     "./house-heart": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/h/house-heart.jsx"
@@ -3981,6 +3989,10 @@
     "./letter-text": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/l/letter-text.jsx"
+    },
+    "./letters": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/letters.jsx"
     },
     "./library": {
       "types": "./types/vn2rmosy.d.ts",

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/carbon",
   "type": "module",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "homepage": "https://icon-sets.iconify.design/carbon/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "Apache-2.0",
@@ -626,6 +626,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/asset-digital-twin.jsx"
     },
+    "./asset-edit": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/asset-edit.jsx"
+    },
     "./asset-movement": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/asset-movement.jsx"
@@ -781,6 +785,10 @@
     "./battery-warning": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/battery-warning.jsx"
+    },
+    "./beacon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/beacon.jsx"
     },
     "./bee": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2261,6 +2269,30 @@
     "./content-delivery-network": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/content-delivery-network.jsx"
+    },
+    "./content-navigator-edit-service-download": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/content-navigator-edit-service-download.jsx"
+    },
+    "./content-navigator-edit-service-upload": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/content-navigator-edit-service-upload.jsx"
+    },
+    "./content-navigator-sync-error": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/content-navigator-sync-error.jsx"
+    },
+    "./content-navigator-sync-loading": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/content-navigator-sync-loading.jsx"
+    },
+    "./content-navigator-sync-paused": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/content-navigator-sync-paused.jsx"
+    },
+    "./content-navigator-sync-warning": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/content-navigator-sync-warning.jsx"
     },
     "./content-view": {
       "types": "./types/vn2rmosy.d.ts",
@@ -6434,6 +6466,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/marine-warning.jsx"
     },
+    "./markdown": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/markdown.jsx"
+    },
     "./material-request": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/material-request.jsx"
@@ -7990,6 +8026,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/r/recycle.jsx"
     },
+    "./red-hat-ai-inference-on-ibm-cloud": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/red-hat-ai-inference-on-ibm-cloud.jsx"
+    },
     "./red-hat-ai-instructlab-on-ibm-cloud": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/r/red-hat-ai-instructlab-on-ibm-cloud.jsx"
@@ -9109,6 +9149,10 @@
     "./stem-leaf-plot": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/stem-leaf-plot.jsx"
+    },
+    "./stepzen-graph-server": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stepzen-graph-server.jsx"
     },
     "./stethoscope": {
       "types": "./types/vn2rmosy.d.ts",
@@ -10526,6 +10570,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/v/view-filled.jsx"
     },
+    "./view-matrix": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/view-matrix.jsx"
+    },
     "./view-mode-1": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/v/view-mode-1.jsx"
@@ -10545,6 +10593,10 @@
     "./view-off-filled": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/v/view-off-filled.jsx"
+    },
+    "./view-table": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/view-table.jsx"
     },
     "./vintage-mac": {
       "types": "./types/vn2rmosy.d.ts",

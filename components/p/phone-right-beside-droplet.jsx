@@ -1,15 +1,15 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/a/atouqacem.css';
+import '../../css/z/zpmqh-bfh.css';
 
 const viewBox = {"width":15,"height":15};
-const content = `<path class="atouqacem"/>`;
+const content = `<path class="zpmqh-bfh"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {
 	const [local, others] = splitProps(props, ["width","height"]);
 
-	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"pinhead:groin-with-rememberance-ribbon"} {...others} />);
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"pinhead:phone-right-beside-droplet"} {...others} />);
 }
 
 export default Component;

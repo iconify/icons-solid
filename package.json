@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/token-branded",
   "type": "module",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "homepage": "https://icon-sets.iconify.design/token-branded/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "MIT",
@@ -2241,6 +2241,14 @@
     "./canto-background": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/canto-background.jsx"
+    },
+    "./canton": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/canton.jsx"
+    },
+    "./canton-background": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/canton-background.jsx"
     },
     "./cap": {
       "types": "./types/vn2rmosy.d.ts",
@@ -11737,6 +11745,14 @@
     "./r-background": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/r/r-background.jsx"
+    },
+    "./rabbit": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rabbit.jsx"
+    },
+    "./rabbit-background": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rabbit-background.jsx"
     },
     "./rabby": {
       "types": "./types/vn2rmosy.d.ts",

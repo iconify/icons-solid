@@ -9,7 +9,7 @@ import '../../css/x/xsx3r80om.css';
 import '../../css/e/eavnu68zi.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<mask id="SVGuywqVbel"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGuywqVbel)"><path class="ihbzjilqh"/><path class="gg-v_ymcg"/><path class="si2iccb6i"/><path class="yvjv1pirb"/><path class="xsx3r80om"/><path class="eavnu68zi"/></g>`;
+const content = `<mask id="SVGqdEcMdXs"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGqdEcMdXs)"><path class="ihbzjilqh"/><path class="gg-v_ymcg"/><path class="si2iccb6i"/><path class="yvjv1pirb"/><path class="xsx3r80om"/><path class="eavnu68zi"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

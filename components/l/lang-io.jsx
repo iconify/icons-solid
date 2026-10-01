@@ -5,7 +5,7 @@ import '../../css/e/er099gbue.css';
 import '../../css/c/cnpyay95e.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<mask id="SVGuywqVbel"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGuywqVbel)"><path class="er099gbue"/><path class="cnpyay95e"/></g>`;
+const content = `<mask id="SVGqdEcMdXs"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGqdEcMdXs)"><path class="er099gbue"/><path class="cnpyay95e"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

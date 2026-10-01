@@ -6,7 +6,7 @@ import '../../css/j/jj2lsu2lp.css';
 import '../../css/w/wy89v1izm.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<mask id="SVGuywqVbel"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGuywqVbel)"><path class="uayjmu0vt"/><path class="jj2lsu2lp"/><path class="wy89v1izm"/></g>`;
+const content = `<mask id="SVGqdEcMdXs"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGqdEcMdXs)"><path class="uayjmu0vt"/><path class="jj2lsu2lp"/><path class="wy89v1izm"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

@@ -13,7 +13,7 @@ import '../../css/d/d5xjs_r8r.css';
 import '../../css/y/yexab8bnv.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<mask id="SVGuywqVbel"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGuywqVbel)"><path class="zl8xpjbei"/><path class="x4_93tbra"/><path class="iku4u29ow"/><path class="gqdufsjnn"/><path class="e9z611ogb"/><path class="v3tks758k"/><path class="ozh3t9bqs"/><path class="y48fzcboq"/><path class="d5xjs_r8r"/><path class="yexab8bnv"/></g>`;
+const content = `<mask id="SVGqdEcMdXs"><circle class="bc1fd0lxe"/></mask><g mask="url(#SVGqdEcMdXs)"><path class="zl8xpjbei"/><path class="x4_93tbra"/><path class="iku4u29ow"/><path class="gqdufsjnn"/><path class="e9z611ogb"/><path class="v3tks758k"/><path class="ozh3t9bqs"/><path class="y48fzcboq"/><path class="d5xjs_r8r"/><path class="yexab8bnv"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

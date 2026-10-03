@@ -1,17 +1,17 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 import '../../css/n/nrj6p8qat.css';
-import '../../css/o/oyv7fkp9q.css';
-import '../../css/e/efxrnncom.css';
+import '../../css/b/bds-3_0ac.css';
+import '../../css/e/ez1x61b2a.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="nrj6p8qat"><path class="oyv7fkp9q"/><path class="efxrnncom"/></g>`;
+const content = `<g class="nrj6p8qat"><path class="bds-3_0ac"/><circle class="ez1x61b2a"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {
 	const [local, others] = splitProps(props, ["width","height"]);
 
-	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"lucide:nut-off"} {...others} />);
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"lucide:door-closed-cog"} {...others} />);
 }
 
 export default Component;

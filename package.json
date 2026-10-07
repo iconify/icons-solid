@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/lucide",
   "type": "module",
-  "version": "1.0.47",
+  "version": "1.0.48",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "ISC",
@@ -3458,6 +3458,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/g/grip-vertical.jsx"
     },
+    "./groceries": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/groceries.jsx"
+    },
     "./group": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/g/group.jsx"
@@ -3641,6 +3645,10 @@
     "./highlighter": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/h/highlighter.jsx"
+    },
+    "./hiking-stick": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hiking-stick.jsx"
     },
     "./hop": {
       "types": "./types/vn2rmosy.d.ts",
@@ -5825,6 +5833,10 @@
     "./scooter": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/scooter.jsx"
+    },
+    "./scratch-blocks": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/scratch-blocks.jsx"
     },
     "./screen-share": {
       "types": "./types/vn2rmosy.d.ts",

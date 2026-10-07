@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/devicon-plain",
   "type": "module",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "MIT",
@@ -98,6 +98,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/ansys-wordmark.jsx"
     },
+    "./antigravity": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/antigravity.jsx"
+    },
     "./apache": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/apache.jsx"
@@ -177,6 +181,10 @@
     "./artixlinux-wordmark": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/artixlinux-wordmark.jsx"
+    },
+    "./aspire": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/aspire.jsx"
     },
     "./astro": {
       "types": "./types/vn2rmosy.d.ts",

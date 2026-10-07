@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/codicon",
   "type": "module",
-  "version": "1.0.29",
+  "version": "1.0.30",
   "homepage": "https://icon-sets.iconify.design/codicon/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "CC-BY-4.0",
@@ -1945,6 +1945,10 @@
     "./report": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/r/report.jsx"
+    },
+    "./report-question": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/report-question.jsx"
     },
     "./request-changes": {
       "types": "./types/vn2rmosy.d.ts",

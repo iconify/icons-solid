@@ -5,7 +5,7 @@ import '../../css/x/xd3ta3d8r.css';
 import '../../css/y/ytlnqnvjr.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path clip-rule="evenodd" class="xd3ta3d8r"/><path vector-effect="non-scaling-stroke" class="ytlnqnvjr"/></g>`;
+const content = `<g class="jx0p4fbya"><path clip-rule="evenodd" class="xd3ta3d8r"/><path class="ytlnqnvjr"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

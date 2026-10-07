@@ -5,7 +5,7 @@ import '../../css/g/gpmy2hoju.css';
 import '../../css/y/yym-h_bij.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="gpmy2hoju"/><path vector-effect="non-scaling-stroke" class="yym-h_bij"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="gpmy2hoju"/><path class="yym-h_bij"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

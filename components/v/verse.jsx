@@ -6,7 +6,7 @@ import '../../css/k/kga49o1gr.css';
 import '../../css/y/ykp8htwkq.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="ngekvelpk"/><path vector-effect="non-scaling-stroke" class="kga49o1gr"/><path vector-effect="non-scaling-stroke" class="ykp8htwkq"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="ngekvelpk"/><path class="kga49o1gr"/><path class="ykp8htwkq"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

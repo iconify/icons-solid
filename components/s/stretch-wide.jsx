@@ -5,7 +5,7 @@ import '../../css/f/fit-g3b4d.css';
 import '../../css/e/eqlu-lb8h.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path class="fit-g3b4d"/><path vector-effect="non-scaling-stroke" class="eqlu-lb8h"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="fit-g3b4d"/><path class="eqlu-lb8h"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

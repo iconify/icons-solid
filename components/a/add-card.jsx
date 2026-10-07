@@ -3,7 +3,7 @@ import { splitProps } from 'solid-js';
 import '../../css/n/n_d2dzlwj.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="n_d2dzlwj"/>`;
+const content = `<path class="n_d2dzlwj"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

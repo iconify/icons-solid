@@ -3,7 +3,7 @@ import { splitProps } from 'solid-js';
 import '../../css/f/for76ebml.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path vector-effect="non-scaling-stroke" class="for76ebml"/>`;
+const content = `<path class="for76ebml"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

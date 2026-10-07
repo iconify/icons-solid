@@ -5,7 +5,7 @@ import '../../css/d/d5s_h13yn.css';
 import '../../css/j/jaft18bfa.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="d5s_h13yn"/><path vector-effect="non-scaling-stroke" class="jaft18bfa"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="d5s_h13yn"/><path class="jaft18bfa"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

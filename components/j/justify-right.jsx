@@ -5,7 +5,7 @@ import '../../css/v/vo1mf_bms.css';
 import '../../css/o/oscgiacky.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path class="vo1mf_bms"/><path vector-effect="non-scaling-stroke" class="oscgiacky"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="vo1mf_bms"/><path class="oscgiacky"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

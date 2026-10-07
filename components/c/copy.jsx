@@ -5,7 +5,7 @@ import '../../css/g/gyr3uh4se.css';
 import '../../css/i/irkkuncdv.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="jx0p4fbya"><path vector-effect="non-scaling-stroke" class="gyr3uh4se"/><path vector-effect="non-scaling-stroke" class="irkkuncdv"/></g>`;
+const content = `<g class="jx0p4fbya"><path class="gyr3uh4se"/><path class="irkkuncdv"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

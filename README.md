@@ -1,6 +1,5 @@
 # @iconify-solid/lucide
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/solid/-/tree/lucide).
 **Lucide**
 
 Author: [Lucide Contributors](https://github.com/lucide-icons/lucide)

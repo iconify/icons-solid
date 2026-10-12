@@ -1,0 +1,16 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/d/dzfb953yw.css';
+import '../../css/n/n112oparr.css';
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="dzfb953yw"/><path class="n112oparr"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"garden:screen-arrow-up-stroke-20"} {...others} />);
+}
+
+export default Component;

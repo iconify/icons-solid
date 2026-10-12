@@ -1,0 +1,21 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/e/egmhjop1f.css';
+import '../../css/k/k6lhw3bqr.css';
+import '../../css/f/ficr7gxee.css';
+import '../../css/k/kjhix2m0e.css';
+import '../../css/f/fux-f_bmp.css';
+import '../../css/s/seb5n8bzu.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="egmhjop1f"/><path class="k6lhw3bqr"/><path class="ficr7gxee"/><path class="kjhix2m0e"/><rect transform="matrix(-1 0 0 1 16.11 6.68)" class="fux-f_bmp"/><path class="seb5n8bzu"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"andrsrxn:mouse-left-click"} {...others} />);
+}
+
+export default Component;

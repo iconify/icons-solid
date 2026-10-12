@@ -1,0 +1,21 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/v/vqn1o3bov.css';
+import '../../css/a/a645xqbzf.css';
+import '../../css/n/nr6a55h2i.css';
+import '../../css/a/a8vd-7b-x.css';
+import '../../css/k/kju8cq6vc.css';
+import '../../css/f/fq52gnpbi.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="vqn1o3bov"/><path class="a645xqbzf"/><path class="nr6a55h2i"/><path class="a8vd-7b-x"/><path class="kju8cq6vc"/><path class="fq52gnpbi"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"andrsrxn:soil-moisture-thermometer"} {...others} />);
+}
+
+export default Component;

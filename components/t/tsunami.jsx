@@ -1,0 +1,22 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.eaypatbph {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M2.75 16C6.5 16 7.5 12.75 8.5 9.5s3.5-6.25 7.25-6.25c3 0 5.5 2.25 5.5 5C20 7 16.75 6.75 16 10c-.75 3 .5 4.75 3 6Zm0 4.25q2.31-2 4.63 0t4.63 0t4.63 0t4.63 0");
+}
+</style><path class="eaypatbph"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconoven:tsunami"} {...others} />);
+}
+
+export default Component;

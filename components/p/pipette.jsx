@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.fjjsu0bnk {
+  d: path("m12.88 7.23l2.83-2.83a2.75 2.75 0 0 1 3.89 3.89l-2.83 2.83Zm-6.01 9.9l-2.12 2.12");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.lps3h3ksm {
+  d: path("m13.59 7.93l2.48 2.48l-5.66 5.66l-3.54 1.06l1.06-3.54Z");
+}
+</style><g class="hntgybcog"><path class="lps3h3ksm"/><path class="fjjsu0bnk"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconoven:pipette"} {...others} />);
+}
+
+export default Component;

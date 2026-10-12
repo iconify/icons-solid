@@ -1,0 +1,41 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.fqspdobtc {
+  width: 18.5px;
+  height: 11.5px;
+  x: 2.75px;
+  y: 9.75px;
+  rx: 2.5px;
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.p8f0y4p3y {
+  width: 18.5px;
+  height: 4.25px;
+  x: 2.75px;
+  y: 3px;
+  rx: 1.25px;
+}
+
+.rs_ux8b0z {
+  d: path("m8.25 3l-2 4.25m7-4.25l-2 4.25m7-4.25l-2 4.25");
+}
+</style><g class="hntgybcog"><rect class="fqspdobtc"/><rect class="p8f0y4p3y"/><path class="rs_ux8b0z"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconoven:clapperboard"} {...others} />);
+}
+
+export default Component;

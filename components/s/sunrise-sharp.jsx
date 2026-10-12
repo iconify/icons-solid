@@ -1,0 +1,22 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.zay0xvb-s {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M7 17.5a5 5 0 0 1 10 0Zm-4.25 3.25h18.5M2.75 17.5H4.5m15 0h1.75M6 11.5l1.25 1.25M18 11.5l-1.25 1.25M12 9V3M9.5 5.25l2.5-2.5l2.5 2.5");
+}
+</style><path class="zay0xvb-s"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconoven:sunrise-sharp"} {...others} />);
+}
+
+export default Component;

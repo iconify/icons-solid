@@ -1,0 +1,31 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.dbgvcxwad {
+  cx: 12px;
+  cy: 12px;
+  r: 9.25px;
+}
+
+.e_h0dm-vc {
+  d: path("M7.75 10h2.5m3.5 0h2.5m-2.5-2.75L15 6.417L16.25 7m-7 8.5l3.213.93l2.287-1.93");
+}
+
+.x2cwu0gfd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+</style><g class="x2cwu0gfd"><circle class="dbgvcxwad"/><path class="e_h0dm-vc"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconoven:smirk-sharp"} {...others} />);
+}
+
+export default Component;

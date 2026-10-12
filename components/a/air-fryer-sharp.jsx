@@ -1,0 +1,35 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.iymx8nbvx {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M17 13.25h3.75v6.25");
+}
+
+.ufuby1bfx {
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M3.25 2.75H17v18.5H3.25zm0 8H17");
+}
+
+.ux2u0rbkq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+}
+
+.uxk8nvd9q {
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M10.125 6.75h.01");
+}
+</style><g class="ux2u0rbkq"><path class="ufuby1bfx"/><path class="uxk8nvd9q"/><path class="iymx8nbvx"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconoven:air-fryer-sharp"} {...others} />);
+}
+
+export default Component;

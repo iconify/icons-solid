@@ -1,0 +1,35 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.mgz3z1q0o {
+  d: path("M14 16.75h2v1.5h-2Z");
+}
+
+.pq3nxynuv {
+  d: path("M4.75 21.25V16A5.25 5.25 0 0 1 10 10.75h4A5.25 5.25 0 0 1 19.25 16v5.25Zm2.63-9.8l6.62 5.3");
+}
+
+.wv5f_1brg {
+  cx: 12px;
+  cy: 5.25px;
+  r: 2.5px;
+}
+
+.x2cwu0gfd {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 2;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+</style><g class="x2cwu0gfd"><circle class="wv5f_1brg"/><path class="pq3nxynuv"/><path class="mgz3z1q0o"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconoven:seatbelt-warning-sharp"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,31 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.n8nsxjbwk {
+  d: path("M8.75 10.5H10m3.5-4.75V7m4.75 3.5H17m-3.5 0l2.75-2.75M8 16l-4 4m-1.25-1.25l2.5 2.5");
+}
+
+.wua4mheyz {
+  cx: 13.5px;
+  cy: 10.5px;
+  r: 7.75px;
+}
+</style><g class="hntgybcog"><circle class="wua4mheyz"/><path class="n8nsxjbwk"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconoven:tire-pressure-gauge"} {...others} />);
+}
+
+export default Component;

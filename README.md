@@ -1,6 +1,5 @@
 # @iconify-solid/material-icon-theme
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/solid/-/tree/material-icon-theme).
 **Material Icon Theme**
 
 Author: [Material Extensions](https://github.com/material-extensions/vscode-material-icon-theme)

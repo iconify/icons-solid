@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/material-icon-theme",
   "type": "module",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "homepage": "https://icon-sets.iconify.design/material-icon-theme/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "MIT",
@@ -4709,6 +4709,10 @@
     "./zip": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/z/zip.jsx"
+    },
+    "./zizmor": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/zizmor.jsx"
     },
     "./oxlint": {
       "types": "./types/vn2rmosy.d.ts",

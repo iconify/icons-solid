@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/vscode-icons",
   "type": "module",
-  "version": "1.0.46",
+  "version": "1.0.47",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "MIT",
@@ -3893,6 +3893,10 @@
     "./file-type-rehype": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-type-rehype.jsx"
+    },
+    "./file-type-relay": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-type-relay.jsx"
     },
     "./file-type-remark": {
       "types": "./types/vn2rmosy.d.ts",

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/simple-icons",
   "type": "module",
-  "version": "1.0.30",
+  "version": "1.0.31",
   "homepage": "https://icon-sets.iconify.design/simple-icons/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "CC0-1.0",
@@ -1189,6 +1189,10 @@
     "./askubuntu": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/askubuntu.jsx"
+    },
+    "./aspire": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/aspire.jsx"
     },
     "./assemblyscript": {
       "types": "./types/vn2rmosy.d.ts",
@@ -14845,6 +14849,10 @@
     "./zensar": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/z/zensar.jsx"
+    },
+    "./zensical": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/zensical.jsx"
     },
     "./zerodha": {
       "types": "./types/vn2rmosy.d.ts",

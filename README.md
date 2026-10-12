@@ -1,6 +1,5 @@
 # @iconify-solid/simple-icons
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/solid/-/tree/simple-icons).
 **Simple Icons**
 
 Author: [Simple Icons Collaborators](https://github.com/simple-icons/simple-icons)

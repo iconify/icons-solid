@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/k/kfu5g5uib.css';
+import '../../css/o/o63gs7ffv.css';
+import '../../css/n/ne8de7own.css';
+import '../../css/h/h8pwwo5-k.css';
+import '../../css/g/gqkml0b8t.css';
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="kfu5g5uib"/><path class="o63gs7ffv"/><path class="ne8de7own"/><path class="h8pwwo5-k"/><path class="gqkml0b8t"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"energy-icons:pylon-check-48-bold"} {...others} />);
+}
+
+export default Component;

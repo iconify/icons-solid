@@ -1,0 +1,16 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/w/wb3rc9oyk.css';
+import '../../css/t/t5pr9sbrd.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="wb3rc9oyk"/><path clip-rule="evenodd" class="t5pr9sbrd"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"lucide-extended:circle-parking-filled"} {...others} />);
+}
+
+export default Component;

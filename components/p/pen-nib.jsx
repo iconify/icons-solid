@@ -4,10 +4,10 @@ import '../../css/x/xn5eo9bqs.css';
 import '../../css/n/n45loobvy.css';
 import '../../css/w/w32-h-btm.css';
 import '../../css/q/qh92rs84t.css';
-import '../../css/d/doa64cnyr.css';
+import '../../css/c/ciht_8b5p.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="xn5eo9bqs"><path class="n45loobvy"/><path class="w32-h-btm"/><path class="qh92rs84t"/><path class="doa64cnyr"/></g>`;
+const content = `<g class="xn5eo9bqs"><path class="n45loobvy"/><path class="w32-h-btm"/><path class="qh92rs84t"/><path class="ciht_8b5p"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

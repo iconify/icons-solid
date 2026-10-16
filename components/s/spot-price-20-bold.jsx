@@ -1,0 +1,17 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/x/xdwp1kh1x.css';
+import '../../css/b/b3qkz99-a.css';
+import '../../css/d/d1xy-t7vc.css';
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="xdwp1kh1x"/><path class="b3qkz99-a"/><path class="d1xy-t7vc"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"energy-icons:spot-price-20-bold"} {...others} />);
+}
+
+export default Component;

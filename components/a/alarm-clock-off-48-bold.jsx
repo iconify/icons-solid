@@ -1,0 +1,16 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/d/d2k8ah5hs.css';
+import '../../css/q/q18-obcpc.css';
+
+const viewBox = {"width":48,"height":48};
+const content = `<path class="d2k8ah5hs"/><path class="q18-obcpc"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"energy-icons:alarm-clock-off-48-bold"} {...others} />);
+}
+
+export default Component;

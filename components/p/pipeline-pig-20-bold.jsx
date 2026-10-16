@@ -1,0 +1,16 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/l/lw3g6zbcc.css';
+import '../../css/c/cbyfxzbek.css';
+
+const viewBox = {"width":20,"height":20};
+const content = `<path class="lw3g6zbcc"/><path class="cbyfxzbek"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"energy-icons:pipeline-pig-20-bold"} {...others} />);
+}
+
+export default Component;

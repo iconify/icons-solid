@@ -11,6 +11,11 @@ Browse all icons: [preview Gravity UI Icons on Iconify](https://icon-sets.iconif
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/solid#gravity-ui
+```
+
+or
+```bash
 npm install github:iconify/icons-solid#gravity-ui
 ```
 

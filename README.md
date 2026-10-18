@@ -11,6 +11,11 @@ Browse all icons: [preview Vadivam on Iconify](https://icon-sets.iconify.design/
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/solid#vadivam
+```
+
+or
+```bash
 npm install github:iconify/icons-solid#vadivam
 ```
 

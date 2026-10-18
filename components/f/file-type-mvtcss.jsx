@@ -57,7 +57,7 @@ const content = `<style>.c92ti-bbz {
   fill: none;
   d: path("M0 0h32v32H0z");
 }
-</style><g class="kuf42lb8e"><path class="x8r3bo3uc"/><path class="ha91qrqnt"/><path class="cz9ayfbgp"/><g class="l5y23ru5w"><path class="uls1b47cj"/><path class="vm-vqp72y"/><path class="c92ti-bbz"/><path class="nmd15lkvr"/><path class="wbx48kn9i"/><path class="pso4q_bpf"/></g></g>`;
+</style><g clip-rule="evenodd" class="kuf42lb8e"><path class="x8r3bo3uc"/><path class="ha91qrqnt"/><path class="cz9ayfbgp"/><g class="l5y23ru5w"><path class="uls1b47cj"/><path class="vm-vqp72y"/><path class="c92ti-bbz"/><path class="nmd15lkvr"/><path class="wbx48kn9i"/><path class="pso4q_bpf"/></g></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

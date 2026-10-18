@@ -7,16 +7,16 @@ const content = `<style>.b13a6fbul {
   d: path("M16.002 16.256L4.252 9.133l11.75-7.12l11.747 7.12z");
 }
 
-.ho4ovebol {
-  fill: var(--svg-color--28bdb0, #28bdb0);
-  d: path("M16.002 16.256v13.73l-11.75-7.12V9.132z");
+.ce1ltlj8d {
+  fill: var(--svg-color--68d1c7, #68d1c7);
+  d: path("M16.002 16.256v13.73l11.747-7.12V9.134z");
 }
 
-.ro2r52bxw {
-  fill: var(--svg-color--68d1c7, #68d1c7);
-  d: path("M16.002 16.256v13.73l11.747-7.12V9.132z");
+.pys5cfaeq {
+  fill: var(--svg-color--28bdb0, #28bdb0);
+  d: path("M16.002 16.256v13.73l-11.75-7.12V9.134z");
 }
-</style><path class="ho4ovebol"/><path class="ro2r52bxw"/><path class="b13a6fbul"/>`;
+</style><path class="pys5cfaeq"/><path class="ce1ltlj8d"/><path class="b13a6fbul"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

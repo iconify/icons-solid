@@ -6,10 +6,6 @@ const content = `<style>.bttmy5xjf {
   d: path("M25 15.85h2v5.52h-2z");
 }
 
-.dm9xkhblt {
-  d: path("M27 15.067v2H4.995v-2z");
-}
-
 .hwneuincd {
   stroke: var(--svg-color--f16427, #f16427);
   stroke-width: var(--svg-stroke-width--0-234px, 0.234px);
@@ -50,6 +46,10 @@ const content = `<style>.bttmy5xjf {
   ry: 0.442px;
 }
 
+.pxm3alyml {
+  d: path("M27 15.067v2H4.996v-2z");
+}
+
 .wandjd64r {
   width: 1.766px;
   height: 1.766px;
@@ -58,7 +58,7 @@ const content = `<style>.bttmy5xjf {
   rx: 0.442px;
   ry: 0.442px;
 }
-</style><g class="pjaiepbgj"><g transform="translate(-2 .955)scale(3.9999)" class="hwneuincd"><rect class="iaivzbq-f"/><rect class="wandjd64r"/><rect class="pkylttd2t"/><rect class="m9e9rob-w"/></g><path class="n7xp5lbtn"/><path class="dm9xkhblt"/><path class="bttmy5xjf"/></g>`;
+</style><g class="pjaiepbgj"><g transform="translate(-2 .955)scale(3.9999)" class="hwneuincd"><rect class="iaivzbq-f"/><rect class="wandjd64r"/><rect class="pkylttd2t"/><rect class="m9e9rob-w"/></g><path class="n7xp5lbtn"/><path class="pxm3alyml"/><path class="bttmy5xjf"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

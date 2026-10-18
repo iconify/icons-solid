@@ -15,7 +15,7 @@ const content = `<style>.ce9wo19hx {
   fill: var(--svg-color--fff, #fff);
   d: path("M139 0H0v32h139z");
 }
-</style><mask id="SVGaqCXichY" width="139" height="32" x="0" y="0" maskUnits="userSpaceOnUse"><path class="qpwv56bpu"/></mask><g mask="url(#SVGaqCXichY)" class="ft5dv1b6b"><path class="ce9wo19hx"/></g>`;
+</style><g class="ft5dv1b6b"><mask id="SVGaqCXichY" width="139" height="32" x="0" y="0" maskUnits="userSpaceOnUse"><path class="qpwv56bpu"/></mask><g mask="url(#SVGaqCXichY)"><path class="ce9wo19hx"/></g></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

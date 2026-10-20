@@ -96,14 +96,14 @@ There are 227 branches in this repository, one for each icon set.
 - [#iconoven](https://github.com/iconify/icons-solid/tree/iconoven): **IconOven** (18236 icons, MIT)
 - [#boxicons](https://github.com/iconify/icons-solid/tree/boxicons): **Boxicons** (3768 icons, MIT)
 - [#mingcute](https://github.com/iconify/icons-solid/tree/mingcute): **MingCute Icon** (3320 icons, Apache 2.0)
-- [#keyline-icons](https://github.com/iconify/icons-solid/tree/keyline-icons): **Keyline Icons** (12056 icons, MIT)
+- [#keyline-icons](https://github.com/iconify/icons-solid/tree/keyline-icons): **Keyline Icons** (12544 icons, MIT)
 - [#ri](https://github.com/iconify/icons-solid/tree/ri): **Remix Icon** (3188 icons, Apache 2.0)
 - [#mynaui](https://github.com/iconify/icons-solid/tree/mynaui): **Myna UI Icons** (2620 icons, MIT)
 - [#andrsrxn](https://github.com/iconify/icons-solid/tree/andrsrxn): **andrsrxn/icons** (2380 icons, MIT)
 - [#griddy-icons](https://github.com/iconify/icons-solid/tree/griddy-icons): **Griddy Icons** (2010 icons, MIT)
 - [#iconamoon](https://github.com/iconify/icons-solid/tree/iconamoon): **IconaMoon** (1781 icons, CC BY 4.0)
 - [#iconoir](https://github.com/iconify/icons-solid/tree/iconoir): **Iconoir** (1671 icons, MIT)
-- [#lucide](https://github.com/iconify/icons-solid/tree/lucide): **Lucide** (1891 icons, ISC)
+- [#lucide](https://github.com/iconify/icons-solid/tree/lucide): **Lucide** (1903 icons, ISC)
 - [#lucide-extended](https://github.com/iconify/icons-solid/tree/lucide-extended): **Lucide Extended** (2654 icons, ISC)
 - [#lucide-lab](https://github.com/iconify/icons-solid/tree/lucide-lab): **Lucide Lab** (373 icons, ISC)
 - [#uil](https://github.com/iconify/icons-solid/tree/uil): **Unicons** (1215 icons, Apache 2.0)
@@ -112,7 +112,7 @@ There are 227 branches in this repository, one for each icon set.
 - [#majesticons](https://github.com/iconify/icons-solid/tree/majesticons): **Majesticons** (760 icons, MIT)
 - [#gg](https://github.com/iconify/icons-solid/tree/gg): **css.gg** (704 icons, MIT)
 - [#flowbite](https://github.com/iconify/icons-solid/tree/flowbite): **Flowbite Icons** (751 icons, MIT)
-- [#vadivam](https://github.com/iconify/icons-solid/tree/vadivam): **Vadivam** (587 icons, MIT)
+- [#vadivam](https://github.com/iconify/icons-solid/tree/vadivam): **Vadivam** (697 icons, MIT)
 - [#basil](https://github.com/iconify/icons-solid/tree/basil): **Basil** (493 icons, CC BY 4.0)
 - [#pixelarticons](https://github.com/iconify/icons-solid/tree/pixelarticons): **Pixelarticons** (1036 icons, MIT)
 - [#pixel](https://github.com/iconify/icons-solid/tree/pixel): **Pixel Icon** (578 icons, CC BY 4.0)
@@ -181,7 +181,7 @@ There are 227 branches in this repository, one for each icon set.
 
 - [#fluent](https://github.com/iconify/icons-solid/tree/fluent): **Fluent UI System Icons** (19900 icons, MIT)
 - [#ph](https://github.com/iconify/icons-solid/tree/ph): **Phosphor** (9072 icons, MIT)
-- [#energy-icons](https://github.com/iconify/icons-solid/tree/energy-icons): **Energy Icons** (8092 icons, MIT)
+- [#energy-icons](https://github.com/iconify/icons-solid/tree/energy-icons): **Energy Icons** (8252 icons, MIT)
 - [#glyphs](https://github.com/iconify/icons-solid/tree/glyphs): **Glyphs** (3452 icons, MIT)
 - [#glyphs-poly](https://github.com/iconify/icons-solid/tree/glyphs-poly): **Glyphs Poly** (863 icons, MIT)
 - [#teenyicons](https://github.com/iconify/icons-solid/tree/teenyicons): **Teenyicons** (1200 icons, MIT)
@@ -232,8 +232,8 @@ There are 227 branches in this repository, one for each icon set.
 
 ### Programming
 
-- [#vscode-icons](https://github.com/iconify/icons-solid/tree/vscode-icons): **VSCode Icons** (1704 icons, MIT)
-- [#codicon](https://github.com/iconify/icons-solid/tree/codicon): **Codicons** (654 icons, CC BY 4.0)
+- [#vscode-icons](https://github.com/iconify/icons-solid/tree/vscode-icons): **VSCode Icons** (1705 icons, MIT)
+- [#codicon](https://github.com/iconify/icons-solid/tree/codicon): **Codicons** (655 icons, CC BY 4.0)
 - [#material-icon-theme](https://github.com/iconify/icons-solid/tree/material-icon-theme): **Material Icon Theme** (906 icons, MIT)
 - [#file-icons](https://github.com/iconify/icons-solid/tree/file-icons): **File Icons** (930 icons, ISC)
 - [#devicon](https://github.com/iconify/icons-solid/tree/devicon): **Devicon** (1063 icons, MIT)
@@ -255,7 +255,7 @@ There are 227 branches in this repository, one for each icon set.
 - [#nonicons](https://github.com/iconify/icons-solid/tree/nonicons): **Nonicons** (69 icons, MIT)
 - [#arcticons](https://github.com/iconify/icons-solid/tree/arcticons): **Arcticons** (15322 icons, CC BY-SA 4.0)
 - [#thesvg](https://github.com/iconify/icons-solid/tree/thesvg): **theSVG** (3760 icons, MIT)
-- [#thesvg-color](https://github.com/iconify/icons-solid/tree/thesvg-color): **theSVG Color** (5133 icons, MIT)
+- [#thesvg-color](https://github.com/iconify/icons-solid/tree/thesvg-color): **theSVG Color** (5136 icons, MIT)
 - [#selfhst](https://github.com/iconify/icons-solid/tree/selfhst): **selfh.st/icons** (7272 icons, CC BY 4.0)
 - [#cbi](https://github.com/iconify/icons-solid/tree/cbi): **Custom Brand Icons** (1757 icons, CC BY-NC-SA 4.0)
 - [#brandico](https://github.com/iconify/icons-solid/tree/brandico): **Brandico** (45 icons, CC BY SA)
@@ -285,7 +285,7 @@ There are 227 branches in this repository, one for each icon set.
 - [#flag](https://github.com/iconify/icons-solid/tree/flag): **Flag Icons** (542 icons, MIT)
 - [#flagpack](https://github.com/iconify/icons-solid/tree/flagpack): **Flagpack** (254 icons, MIT)
 - [#cif](https://github.com/iconify/icons-solid/tree/cif): **CoreUI Flags** (199 icons, CC0 1.0)
-- [#pinhead](https://github.com/iconify/icons-solid/tree/pinhead): **Pinhead Map Icons** (2743 icons, CC0)
+- [#pinhead](https://github.com/iconify/icons-solid/tree/pinhead): **Pinhead Map Icons** (2747 icons, CC0)
 - [#roentgen](https://github.com/iconify/icons-solid/tree/roentgen): **Röntgen** (574 icons, CC BY 4.0)
 - [#maki](https://github.com/iconify/icons-solid/tree/maki): **Maki** (215 icons, CC0)
 - [#temaki](https://github.com/iconify/icons-solid/tree/temaki): **Temaki** (557 icons, CC0)
@@ -339,4 +339,4 @@ There are 227 branches in this repository, one for each icon set.
 - [#vaadin](https://github.com/iconify/icons-solid/tree/vaadin): **Vaadin Icons** (636 icons, Apache 2.0)
 - [#grommet-icons](https://github.com/iconify/icons-solid/tree/grommet-icons): **Grommet Icons** (636 icons, Apache 2.0)
 
-Total: 227 icon sets, 405351 icons.
+Total: 227 icon sets, 406130 icons.

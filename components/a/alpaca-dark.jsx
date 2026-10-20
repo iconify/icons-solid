@@ -5,7 +5,7 @@ import '../../css/w/wp17s5bha.css';
 import '../../css/r/ref5yimac.css';
 
 const viewBox = {"width":1081,"height":309};
-const content = `<path class="qs7w7kbfr"/><path clip-rule="evenodd" class="wp17s5bha"/><path class="ref5yimac"/>`;
+const content = `<path class="qs7w7kbfr"/><path class="wp17s5bha"/><path class="ref5yimac"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

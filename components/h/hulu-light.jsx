@@ -3,7 +3,7 @@ import { splitProps } from 'solid-js';
 import '../../css/t/trlfrfbaa.css';
 
 const viewBox = {"width":243.5,"height":80};
-const content = `<path clip-rule="evenodd" class="trlfrfbaa"/>`;
+const content = `<path class="trlfrfbaa"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

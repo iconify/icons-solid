@@ -1,11 +1,19 @@
 {
   "name": "@iconify-solid/andrsrxn",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://icon-sets.iconify.design/andrsrxn/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "MIT",
   "exports": {
+    "./2fa": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/2/2fa.jsx"
+    },
+    "./2fa-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/2/2fa-off.jsx"
+    },
     "./3d": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/3/3d.jsx"
@@ -13,6 +21,10 @@
     "./4k": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/4/4k.jsx"
+    },
+    "./8k": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/8/8k.jsx"
     },
     "./abacus": {
       "types": "./types/vn2rmosy.d.ts",
@@ -53,6 +65,10 @@
     "./ad": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/ad.jsx"
+    },
+    "./ad-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/ad-off.jsx"
     },
     "./agent": {
       "types": "./types/vn2rmosy.d.ts",
@@ -234,6 +250,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/aperture.jsx"
     },
+    "./api": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/api.jsx"
+    },
     "./app-window": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/app-window.jsx"
@@ -310,6 +330,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-down.jsx"
     },
+    "./arrow-down-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-down-circle.jsx"
+    },
     "./arrow-down-dot": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-down-dot.jsx"
@@ -317,6 +341,10 @@
     "./arrow-down-end": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-down-end.jsx"
+    },
+    "./arrow-down-end-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-down-end-circle.jsx"
     },
     "./arrow-down-from-line": {
       "types": "./types/vn2rmosy.d.ts",
@@ -326,6 +354,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-down-left.jsx"
     },
+    "./arrow-down-left-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-down-left-circle.jsx"
+    },
     "./arrow-down-line": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-down-line.jsx"
@@ -334,13 +366,25 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-down-right.jsx"
     },
+    "./arrow-down-right-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-down-right-circle.jsx"
+    },
     "./arrow-down-start": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-down-start.jsx"
     },
+    "./arrow-down-start-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-down-start-circle.jsx"
+    },
     "./arrow-end": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-end.jsx"
+    },
+    "./arrow-end-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-end-circle.jsx"
     },
     "./arrow-end-dot": {
       "types": "./types/vn2rmosy.d.ts",
@@ -358,6 +402,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-left.jsx"
     },
+    "./arrow-left-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-left-circle.jsx"
+    },
     "./arrow-left-dot": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-left-dot.jsx"
@@ -374,6 +422,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-right.jsx"
     },
+    "./arrow-right-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-right-circle.jsx"
+    },
     "./arrow-right-dot": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-right-dot.jsx"
@@ -389,6 +441,10 @@
     "./arrow-start": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-start.jsx"
+    },
+    "./arrow-start-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-start-circle.jsx"
     },
     "./arrow-start-dot": {
       "types": "./types/vn2rmosy.d.ts",
@@ -422,6 +478,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-up.jsx"
     },
+    "./arrow-up-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-up-circle.jsx"
+    },
     "./arrow-up-dot": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-up-dot.jsx"
@@ -429,6 +489,10 @@
     "./arrow-up-end": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-up-end.jsx"
+    },
+    "./arrow-up-end-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-up-end-circle.jsx"
     },
     "./arrow-up-from-line": {
       "types": "./types/vn2rmosy.d.ts",
@@ -438,6 +502,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-up-left.jsx"
     },
+    "./arrow-up-left-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-up-left-circle.jsx"
+    },
     "./arrow-up-line": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-up-line.jsx"
@@ -446,9 +514,17 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-up-right.jsx"
     },
+    "./arrow-up-right-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-up-right-circle.jsx"
+    },
     "./arrow-up-start": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arrow-up-start.jsx"
+    },
+    "./arrow-up-start-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-up-start-circle.jsx"
     },
     "./arrows-diagonal-left": {
       "types": "./types/vn2rmosy.d.ts",
@@ -554,6 +630,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/atom.jsx"
     },
+    "./avocado": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/avocado.jsx"
+    },
     "./axe": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/axe.jsx"
@@ -605,6 +685,10 @@
     "./backpack": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/backpack.jsx"
+    },
+    "./bacon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bacon.jsx"
     },
     "./bacteria": {
       "types": "./types/vn2rmosy.d.ts",
@@ -682,6 +766,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/bank-note.jsx"
     },
+    "./barbershop": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/barbershop.jsx"
+    },
     "./barcode": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/barcode.jsx"
@@ -705,6 +793,10 @@
     "./basketball": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/basketball.jsx"
+    },
+    "./bat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bat.jsx"
     },
     "./bathtub": {
       "types": "./types/vn2rmosy.d.ts",
@@ -750,6 +842,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/bbq-grill.jsx"
     },
+    "./beach": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/beach.jsx"
+    },
     "./bed": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/bed.jsx"
@@ -757,6 +853,10 @@
     "./bedside-table": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/bedside-table.jsx"
+    },
+    "./bee": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bee.jsx"
     },
     "./beer": {
       "types": "./types/vn2rmosy.d.ts",
@@ -777,6 +877,10 @@
     "./bell-filled": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/bell-filled.jsx"
+    },
+    "./bell-notification": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bell-notification.jsx"
     },
     "./bell-off": {
       "types": "./types/vn2rmosy.d.ts",
@@ -990,6 +1094,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/book-star.jsx"
     },
+    "./book-user": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/book-user.jsx"
+    },
     "./book-wifi": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/book-wifi.jsx"
@@ -1098,6 +1206,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/bow-tie.jsx"
     },
+    "./bow-tie-ribbon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bow-tie-ribbon.jsx"
+    },
     "./bowling": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/bowling.jsx"
@@ -1174,6 +1286,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/box-x.jsx"
     },
+    "./boxer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/boxer.jsx"
+    },
     "./boxes": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/boxes.jsx"
@@ -1189,6 +1305,14 @@
     "./brackets": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/brackets.jsx"
+    },
+    "./brackets-check": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/brackets-check.jsx"
+    },
+    "./brackets-x": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/brackets-x.jsx"
     },
     "./brain": {
       "types": "./types/vn2rmosy.d.ts",
@@ -1262,6 +1386,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/browser-bug.jsx"
     },
+    "./browser-code": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/browser-code.jsx"
+    },
     "./browser-cursor": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/browser-cursor.jsx"
@@ -1330,6 +1458,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/bus-front.jsx"
     },
+    "./butterfly": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/butterfly.jsx"
+    },
     "./cable": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/cable.jsx"
@@ -1341,6 +1473,10 @@
     "./cactus-desert": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/cactus-desert.jsx"
+    },
+    "./cafe": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cafe.jsx"
     },
     "./cake": {
       "types": "./types/vn2rmosy.d.ts",
@@ -1462,6 +1598,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/camping.jsx"
     },
+    "./candlestick": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/candlestick.jsx"
+    },
     "./candy": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/candy.jsx"
@@ -1473,6 +1613,14 @@
     "./candy-off": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/candy-off.jsx"
+    },
+    "./cannabis": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cannabis.jsx"
+    },
+    "./cannabis-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cannabis-off.jsx"
     },
     "./cap": {
       "types": "./types/vn2rmosy.d.ts",
@@ -1626,6 +1774,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chalkboard.jsx"
     },
+    "./champagne": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/champagne.jsx"
+    },
     "./chandelier": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chandelier.jsx"
@@ -1746,6 +1898,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/check-square.jsx"
     },
+    "./cheese": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cheese.jsx"
+    },
     "./chef-hat": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chef-hat.jsx"
@@ -1782,13 +1938,25 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chess-rook.jsx"
     },
+    "./chest": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chest.jsx"
+    },
     "./chevron-down": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chevron-down.jsx"
     },
+    "./chevron-down-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-down-circle.jsx"
+    },
     "./chevron-down-double": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chevron-down-double.jsx"
+    },
+    "./chevron-down-double-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-down-double-circle.jsx"
     },
     "./chevron-down-up": {
       "types": "./types/vn2rmosy.d.ts",
@@ -1798,9 +1966,17 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chevron-end.jsx"
     },
+    "./chevron-end-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-end-circle.jsx"
+    },
     "./chevron-end-double": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chevron-end-double.jsx"
+    },
+    "./chevron-end-double-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-end-double-circle.jsx"
     },
     "./chevron-first": {
       "types": "./types/vn2rmosy.d.ts",
@@ -1814,33 +1990,65 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chevron-left.jsx"
     },
+    "./chevron-left-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-left-circle.jsx"
+    },
     "./chevron-left-double": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chevron-left-double.jsx"
+    },
+    "./chevron-left-double-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-left-double-circle.jsx"
     },
     "./chevron-right": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chevron-right.jsx"
     },
+    "./chevron-right-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-right-circle.jsx"
+    },
     "./chevron-right-double": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chevron-right-double.jsx"
+    },
+    "./chevron-right-double-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-right-double-circle.jsx"
     },
     "./chevron-start": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chevron-start.jsx"
     },
+    "./chevron-start-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-start-circle.jsx"
+    },
     "./chevron-start-double": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chevron-start-double.jsx"
+    },
+    "./chevron-start-double-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-start-double-circle.jsx"
     },
     "./chevron-up": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chevron-up.jsx"
     },
+    "./chevron-up-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-up-circle.jsx"
+    },
     "./chevron-up-double": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/chevron-up-double.jsx"
+    },
+    "./chevron-up-double-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-up-double-circle.jsx"
     },
     "./chevron-up-down": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2066,6 +2274,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/cloud-moon-rain-wind.jsx"
     },
+    "./cloud-moon-snow": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cloud-moon-snow.jsx"
+    },
     "./cloud-move": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/cloud-move.jsx"
@@ -2118,6 +2330,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/cloud-sun-rain-wind.jsx"
     },
+    "./cloud-sun-snow": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cloud-sun-snow.jsx"
+    },
     "./cloud-upload": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/cloud-upload.jsx"
@@ -2133,6 +2349,10 @@
     "./clouds": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/clouds.jsx"
+    },
+    "./cocktail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cocktail.jsx"
     },
     "./code": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2158,6 +2378,14 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/coffee.jsx"
     },
+    "./coffee-bean": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/coffee-bean.jsx"
+    },
+    "./coffin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/coffin.jsx"
+    },
     "./coin": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/coin.jsx"
@@ -2169,6 +2397,10 @@
     "./colors": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/colors.jsx"
+    },
+    "./comb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/comb.jsx"
     },
     "./combine": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2189,6 +2421,10 @@
     "./component": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/component.jsx"
+    },
+    "./concierge-bell": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/concierge-bell.jsx"
     },
     "./cone": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2254,9 +2490,21 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/copy.jsx"
     },
+    "./copy-code": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/copy-code.jsx"
+    },
     "./copy-controls": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/copy-controls.jsx"
+    },
+    "./copy-image": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/copy-image.jsx"
+    },
+    "./copy-text": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/copy-text.jsx"
     },
     "./copyleft": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2330,6 +2578,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/credit-card-in.jsx"
     },
+    "./credit-card-lock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/credit-card-lock.jsx"
+    },
     "./credit-card-minus": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/credit-card-minus.jsx"
@@ -2362,9 +2614,17 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/crop.jsx"
     },
+    "./cross": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cross.jsx"
+    },
     "./crosshair": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/crosshair.jsx"
+    },
+    "./crosshair-line": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/crosshair-line.jsx"
     },
     "./crown": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2626,6 +2886,14 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/currency-sar-circle.jsx"
     },
+    "./currency-sol": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/currency-sol.jsx"
+    },
+    "./currency-sol-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/currency-sol-circle.jsx"
+    },
     "./currency-sos": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/currency-sos.jsx"
@@ -2762,6 +3030,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/decimals-more.jsx"
     },
+    "./desert": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/desert.jsx"
+    },
     "./desk": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/desk.jsx"
@@ -2778,13 +3050,45 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/device-laptop.jsx"
     },
+    "./device-laptop-check": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-laptop-check.jsx"
+    },
+    "./device-laptop-image": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-laptop-image.jsx"
+    },
+    "./device-laptop-in": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-laptop-in.jsx"
+    },
+    "./device-laptop-move": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-laptop-move.jsx"
+    },
     "./device-laptop-off": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/device-laptop-off.jsx"
     },
+    "./device-laptop-out": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-laptop-out.jsx"
+    },
     "./device-laptop-phone": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/device-laptop-phone.jsx"
+    },
+    "./device-laptop-share": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-laptop-share.jsx"
+    },
+    "./device-laptop-warning": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-laptop-warning.jsx"
+    },
+    "./device-laptop-x": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-laptop-x.jsx"
     },
     "./device-pc": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2809,6 +3113,10 @@
     "./device-pc-cpu": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/device-pc-cpu.jsx"
+    },
+    "./device-pc-image": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-pc-image.jsx"
     },
     "./device-pc-in": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2850,13 +3158,33 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/device-phone-check.jsx"
     },
+    "./device-phone-image-horizontal": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-phone-image-horizontal.jsx"
+    },
+    "./device-phone-image-vertical": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-phone-image-vertical.jsx"
+    },
+    "./device-phone-in": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-phone-in.jsx"
+    },
     "./device-phone-lightning": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/device-phone-lightning.jsx"
     },
+    "./device-phone-move": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-phone-move.jsx"
+    },
     "./device-phone-off": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/device-phone-off.jsx"
+    },
+    "./device-phone-out": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-phone-out.jsx"
     },
     "./device-phone-rotate": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2865,6 +3193,10 @@
     "./device-phone-sparkle": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/device-phone-sparkle.jsx"
+    },
+    "./device-phone-warning": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-phone-warning.jsx"
     },
     "./device-phone-x": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2878,13 +3210,49 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/device-tablet.jsx"
     },
+    "./device-tablet-check": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-tablet-check.jsx"
+    },
+    "./device-tablet-image": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-tablet-image.jsx"
+    },
+    "./device-tablet-in": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-tablet-in.jsx"
+    },
+    "./device-tablet-lightning": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-tablet-lightning.jsx"
+    },
+    "./device-tablet-move": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-tablet-move.jsx"
+    },
     "./device-tablet-off": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/device-tablet-off.jsx"
     },
+    "./device-tablet-out": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-tablet-out.jsx"
+    },
     "./device-tablet-phone": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/device-tablet-phone.jsx"
+    },
+    "./device-tablet-sparkle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-tablet-sparkle.jsx"
+    },
+    "./device-tablet-warning": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-tablet-warning.jsx"
+    },
+    "./device-tablet-x": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/device-tablet-x.jsx"
     },
     "./device-tv": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2945,6 +3313,10 @@
     "./diff": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/diff.jsx"
+    },
+    "./dinner": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dinner.jsx"
     },
     "./diploma": {
       "types": "./types/vn2rmosy.d.ts",
@@ -3106,6 +3478,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/drop.jsx"
     },
+    "./drop-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/drop-off.jsx"
+    },
     "./drop-shadow": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/drop-shadow.jsx"
@@ -3210,6 +3586,14 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/e/egg-crack.jsx"
     },
+    "./egg-fried": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/egg-fried.jsx"
+    },
+    "./eggs": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/eggs.jsx"
+    },
     "./eight-circle": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/e/eight-circle.jsx"
@@ -3217,6 +3601,10 @@
     "./eight-square": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/e/eight-square.jsx"
+    },
+    "./elevator": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/elevator.jsx"
     },
     "./ellipse": {
       "types": "./types/vn2rmosy.d.ts",
@@ -3273,6 +3661,18 @@
     "./error-504": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/e/error-504.jsx"
+    },
+    "./escalator": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/escalator.jsx"
+    },
+    "./escalator-down": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/escalator-down.jsx"
+    },
+    "./escalator-up": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/escalator-up.jsx"
     },
     "./ethernet-port": {
       "types": "./types/vn2rmosy.d.ts",
@@ -3442,6 +3842,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/fahrenheit.jsx"
     },
+    "./farm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/farm.jsx"
+    },
     "./faucet": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/faucet.jsx"
@@ -3502,9 +3906,17 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-7z.jsx"
     },
+    "./file-ai": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-ai.jsx"
+    },
     "./file-analytics": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-analytics.jsx"
+    },
+    "./file-avi": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-avi.jsx"
     },
     "./file-binary": {
       "types": "./types/vn2rmosy.d.ts",
@@ -3566,6 +3978,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-env.jsx"
     },
+    "./file-exe": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-exe.jsx"
+    },
     "./file-gif": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-gif.jsx"
@@ -3594,6 +4010,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-js.jsx"
     },
+    "./file-json": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-json.jsx"
+    },
     "./file-jsx": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-jsx.jsx"
@@ -3618,9 +4038,21 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-minus.jsx"
     },
+    "./file-mov": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-mov.jsx"
+    },
     "./file-move": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-move.jsx"
+    },
+    "./file-mp3": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-mp3.jsx"
+    },
+    "./file-mp4": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-mp4.jsx"
     },
     "./file-music": {
       "types": "./types/vn2rmosy.d.ts",
@@ -3658,6 +4090,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-prohibit.jsx"
     },
+    "./file-psd": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-psd.jsx"
+    },
     "./file-question": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-question.jsx"
@@ -3673,6 +4109,10 @@
     "./file-refresh": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-refresh.jsx"
+    },
+    "./file-rtf": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-rtf.jsx"
     },
     "./file-scan": {
       "types": "./types/vn2rmosy.d.ts",
@@ -3834,13 +4274,25 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/first-aid.jsx"
     },
+    "./first-aid-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/first-aid-circle.jsx"
+    },
     "./first-aid-kit": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/first-aid-kit.jsx"
     },
+    "./first-aid-square": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/first-aid-square.jsx"
+    },
     "./fish": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/fish.jsx"
+    },
+    "./fish-symbol": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fish-symbol.jsx"
     },
     "./fishing-hook": {
       "types": "./types/vn2rmosy.d.ts",
@@ -3909,6 +4361,10 @@
     "./flip-vertical": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/flip-vertical.jsx"
+    },
+    "./floor-plan": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/floor-plan.jsx"
     },
     "./flow": {
       "types": "./types/vn2rmosy.d.ts",
@@ -4046,6 +4502,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/folder-user.jsx"
     },
+    "./folder-users": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/folder-users.jsx"
+    },
     "./folder-warning": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/folder-warning.jsx"
@@ -4061,6 +4521,10 @@
     "./footprints": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/footprints.jsx"
+    },
+    "./forest": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/forest.jsx"
     },
     "./fork": {
       "types": "./types/vn2rmosy.d.ts",
@@ -4398,6 +4862,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/g/gymnastic.jsx"
     },
+    "./hair-dryer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hair-dryer.jsx"
+    },
     "./hamburger": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/h/hamburger.jsx"
@@ -4453,6 +4921,10 @@
     "./hand-off": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/h/hand-off.jsx"
+    },
+    "./hand-peace": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hand-peace.jsx"
     },
     "./hand-pointer": {
       "types": "./types/vn2rmosy.d.ts",
@@ -4726,6 +5198,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/h/house-heart.jsx"
     },
+    "./house-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/house-off.jsx"
+    },
     "./house-plug": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/h/house-plug.jsx"
@@ -4757,6 +5233,10 @@
     "./ice-cream": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/i/ice-cream.jsx"
+    },
+    "./igloo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/igloo.jsx"
     },
     "./image": {
       "types": "./types/vn2rmosy.d.ts",
@@ -5094,6 +5574,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/l/leaf-lightning.jsx"
     },
+    "./lemon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lemon.jsx"
+    },
     "./less-or-equal-than": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/l/less-or-equal-than.jsx"
@@ -5177,6 +5661,10 @@
     "./line-segment": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/l/line-segment.jsx"
+    },
+    "./lingerie": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lingerie.jsx"
     },
     "./link": {
       "types": "./types/vn2rmosy.d.ts",
@@ -5314,6 +5802,14 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/l/locate.jsx"
     },
+    "./locate-line": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/locate-line.jsx"
+    },
+    "./locate-line-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/locate-line-off.jsx"
+    },
     "./locate-off": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/l/locate-off.jsx"
@@ -5329,6 +5825,10 @@
     "./logs": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/l/logs.jsx"
+    },
+    "./lotus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lotus.jsx"
     },
     "./luggage": {
       "types": "./types/vn2rmosy.d.ts",
@@ -5441,6 +5941,14 @@
     "./mail-x": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/mail-x.jsx"
+    },
+    "./mailbox": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mailbox.jsx"
+    },
+    "./mails": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mails.jsx"
     },
     "./male": {
       "types": "./types/vn2rmosy.d.ts",
@@ -5574,6 +6082,22 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/menu-burger.jsx"
     },
+    "./menu-end": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/menu-end.jsx"
+    },
+    "./menu-left": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/menu-left.jsx"
+    },
+    "./menu-right": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/menu-right.jsx"
+    },
+    "./menu-start": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/menu-start.jsx"
+    },
     "./merge": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/merge.jsx"
@@ -5702,6 +6226,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/microscope.jsx"
     },
+    "./microwave": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/microwave.jsx"
+    },
     "./milestone": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/milestone.jsx"
@@ -5766,6 +6294,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/money-in.jsx"
     },
+    "./money-lock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/money-lock.jsx"
+    },
     "./money-minus": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/money-minus.jsx"
@@ -5793,6 +6325,10 @@
     "./money-x": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/money-x.jsx"
+    },
+    "./monies": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/monies.jsx"
     },
     "./moon": {
       "types": "./types/vn2rmosy.d.ts",
@@ -5930,6 +6466,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/music-notes-square.jsx"
     },
+    "./mustache": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mustache.jsx"
+    },
     "./n-th-root": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/n/n-th-root.jsx"
@@ -6054,6 +6594,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/o/oven-mitts.jsx"
     },
+    "./owl": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/owl.jsx"
+    },
     "./paint": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/paint.jsx"
@@ -6073,6 +6617,10 @@
     "./pan": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/pan.jsx"
+    },
+    "./pancakes": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pancakes.jsx"
     },
     "./panel-bottom": {
       "types": "./types/vn2rmosy.d.ts",
@@ -6234,6 +6782,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/parenthesis.jsx"
     },
+    "./park": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/park.jsx"
+    },
     "./parking": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/parking.jsx"
@@ -6273,6 +6825,10 @@
     "./paw-print": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/paw-print.jsx"
+    },
+    "./peace": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/peace.jsx"
     },
     "./pen": {
       "types": "./types/vn2rmosy.d.ts",
@@ -6337,6 +6893,10 @@
     "./pendulum": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/pendulum.jsx"
+    },
+    "./penguin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/penguin.jsx"
     },
     "./pentagon": {
       "types": "./types/vn2rmosy.d.ts",
@@ -6422,6 +6982,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/pickaxe.jsx"
     },
+    "./pie": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pie.jsx"
+    },
     "./piggy-bank": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/piggy-bank.jsx"
@@ -6485,6 +7049,10 @@
     "./pipeline-plus": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/pipeline-plus.jsx"
+    },
+    "./pitchfork": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pitchfork.jsx"
     },
     "./pizza": {
       "types": "./types/vn2rmosy.d.ts",
@@ -6630,6 +7198,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/power-pole.jsx"
     },
+    "./pram": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pram.jsx"
+    },
     "./prescription": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/prescription.jsx"
@@ -6637,6 +7209,10 @@
     "./presentation": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/presentation.jsx"
+    },
+    "./pretzel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pretzel.jsx"
     },
     "./printer": {
       "types": "./types/vn2rmosy.d.ts",
@@ -6681,6 +7257,10 @@
     "./proportions": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/proportions.jsx"
+    },
+    "./pumpkin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pumpkin.jsx"
     },
     "./puzzle": {
       "types": "./types/vn2rmosy.d.ts",
@@ -6749,6 +7329,14 @@
     "./ratio": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/r/ratio.jsx"
+    },
+    "./razor": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/razor.jsx"
+    },
+    "./razor-blade": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/razor-blade.jsx"
     },
     "./receipt": {
       "types": "./types/vn2rmosy.d.ts",
@@ -6950,6 +7538,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/r/roller-brush.jsx"
     },
+    "./rose": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rose.jsx"
+    },
     "./rotate": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/r/rotate.jsx"
@@ -7014,6 +7606,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/r/ruler.jsx"
     },
+    "./run": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/run.jsx"
+    },
     "./safe-box": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/safe-box.jsx"
@@ -7021,6 +7617,10 @@
     "./safety-pin": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/safety-pin.jsx"
+    },
+    "./safety-pin-open": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/safety-pin-open.jsx"
     },
     "./sailboat": {
       "types": "./types/vn2rmosy.d.ts",
@@ -7057,6 +7657,10 @@
     "./scissors": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/scissors.jsx"
+    },
+    "./scissors-comb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/scissors-comb.jsx"
     },
     "./scissors-line": {
       "types": "./types/vn2rmosy.d.ts",
@@ -7358,6 +7962,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/shield-x.jsx"
     },
+    "./shine": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shine.jsx"
+    },
     "./ship-front": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/ship-front.jsx"
@@ -7422,9 +8030,17 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/shopping-cart-plus.jsx"
     },
+    "./short": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/short.jsx"
+    },
     "./shovel": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/shovel.jsx"
+    },
+    "./shower": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shower.jsx"
     },
     "./shredder": {
       "types": "./types/vn2rmosy.d.ts",
@@ -7526,6 +8142,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/skip-forward.jsx"
     },
+    "./skirt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/skirt.jsx"
+    },
     "./skull": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/skull.jsx"
@@ -7585,6 +8205,14 @@
     "./snowflake": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/snowflake.jsx"
+    },
+    "./snowman": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/snowman.jsx"
+    },
+    "./soap-bar": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/soap-bar.jsx"
     },
     "./soap-dispenser": {
       "types": "./types/vn2rmosy.d.ts",
@@ -7674,6 +8302,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/sound-wave.jsx"
     },
+    "./sound-wave-circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sound-wave-circle.jsx"
+    },
     "./sound-wave-off": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/sound-wave-off.jsx"
@@ -7685,6 +8317,10 @@
     "./sound-wave-sparkle": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/sound-wave-sparkle.jsx"
+    },
+    "./sound-wave-square": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sound-wave-square.jsx"
     },
     "./sound-waves-swap": {
       "types": "./types/vn2rmosy.d.ts",
@@ -7826,6 +8462,14 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/stairs.jsx"
     },
+    "./stairs-down": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stairs-down.jsx"
+    },
+    "./stairs-up": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stairs-up.jsx"
+    },
     "./stamp": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/stamp.jsx"
@@ -7869,6 +8513,10 @@
     "./steak": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/steak.jsx"
+    },
+    "./steering-wheel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/steering-wheel.jsx"
     },
     "./step-backward": {
       "types": "./types/vn2rmosy.d.ts",
@@ -8374,9 +9022,25 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/t/text-bold.jsx"
     },
+    "./text-case-camel": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/text-case-camel.jsx"
+    },
+    "./text-case-kebab": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/text-case-kebab.jsx"
+    },
+    "./text-case-screaming": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/text-case-screaming.jsx"
+    },
     "./text-case-sensitive": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/t/text-case-sensitive.jsx"
+    },
+    "./text-case-snake": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/text-case-snake.jsx"
     },
     "./text-centerline-center": {
       "types": "./types/vn2rmosy.d.ts",
@@ -8546,6 +9210,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/t/text-outdent.jsx"
     },
+    "./text-paragraph": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/text-paragraph.jsx"
+    },
     "./text-paragraph-scan": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/t/text-paragraph-scan.jsx"
@@ -8714,6 +9382,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/t/timer-reload.jsx"
     },
+    "./toaster": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/toaster.jsx"
+    },
     "./toggle": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/t/toggle.jsx"
@@ -8734,9 +9406,17 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/t/toilet.jsx"
     },
+    "./tombstone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tombstone.jsx"
+    },
     "./tool": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/t/tool.jsx"
+    },
+    "./tool-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tool-off.jsx"
     },
     "./toolbox": {
       "types": "./types/vn2rmosy.d.ts",
@@ -8933,6 +9613,14 @@
     "./truck-lightning": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/t/truck-lightning.jsx"
+    },
+    "./tube-lotion": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tube-lotion.jsx"
+    },
+    "./tulip": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tulip.jsx"
     },
     "./tuning": {
       "types": "./types/vn2rmosy.d.ts",
@@ -9190,6 +9878,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/v/vehicle-battery.jsx"
     },
+    "./venn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/venn.jsx"
+    },
     "./versus": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/v/versus.jsx"
@@ -9302,6 +9994,14 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/v/vote.jsx"
     },
+    "./vote-check": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vote-check.jsx"
+    },
+    "./vote-x": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vote-x.jsx"
+    },
     "./vpn": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/v/vpn.jsx"
@@ -9309,6 +10009,10 @@
     "./vr": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/v/vr.jsx"
+    },
+    "./walk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/walk.jsx"
     },
     "./wallet": {
       "types": "./types/vn2rmosy.d.ts",
@@ -9394,17 +10098,33 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/w/waves-down.jsx"
     },
+    "./waves-shark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/waves-shark.jsx"
+    },
     "./waves-up": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/w/waves-up.jsx"
+    },
+    "./waves-whale": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/waves-whale.jsx"
     },
     "./webcam": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/w/webcam.jsx"
     },
+    "./webcam-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/webcam-off.jsx"
+    },
     "./webhook": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/w/webhook.jsx"
+    },
+    "./webhook-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/webhook-off.jsx"
     },
     "./weight": {
       "types": "./types/vn2rmosy.d.ts",
@@ -9425,6 +10145,10 @@
     "./wheelchair": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/w/wheelchair.jsx"
+    },
+    "./whisk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/whisk.jsx"
     },
     "./whistle": {
       "types": "./types/vn2rmosy.d.ts",
@@ -9474,6 +10198,14 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/w/wind.jsx"
     },
+    "./wind-down": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wind-down.jsx"
+    },
+    "./wind-up": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wind-up.jsx"
+    },
     "./wine": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/w/wine.jsx"
@@ -9494,6 +10226,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/w/workflow.jsx"
     },
+    "./worm": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/worm.jsx"
+    },
     "./x": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/x/x.jsx"
@@ -9509,6 +10245,10 @@
     "./xxx": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/x/xxx.jsx"
+    },
+    "./yin-yang": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/y/yin-yang.jsx"
     },
     "./yoga": {
       "types": "./types/vn2rmosy.d.ts",

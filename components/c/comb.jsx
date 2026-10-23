@@ -1,0 +1,17 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/y/y4i2chzkr.css';
+import '../../css/d/dpgw2eb7a.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><rect transform="matrix(.7071 -.7071 .72762 .68598 5.01 20.28)" class="y4i2chzkr"/><path class="dpgw2eb7a"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"andrsrxn:comb"} {...others} />);
+}
+
+export default Component;

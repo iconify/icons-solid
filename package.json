@@ -1,0 +1,831 @@
+{
+  "name": "@iconify-solid/doodle-icons",
+  "type": "module",
+  "version": "1.0.0",
+  "homepage": "https://icon-sets.iconify.design/doodle-icons/",
+  "bugs": "https://github.com/iconify/icons-solid/issues",
+  "license": "MIT",
+  "exports": {
+    "./archive": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/archive.jsx"
+    },
+    "./arrow-down": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-down.jsx"
+    },
+    "./arrow-left": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-left.jsx"
+    },
+    "./arrow-right": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-right.jsx"
+    },
+    "./arrow-up": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-up.jsx"
+    },
+    "./arrow-up-right": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arrow-up-right.jsx"
+    },
+    "./at-sign": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/at-sign.jsx"
+    },
+    "./autumn-tree": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/autumn-tree.jsx"
+    },
+    "./balloons": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/balloons.jsx"
+    },
+    "./ban": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/ban.jsx"
+    },
+    "./bat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bat.jsx"
+    },
+    "./bell": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bell.jsx"
+    },
+    "./bird": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bird.jsx"
+    },
+    "./birthday-candle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/birthday-candle.jsx"
+    },
+    "./bold": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bold.jsx"
+    },
+    "./bolt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bolt.jsx"
+    },
+    "./book": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/book.jsx"
+    },
+    "./book-open": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/book-open.jsx"
+    },
+    "./bookmark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bookmark.jsx"
+    },
+    "./browser": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/browser.jsx"
+    },
+    "./brush": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/brush.jsx"
+    },
+    "./bulb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bulb.jsx"
+    },
+    "./butterfly": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/butterfly.jsx"
+    },
+    "./calendar": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/calendar.jsx"
+    },
+    "./call": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/call.jsx"
+    },
+    "./camera": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/camera.jsx"
+    },
+    "./candy-cane": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/candy-cane.jsx"
+    },
+    "./car": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/car.jsx"
+    },
+    "./cart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cart.jsx"
+    },
+    "./cat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cat.jsx"
+    },
+    "./chat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chat.jsx"
+    },
+    "./check": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/check.jsx"
+    },
+    "./cherry-blossom": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cherry-blossom.jsx"
+    },
+    "./chevron-down": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-down.jsx"
+    },
+    "./chevron-left": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-left.jsx"
+    },
+    "./chevron-right": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-right.jsx"
+    },
+    "./chevron-up": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chevron-up.jsx"
+    },
+    "./chip": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chip.jsx"
+    },
+    "./christmas-ornament": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/christmas-ornament.jsx"
+    },
+    "./circle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/circle.jsx"
+    },
+    "./circle-alert": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/circle-alert.jsx"
+    },
+    "./circle-question-mark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/circle-question-mark.jsx"
+    },
+    "./clipboard": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/clipboard.jsx"
+    },
+    "./clipboard-check": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/clipboard-check.jsx"
+    },
+    "./clipboard-list": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/clipboard-list.jsx"
+    },
+    "./close": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/close.jsx"
+    },
+    "./clouds": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/clouds.jsx"
+    },
+    "./code": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/code.jsx"
+    },
+    "./confetti": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/confetti.jsx"
+    },
+    "./copy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/copy.jsx"
+    },
+    "./corn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/corn.jsx"
+    },
+    "./cube": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cube.jsx"
+    },
+    "./cupcake": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cupcake.jsx"
+    },
+    "./daisy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/daisy.jsx"
+    },
+    "./database": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/database.jsx"
+    },
+    "./diamond": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/diamond.jsx"
+    },
+    "./doc": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/doc.jsx"
+    },
+    "./dog": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dog.jsx"
+    },
+    "./download": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/download.jsx"
+    },
+    "./ellipsis": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/ellipsis.jsx"
+    },
+    "./ellipsis-vertical": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/ellipsis-vertical.jsx"
+    },
+    "./eraser": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/eraser.jsx"
+    },
+    "./external-link": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/external-link.jsx"
+    },
+    "./eye": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/eye.jsx"
+    },
+    "./eye-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/eye-off.jsx"
+    },
+    "./falling-leaves": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/falling-leaves.jsx"
+    },
+    "./file": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file.jsx"
+    },
+    "./file-check": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-check.jsx"
+    },
+    "./file-plus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-plus.jsx"
+    },
+    "./file-text": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-text.jsx"
+    },
+    "./file-x": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-x.jsx"
+    },
+    "./files": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/files.jsx"
+    },
+    "./filter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/filter.jsx"
+    },
+    "./fire": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fire.jsx"
+    },
+    "./fish": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fish.jsx"
+    },
+    "./flag": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flag.jsx"
+    },
+    "./flame": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flame.jsx"
+    },
+    "./flask": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flask.jsx"
+    },
+    "./flower": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flower.jsx"
+    },
+    "./folder": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/folder.jsx"
+    },
+    "./folder-open": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/folder-open.jsx"
+    },
+    "./folder-plus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/folder-plus.jsx"
+    },
+    "./frown": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/frown.jsx"
+    },
+    "./gamepad": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gamepad.jsx"
+    },
+    "./gauge": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gauge.jsx"
+    },
+    "./gear": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gear.jsx"
+    },
+    "./ghost": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/ghost.jsx"
+    },
+    "./gift-bag": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gift-bag.jsx"
+    },
+    "./gingerbread-man": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gingerbread-man.jsx"
+    },
+    "./globe": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/globe.jsx"
+    },
+    "./hash": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hash.jsx"
+    },
+    "./heart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/heart.jsx"
+    },
+    "./heart-arrow": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/heart-arrow.jsx"
+    },
+    "./hearts": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hearts.jsx"
+    },
+    "./highlighter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/highlighter.jsx"
+    },
+    "./home": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/home.jsx"
+    },
+    "./image": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/image.jsx"
+    },
+    "./inbox": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/inbox.jsx"
+    },
+    "./info": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/info.jsx"
+    },
+    "./italic": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/italic.jsx"
+    },
+    "./jack-o-lantern": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/j/jack-o-lantern.jsx"
+    },
+    "./key": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/key.jsx"
+    },
+    "./laptop": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/laptop.jsx"
+    },
+    "./layers": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/layers.jsx"
+    },
+    "./layout-grid": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/layout-grid.jsx"
+    },
+    "./leaf": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/leaf.jsx"
+    },
+    "./library": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/library.jsx"
+    },
+    "./link": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/link.jsx"
+    },
+    "./list": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/list.jsx"
+    },
+    "./list-checks": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/list-checks.jsx"
+    },
+    "./lock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lock.jsx"
+    },
+    "./lock-open": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lock-open.jsx"
+    },
+    "./log-out": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/log-out.jsx"
+    },
+    "./love-letter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/love-letter.jsx"
+    },
+    "./love-lock": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/love-lock.jsx"
+    },
+    "./mail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mail.jsx"
+    },
+    "./map": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/map.jsx"
+    },
+    "./map-pin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/map-pin.jsx"
+    },
+    "./maple-leaf": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/maple-leaf.jsx"
+    },
+    "./maximize": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/maximize.jsx"
+    },
+    "./megaphone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/megaphone.jsx"
+    },
+    "./menu": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/menu.jsx"
+    },
+    "./mic": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mic.jsx"
+    },
+    "./minimize": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/minimize.jsx"
+    },
+    "./minus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/minus.jsx"
+    },
+    "./monitor": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/monitor.jsx"
+    },
+    "./moon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/moon.jsx"
+    },
+    "./moon-stars": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/moon-stars.jsx"
+    },
+    "./news": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/news.jsx"
+    },
+    "./notebook": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/notebook.jsx"
+    },
+    "./paperclip": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/paperclip.jsx"
+    },
+    "./party-hat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/party-hat.jsx"
+    },
+    "./paw-print": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/paw-print.jsx"
+    },
+    "./pen": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pen.jsx"
+    },
+    "./pencil": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pencil.jsx"
+    },
+    "./phone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/phone.jsx"
+    },
+    "./pie-slice": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pie-slice.jsx"
+    },
+    "./pin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pin.jsx"
+    },
+    "./play": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/play.jsx"
+    },
+    "./player": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/player.jsx"
+    },
+    "./plus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/plus.jsx"
+    },
+    "./potted-plant": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/potted-plant.jsx"
+    },
+    "./printer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/printer.jsx"
+    },
+    "./pumpkin": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pumpkin.jsx"
+    },
+    "./pumpkin-pie": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pumpkin-pie.jsx"
+    },
+    "./puzzle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/puzzle.jsx"
+    },
+    "./quote": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/q/quote.jsx"
+    },
+    "./rabbit": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rabbit.jsx"
+    },
+    "./rain": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rain.jsx"
+    },
+    "./receipt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/receipt.jsx"
+    },
+    "./redo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/redo.jsx"
+    },
+    "./refresh-cw": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/refresh-cw.jsx"
+    },
+    "./ring": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/ring.jsx"
+    },
+    "./rose": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rose.jsx"
+    },
+    "./ruler": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/ruler.jsx"
+    },
+    "./santa-hat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/santa-hat.jsx"
+    },
+    "./save": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/save.jsx"
+    },
+    "./scissors": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/scissors.jsx"
+    },
+    "./scroll": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/scroll.jsx"
+    },
+    "./search": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/search.jsx"
+    },
+    "./send": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/send.jsx"
+    },
+    "./share": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/share.jsx"
+    },
+    "./shield": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shield.jsx"
+    },
+    "./shield-check": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shield-check.jsx"
+    },
+    "./shooting-star": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shooting-star.jsx"
+    },
+    "./signature": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/signature.jsx"
+    },
+    "./skull": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/skull.jsx"
+    },
+    "./smile": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/smile.jsx"
+    },
+    "./snowflake": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/snowflake.jsx"
+    },
+    "./snowman": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/snowman.jsx"
+    },
+    "./sparkle-heart": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sparkle-heart.jsx"
+    },
+    "./spider": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spider.jsx"
+    },
+    "./stamp": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stamp.jsx"
+    },
+    "./star": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/star.jsx"
+    },
+    "./star-medal": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/star-medal.jsx"
+    },
+    "./stars": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stars.jsx"
+    },
+    "./sticky-note": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sticky-note.jsx"
+    },
+    "./sun": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sun.jsx"
+    },
+    "./sunflower": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sunflower.jsx"
+    },
+    "./table": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/table.jsx"
+    },
+    "./tablet": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tablet.jsx"
+    },
+    "./tag": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tag.jsx"
+    },
+    "./text-align-center": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/text-align-center.jsx"
+    },
+    "./text-align-end": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/text-align-end.jsx"
+    },
+    "./text-align-start": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/text-align-start.jsx"
+    },
+    "./thumbs-down": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/thumbs-down.jsx"
+    },
+    "./thumbs-up": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/thumbs-up.jsx"
+    },
+    "./trash": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/trash.jsx"
+    },
+    "./tree-pine": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tree-pine.jsx"
+    },
+    "./tulip": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tulip.jsx"
+    },
+    "./turkey": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/turkey.jsx"
+    },
+    "./type": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/type.jsx"
+    },
+    "./umbrella": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/umbrella.jsx"
+    },
+    "./underline": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/underline.jsx"
+    },
+    "./undo": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/undo.jsx"
+    },
+    "./upload": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/upload.jsx"
+    },
+    "./user": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/user.jsx"
+    },
+    "./users": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/u/users.jsx"
+    },
+    "./videocam": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/videocam.jsx"
+    },
+    "./warning": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/warning.jsx"
+    },
+    "./witch-hat": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/witch-hat.jsx"
+    },
+    "./x": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/x/x.jsx"
+    },
+    "./zoom-in": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/zoom-in.jsx"
+    },
+    "./zoom-out": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/zoom-out.jsx"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-solid": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-solid#doodle-icons"
+}

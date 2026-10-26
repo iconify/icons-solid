@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/material-icon-theme",
   "type": "module",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "homepage": "https://icon-sets.iconify.design/material-icon-theme/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "MIT",
@@ -929,6 +929,10 @@
     "./folder-bloc-open": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/folder-bloc-open.jsx"
+    },
+    "./folder-bluetooth": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/folder-bluetooth.jsx"
     },
     "./folder-bower": {
       "types": "./types/vn2rmosy.d.ts",

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/tabler",
   "type": "module",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "homepage": "https://icon-sets.iconify.design/tabler/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "MIT",
@@ -773,6 +773,10 @@
     "./archive-off": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/archive-off.jsx"
+    },
+    "./archive-restore": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/archive-restore.jsx"
     },
     "./armchair": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2418,6 +2422,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/beach.jsx"
     },
+    "./beach-bag": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/beach-bag.jsx"
+    },
     "./beach-off": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/beach-off.jsx"
@@ -2797,6 +2805,10 @@
     "./book-2": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/book-2.jsx"
+    },
+    "./book-clone": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/book-clone.jsx"
     },
     "./book-download": {
       "types": "./types/vn2rmosy.d.ts",
@@ -4074,6 +4086,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/brand-miniprogram.jsx"
     },
+    "./brand-misskey": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/brand-misskey.jsx"
+    },
     "./brand-mixpanel": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/brand-mixpanel.jsx"
@@ -4673,6 +4689,10 @@
     "./brand-vercel-filled": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/brand-vercel-filled.jsx"
+    },
+    "./brand-viber": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/brand-viber.jsx"
     },
     "./brand-vimeo": {
       "types": "./types/vn2rmosy.d.ts",
@@ -9070,6 +9090,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/deaf.jsx"
     },
+    "./decagram": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/decagram.jsx"
+    },
     "./decimal": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/d/decimal.jsx"
@@ -12526,6 +12550,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/g/git-merge.jsx"
     },
+    "./git-merge-ai": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/git-merge-ai.jsx"
+    },
     "./git-merge-queue": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/g/git-merge-queue.jsx"
@@ -12538,6 +12566,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/g/git-pull-request-closed.jsx"
     },
+    "./git-pull-request-closed-ai": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/git-pull-request-closed-ai.jsx"
+    },
     "./git-pull-request-conflict": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/g/git-pull-request-conflict.jsx"
@@ -12546,9 +12578,17 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/g/git-pull-request-draft.jsx"
     },
+    "./git-pull-request-draft-ai": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/git-pull-request-draft-ai.jsx"
+    },
     "./git-pull-request-locked": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/g/git-pull-request-locked.jsx"
+    },
+    "./git-pull-request-locked-ai": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/git-pull-request-locked-ai.jsx"
     },
     "./git-pull-request-unlisted": {
       "types": "./types/vn2rmosy.d.ts",
@@ -15470,6 +15510,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/l/lollipop-off.jsx"
     },
+    "./loop": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/loop.jsx"
+    },
     "./luggage": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/l/luggage.jsx"
@@ -15830,6 +15874,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/map-pins.jsx"
     },
+    "./map-pins-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/map-pins-off.jsx"
+    },
     "./map-plus": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/map-plus.jsx"
@@ -16085,6 +16133,10 @@
     "./maximize-off": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/maximize-off.jsx"
+    },
+    "./mcp": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mcp.jsx"
     },
     "./meat": {
       "types": "./types/vn2rmosy.d.ts",
@@ -17918,6 +17970,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/o/omega.jsx"
     },
+    "./opacity": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/opacity.jsx"
+    },
     "./option": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/o/option.jsx"
@@ -18209,6 +18265,10 @@
     "./pencil-question": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/pencil-question.jsx"
+    },
+    "./pencil-ruler": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pencil-ruler.jsx"
     },
     "./pencil-search": {
       "types": "./types/vn2rmosy.d.ts",
@@ -21177,6 +21237,10 @@
     "./smoking-no": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/smoking-no.jsx"
+    },
+    "./snail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/snail.jsx"
     },
     "./snowboarding": {
       "types": "./types/vn2rmosy.d.ts",
@@ -24618,6 +24682,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/w/wave-square.jsx"
     },
+    "./waveform": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/waveform.jsx"
+    },
     "./waves-electricity": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/w/waves-electricity.jsx"
@@ -24809,6 +24877,10 @@
     "./world-map": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/w/world-map.jsx"
+    },
+    "./world-map-off": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/world-map-off.jsx"
     },
     "./world-minus": {
       "types": "./types/vn2rmosy.d.ts",
@@ -25141,6 +25213,10 @@
     "./zoom-scan-filled": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/z/zoom-scan-filled.jsx"
+    },
+    "./zsh": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/zsh.jsx"
     },
     "./zzz": {
       "types": "./types/vn2rmosy.d.ts",

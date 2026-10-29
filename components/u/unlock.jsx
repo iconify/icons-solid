@@ -1,0 +1,24 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/y/ysgcw8bkp.css';
+import '../../css/t/t_2lkqbxb.css';
+import '../../css/i/iuz44sbtc.css';
+import '../../css/x/xcuzl4bvy.css';
+import '../../css/j/jzuokobgx.css';
+import '../../css/d/d2kvgvbvc.css';
+import '../../css/n/nu9ri4b2l.css';
+import '../../css/m/mkpz9ma_o.css';
+import '../../css/o/oi0js4k9l.css';
+import '../../css/a/axzrrmbfz.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<defs><path id="SVGNphMvcpl" class="ysgcw8bkp"/></defs><g class="t_2lkqbxb"><path class="iuz44sbtc wm-shadow"/><path class="xcuzl4bvy"/><path class="jzuokobgx"/><use href="#SVGNphMvcpl" class="d2kvgvbvc"/><path class="nu9ri4b2l"/><use href="#SVGNphMvcpl" class="d2kvgvbvc"/><path class="mkpz9ma_o"/><path class="oi0js4k9l wm-shine"/><path class="axzrrmbfz wm-deco"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"withicons-sticker:unlock"} {...others} />);
+}
+
+export default Component;

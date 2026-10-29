@@ -1,9 +1,9 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/j/jekw5_btw.css';
+import '../../css/e/enua_svsp.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="jekw5_btw"/>`;
+const content = `<path class="enua_svsp"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

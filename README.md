@@ -1,0 +1,48 @@
+# @iconify-solid/withicons-plush
+
+**with icons Plush**
+
+Author: [Evergrow](https://github.com/withevergrow/withicons)
+
+License: [MIT](https://github.com/withevergrow/withicons/blob/main/LICENSE)
+
+Browse all icons: [preview with icons Plush on Iconify](https://icon-sets.iconify.design/withicons-plush/)
+
+## Installation
+
+```bash
+npm install gitlab:iconify-icons/solid#withicons-plush
+```
+
+or
+```bash
+npm install github:iconify/icons-solid#withicons-plush
+```
+
+## Usage
+
+For full documentation visit [Iconify website](https://iconify.design/docs/usage/svg-css/solid/).
+
+Few usage examples:
+
+```jsx
+import SampleIcon from '@iconify-solid/withicons-plush/home';
+
+function Test() {
+  return (
+    <SampleIcon />
+  );
+}
+```
+
+To resize icon, set `width` and/or `height` parameters:
+
+```jsx
+import SampleIcon from '@iconify-solid/withicons-plush/search';
+
+function Test() {
+  return (
+    <SampleIcon height="1em" />
+  );
+}
+```

@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/c/ccm1rbbvi.css';
+import '../../css/w/w_pcmxbnq.css';
+import '../../css/f/funupzsqr.css';
+import '../../css/b/bei80-zdg.css';
+import '../../css/p/p8w35spzu.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="ccm1rbbvi wm-shadow"/><path class="w_pcmxbnq wm-k"/><path class="funupzsqr wm-k"/><path class="bei80-zdg wm-a"/><path class="p8w35spzu wm-a"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"withicons-pastel:chevron-first"} {...others} />);
+}
+
+export default Component;

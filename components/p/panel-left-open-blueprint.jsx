@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/s/s9nmekbvz.css';
+import '../../css/p/phys5gjml.css';
+import '../../css/c/cf3uzcrzx.css';
+import '../../css/f/fz9wbhbib.css';
+import '../../css/m/mktqs86uc.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="s9nmekbvz"><path class="phys5gjml wm-deco"/><path class="cf3uzcrzx wm-deco"/><path class="fz9wbhbib wm-k"/><path class="mktqs86uc wm-a"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"withicons:panel-left-open-blueprint"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,20 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/t/tczw_hbsg.css';
+import '../../css/m/m14e8zlyt.css';
+import '../../css/c/c6tjo7bgx.css';
+import '../../css/u/upi6evbrs.css';
+import '../../css/m/mf6znbcws.css';
+import '../../css/w/w3o0x094m.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="tczw_hbsg"><path class="m14e8zlyt"/><path class="c6tjo7bgx wm-k"/><path class="upi6evbrs wm-a"/><path class="mf6znbcws wm-k"/><path class="w3o0x094m wm-a"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"withicons:refrigerator-sketch"} {...others} />);
+}
+
+export default Component;

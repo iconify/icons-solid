@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/q/qi38j8aek.css';
+import '../../css/k/kjftorklk.css';
+import '../../css/v/vlroo4bwv.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="qi38j8aek"/><path class="kjftorklk wm-a"/><path class="vlroo4bwv"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"withicons:fuel-duo"} {...others} />);
+}
+
+export default Component;

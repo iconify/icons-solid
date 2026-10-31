@@ -1,0 +1,15 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/n/nuz-0actz.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="nuz-0actz"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"coolicons:menu-alt-4-bulk-round"} {...others} />);
+}
+
+export default Component;

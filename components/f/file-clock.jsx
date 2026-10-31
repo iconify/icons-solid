@@ -1,0 +1,25 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/i/ilopvacub.css';
+import '../../css/e/efiutbbxu.css';
+import '../../css/j/jcamtebce.css';
+import '../../css/z/z-deo7_1k.css';
+import '../../css/c/c9eksmbhk.css';
+import '../../css/h/h65qlzj6h.css';
+import '../../css/j/jz23ztcfj.css';
+import '../../css/g/gox1jab_w.css';
+import '../../css/q/qmf9i7bxf.css';
+import '../../css/a/a32p_0b0n.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="ft5dv1b6b"><path class="ilopvacub wm-k"/><path class="efiutbbxu wm-s"/><path class="jcamtebce wm-deco"/><path class="wm-k z-deo7_1k"/><path class="c9eksmbhk wm-k"/><path class="h65qlzj6h wm-s"/><path class="jz23ztcfj wm-shadow"/><path class="gox1jab_w wm-shine"/><path class="qmf9i7bxf wm-shine"/><path class="a32p_0b0n wm-shine"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"withicons-valentine:file-clock"} {...others} />);
+}
+
+export default Component;

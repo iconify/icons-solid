@@ -11,6 +11,11 @@ Browse all icons: [preview Meteocons on Iconify](https://icon-sets.iconify.desig
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/solid#meteocons
+```
+
+or
+```bash
 npm install github:iconify/icons-solid#meteocons
 ```
 
@@ -21,7 +26,7 @@ For full documentation visit [Iconify website](https://iconify.design/docs/usage
 Few usage examples:
 
 ```jsx
-import SampleIcon from '@iconify-solid/meteocons/hurricane-fill';
+import SampleIcon from '@iconify-solid/meteocons/sunrise-fill';
 
 function Test() {
   return (
@@ -33,7 +38,7 @@ function Test() {
 To resize icon, set `width` and/or `height` parameters:
 
 ```jsx
-import SampleIcon from '@iconify-solid/meteocons/sunrise-fill';
+import SampleIcon from '@iconify-solid/meteocons/windsock';
 
 function Test() {
   return (

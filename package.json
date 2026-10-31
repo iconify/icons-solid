@@ -1,0 +1,495 @@
+{
+  "name": "@iconify-solid/iconito",
+  "type": "module",
+  "version": "1.0.0",
+  "homepage": "https://icon-sets.iconify.design/iconito/",
+  "bugs": "https://github.com/iconify/icons-solid/issues",
+  "license": "MIT",
+  "exports": {
+    "./almond": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/almond.jsx"
+    },
+    "./apple": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/apple.jsx"
+    },
+    "./bacon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bacon.jsx"
+    },
+    "./baguette": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/baguette.jsx"
+    },
+    "./banana": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/banana.jsx"
+    },
+    "./banana-bread": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/banana-bread.jsx"
+    },
+    "./basil": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/basil.jsx"
+    },
+    "./bean": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bean.jsx"
+    },
+    "./beef": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/beef.jsx"
+    },
+    "./beer": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/beer.jsx"
+    },
+    "./bell-pepper": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bell-pepper.jsx"
+    },
+    "./blueberry": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/blueberry.jsx"
+    },
+    "./bread": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/bread.jsx"
+    },
+    "./broccoli": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/broccoli.jsx"
+    },
+    "./brownie": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/brownie.jsx"
+    },
+    "./burger": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/burger.jsx"
+    },
+    "./burrito": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/burrito.jsx"
+    },
+    "./butter": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/butter.jsx"
+    },
+    "./cake": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cake.jsx"
+    },
+    "./candy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/candy.jsx"
+    },
+    "./carrot": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/carrot.jsx"
+    },
+    "./cheese": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cheese.jsx"
+    },
+    "./cheesecake": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cheesecake.jsx"
+    },
+    "./chicken": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chicken.jsx"
+    },
+    "./chicken-wing": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chicken-wing.jsx"
+    },
+    "./chickpea": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chickpea.jsx"
+    },
+    "./chocolate": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chocolate.jsx"
+    },
+    "./chocolate-cake": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/chocolate-cake.jsx"
+    },
+    "./cilantro": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cilantro.jsx"
+    },
+    "./cocktail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cocktail.jsx"
+    },
+    "./coffee": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/coffee.jsx"
+    },
+    "./coleslaw": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/coleslaw.jsx"
+    },
+    "./cookie": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cookie.jsx"
+    },
+    "./corn": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/corn.jsx"
+    },
+    "./cream": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cream.jsx"
+    },
+    "./croissant": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/croissant.jsx"
+    },
+    "./croissant-sweet": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/croissant-sweet.jsx"
+    },
+    "./cucumber": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cucumber.jsx"
+    },
+    "./cupcake": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/cupcake.jsx"
+    },
+    "./curry": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/curry.jsx"
+    },
+    "./donut": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/donut.jsx"
+    },
+    "./dumpling": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/d/dumpling.jsx"
+    },
+    "./egg": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/egg.jsx"
+    },
+    "./enchilada": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/enchilada.jsx"
+    },
+    "./fish": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fish.jsx"
+    },
+    "./flour": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/flour.jsx"
+    },
+    "./french-toast": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/french-toast.jsx"
+    },
+    "./fried-egg-dish": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fried-egg-dish.jsx"
+    },
+    "./fries": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/fries.jsx"
+    },
+    "./garlic": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/garlic.jsx"
+    },
+    "./grape": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/grape.jsx"
+    },
+    "./ham": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/ham.jsx"
+    },
+    "./honey": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/honey.jsx"
+    },
+    "./ice-cream": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/i/ice-cream.jsx"
+    },
+    "./juice": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/j/juice.jsx"
+    },
+    "./kale": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/k/kale.jsx"
+    },
+    "./lamb": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lamb.jsx"
+    },
+    "./lasagna": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lasagna.jsx"
+    },
+    "./lemon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lemon.jsx"
+    },
+    "./lentil": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lentil.jsx"
+    },
+    "./lettuce": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lettuce.jsx"
+    },
+    "./lime": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/l/lime.jsx"
+    },
+    "./maple-syrup": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/maple-syrup.jsx"
+    },
+    "./mayonnaise": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mayonnaise.jsx"
+    },
+    "./meatball": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/meatball.jsx"
+    },
+    "./milk": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/milk.jsx"
+    },
+    "./mint": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mint.jsx"
+    },
+    "./mushroom": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mushroom.jsx"
+    },
+    "./noodles": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/n/noodles.jsx"
+    },
+    "./oats": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/oats.jsx"
+    },
+    "./olive": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/olive.jsx"
+    },
+    "./olive-oil": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/olive-oil.jsx"
+    },
+    "./onion": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/onion.jsx"
+    },
+    "./orange": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/orange.jsx"
+    },
+    "./oregano": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/oregano.jsx"
+    },
+    "./pad-thai": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pad-thai.jsx"
+    },
+    "./pancake": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pancake.jsx"
+    },
+    "./parsley": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/parsley.jsx"
+    },
+    "./pasta": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pasta.jsx"
+    },
+    "./pasta-dish": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pasta-dish.jsx"
+    },
+    "./peanut": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/peanut.jsx"
+    },
+    "./pie": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pie.jsx"
+    },
+    "./pizza": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pizza.jsx"
+    },
+    "./pork": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pork.jsx"
+    },
+    "./potato": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/potato.jsx"
+    },
+    "./quinoa": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/q/quinoa.jsx"
+    },
+    "./ramen": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/ramen.jsx"
+    },
+    "./rice": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rice.jsx"
+    },
+    "./rice-bowl": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rice-bowl.jsx"
+    },
+    "./rosemary": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rosemary.jsx"
+    },
+    "./salad": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/salad.jsx"
+    },
+    "./salmon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/salmon.jsx"
+    },
+    "./sandwich": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sandwich.jsx"
+    },
+    "./sausage": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sausage.jsx"
+    },
+    "./shrimp": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/shrimp.jsx"
+    },
+    "./smoothie": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/smoothie.jsx"
+    },
+    "./soda": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/soda.jsx"
+    },
+    "./soup": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/soup.jsx"
+    },
+    "./spinach": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/spinach.jsx"
+    },
+    "./squid": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/squid.jsx"
+    },
+    "./stew": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/stew.jsx"
+    },
+    "./strawberry": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/strawberry.jsx"
+    },
+    "./sugar": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sugar.jsx"
+    },
+    "./sushi": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/sushi.jsx"
+    },
+    "./taco": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/taco.jsx"
+    },
+    "./tea": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tea.jsx"
+    },
+    "./thyme": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/thyme.jsx"
+    },
+    "./tofu": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tofu.jsx"
+    },
+    "./tomato": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tomato.jsx"
+    },
+    "./tortilla": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tortilla.jsx"
+    },
+    "./tuna": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/tuna.jsx"
+    },
+    "./turkey": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/turkey.jsx"
+    },
+    "./vinegar": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/vinegar.jsx"
+    },
+    "./waffle": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/waffle.jsx"
+    },
+    "./walnut": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/walnut.jsx"
+    },
+    "./water": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/water.jsx"
+    },
+    "./watermelon": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/watermelon.jsx"
+    },
+    "./wine": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/w/wine.jsx"
+    },
+    "./yogurt": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/y/yogurt.jsx"
+    },
+    "./zucchini": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/z/zucchini.jsx"
+    },
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@iconify/css-solid": "^1.0.0"
+  },
+  "repository": "github:iconify/icons-solid#iconito"
+}

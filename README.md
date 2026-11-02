@@ -11,6 +11,11 @@ Browse all icons: [preview MingCute Icon on Iconify](https://icon-sets.iconify.d
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/solid#mingcute
+```
+
+or
+```bash
 npm install github:iconify/icons-solid#mingcute
 ```
 

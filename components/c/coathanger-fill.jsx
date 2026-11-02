@@ -1,9 +1,9 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/w/wpc4lacel.css';
+import '../../css/s/sxcpg12gh.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="wpc4lacel"/>`;
+const content = `<path class="sxcpg12gh"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

@@ -1,9 +1,9 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/v/v6h_-78-n.css';
+import '../../css/g/gzfm5-qmn.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path clip-rule="evenodd" class="v6h_-78-n"/>`;
+const content = `<path class="gzfm5-qmn"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

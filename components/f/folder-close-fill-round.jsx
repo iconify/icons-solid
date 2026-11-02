@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/w/w5fghab-v.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="w5fghab-v"/>`;
+const content = `<style>.w5fghab-v {
+  fill: currentColor;
+  d: path("M12.414 5H17a5 5 0 0 1 5 5v6a5 5 0 0 1-1.464 3.536A5 5 0 0 1 17 21H7a5 5 0 0 1-5-5V6a3 3 0 0 1 3-3h5c.265 0 .52.105.707.293ZM12 11.586l-1.293-1.293a.999.999 0 1 0-1.414 1.414L10.586 13l-1.293 1.293a.999.999 0 1 0 1.414 1.414L12 14.414l1.293 1.293a.999.999 0 1 0 1.414-1.414L13.414 13l1.293-1.293a.999.999 0 1 0-1.414-1.414Z");
+}
+</style><path class="w5fghab-v"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

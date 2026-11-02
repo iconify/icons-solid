@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/f/fl96inlcr.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="fl96inlcr"/>`;
+const content = `<style>.fl96inlcr {
+  fill: currentColor;
+  d: path("M21.901 8H2.099A5.01 5.01 0 0 1 7 4h10a5.01 5.01 0 0 1 4.901 4M2 10h8v9a1 1 0 0 1-1 1H7a5 5 0 0 1-5-5Zm12.707 3.293L17 15.586l2.293-2.293a.999.999 0 1 1 1.414 1.414L18.414 17l2.293 2.293a.999.999 0 1 1-1.414 1.414L17 18.414l-2.293 2.293a.999.999 0 1 1-1.414-1.414L15.586 17l-2.293-2.293a.999.999 0 1 1 1.414-1.414");
+}
+</style><path class="fl96inlcr"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

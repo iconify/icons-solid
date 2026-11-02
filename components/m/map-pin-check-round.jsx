@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/e/eto1u3blt.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="eto1u3blt"/>`;
+const content = `<style>.eto1u3blt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 21c-3-2-7-6-7-11a7 7 0 0 1 14 0c0 5-4 9-7 11M9 10l2 2l4-4");
+}
+</style><path class="eto1u3blt"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

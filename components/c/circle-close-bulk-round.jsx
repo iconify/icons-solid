@@ -1,11 +1,20 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/r/riis51qtn.css';
-import '../../css/u/uloqrgb0d.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="riis51qtn"/><path class="uloqrgb0d"/></g>`;
+const content = `<style>.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.riis51qtn {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M2 12C2 6.477 6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12");
+}
+
+.uloqrgb0d {
+  d: path("M9.707 8.293L12 10.586l2.293-2.293a.999.999 0 1 1 1.414 1.414L13.414 12l2.293 2.293a.999.999 0 1 1-1.414 1.414L12 13.414l-2.293 2.293a.999.999 0 1 1-1.414-1.414L10.586 12L8.293 9.707a.999.999 0 1 1 1.414-1.414");
+}
+</style><g class="cuyn6tgcc"><path class="riis51qtn"/><path class="uloqrgb0d"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

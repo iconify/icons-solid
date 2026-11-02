@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/d/dvr8x-hfl.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="dvr8x-hfl"/>`;
+const content = `<style>.dvr8x-hfl {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M9 9a3 3 0 0 1 6 0v6a3 3 0 0 1-6 0ZM4 3v18M20 3v18");
+}
+</style><path class="dvr8x-hfl"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

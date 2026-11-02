@@ -1,0 +1,26 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.bjexm-byy {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M13 2c.265 0 .52.105.707.293l6 6A1 1 0 0 1 19 10h-9v11a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1Zm0 6h4l-4-4Z");
+}
+
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.d29u08bos {
+  d: path("M12 3a1.002 1.002 0 0 1 1.707-.707l6 6A1 1 0 0 1 19 10h-6a1 1 0 0 1-1-1Zm2 5h2.586L14 5.414Zm6 7h1a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-8a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1h1a3 3 0 1 1 6 0m-2 0a1 1 0 0 0-2 0Zm-4 2v3h6v-3Z");
+}
+</style><g class="cuyn6tgcc"><path class="bjexm-byy"/><path class="d29u08bos"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"coolicons:file-lock-corner-bulk-sharp"} {...others} />);
+}
+
+export default Component;

@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/t/t3s_anb0b.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="t3s_anb0b"/>`;
+const content = `<style>.t3s_anb0b {
+  fill: currentColor;
+  d: path("M8.293 7.707a.999.999 0 1 1 1.414-1.414L11 7.586V3a1 1 0 0 1 2 0v4.586l1.293-1.293a.999.999 0 1 1 1.414 1.414l-3 3a1 1 0 0 1-1.414 0ZM4 11h4a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2m12 0h4a1 1 0 0 1 0 2h-4a1 1 0 0 1 0-2m-1.707 6.707L13 16.414V21a1 1 0 0 1-2 0v-4.586l-1.293 1.293a.999.999 0 1 1-1.414-1.414l3-3a1 1 0 0 1 1.414 0l3 3a.999.999 0 1 1-1.414 1.414");
+}
+</style><path class="t3s_anb0b"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

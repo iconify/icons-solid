@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/j/jokhamznc.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="jokhamznc"/>`;
+const content = `<style>.jokhamznc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 13a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v4a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Zm6-4V7a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v4a4 4 0 0 1-4 4h-2");
+}
+</style><path class="jokhamznc"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

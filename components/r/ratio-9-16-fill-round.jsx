@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/m/mp8v_ebqz.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="mp8v_ebqz"/>`;
+const content = `<style>.mp8v_ebqz {
+  fill: currentColor;
+  d: path("M11 2h2a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5h-2a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5");
+}
+</style><path class="mp8v_ebqz"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/h/hokulublc.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="hokulublc"/>`;
+const content = `<style>.hokulublc {
+  fill: currentColor;
+  d: path("m7.051 15.684l4-12a1 1 0 0 1 1.898 0l4 12a1.001 1.001 0 0 1-1.898.632L13.946 13h-3.892l-1.105 3.316a1.001 1.001 0 0 1-1.898-.632M12 7.162L10.721 11h2.558ZM20 19a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2Z");
+}
+</style><path class="hokulublc"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

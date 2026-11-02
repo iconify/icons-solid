@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/v/vkujtab8s.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="vkujtab8s"/>`;
+const content = `<style>.vkujtab8s {
+  fill: currentColor;
+  d: path("M2 6a3 3 0 0 1 3-3h2a3 3 0 0 1 3 3v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3Zm2 0v2a.997.997 0 0 0 1 1h2a.997.997 0 0 0 1-1V6a.997.997 0 0 0-1-1H5a.997.997 0 0 0-1 1m9 0h8a1 1 0 0 1 0 2h-8a1 1 0 0 1 0-2M3.707 16.293L5 17.586l3.293-3.293a.999.999 0 1 1 1.414 1.414l-4 4a1 1 0 0 1-1.414 0l-2-2a.999.999 0 1 1 1.414-1.414M13 16h8a1 1 0 0 1 0 2h-8a1 1 0 0 1 0-2");
+}
+</style><path class="vkujtab8s"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

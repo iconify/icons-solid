@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/j/jhe-mqb-y.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="jhe-mqb-y"/>`;
+const content = `<style>.jhe-mqb-y {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M3 8a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4M8 20H7a4 4 0 0 1-4-4V8m0 0h18m-8 9l3 3l5-6");
+}
+</style><path class="jhe-mqb-y"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

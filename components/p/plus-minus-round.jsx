@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/f/fdor-wx8e.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="fdor-wx8e"/>`;
+const content = `<style>.fdor-wx8e {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M6 10h12m-6-6v12m-6 4h12");
+}
+</style><path class="fdor-wx8e"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

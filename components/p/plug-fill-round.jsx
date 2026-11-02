@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/w/wgbug4bwy.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="wgbug4bwy"/>`;
+const content = `<style>.wgbug4bwy {
+  fill: currentColor;
+  d: path("M10 6h4V3a1 1 0 0 1 2 0v3.416A5 5 0 0 1 19 11v2a5 5 0 0 1-5 5h-1v3a1 1 0 0 1-2 0v-3h-1a5 5 0 0 1-5-5v-2c0-1.99 1.175-3.79 3-4.584V3a1 1 0 0 1 2 0Z");
+}
+</style><path class="wgbug4bwy"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

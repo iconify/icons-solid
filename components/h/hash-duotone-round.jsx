@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/b/bv7d-qbri.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="bv7d-qbri"/>`;
+const content = `<style>.bv7d-qbri {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M5 9h14M5 15h14M10 4L8 20m8-16l-2 16");
+}
+</style><path class="bv7d-qbri"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

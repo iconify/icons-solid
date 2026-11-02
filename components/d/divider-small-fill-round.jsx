@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/e/er3-szkyi.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="er3-szkyi"/>`;
+const content = `<style>.er3-szkyi {
+  fill: currentColor;
+  d: path("M13 9v6a1 1 0 0 1-2 0V9a1 1 0 0 1 2 0");
+}
+</style><path class="er3-szkyi"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

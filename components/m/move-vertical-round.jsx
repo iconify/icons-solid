@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/c/clb7lobia.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="clb7lobia"/>`;
+const content = `<style>.clb7lobia {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m15 6l-3-3l-3 3m0 12l3 3l3-3M12 3v18");
+}
+</style><path class="clb7lobia"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

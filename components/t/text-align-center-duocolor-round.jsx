@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/h/hhfsmufrp.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="hhfsmufrp"/>`;
+const content = `<style>.hhfsmufrp {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M4 6h16M7 10h10M4 14h16M7 18h10");
+}
+</style><path class="hhfsmufrp"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

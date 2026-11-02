@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/m/m1rvn5bri.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="m1rvn5bri"/>`;
+const content = `<style>.m1rvn5bri {
+  fill: currentColor;
+  d: path("m12 17.152l5.064-13.503a1 1 0 1 1 1.872.702l-6 16a1 1 0 0 1-1.872 0l-6-16a1 1 0 1 1 1.872-.702Z");
+}
+</style><path class="m1rvn5bri"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

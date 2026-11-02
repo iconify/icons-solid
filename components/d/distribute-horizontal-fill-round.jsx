@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/n/ndcj8zbpr.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="ndcj8zbpr"/>`;
+const content = `<style>.ndcj8zbpr {
+  fill: currentColor;
+  d: path("M5 21a1 1 0 0 1-2 0V3a1 1 0 0 1 2 0Zm16 0a1 1 0 0 1-2 0V3a1 1 0 0 1 2 0ZM8 9a4 4 0 0 1 8 0v6a4 4 0 0 1-8 0Z");
+}
+</style><path class="ndcj8zbpr"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

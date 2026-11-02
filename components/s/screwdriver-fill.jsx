@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.zs59oehdn {
+  fill: currentColor;
+  d: path("m14.414 11l.293.293a2.414 2.414 0 0 1 0 3.414l-6 6a3.828 3.828 0 0 1-5.414-5.414l6-6a2.414 2.414 0 0 1 3.414 0l.293.293l6.293-6.293a.999.999 0 1 1 1.414 1.414Z");
+}
+</style><path class="zs59oehdn"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"coolicons:screwdriver-fill"} {...others} />);
+}
+
+export default Component;

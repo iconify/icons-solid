@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/m/musbj6buf.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="musbj6buf"/>`;
+const content = `<style>.musbj6buf {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M12 6h7a2 2 0 0 1 2 2M8 20H7a4 4 0 0 1-4-4V6a2 2 0 0 1 2-2h5l2 2m1 11h8m-4-4v8");
+}
+</style><path class="musbj6buf"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

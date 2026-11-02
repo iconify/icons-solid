@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/c/cwv11hbwy.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="cwv11hbwy"/>`;
+const content = `<style>.cwv11hbwy {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("m7 18l6-6l-6-6m10 0v12");
+}
+</style><path class="cwv11hbwy"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

@@ -1,9 +1,12 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/j/jrl-mxbcj.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="jrl-mxbcj"/>`;
+const content = `<style>.jrl-mxbcj {
+  fill: currentColor;
+  d: path("m15.707 4.293l4 4a.999.999 0 1 1-1.414 1.414L17 8.414L12.414 13l1.293 1.293a2.41 2.41 0 0 1 0 3.414c-.37.37-.791.693-1.26.928A3.26 3.26 0 0 1 11 19H9a4 4 0 0 1-4-4v-2c0-1.039.578-1.992 1.293-2.707a2.41 2.41 0 0 1 3.414 0L11 11.586L15.586 7l-1.293-1.293a.999.999 0 1 1 1.414-1.414");
+}
+</style><path class="jrl-mxbcj"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

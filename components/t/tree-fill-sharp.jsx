@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.tjg_cfqen {
+  fill: currentColor;
+  d: path("M3.924 10.974a4.603 4.603 0 0 1 3.451-5.893a5.503 5.503 0 0 1 9.25 0a4.603 4.603 0 0 1 3.451 5.893a5.202 5.202 0 0 1-5.1 7.026H13v3a1 1 0 0 1-2 0v-3H9.024a5.202 5.202 0 0 1-5.1-7.026M13 15v-.586l2.707-2.707a.999.999 0 1 0-1.414-1.414L12 12.586l-2.293-2.293a.999.999 0 1 0-1.414 1.414L11 14.414V15a1 1 0 0 0 2 0");
+}
+</style><path class="tjg_cfqen"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"coolicons:tree-fill-sharp"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,17 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/fh15ailor.css';
+import '../../css/v/v_-jg8uqn.css';
+import '../../css/v/vblcbgz4f.css';
+
+const viewBox = {"width":512,"height":512};
+const content = `<linearGradient id="SVGImzsOdxr" x1="-689.903" x2="-689.903" y1="788.911" y2="781.8" gradientTransform="matrix(72 0 0 -45 49929 35597)" gradientUnits="userSpaceOnUse"><stop offset="0" class="fh15ailor"/><stop offset="1" class="v_-jg8uqn"/></linearGradient><path fill="url(#SVGImzsOdxr)" class="vblcbgz4f"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"selfhst:felicloud"} {...others} />);
+}
+
+export default Component;

@@ -8,13 +8,13 @@ import '../../css/b/ba8pa3bhn.css';
 import '../../css/q/q5-ygfbts.css';
 import '../../css/t/tb1gxhv_w.css';
 import '../../css/t/t_qhc2bme.css';
-import '../../css/z/zbo15bcou.css';
+import '../../css/y/ywps45b9c.css';
 import '../../css/w/w7c92xijm.css';
 import '../../css/d/d0-6x_0uq.css';
 import '../../css/z/zv2oi1b3i.css';
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="wi5cmfbdy"/><path class="iopyylbyf"/><path class="q65mc3ubq"/><path class="f-jgyw4bq"/><path class="ba8pa3bhn"/><path class="q5-ygfbts"/><path class="tb1gxhv_w"/><path class="t_qhc2bme"/><path class="zbo15bcou"/><path class="w7c92xijm"/><path class="d0-6x_0uq"/><path class="zv2oi1b3i"/>`;
+const content = `<path class="wi5cmfbdy"/><path class="iopyylbyf"/><path class="q65mc3ubq"/><path class="f-jgyw4bq"/><path class="ba8pa3bhn"/><path class="q5-ygfbts"/><path class="tb1gxhv_w"/><path class="t_qhc2bme"/><path class="ywps45b9c"/><path class="w7c92xijm"/><path class="d0-6x_0uq"/><path class="zv2oi1b3i"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

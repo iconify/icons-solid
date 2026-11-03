@@ -6,11 +6,11 @@ import '../../css/d/dy5ypobkd.css';
 import '../../css/g/gxtkwacka.css';
 import '../../css/n/nul2okb0p.css';
 import '../../css/j/jnr83ubzw.css';
-import '../../css/o/onbs-1b8z.css';
+import '../../css/h/h1r1gk7cy.css';
 import '../../css/q/qy525jbwx.css';
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="jkq7-hbwz"/><path class="fmo0fjb7j"/><path class="dy5ypobkd"/><path class="gxtkwacka"/><path class="nul2okb0p"/><path class="jnr83ubzw"/><path class="onbs-1b8z"/><path class="qy525jbwx"/>`;
+const content = `<path class="jkq7-hbwz"/><path class="fmo0fjb7j"/><path class="dy5ypobkd"/><path class="gxtkwacka"/><path class="nul2okb0p"/><path class="jnr83ubzw"/><path class="h1r1gk7cy"/><path class="qy525jbwx"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

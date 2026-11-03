@@ -9,13 +9,13 @@ import '../../css/v/vgfqv0bfg.css';
 import '../../css/g/gn_2_0brn.css';
 import '../../css/j/jqsnoy0vo.css';
 import '../../css/j/jn8qy4bru.css';
-import '../../css/l/lkb72ua0d.css';
+import '../../css/z/zphkauqvf.css';
 import '../../css/p/prg0-63tm.css';
 import '../../css/y/ywniddcnl.css';
 import '../../css/d/dn9uurz-v.css';
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="fxon-_byi"/><path class="h15lizbyz"/><path class="qtqp3-xjq"/><circle class="yykkwmbei"/><g class="wpyqy236k"><path class="vgfqv0bfg"/><path class="gn_2_0brn"/></g><path class="jqsnoy0vo"/><g class="jn8qy4bru"><path class="lkb72ua0d"/><circle class="prg0-63tm"/><path class="ywniddcnl"/><path class="dn9uurz-v"/></g>`;
+const content = `<path class="fxon-_byi"/><path class="h15lizbyz"/><path class="qtqp3-xjq"/><circle class="yykkwmbei"/><g class="wpyqy236k"><path class="vgfqv0bfg"/><path class="gn_2_0brn"/></g><path class="jqsnoy0vo"/><g class="jn8qy4bru"><path class="zphkauqvf"/><circle class="prg0-63tm"/><path class="ywniddcnl"/><path class="dn9uurz-v"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

@@ -12,12 +12,12 @@ import '../../css/z/zay8kpb-c.css';
 import '../../css/k/kw6mn2--l.css';
 import '../../css/r/rylsbmkim.css';
 import '../../css/m/mgzhlsjzn.css';
-import '../../css/t/txu-e5git.css';
-import '../../css/y/yyeioybuj.css';
+import '../../css/n/nnq1jzb6e.css';
+import '../../css/k/k823hbwwu.css';
 import '../../css/w/wbivfwb5k.css';
 
 const viewBox = {"width":72,"height":72};
-const content = `<path class="z44ehf2gw"/><path class="rqvv7cbzk"/><path class="k2xvkzbqp"/><path class="nzy2y-udu"/><path class="mvi1zpbgt"/><g class="x4u8pbwjc"><ellipse transform="rotate(-26.19 35.398 14.973)" class="yydhh0uak"/><path class="bgqascl4h"/></g><path class="zay8kpb-c"/><path class="kw6mn2--l"/><path class="rylsbmkim"/><path class="mgzhlsjzn"/><path class="txu-e5git"/><path class="yyeioybuj"/><path class="wbivfwb5k"/>`;
+const content = `<path class="z44ehf2gw"/><path class="rqvv7cbzk"/><path class="k2xvkzbqp"/><path class="nzy2y-udu"/><path class="mvi1zpbgt"/><g class="x4u8pbwjc"><ellipse transform="rotate(-26.19 35.398 14.973)" class="yydhh0uak"/><path class="bgqascl4h"/></g><path class="zay8kpb-c"/><path class="kw6mn2--l"/><path class="rylsbmkim"/><path class="mgzhlsjzn"/><path class="nnq1jzb6e"/><path class="k823hbwwu"/><path class="wbivfwb5k"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

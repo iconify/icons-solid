@@ -9,10 +9,10 @@ import '../../css/e/eoibert9g.css';
 import '../../css/j/jn8qy4bru.css';
 import '../../css/y/yc2tbznnz.css';
 import '../../css/f/f2h937c9b.css';
-import '../../css/v/vv-890z0r.css';
+import '../../css/e/epoebxcnf.css';
 
 const viewBox = {"width":72,"height":72};
-const content = `<g class="f--rpx6kf"><path class="ljgxpm2bj"/><path class="q_e94hyle"/><path class="gbvdhot5z"/><path class="a992ldbjx"/><path class="eoibert9g"/></g><g class="jn8qy4bru"><path class="yc2tbznnz"/><path class="f2h937c9b"/><path class="vv-890z0r"/></g>`;
+const content = `<g class="f--rpx6kf"><path class="ljgxpm2bj"/><path class="q_e94hyle"/><path class="gbvdhot5z"/><path class="a992ldbjx"/><path class="eoibert9g"/></g><g class="jn8qy4bru"><path class="yc2tbznnz"/><path class="f2h937c9b"/><path class="epoebxcnf"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

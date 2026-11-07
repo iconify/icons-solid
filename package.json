@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/selfhst",
   "type": "module",
-  "version": "1.0.28",
+  "version": "1.0.29",
   "homepage": "https://icon-sets.iconify.design/selfhst/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "CC-BY-4.0",
@@ -6081,6 +6081,18 @@
     "./ebay-light": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/e/ebay-light.jsx"
+    },
+    "./ech0": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/ech0.jsx"
+    },
+    "./ech0-dark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/ech0-dark.jsx"
+    },
+    "./ech0-light": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/e/ech0-light.jsx"
     },
     "./ecowitt": {
       "types": "./types/vn2rmosy.d.ts",
@@ -15478,6 +15490,18 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/motioneye-light.jsx"
     },
+    "./mousehole": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mousehole.jsx"
+    },
+    "./mousehole-dark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mousehole-dark.jsx"
+    },
+    "./mousehole-light": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mousehole-light.jsx"
+    },
     "./movary": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/movary.jsx"
@@ -18662,6 +18686,18 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/o/oxker-light.jsx"
     },
+    "./oxynote": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/oxynote.jsx"
+    },
+    "./oxynote-dark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/oxynote-dark.jsx"
+    },
+    "./oxynote-light": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/o/oxynote-light.jsx"
+    },
     "./pairdrop": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/pairdrop.jsx"
@@ -20034,6 +20070,18 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/plikshare-light.jsx"
     },
+    "./plmail": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/plmail.jsx"
+    },
+    "./plmail-dark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/plmail-dark.jsx"
+    },
+    "./plmail-light": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/plmail-light.jsx"
+    },
     "./plumio": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/plumio.jsx"
@@ -20181,6 +20229,18 @@
     "./polaris-light": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/polaris-light.jsx"
+    },
+    "./pollaris": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pollaris.jsx"
+    },
+    "./pollaris-dark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pollaris-dark.jsx"
+    },
+    "./pollaris-light": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/pollaris-light.jsx"
     },
     "./pomerium": {
       "types": "./types/vn2rmosy.d.ts",
@@ -22073,6 +22133,18 @@
     "./relaticle-light": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/r/relaticle-light.jsx"
+    },
+    "./relaytv": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/relaytv.jsx"
+    },
+    "./relaytv-dark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/relaytv-dark.jsx"
+    },
+    "./relaytv-light": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/relaytv-light.jsx"
     },
     "./relic-storage": {
       "types": "./types/vn2rmosy.d.ts",
@@ -26093,6 +26165,18 @@
     "./tracearr-light": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/t/tracearr-light.jsx"
+    },
+    "./traceway": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/traceway.jsx"
+    },
+    "./traceway-dark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/traceway-dark.jsx"
+    },
+    "./traceway-light": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/t/traceway-light.jsx"
     },
     "./trackly": {
       "types": "./types/vn2rmosy.d.ts",

@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/devicon-plain",
   "type": "module",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "MIT",
@@ -1213,6 +1213,10 @@
     "./helix": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/h/helix.jsx"
+    },
+    "./hermes": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hermes.jsx"
     },
     "./heroku": {
       "types": "./types/vn2rmosy.d.ts",
@@ -3089,6 +3093,14 @@
     "./vault-wordmark": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/v/vault-wordmark.jsx"
+    },
+    "./velite": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/velite.jsx"
+    },
+    "./velite-wordmark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/v/velite-wordmark.jsx"
     },
     "./vertx": {
       "types": "./types/vn2rmosy.d.ts",

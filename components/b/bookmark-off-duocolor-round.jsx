@@ -15,10 +15,10 @@ const content = `<style>.lmxlbqbeq {
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.w8ucpnboo {
-  d: path("M12 4h2a4 4 0 0 1 4 4v3m0 6v1c0 .855-1.718.855-3 0l-3-2l-3 2c-1.282.855-3 .855-3 0V8c0-.85.549-1.352 1-2");
+.vb-5xxbev {
+  d: path("M12 4h2a4 4 0 0 1 4 4v3m0 6v1c0 .855-1.718.855-3 0l-3-2l-3 2c-1.282.855-3 .855-3 0V8c0-.85.265-1.637.716-2.284");
 }
-</style><g class="nrj6p8qat"><path class="lmxlbqbeq"/><path class="w8ucpnboo"/></g>`;
+</style><g class="nrj6p8qat"><path class="lmxlbqbeq"/><path class="vb-5xxbev"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

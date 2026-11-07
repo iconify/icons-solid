@@ -15,10 +15,10 @@ const content = `<style>.lmxlbqbeq {
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.t6di3_law {
-  d: path("M12 17H7l-4 4V3h1m6 0h11v11m-3 3h-6");
+.xpcq1mbck {
+  d: path("M12 17H7l-4 4V2m7 1h11v11m-3 3h-6");
 }
-</style><g class="nrj6p8qat"><path class="lmxlbqbeq"/><path class="t6di3_law"/></g>`;
+</style><g class="nrj6p8qat"><path class="lmxlbqbeq"/><path class="xpcq1mbck"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

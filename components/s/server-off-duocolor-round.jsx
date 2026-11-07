@@ -7,8 +7,8 @@ const content = `<style>.e72o9db0j {
   d: path("M7 17h.01M2 2l20 20");
 }
 
-.ifwpq1qba {
-  d: path("M10 10H6a3 3 0 0 1-3-3c0-1.085.138-2.473 1-3m6 0h8a3 3 0 0 1 0 6h-2m4 10c-.455.278-1.428 0-2 0H6a3 3 0 0 1 0-6h8");
+.lbjmgof1c {
+  d: path("M10 10H6a3 3 0 0 1-1.562-5.562M10 4h8a3 3 0 0 1 0 6h-2m3.562 9.562c-.455.278-.99.438-1.562.438H6a3 3 0 0 1 0-6h8");
 }
 
 .nrj6p8qat {
@@ -18,7 +18,7 @@ const content = `<style>.e72o9db0j {
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
-</style><g class="nrj6p8qat"><path class="e72o9db0j"/><path class="ifwpq1qba"/></g>`;
+</style><g class="nrj6p8qat"><path class="e72o9db0j"/><path class="lbjmgof1c"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

@@ -14,11 +14,11 @@ const content = `<style>.nrj6p8qat {
   d: path("M4 4h16v13H4Zm5 16h6");
 }
 
-.yiyaygkee {
+.rxmqudbjz {
   stroke-opacity: 0.4;
-  d: path("M10 7v6l4-3Z");
+  d: path("m10 7l5 3.5l-5 3.5Z");
 }
-</style><g class="nrj6p8qat"><path class="yiyaygkee"/><path class="poo2p_bsk"/></g>`;
+</style><g class="nrj6p8qat"><path class="rxmqudbjz"/><path class="poo2p_bsk"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

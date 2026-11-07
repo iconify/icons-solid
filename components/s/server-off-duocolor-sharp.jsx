@@ -7,6 +7,10 @@ const content = `<style>.e72o9db0j {
   d: path("M7 17h.01M2 2l20 20");
 }
 
+.hqtu6d5sr {
+  d: path("M10 10H3V3m7 1h11v6h-5m4 10H3v-6h11");
+}
+
 .nrj6p8qat {
   fill: none;
   stroke: currentColor;
@@ -14,11 +18,7 @@ const content = `<style>.e72o9db0j {
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
-
-.ycukpf4cq {
-  d: path("M10 10H3V4h1m6 0h11v6h-5m4 10H3v-6h11");
-}
-</style><g class="nrj6p8qat"><path class="e72o9db0j"/><path class="ycukpf4cq"/></g>`;
+</style><g class="nrj6p8qat"><path class="e72o9db0j"/><path class="hqtu6d5sr"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

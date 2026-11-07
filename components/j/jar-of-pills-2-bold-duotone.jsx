@@ -1,17 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/m/mc2zb0bvp.css';
+import '../../css/x/xtpeb-edw.css';
 import '../../css/p/pgwxs9y0p.css';
 import '../../css/t/tis3uac2z.css';
 import '../../css/e/e0oiq1b4b.css';
-import '../../css/e/ezkrwwbti.css';
-import '../../css/p/p8hma8byw.css';
-import '../../css/t/t2dm15bhr.css';
-import '../../css/c/clmipqbnq.css';
+import '../../css/o/oo7o72b7n.css';
+import '../../css/z/zof39hm8s.css';
+import '../../css/i/i4-0flbdu.css';
+import '../../css/t/t3h20kb9k.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><g class="mc2zb0bvp"><path class="pgwxs9y0p"/><path class="tis3uac2z"/><path class="e0oiq1b4b"/></g><path class="ezkrwwbti"/><path class="p8hma8byw"/><path class="t2dm15bhr"/><path class="clmipqbnq"/></g>`;
+const content = `<g class="xtpeb-edw"><path class="pgwxs9y0p"/><path class="tis3uac2z"/><path class="e0oiq1b4b"/></g><path class="oo7o72b7n"/><path class="zof39hm8s"/><path class="i4-0flbdu"/><path class="t3h20kb9k"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

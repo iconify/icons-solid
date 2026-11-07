@@ -5,10 +5,10 @@ import '../../css/l/lvnegepox.css';
 import '../../css/n/n6e0xbyjd.css';
 import '../../css/s/so9syjbwr.css';
 import '../../css/e/eek4bo4aq.css';
-import '../../css/q/q1io4jbwc.css';
+import '../../css/x/xkfhx0hpx.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="lvnegepox"/><path class="n6e0xbyjd"/><path class="so9syjbwr"/><path class="eek4bo4aq"/><path class="q1io4jbwc"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="lvnegepox"/><path class="n6e0xbyjd"/><path class="so9syjbwr"/><path class="eek4bo4aq"/><path class="xkfhx0hpx"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

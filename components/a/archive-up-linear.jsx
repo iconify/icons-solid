@@ -3,10 +3,10 @@ import { splitProps } from 'solid-js';
 import '../../css/i/ipq1z-bjh.css';
 import '../../css/b/bn340ib1t.css';
 import '../../css/h/hu30fdbrj.css';
-import '../../css/w/wz6jt76ak.css';
+import '../../css/b/b-nnx4bkp.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="bn340ib1t"/><path class="hu30fdbrj"/><path class="wz6jt76ak"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="bn340ib1t"/><path class="hu30fdbrj"/><path class="b-nnx4bkp"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

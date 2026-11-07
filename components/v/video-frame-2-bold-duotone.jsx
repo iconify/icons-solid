@@ -1,12 +1,11 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/c/cuyn6tgcc.css';
-import '../../css/b/bezj-cc-t.css';
-import '../../css/p/ppd-ol3bx.css';
-import '../../css/e/eq0yisb-n.css';
-import '../../css/m/ms3oxk_8s.css';
-import '../../css/j/j97cd92in.css';
-import '../../css/m/mc2zb0bvp.css';
+import '../../css/f/f6002409d.css';
+import '../../css/z/zgwus9b_j.css';
+import '../../css/z/zkx_vjfdo.css';
+import '../../css/u/ugfkuob0i.css';
+import '../../css/p/pdrx4wm6w.css';
+import '../../css/x/xtpeb-edw.css';
 import '../../css/n/nxl1hvbky.css';
 import '../../css/e/e-few8b-q.css';
 import '../../css/m/mh7ybbagj.css';
@@ -14,7 +13,7 @@ import '../../css/v/vm81flivr.css';
 import '../../css/c/cdxfyxbns.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="cuyn6tgcc"><path class="bezj-cc-t"/><path class="ppd-ol3bx"/><path class="eq0yisb-n"/><path class="ms3oxk_8s"/><path class="j97cd92in"/><g class="mc2zb0bvp"><path class="nxl1hvbky"/><path class="e-few8b-q"/><path class="mh7ybbagj"/><path class="vm81flivr"/><path class="cdxfyxbns"/></g></g>`;
+const content = `<path class="f6002409d"/><path class="zgwus9b_j"/><path class="zkx_vjfdo"/><path class="ugfkuob0i"/><path class="pdrx4wm6w"/><g class="xtpeb-edw"><path class="nxl1hvbky"/><path class="e-few8b-q"/><path class="mh7ybbagj"/><path class="vm81flivr"/><path class="cdxfyxbns"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

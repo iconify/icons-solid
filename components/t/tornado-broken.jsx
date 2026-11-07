@@ -6,11 +6,11 @@ import '../../css/e/erq4sqghc.css';
 import '../../css/o/onn90jb9j.css';
 import '../../css/l/ldoyc8baz.css';
 import '../../css/s/s_gtqnwjr.css';
-import '../../css/q/qbx_x9bdk.css';
-import '../../css/p/pamt8wm4n.css';
+import '../../css/w/wujdauagd.css';
+import '../../css/o/ono0e8bgt.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><path class="cpba0cc3x"/><path class="erq4sqghc"/><path class="onn90jb9j"/><path class="ldoyc8baz"/><path class="s_gtqnwjr"/><path class="qbx_x9bdk"/><path class="pamt8wm4n"/></g>`;
+const content = `<g class="ipq1z-bjh"><path class="cpba0cc3x"/><path class="erq4sqghc"/><path class="onn90jb9j"/><path class="ldoyc8baz"/><path class="s_gtqnwjr"/><path class="wujdauagd"/><path class="ono0e8bgt"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

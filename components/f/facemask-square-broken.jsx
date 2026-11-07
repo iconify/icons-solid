@@ -2,7 +2,7 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 import '../../css/p/pr52f_b5y.css';
 import '../../css/x/xewxn_bct.css';
-import '../../css/m/mmcjqewpp.css';
+import '../../css/p/pjs0z5b6h.css';
 import '../../css/l/l_ep1oxqq.css';
 import '../../css/p/p8hlydmhp.css';
 import '../../css/r/r0padj4iz.css';
@@ -11,7 +11,7 @@ import '../../css/w/wbw_ixbrw.css';
 import '../../css/y/yad62e0rw.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="pr52f_b5y"><path class="xewxn_bct"/><path class="mmcjqewpp"/><path class="l_ep1oxqq"/><path class="p8hlydmhp"/><path class="r0padj4iz"/><path class="nq9lwk--d"/><path class="wbw_ixbrw"/><ellipse class="yad62e0rw"/></g>`;
+const content = `<g class="pr52f_b5y"><path class="xewxn_bct"/><path class="pjs0z5b6h"/><path class="l_ep1oxqq"/><path class="p8hlydmhp"/><path class="r0padj4iz"/><path class="nq9lwk--d"/><path class="wbw_ixbrw"/><ellipse class="yad62e0rw"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

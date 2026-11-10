@@ -1,6 +1,5 @@
 # @iconify-solid/at-icons
 
-⚠️ This is an alternative repository. Main repository has moved to [GitLab](https://gitlab.com/iconify-icons/solid/-/tree/at-icons).
 **@icons**
 
 Author: [Valentin Fossati](https://github.com/Voxybuns/at-icons)

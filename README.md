@@ -11,6 +11,11 @@ Browse all icons: [preview Arcticons on Iconify](https://icon-sets.iconify.desig
 ## Installation
 
 ```bash
+npm install gitlab:iconify-icons/solid#arcticons
+```
+
+or
+```bash
 npm install github:iconify/icons-solid#arcticons
 ```
 
@@ -21,7 +26,7 @@ For full documentation visit [Iconify website](https://iconify.design/docs/usage
 Few usage examples:
 
 ```jsx
-import SampleIcon from '@iconify-solid/arcticons/paperlaunch';
+import SampleIcon from '@iconify-solid/arcticons/instagram';
 
 function Test() {
   return (
@@ -33,7 +38,7 @@ function Test() {
 To resize icon, set `width` and/or `height` parameters:
 
 ```jsx
-import SampleIcon from '@iconify-solid/arcticons/gravadordevoz';
+import SampleIcon from '@iconify-solid/arcticons/color-capture';
 
 function Test() {
   return (
@@ -45,7 +50,7 @@ function Test() {
 To change icon color, use style:
 
 ```jsx
-import SampleIcon from '@iconify-solid/arcticons/appstract';
+import SampleIcon from '@iconify-solid/arcticons/color-capture';
 
 function Test() {
   return (

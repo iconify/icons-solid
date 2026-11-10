@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":48,"height":48};
+const content = `<style>.ihijmvb1c {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("m24 21.51l-5.808-5.808l-5.809 5.809H6.574L18.191 9.894L24 15.702l5.809-5.808L41.426 21.51h-5.809l-5.808-5.809zm0 4.98l-5.808 5.808l-5.809-5.809H6.574l11.617 11.617L24 32.298l5.809 5.808L41.426 26.49h-5.809l-5.808 5.809z");
+}
+
+.is2iwwlam {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  d: path("M6.16 26.49L3.5 24l2.66-2.49h35.68L44.5 24l-2.66 2.49z");
+}
+</style><path class="ihijmvb1c"/><path class="is2iwwlam"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"arcticons:goldwave"} {...others} />);
+}
+
+export default Component;

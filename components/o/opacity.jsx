@@ -6,7 +6,7 @@ import '../../css/c/ct2apyu-c.css';
 import '../../css/h/h27vhbcct.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ft5dv1b6b"><path clip-rule="evenodd" class="vawjih8tq"/><path class="ct2apyu-c"/><circle transform="rotate(90 12 12)" class="h27vhbcct"/></g>`;
+const content = `<g class="ft5dv1b6b"><path clip-rule="evenodd" class="vawjih8tq"/><path class="ct2apyu-c"/><circle class="h27vhbcct"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

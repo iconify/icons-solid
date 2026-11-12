@@ -1,0 +1,22 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.mdz6hnazb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+  d: path("M8 8H5c-1 0-2 1-2 2v4c0 1 1 2 2 2h3v-4H6m6-4v8m9-8h-5v8m0-4h4");
+}
+</style><path class="mdz6hnazb"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"coolicons:gif-round"} {...others} />);
+}
+
+export default Component;

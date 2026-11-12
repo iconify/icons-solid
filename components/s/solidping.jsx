@@ -4,11 +4,11 @@ import '../../css/s/sur2lbckt.css';
 import '../../css/y/y8vz5lo5y.css';
 import '../../css/o/o_9iao69q.css';
 import '../../css/o/o_0zo1b5y.css';
-import '../../css/b/b-hmcuh1z.css';
+import '../../css/a/aoax6qbzx.css';
 import '../../css/c/cb26fesmn.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="sur2lbckt"/><path class="y8vz5lo5y"/><path class="o_9iao69q"/><path class="o_0zo1b5y"/><path class="b-hmcuh1z"/><path class="cb26fesmn"/>`;
+const content = `<path class="sur2lbckt"/><path class="y8vz5lo5y"/><path class="o_9iao69q"/><path class="o_0zo1b5y"/><path class="aoax6qbzx"/><path class="cb26fesmn"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

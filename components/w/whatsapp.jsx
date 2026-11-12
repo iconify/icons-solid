@@ -8,7 +8,7 @@ import '../../css/x/xz8wodbve.css';
 import '../../css/t/tl9pbpbcc.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="d36_15eag"/><path class="ohl_j-ycf"/><linearGradient id="SVGshpjYc9B" x1="254.658" x2="256.786" y1="345.363" y2="704.074" gradientTransform="translate(0 -277.552)" gradientUnits="userSpaceOnUse"><stop offset="0" class="mki2icj0a"/><stop offset="1" class="sc312nbvu"/></linearGradient><path fill="url(#SVGshpjYc9B)" class="xz8wodbve"/><path class="tl9pbpbcc"/>`;
+const content = `<path class="d36_15eag"/><path class="ohl_j-ycf"/><linearGradient id="SVGaFGSDcUZ" x1="254.7" x2="256.8" y1="67.8" y2="426.5" gradientUnits="userSpaceOnUse"><stop offset="0" class="mki2icj0a"/><stop offset="1" class="sc312nbvu"/></linearGradient><path fill="url(#SVGaFGSDcUZ)" class="xz8wodbve"/><path class="tl9pbpbcc"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

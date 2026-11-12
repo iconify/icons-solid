@@ -10,7 +10,7 @@ import '../../css/c/ckwdh1-qv.css';
 import '../../css/w/wjanby71f.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="n46wahbut"/><path class="a1arax6mg"/><radialGradient id="SVG3mUgJeHn" cx="302.322" cy="919.963" r="128.604" gradientTransform="matrix(1.8368 -.153 .2177 1.7315 -534.334 -1199.322)" gradientUnits="userSpaceOnUse"><stop offset="0" class="nvwcbdbpt"/><stop offset="1" class="pwdmy-bqg"/></radialGradient><path fill="url(#SVG3mUgJeHn)" class="xz7uatbdz"/><path class="fq7x--bas"/><path class="ckwdh1-qv"/><path class="wjanby71f"/>`;
+const content = `<path class="n46wahbut"/><path class="a1arax6mg"/><radialGradient id="SVGSeQOCZXS" cx="302.322" cy="919.963" r="128.604" gradientTransform="matrix(1.8368 -.153 .2177 1.7315 -534.33 -1199.32)" gradientUnits="userSpaceOnUse"><stop offset="0" class="nvwcbdbpt"/><stop offset="1" class="pwdmy-bqg"/></radialGradient><path fill="url(#SVGSeQOCZXS)" class="xz7uatbdz"/><path class="fq7x--bas"/><path class="ckwdh1-qv"/><path class="wjanby71f"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

@@ -5,7 +5,7 @@ import '../../css/v/vc--wpv5i.css';
 import '../../css/u/u27udoylh.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<linearGradient id="SVGSrlvhdAD" x1="0" x2="512" y1="256" y2="256" gradientUnits="userSpaceOnUse"><stop offset="0" class="tb9i-5hiz"/><stop offset="1" class="vc--wpv5i"/></linearGradient><path fill="url(#SVGSrlvhdAD)" class="u27udoylh"/>`;
+const content = `<linearGradient id="SVG6McvFRnh" x2="512" y1="256" y2="256" gradientUnits="userSpaceOnUse"><stop offset="0" class="tb9i-5hiz"/><stop offset="1" class="vc--wpv5i"/></linearGradient><path fill="url(#SVG6McvFRnh)" class="u27udoylh"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

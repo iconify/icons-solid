@@ -6,7 +6,7 @@ import '../../css/n/nw9d4_b1h.css';
 import '../../css/y/yj7wg2bbf.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<radialGradient id="SVGRfIQhcUt" cx="256" cy="256" r="255.23" gradientUnits="userSpaceOnUse"><stop offset="0" class="sp935pb2i"/><stop offset=".1" class="sp935pb2i"/><stop offset=".5" class="ca5grhk1u"/><stop offset="1" class="nw9d4_b1h"/></radialGradient><path fill="url(#SVGRfIQhcUt)" class="yj7wg2bbf"/>`;
+const content = `<radialGradient id="SVGnC50fdJe" cx="256" cy="256" r="255.2" gradientUnits="userSpaceOnUse"><stop offset="0" class="sp935pb2i"/><stop offset=".1" class="sp935pb2i"/><stop offset=".5" class="ca5grhk1u"/><stop offset="1" class="nw9d4_b1h"/></radialGradient><path fill="url(#SVGnC50fdJe)" class="yj7wg2bbf"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

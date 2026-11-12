@@ -6,7 +6,7 @@ import '../../css/c/cky9negol.css';
 import '../../css/s/s5vh77buj.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="kt-r8b3tw"/><linearGradient id="SVGUWtUKbEh" x1="157.99" x2="476.24" y1="811.473" y2="493.224" gradientTransform="translate(-8.065 -396.349)" gradientUnits="userSpaceOnUse"><stop offset="0" class="ckmztbc7a"/><stop offset=".994" class="cky9negol"/></linearGradient><path fill="url(#SVGUWtUKbEh)" class="s5vh77buj"/>`;
+const content = `<path class="kt-r8b3tw"/><linearGradient id="SVGe5QvdbLc" x1="149.9" x2="468.2" y1="415.1" y2="96.9" gradientUnits="userSpaceOnUse"><stop offset="0" class="ckmztbc7a"/><stop offset=".994" class="cky9negol"/></linearGradient><path fill="url(#SVGe5QvdbLc)" class="s5vh77buj"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

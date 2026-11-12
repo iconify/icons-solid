@@ -1,9 +1,9 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/u/uvocr7pig.css';
+import '../../css/x/xqwu4sf5j.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="uvocr7pig"/>`;
+const content = `<path class="xqwu4sf5j"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

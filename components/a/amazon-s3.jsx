@@ -9,7 +9,7 @@ import '../../css/u/ua6tm9bna.css';
 import '../../css/m/m9ad-ebcz.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<path clip-rule="evenodd" class="nstvbxb0m"/><path clip-rule="evenodd" class="zukjp5bxm"/><path class="edbkswbvk"/><path clip-rule="evenodd" class="ei60xkbzq"/><path class="ts74kj5dn"/><path clip-rule="evenodd" class="ua6tm9bna"/><path clip-rule="evenodd" class="m9ad-ebcz"/>`;
+const content = `<path class="nstvbxb0m"/><path class="zukjp5bxm"/><path class="edbkswbvk"/><path class="ei60xkbzq"/><path class="ts74kj5dn"/><path class="ua6tm9bna"/><path class="m9ad-ebcz"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

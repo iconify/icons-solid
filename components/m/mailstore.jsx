@@ -6,7 +6,7 @@ import '../../css/s/sij7iobyd.css';
 import '../../css/r/rjboz-k8p.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<linearGradient id="SVG6NS9keyK" x1="-809.442" x2="-777.12" y1="16.767" y2="16.767" gradientTransform="rotate(231.815 -6008.486 -2785.216)scale(15.4281)" gradientUnits="userSpaceOnUse"><stop offset="0" class="lcrl3bcgy"/><stop offset="1" class="iek9glb2w"/></linearGradient><path fill="url(#SVG6NS9keyK)" class="sij7iobyd"/><path class="rjboz-k8p"/>`;
+const content = `<linearGradient id="SVGt7wfBesf" x1="389.8" x2="81.5" y1="426.2" y2="34.2" gradientUnits="userSpaceOnUse"><stop offset="0" class="lcrl3bcgy"/><stop offset="1" class="iek9glb2w"/></linearGradient><path fill="url(#SVGt7wfBesf)" class="sij7iobyd"/><path class="rjboz-k8p"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

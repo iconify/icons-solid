@@ -6,7 +6,7 @@ import '../../css/u/u_1f-feup.css';
 import '../../css/s/sxf62sb0r.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<linearGradient id="SVGo9AChcla" x1="256" x2="256" y1="246.983" y2="740.365" gradientTransform="translate(0 -278)" gradientUnits="userSpaceOnUse"><stop offset="0" class="dfwdcnlyh"/><stop offset="1" class="ux0hlqb8q"/></linearGradient><path fill="url(#SVGo9AChcla)" class="u_1f-feup"/><path class="sxf62sb0r"/>`;
+const content = `<linearGradient id="SVG6KT4ze1e" x1="256" x2="256" y1="-31" y2="462.4" gradientUnits="userSpaceOnUse"><stop offset="0" class="dfwdcnlyh"/><stop offset="1" class="ux0hlqb8q"/></linearGradient><path fill="url(#SVG6KT4ze1e)" class="u_1f-feup"/><path class="sxf62sb0r"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

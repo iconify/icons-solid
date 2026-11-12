@@ -8,7 +8,7 @@ import '../../css/o/o99z3p58k.css';
 import '../../css/l/lozb2--un.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<path class="nqebtubth"/><path clip-rule="evenodd" class="n9k3er6dk"/><path class="ckanjobhz"/><path clip-rule="evenodd" class="annjjlb3a"/><path class="o99z3p58k"/><path class="lozb2--un"/>`;
+const content = `<path class="nqebtubth"/><path class="n9k3er6dk"/><path class="ckanjobhz"/><path class="annjjlb3a"/><path class="o99z3p58k"/><path class="lozb2--un"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

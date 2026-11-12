@@ -1,12 +1,32 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/y/yodzen-to.css';
-import '../../css/p/p1e355btg.css';
-import '../../css/k/km4liuwsk.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><circle class="yodzen-to"/><circle class="p1e355btg"/><path class="km4liuwsk"/></g>`;
+const content = `<style>.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.km4liuwsk {
+  stroke-linejoin: round;
+  d: path("M10.9997 5H16.1316C18.1325 5 18.8934 7.61309 17.2054 8.68732L6.7941 15.3127C5.10602 16.3869 5.86695 19 7.86784 19H12.9997M11.4997 20.5L12.9997 19L11.4997 17.5");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.p1e355btg {
+  cx: 19px;
+  cy: 19px;
+  r: 3px;
+}
+
+.yodzen-to {
+  cx: 5px;
+  cy: 5px;
+  r: 3px;
+}
+</style><g class="ipq1z-bjh"><circle class="yodzen-to"/><circle class="p1e355btg"/><path class="km4liuwsk"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

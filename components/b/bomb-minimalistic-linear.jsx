@@ -1,14 +1,36 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/i/ipq1z-bjh.css';
-import '../../css/u/uac092bgj.css';
-import '../../css/m/m99yuxjsm.css';
-import '../../css/z/zsnush0dj.css';
-import '../../css/w/wlfsgdzfw.css';
-import '../../css/n/n04922jxw.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="ipq1z-bjh"><circle class="uac092bgj"/><path class="m99yuxjsm"/><path class="zsnush0dj"/><path class="wlfsgdzfw"/><path class="n04922jxw"/></g>`;
+const content = `<style>.ipq1z-bjh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.m99yuxjsm {
+  d: path("M17 7L15 9");
+}
+
+.n04922jxw {
+  d: path("M19 5L20 4");
+}
+
+.uac092bgj {
+  cx: 9.5px;
+  cy: 14.5px;
+  r: 7.5px;
+}
+
+.wlfsgdzfw {
+  d: path("M16 3.5L16.5 4.5");
+}
+
+.zsnush0dj {
+  d: path("M19.5 7.5L20.5 8");
+}
+</style><g class="ipq1z-bjh"><circle class="uac092bgj"/><path class="m99yuxjsm"/><path class="zsnush0dj"/><path class="wlfsgdzfw"/><path class="n04922jxw"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

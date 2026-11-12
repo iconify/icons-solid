@@ -1,9 +1,16 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/k/klaz9acmk.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="klaz9acmk"/>`;
+const content = `<style>.klaz9acmk {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M5 13L9 17L19 7");
+}
+</style><path class="klaz9acmk"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

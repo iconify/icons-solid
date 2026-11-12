@@ -1,9 +1,14 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/i/i4hxffrur.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<circle class="i4hxffrur"/>`;
+const content = `<style>.i4hxffrur {
+  cx: 12px;
+  cy: 12px;
+  r: 10px;
+  fill: currentColor;
+}
+</style><circle class="i4hxffrur"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

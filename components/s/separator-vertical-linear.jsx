@@ -1,12 +1,27 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/h/hntgybcog.css';
-import '../../css/r/rb-l41-ka.css';
-import '../../css/j/jrvuve-_c.css';
-import '../../css/x/x1f4lc3zb.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<g class="hntgybcog"><path class="rb-l41-ka"/><path class="jrvuve-_c"/><path class="x1f4lc3zb"/></g>`;
+const content = `<style>.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.jrvuve-_c {
+  d: path("M15 18L21 12L15 6");
+}
+
+.rb-l41-ka {
+  d: path("M9 18L3 12L9 6");
+}
+
+.x1f4lc3zb {
+  d: path("M12 2L12 22");
+}
+</style><g class="hntgybcog"><path class="rb-l41-ka"/><path class="jrvuve-_c"/><path class="x1f4lc3zb"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

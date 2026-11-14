@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.ig9srxbaz {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M1.75 11.999q0-4.245 3.002-7.247T12 1.75t7.248 3.002T22.25 12q0-.074-.014-.146q-.015-.073-.043-.141t-.069-.13t-.094-.113q-.052-.053-.113-.094t-.13-.069t-.141-.043t-.146-.014h-6.554Q14.598 9 12 9t-2.946 2.25H2.5q-.074 0-.146.014q-.073.015-.141.043t-.129.069t-.114.093q-.052.052-.093.114q-.041.061-.07.129q-.028.068-.042.141t-.015.146M12 22.25q4.246 0 7.248-3.002T22.25 12q0 .074-.014.146q-.015.073-.043.141t-.069.13t-.094.113q-.052.053-.113.094t-.13.069t-.141.043t-.146.014h-6.554q-.294 1.902-2.196 2.196V21.5q0 .074-.014.146q-.015.073-.043.141t-.069.13q-.041.061-.094.113q-.052.053-.113.094t-.13.069t-.141.043t-.146.014m0 0q-.074 0-.146-.014q-.073-.015-.141-.043t-.13-.069t-.113-.094q-.053-.052-.094-.113t-.069-.13t-.043-.141t-.014-.146v-6.554q-1.902-.294-2.196-2.196H2.5q-.074 0-.146-.014q-.073-.015-.141-.043t-.129-.069t-.114-.093q-.052-.052-.093-.114q-.041-.061-.07-.129q-.028-.068-.042-.141t-.015-.146q0 4.245 3.002 7.247T12 22.25");
+}
+</style><path class="ig9srxbaz"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix-solid:driving-school"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.vqy1nbqsk {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M10 1.75H8.5q-.074 0-.146.014q-.073.015-.141.043t-.13.069t-.113.094q-.053.052-.094.113t-.069.13t-.043.141t-.014.146t.014.146q.015.073.043.141t.069.13t.094.113q.052.053.113.094t.13.069t.141.043q.072.014.146.014h.75v5.057l-5.407 9.832q-.022.04-.039.082q-.639 1.596-.072 2.54q.593.989 2.268.989h12q1.675 0 2.268-.989q.567-.944-.072-2.54q-.017-.042-.039-.082L14.75 8.307V3.25h.75q.074 0 .146-.014q.073-.015.141-.043t.13-.069t.113-.094q.053-.052.094-.113t.069-.13t.043-.141t.014-.146t-.014-.146q-.015-.073-.043-.141t-.069-.13t-.094-.113q-.052-.053-.113-.094t-.13-.069t-.141-.043q-.072-.014-.146-.014H14q-.074 0-.146.014q-.073.015-.141.043t-.13.069t-.113.094q-.053.052-.094.113t-.069.13t-.043.141t-.014.146v6q0 .193.093.361l2.689 4.889H7.968l2.689-4.889q.093-.168.093-.361v-6q0-.074-.014-.146q-.015-.073-.043-.141t-.069-.13t-.094-.113q-.052-.053-.113-.094t-.13-.069t-.141-.043Q10.074 1.75 10 1.75m-2.857 13.5h9.714l1.963 3.57q.341.87.162 1.169q-.157.261-.982.261H6q-.825 0-.982-.261q-.179-.299.162-1.169z");
+}
+</style><path class="vqy1nbqsk"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix-solid:chemistry"} {...others} />);
+}
+
+export default Component;

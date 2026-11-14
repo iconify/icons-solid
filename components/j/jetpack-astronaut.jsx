@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.qdma9qi9w {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M2.75 15V6.25q0-4 4-4q2 0 3 1t1 3v1.5h2.5v-1.5q0-4 4-4q2 0 3 1t1 3V15q0 .074-.014.146q-.015.073-.043.141t-.069.13t-.094.113q-.052.053-.113.094t-.13.069t-.141.043t-.146.014h-.757q-.126 6.5-2.493 6.5t-2.493-6.5H14q-.074 0-.146-.014q-.073-.015-.141-.043t-.13-.069t-.113-.094q-.053-.052-.094-.113t-.069-.13t-.043-.141T13.25 15V9.25h-2.5V15q0 .074-.014.146q-.015.073-.043.141t-.069.13t-.094.113q-.052.053-.113.094t-.13.069t-.141.043t-.146.014h-.757q-.126 6.5-2.493 6.5t-2.493-6.5H3.5q-.074 0-.146-.014q-.073-.015-.141-.043t-.13-.069t-.113-.094q-.053-.052-.094-.113t-.069-.13t-.043-.141Q2.75 15.074 2.75 15m13.511.75q.069 2.206.55 3.781q.373 1.219.439 1.219t.439-1.219q.481-1.575.55-3.781zm-9.95 3.781q-.481-1.575-.55-3.781h1.978q-.069 2.206-.55 3.781q-.373 1.219-.439 1.219t-.439-1.219");
+}
+</style><path class="qdma9qi9w"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix-solid:jetpack-astronaut"} {...others} />);
+}
+
+export default Component;

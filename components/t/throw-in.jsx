@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.nzq85irej {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("m8.485 7.142l-2.62 2.783l2.338 6.315q.047.126.047.26v5q0 .074-.014.146q-.015.073-.043.141t-.069.13q-.041.061-.094.113q-.052.053-.113.094t-.13.069t-.141.043t-.146.014q-.074 0-.146-.014q-.073-.015-.141-.043t-.13-.069q-.061-.041-.113-.094q-.053-.052-.094-.113t-.069-.13t-.043-.141t-.014-.146v-4.866L4.297 10.01q-.037-.098-.045-.202t.013-.207t.069-.196t.12-.169l3.802-4.04Q8.405 1.75 12 1.75t3.744 3.446l3.802 4.04q.072.076.12.169t.069.196t.013.207t-.045.202l-2.453 6.624V21.5q0 .074-.014.146q-.015.073-.043.141t-.069.13q-.041.061-.094.113q-.052.053-.113.094t-.13.069t-.141.043t-.146.014q-.074 0-.146-.014q-.073-.015-.141-.043t-.13-.069q-.061-.041-.113-.094q-.053-.052-.094-.113t-.069-.13t-.043-.141t-.014-.146v-5q0-.134.047-.26l2.338-6.315l-2.62-2.783Q14.812 9.25 12 9.25T8.485 7.142M12 9.25q2.75 0 2.75 2.75T12 14.75T9.25 12T12 9.25");
+}
+</style><path class="nzq85irej"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix-solid:throw-in"} {...others} />);
+}
+
+export default Component;

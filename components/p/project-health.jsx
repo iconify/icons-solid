@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.nnxnemssn {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M5 4.25Q2.25 4.25 2.25 7v10q0 2.75 2.75 2.75h14q2.75 0 2.75-2.75V9q0-2.75-2.75-2.75h-7.189L10.03 4.47q-.105-.106-.243-.163T9.5 4.25zm3.786 8l1.293-2.585q.033-.066.079-.125q.045-.058.101-.107q.055-.048.12-.085q.064-.036.134-.06q.07-.023.143-.032t.147-.004t.145.025t.137.052q.121.061.213.159q.092.099.144.224l1.87 4.487l.767-1.534q.047-.094.117-.171t.16-.132t.189-.083q.101-.029.205-.029h3q.074 0 .146.014q.073.015.141.043t.13.069q.061.041.113.094q.053.052.094.113t.069.13t.043.141t.014.146t-.014.146q-.015.073-.043.141t-.069.13t-.094.113q-.052.053-.113.094t-.13.069t-.141.043t-.146.014h-2.536l-1.293 2.585q-.061.121-.159.213q-.099.092-.224.144q-.137.058-.286.058q-.15 0-.288-.056q-.138-.057-.243-.163q-.106-.105-.163-.243l-1.87-4.487l-.767 1.534q-.047.094-.117.171t-.16.132t-.189.083q-.101.029-.205.029h-3q-.074 0-.146-.014q-.073-.015-.141-.043t-.13-.069q-.061-.041-.113-.094q-.053-.052-.094-.113t-.069-.13t-.043-.141T5.5 13t.014-.146q.015-.073.043-.141t.069-.13t.094-.113q.052-.053.113-.094t.13-.069t.141-.043t.146-.014z");
+}
+</style><path class="nnxnemssn"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix-solid:project-health"} {...others} />);
+}
+
+export default Component;

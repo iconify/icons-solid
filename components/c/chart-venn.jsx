@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.igataihrz {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M1.75 12q-.001 2.9 2.049 4.951q2.051 2.051 4.951 2.051q1.786 0 3.25-.778q1.464.778 3.25.778q2.9 0 4.951-2.051T22.25 12q.001-2.9-2.049-4.951q-2.051-2.051-4.951-2.051q-1.786 0-3.25.778q-1.464-.778-3.25-.778q-2.9 0-4.951 2.051T1.75 12");
+}
+</style><path class="igataihrz"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix-solid:chart-venn"} {...others} />);
+}
+
+export default Component;

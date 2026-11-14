@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.cfvwskbsj {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("m14.031 6.409l1.878-1.878q.659-.66 1.591-.66t1.592.66l1.877 1.878q.66.659.66 1.591t-.66 1.591l-1.878 1.878q-.659.66-1.591.66t-1.592-.66l-1.877-1.878q-.66-.659-.66-1.591t.66-1.591m-11 0q-.66.659-.66 1.591t.66 1.591l1.877 1.878q.66.66 1.592.66t1.591-.66l1.878-1.878q.66-.659.66-1.591t-.66-1.591L8.091 4.531q-.659-.66-1.591-.66t-1.591.66zM9 22.25h6q.074 0 .146-.014q.073-.015.141-.043t.13-.069t.113-.094q.053-.052.094-.113t.069-.13t.043-.141t.014-.146t-.014-.146q-.015-.073-.043-.141t-.069-.13q-.041-.061-.094-.113q-.052-.053-.113-.094t-.13-.069t-.141-.043T15 20.75h-2.25V11q0-.074-.014-.146q-.015-.073-.043-.141t-.069-.13t-.094-.113q-.052-.053-.113-.094t-.13-.069t-.141-.043T12 10.25t-.146.014q-.073.015-.141.043t-.13.069t-.113.094q-.053.052-.094.113t-.069.13t-.043.141t-.014.146v9.75H9q-.074 0-.146.014q-.073.015-.141.043t-.13.069t-.113.094q-.053.052-.094.113t-.069.13t-.043.141t-.014.146t.014.146q.015.073.043.141t.069.13q.041.061.094.113q.052.053.113.094t.13.069t.141.043t.146.014");
+}
+</style><path class="cfvwskbsj"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix-solid:piste-expert"} {...others} />);
+}
+
+export default Component;

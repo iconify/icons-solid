@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.yb2ii2gyy {
+  fill: currentColor;
+  fill-rule: evenodd;
+  d: path("M3.75 20.75V4.5q0-2.25 2.25-2.25h12q2.25 0 2.25 2.25v16.25h1.25q.074 0 .146.014q.073.015.141.043t.13.069q.061.041.113.094q.053.052.094.113t.069.13t.043.141t.014.146q0 .074-.014.146q-.015.073-.043.141t-.069.13q-.041.061-.094.113q-.052.053-.113.094t-.13.069t-.141.043t-.146.014h-19q-.074 0-.146-.014q-.073-.015-.141-.043t-.13-.069t-.113-.094q-.053-.052-.094-.113t-.069-.13t-.043-.141t-.014-.146t.014-.146q.015-.073.043-.141t.069-.13q.041-.061.094-.113q.052-.053.113-.094t.13-.069t.141-.043t.146-.014zm6.75 0h3v-3h-3zm4.5 0h3.75V4.5q0-.75-.75-.75H6q-.75 0-.75.75v16.25H9V17q0-.074.014-.146q.015-.073.043-.141t.069-.13q.041-.061.094-.113q.052-.053.113-.094t.13-.069t.141-.043t.146-.014h4.5q.074 0 .146.014q.073.015.141.043t.13.069t.113.094q.053.052.094.113t.069.13t.043.141T15 17zM7.25 10q0-1.968 1.391-3.359T12 5.25t3.359 1.391T16.75 10t-1.391 3.359T12 14.75t-3.359-1.391T7.25 10");
+}
+</style><path class="yb2ii2gyy"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix-solid:hotel-clock"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,22 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.e8rmr-n0a {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M5 7v8.5c0 3.5 2.5 6 6 6c2.5 0 4-1 5.25-3L19 13.75M8 11V4m3 7V3m3 13.5v-11");
+}
+</style><path class="e8rmr-n0a"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix:canvas-pan"} {...others} />);
+}
+
+export default Component;

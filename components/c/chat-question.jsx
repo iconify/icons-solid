@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.pgzf7r8tj {
+  d: path("M10.25 8.25C10.25 7.2 11 6.5 12 6.5s1.75.7 1.75 1.75c0 1.15-1.75 1.35-1.75 2.5m0 2.5h.01");
+}
+
+.wxoo7k3or {
+  d: path("M4 6a2.5 2.5 0 0 1 2.5-2.5h11A2.5 2.5 0 0 1 20 6v8a2.5 2.5 0 0 1-2.5 2.5H11L7 20v-3.5h-.5A2.5 2.5 0 0 1 4 14Z");
+}
+</style><g class="hntgybcog"><path class="wxoo7k3or"/><path class="pgzf7r8tj"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix:chat-question"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,22 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.bt93uebnq {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M14.5 6.25a2.5 2.5 0 1 0 5 0a2.5 2.5 0 1 0-5 0M13 10l-6 1.5l4 3.75L9.5 19M7 11.5L3.5 18m9.5-8l1.5 4.75M20 12.5v8");
+}
+</style><path class="bt93uebnq"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix:speed-skating-start"} {...others} />);
+}
+
+export default Component;

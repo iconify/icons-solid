@@ -1,0 +1,22 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.emu-asuad {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("m8.5 3l-4 2C3.5 5.5 3 6.5 3 7.5L2.5 20h3l1-10v11h11V10l1 10h3L21 7.5c0-1-.5-2-1.5-2.5l-4-2L12 7ZM12 7v14m-5.5-7h11");
+}
+</style><path class="emu-asuad"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix:flannel-shirt"} {...others} />);
+}
+
+export default Component;

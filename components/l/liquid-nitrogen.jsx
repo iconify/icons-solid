@@ -1,0 +1,22 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.nirlltnzt {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M9.5 9.75v1.75c-2.5.5-3 1.5-3 3V20A1.5 1.5 0 0 0 8 21.5h8a1.5 1.5 0 0 0 1.5-1.5v-5.5c0-1.5-.5-2.5-3-3V9.75M10 7c-1.25-1.25 1.25-2.75 0-4.5M14 7c-1.25-1.25 1.25-2.75 0-4.5");
+}
+</style><path class="nirlltnzt"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix-sharp:liquid-nitrogen"} {...others} />);
+}
+
+export default Component;

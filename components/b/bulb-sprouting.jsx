@@ -1,0 +1,22 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.x-sljefbb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M12 7.5c1 2.5 6.5 3.5 6.5 7.5c0 2.75-3 3.5-6.5 3.5s-6.5-.75-6.5-3.5c0-4 5.5-5 6.5-7.5Zm0 0v-5m0 3c0-2 2-3 4.5-3c0 2-2 3.25-4.5 3Zm-2.5 13L8.75 21M12 18.5v3m2.5-3l.75 2.5");
+}
+</style><path class="x-sljefbb"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix-sharp:bulb-sprouting"} {...others} />);
+}
+
+export default Component;

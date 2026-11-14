@@ -1,0 +1,22 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.hcg8evbbc {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+  d: path("M9.5 20.5V8L12 4l2.5 4v12.5m-6.75 0l-3.5-6l.25-3.75l3.25 1.75l1.75 3m6.75 5l3.5-6l-.25-3.75l-3.25 1.75l-1.75 3m-11 5h17");
+}
+</style><path class="hcg8evbbc"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix-sharp:mineral-sample"} {...others} />);
+}
+
+export default Component;

@@ -1,0 +1,29 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.df095h88a {
+  d: path("M2.5 17.5v-3q0-2 2-2h6c.5-7.5 11-8 11 2v3m-19 0h19");
+}
+
+.ulnmmdpxh {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-miterlimit: 3.5;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.wr3-6wb6k {
+  d: path("M13 17.5v-2.25a2.75 2.75 0 0 1 5.5 0v2.25");
+}
+</style><g class="ulnmmdpxh"><path class="df095h88a"/><path class="wr3-6wb6k"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"uix-sharp:bivouac"} {...others} />);
+}
+
+export default Component;

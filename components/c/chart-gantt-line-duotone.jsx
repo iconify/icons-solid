@@ -1,0 +1,42 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.edidavbey {
+  d: path("M7 13.5H14.5");
+}
+
+.fi4ocdbqc {
+  d: path("M6 5.5H13");
+}
+
+.g0b20jb4q {
+  d: path("M10 9.5H19.5");
+}
+
+.hntgybcog {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--1-5px, 1.5px);
+}
+
+.m3437h1_z {
+  d: path("M22 22H6C4.1144 22 3.1716 22 2.5858 21.4142C2 20.8284 2 19.8856 2 18V2");
+  opacity: var(--svg-opacity--0-5, 0.5);
+}
+
+.w298ldjrg {
+  d: path("M13 17.5H21.5");
+}
+</style><g class="hntgybcog"><path class="m3437h1_z"/><path class="fi4ocdbqc"/><path class="g0b20jb4q"/><path class="edidavbey"/><path class="w298ldjrg"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"solar:chart-gantt-line-duotone"} {...others} />);
+}
+
+export default Component;

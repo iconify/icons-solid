@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/vscode-icons",
   "type": "module",
-  "version": "1.0.57",
+  "version": "1.0.58",
   "homepage": "https://icon-sets.iconify.design/vscode-icons/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "MIT",
@@ -489,6 +489,10 @@
     "./file-type-casc": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-type-casc.jsx"
+    },
+    "./file-type-cassandra": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-type-cassandra.jsx"
     },
     "./file-type-cddl": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2046,6 +2050,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-type-light-cabal.jsx"
     },
+    "./file-type-light-cassandra": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-type-light-cassandra.jsx"
+    },
     "./file-type-light-checkov": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-type-light-checkov.jsx"
@@ -2481,6 +2489,10 @@
     "./file-type-light-shaderlab": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-type-light-shaderlab.jsx"
+    },
+    "./file-type-light-simple-icons": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-type-light-simple-icons.jsx"
     },
     "./file-type-light-skill": {
       "types": "./types/vn2rmosy.d.ts",
@@ -4209,6 +4221,10 @@
     "./file-type-silverstripe": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/f/file-type-silverstripe.jsx"
+    },
+    "./file-type-simple-icons": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/f/file-type-simple-icons.jsx"
     },
     "./file-type-sino": {
       "types": "./types/vn2rmosy.d.ts",

@@ -1,0 +1,27 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.dpxztkv-o {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  fill-rule: evenodd;
+  d: path("M11.66 1.06C11.916 0.967 12.201 0.982 12.447 1.105L22.447 6.105C22.786 6.275 23 6.621 23 7V22C23 22.552 22.552 23 22 23H2C1.448 23 1 22.552 1 22V7C1 6.621 1.214 6.275 1.553 6.105L11.553 1.105L11.66 1.06ZM6 11V21H18V11H6Z");
+}
+
+.tksx2_b_o {
+  d: path("M22.447 6.105C22.786 6.275 23 6.621 23 7V8H1V7C1 6.621 1.214 6.275 1.553 6.105L1.764 6H22.236L22.447 6.105Z");
+}
+</style><g class="cuyn6tgcc"><path clip-rule="evenodd" class="dpxztkv-o"/><path class="tksx2_b_o"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"keyline-icons:garage-open-sharp-duotone"} {...others} />);
+}
+
+export default Component;

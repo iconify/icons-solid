@@ -14,12 +14,12 @@ const content = `<style>.ft5dv1b6b {
   d: path("M6 8a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1ZM3 18a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1ZM9 7V3h6v4m-5 0v6m4-6v6");
 }
 
-.q_tduygdo {
+.nvxlbhksp {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M7 6h10a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2");
+  d: path("M7 7h10a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1");
 }
-</style><g class="ft5dv1b6b"><path class="q_tduygdo"/><path class="ngw5tebwu"/></g>`;
+</style><g class="ft5dv1b6b"><path class="nvxlbhksp"/><path class="ngw5tebwu"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

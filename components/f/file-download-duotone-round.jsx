@@ -2,13 +2,7 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":24,"height":24};
-const content = `<style>.b6fkvxgfa {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M19.707 8.293A1 1 0 0 1 20 9v8a5 5 0 0 1-1.464 3.536A5 5 0 0 1 15 22H9a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5h4c.265 0 .52.105.707.293ZM13 7a2 2 0 0 0 2 2h3l-5-5Z");
-}
-
-.du05melxj {
+const content = `<style>.du05melxj {
   stroke: currentColor;
   stroke-linecap: round;
   stroke-linejoin: round;
@@ -19,7 +13,13 @@ const content = `<style>.b6fkvxgfa {
 .ft5dv1b6b {
   fill: none;
 }
-</style><g class="ft5dv1b6b"><path class="b6fkvxgfa"/><path class="du05melxj"/></g>`;
+
+.rj7rfzbhx {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("m13 3l.034.034q-.01-.01-.022-.004a.02.02 0 0 0-.012.018V7a2 2 0 0 0 2 2h3.952a.02.02 0 0 0 .018-.012q.006-.012-.004-.022L19 9v8a4 4 0 0 1-4 4H9a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z");
+}
+</style><g class="ft5dv1b6b"><path class="rj7rfzbhx"/><path class="du05melxj"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

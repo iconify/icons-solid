@@ -2,14 +2,14 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":24,"height":24};
-const content = `<style>.ft5dv1b6b {
-  fill: none;
-}
-
-.k3bx-ybwa {
+const content = `<style>.c9v0mmhzk {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M19.943 9.943a4.16 4.16 0 0 1-5.886 0a4.16 4.16 0 0 1 0-5.886a4.16 4.16 0 0 1 5.886 0a4.16 4.16 0 0 1 0 5.886m-10 5a4.16 4.16 0 0 1-5.886 0a4.16 4.16 0 0 1 0-5.886a4.16 4.16 0 0 1 5.886 0a4.16 4.16 0 0 1 0 5.886m10 5a4.16 4.16 0 0 1-5.886 0a4.16 4.16 0 0 1 0-5.886a4.16 4.16 0 0 1 5.886 0a4.16 4.16 0 0 1 0 5.886");
+  d: path("M20 8a3.162 3.162 0 1 1-6-2a3.162 3.162 0 0 1 6 2m-10 5a3.162 3.162 0 1 1-6-2a3.162 3.162 0 0 1 6 2m10 5a3.162 3.162 0 1 1-6-2a3.162 3.162 0 0 1 6 2");
+}
+
+.ft5dv1b6b {
+  fill: none;
 }
 
 .o_x9s7vbq {
@@ -19,7 +19,7 @@ const content = `<style>.ft5dv1b6b {
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M20 8a3.162 3.162 0 1 1-6-2a3.162 3.162 0 0 1 6 2m-10 5a3.162 3.162 0 1 1-6-2a3.162 3.162 0 0 1 6 2m10 5a3.162 3.162 0 1 1-6-2a3.162 3.162 0 0 1 6 2m-10-7l4-3m-4 5l4 3");
 }
-</style><g class="ft5dv1b6b"><path class="k3bx-ybwa"/><path class="o_x9s7vbq"/></g>`;
+</style><g class="ft5dv1b6b"><path class="c9v0mmhzk"/><path class="o_x9s7vbq"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

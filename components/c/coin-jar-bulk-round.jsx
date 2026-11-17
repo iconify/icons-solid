@@ -11,10 +11,10 @@ const content = `<style>.ci_-vopve {
   fill: currentColor;
 }
 
-.ldkxcoxeq {
-  d: path("M7 11h10a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2");
+.qka7dtbeg {
+  d: path("M5.236 3.832a3 3 0 1 1 5.527 2.338a3 3 0 0 1-5.527-2.338m7 2a3 3 0 1 1 5.527 2.338a3 3 0 0 1-5.527-2.338M17 11a1 1 0 0 1 0 2H7a1 1 0 0 1 0-2Z");
 }
-</style><g class="cuyn6tgcc"><path class="ci_-vopve"/><path class="ldkxcoxeq"/></g>`;
+</style><g class="cuyn6tgcc"><path class="ci_-vopve"/><path class="qka7dtbeg"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

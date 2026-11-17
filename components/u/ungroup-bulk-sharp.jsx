@@ -10,11 +10,11 @@ const content = `<style>.bmxevhbix {
   fill: currentColor;
 }
 
-.dfexzobhe {
+.e1fpllb6f {
   fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
-  d: path("M4 5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1Z");
+  d: path("M5 4h7a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1m7 9h7a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1v-5a1 1 0 0 1 1-1");
 }
-</style><g class="cuyn6tgcc"><path class="dfexzobhe"/><path class="bmxevhbix"/></g>`;
+</style><g class="cuyn6tgcc"><path class="e1fpllb6f"/><path class="bmxevhbix"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

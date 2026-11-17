@@ -6,6 +6,12 @@ const content = `<style>.ft5dv1b6b {
   fill: none;
 }
 
+.glx2tvjnt {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M21 4v4H3V4Z");
+}
+
 .vxwl3tf1e {
   stroke: currentColor;
   stroke-linecap: round;
@@ -13,13 +19,7 @@ const content = `<style>.ft5dv1b6b {
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M3 8V4h18v4M8 20H3V8m0 0h18m-8 8h8");
 }
-
-.zxxvfabdr {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M2 8V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1");
-}
-</style><g class="ft5dv1b6b"><path class="zxxvfabdr"/><path class="vxwl3tf1e"/></g>`;
+</style><g class="ft5dv1b6b"><path class="glx2tvjnt"/><path class="vxwl3tf1e"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

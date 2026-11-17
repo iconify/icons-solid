@@ -2,7 +2,13 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":24,"height":24};
-const content = `<style>.ft5dv1b6b {
+const content = `<style>.ddux6hb7s {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
+  d: path("M21 11h-8a2 2 0 0 0-2 2v6H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2Z");
+}
+
+.ft5dv1b6b {
   fill: none;
 }
 
@@ -13,13 +19,7 @@ const content = `<style>.ft5dv1b6b {
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M11 19H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4M4 6l4 4c.64.64 1.36 1 2 1h4c.64 0 1.36-.36 2-1l4-4m-4 10l4 4m0-4l-4 4");
 }
-
-.xat3pcbmv {
-  fill: currentColor;
-  fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M13 12a.997.997 0 0 0-1 1v6a1 1 0 0 1-1 1H5a3 3 0 0 1-3-3V7a3 3 0 0 1 3-3h14a3 3 0 0 1 3 3v4a1 1 0 0 1-1 1Z");
-}
-</style><g class="ft5dv1b6b"><path class="xat3pcbmv"/><path class="vifnmtpdc"/></g>`;
+</style><g class="ft5dv1b6b"><path class="ddux6hb7s"/><path class="vifnmtpdc"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

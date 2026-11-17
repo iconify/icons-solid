@@ -2,7 +2,11 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":24,"height":24};
-const content = `<style>.nrj6p8qat {
+const content = `<style>.huu624itn {
+  d: path("M16.342 13.342L19 10h-5.25V3l-3.434 4.316m-2.658 3.342L5 14h5.25v7l3.434-4.316");
+}
+
+.nrj6p8qat {
   fill: none;
   stroke: currentColor;
   stroke-linecap: round;
@@ -14,11 +18,7 @@ const content = `<style>.nrj6p8qat {
   stroke-opacity: 0.4;
   d: path("m2 5l17 17");
 }
-
-.wu8u2fhnb {
-  d: path("m17 14l3-3h-6V3l-4 4m-3 3l-3 3h6v8l4-4");
-}
-</style><g class="nrj6p8qat"><path class="sr6trvpei"/><path class="wu8u2fhnb"/></g>`;
+</style><g class="nrj6p8qat"><path class="sr6trvpei"/><path class="huu624itn"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

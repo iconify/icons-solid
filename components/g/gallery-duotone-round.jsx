@@ -14,12 +14,12 @@ const content = `<style>.d64vzlb2y {
   fill: none;
 }
 
-.yxlmj7a9i {
+.t-3gt-b3h {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M17 2a5 5 0 0 1 5 5v6a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Z");
+  d: path("M17 3a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z");
 }
-</style><g class="ft5dv1b6b"><path class="yxlmj7a9i"/><path class="d64vzlb2y"/></g>`;
+</style><g class="ft5dv1b6b"><path class="t-3gt-b3h"/><path class="d64vzlb2y"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

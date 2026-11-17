@@ -1,0 +1,26 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.kjh5d9byn {
+  d: path("M7.111 10.5c-.001-.7-.41-1.33-.859-1.836C5.467 7.78 4.89 6.707 4.889 5.5c.001-1.207.578-2.28 1.363-3.164a1.001 1.001 0 0 1 1.496 1.328C7.299 4.17 6.89 4.8 6.889 5.5c.001.7.41 1.33.859 1.836c.785.884 1.362 1.957 1.363 3.164c-.001 1.207-.578 2.28-1.363 3.164a1.001 1.001 0 0 1-1.496-1.328c.449-.506.858-1.136.859-1.836m5 0c-.001-.7-.41-1.33-.859-1.836C10.467 7.78 9.89 6.707 9.889 5.5c.001-1.207.578-2.28 1.363-3.164a1.001 1.001 0 0 1 1.496 1.328c-.449.506-.858 1.136-.859 1.836c.001.7.41 1.33.859 1.836c.785.884 1.362 1.957 1.363 3.164c-.001 1.207-.578 2.28-1.363 3.164a1.001 1.001 0 0 1-1.496-1.328c.449-.506.858-1.136.859-1.836m5 0c-.001-.7-.41-1.33-.859-1.836c-.785-.884-1.362-1.957-1.363-3.164c.001-1.207.578-2.28 1.363-3.164a1.001 1.001 0 0 1 1.496 1.328c-.449.506-.858 1.136-.859 1.836c.001.7.41 1.33.859 1.836c.785.884 1.362 1.957 1.363 3.164c-.001 1.207-.578 2.28-1.363 3.164a1.001 1.001 0 0 1-1.496-1.328c.449-.506.858-1.136.859-1.836");
+}
+
+.sgbfh2rfc {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M5 16h14a3 3 0 1 1 0 6H5a3 3 0 1 1 0-6");
+}
+</style><g class="cuyn6tgcc"><path class="sgbfh2rfc"/><path class="kjh5d9byn"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"coolicons:heat-waves-surface-bulk"} {...others} />);
+}
+
+export default Component;

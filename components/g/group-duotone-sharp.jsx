@@ -2,10 +2,10 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":24,"height":24};
-const content = `<style>.ei2ayfvok {
+const content = `<style>.e_-4zobrf {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M9 17v-5a1 1 0 0 1 1-1h7a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-7a1 1 0 0 1-1-1");
+  d: path("M10 12h7v5h-7Z");
 }
 
 .eul4pkbhp {
@@ -19,7 +19,7 @@ const content = `<style>.ei2ayfvok {
 .ft5dv1b6b {
   fill: none;
 }
-</style><g class="ft5dv1b6b"><path class="ei2ayfvok"/><path class="eul4pkbhp"/></g>`;
+</style><g class="ft5dv1b6b"><path class="e_-4zobrf"/><path class="eul4pkbhp"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

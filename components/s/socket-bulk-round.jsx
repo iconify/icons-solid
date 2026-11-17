@@ -1,0 +1,26 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.b-0c0kbkf {
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-1.464 3.536A5 5 0 0 1 17 22H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5m0 10a5 5 0 1 0 10.001-.001A5 5 0 0 0 7 12");
+}
+
+.cuyn6tgcc {
+  fill: currentColor;
+}
+
+.z-yv9_bws {
+  d: path("M5.551 9.275a7 7 0 0 1 9.173-3.723a7 7 0 0 1 3.724 9.172A7 7 0 0 1 5.551 9.275m1.842 4.671a5 5 0 1 0 9.212-3.892a5 5 0 0 0-9.212 3.892m.725-2.53a1.501 1.501 0 0 1 2.764 1.168a1.501 1.501 0 0 1-2.764-1.168m5 0a1.501 1.501 0 0 1 2.764 1.168a1.501 1.501 0 0 1-2.764-1.168");
+}
+</style><g class="cuyn6tgcc"><path class="b-0c0kbkf"/><path class="z-yv9_bws"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"coolicons:socket-bulk-round"} {...others} />);
+}
+
+export default Component;

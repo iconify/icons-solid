@@ -6,10 +6,10 @@ const content = `<style>.ft5dv1b6b {
   fill: none;
 }
 
-.ksx9wqbyy {
+.mcyf3fb0j {
   fill: currentColor;
   fill-opacity: var(--svg-fill-opacity--0-2, 0.2);
-  d: path("M19 2a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3Z");
+  d: path("M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z");
 }
 
 .tuwvxns9s {
@@ -19,7 +19,7 @@ const content = `<style>.ft5dv1b6b {
   stroke-width: var(--svg-stroke-width--2px, 2px);
   d: path("M3 5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm0 12l3-3a1.414 1.414 0 0 1 2 0l7 7M14 7v3m0 3h.01");
 }
-</style><g class="ft5dv1b6b"><path class="ksx9wqbyy"/><path class="tuwvxns9s"/></g>`;
+</style><g class="ft5dv1b6b"><path class="mcyf3fb0j"/><path class="tuwvxns9s"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

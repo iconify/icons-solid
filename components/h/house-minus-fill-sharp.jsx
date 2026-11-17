@@ -2,11 +2,11 @@ import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 
 const viewBox = {"width":24,"height":24};
-const content = `<style>.awh2r-v2k {
+const content = `<style>.uyc702bih {
   fill: currentColor;
-  d: path("M20.707 10.293A1 1 0 0 1 21 11v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V11c0-.265.105-.52.293-.707l8-8a1 1 0 0 1 1.414 0ZM9 15h6a1 1 0 0 0 0-2H9a1 1 0 0 0 0 2");
+  d: path("M20.659 9.247c.217.19.341.465.341.753v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V10c0-.288.124-.563.341-.753l8-7c.378-.329.94-.329 1.318 0ZM9 15h6a1 1 0 0 0 0-2H9a1 1 0 0 0 0 2");
 }
-</style><path class="awh2r-v2k"/>`;
+</style><path class="uyc702bih"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

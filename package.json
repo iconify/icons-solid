@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/devicon-plain",
   "type": "module",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "MIT",
@@ -129,6 +129,14 @@
     "./apacheairflow-wordmark": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/apacheairflow-wordmark.jsx"
+    },
+    "./apacheflink": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/apacheflink.jsx"
+    },
+    "./apacheflink-wordmark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/apacheflink-wordmark.jsx"
     },
     "./apacheignite-wordmark": {
       "types": "./types/vn2rmosy.d.ts",
@@ -961,6 +969,10 @@
     "./gardener": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/g/gardener.jsx"
+    },
+    "./gate": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/gate.jsx"
     },
     "./gatling": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2521,6 +2533,14 @@
     "./quasar-wordmark": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/q/quasar-wordmark.jsx"
+    },
+    "./qwen": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/q/qwen.jsx"
+    },
+    "./qwen-wordmark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/q/qwen-wordmark.jsx"
     },
     "./qwik": {
       "types": "./types/vn2rmosy.d.ts",

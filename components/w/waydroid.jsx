@@ -1,0 +1,17 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/j/j-37hqbcf.css';
+import '../../css/e/ehejjjvmh.css';
+import '../../css/j/jse_opbpc.css';
+
+const viewBox = {"width":512,"height":512};
+const content = `<path class="j-37hqbcf"/><path class="ehejjjvmh"/><path class="jse_opbpc"/>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"selfhst:waydroid"} {...others} />);
+}
+
+export default Component;

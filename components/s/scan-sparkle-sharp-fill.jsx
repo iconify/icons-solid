@@ -1,0 +1,30 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.d0oi1tbtp {
+  d: path("M3 9L3 8L3 3L8 3L9 3M15 3L16 3L21 3L21 8L21 9M21 15L21 16L21 21L16 21L15 21M9 21L8 21L3 21L3 16L3 15");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.lhm3w4bmj {
+  fill: currentColor;
+  d: path("M16.5599 10.053L18.4862 11.1265C18.803 11.303 18.9994 11.6373 18.9994 12C18.9994 12.3627 18.803 12.697 18.4862 12.8735L14.882 14.882L12.8735 18.4862C12.697 18.803 12.3627 18.9994 12 18.9994C11.6373 18.9994 11.303 18.803 11.1265 18.4862L9.118 14.882L5.5138 12.8735C5.197 12.697 5.0006 12.3627 5.0006 12C5.0006 11.6373 5.197 11.303 5.5138 11.1265L9.118 9.118L11.1265 5.5138C11.303 5.197 11.6373 5.0006 12 5.0006C12.3627 5.0006 12.697 5.197 12.8735 5.5138L14.882 9.118Z");
+  stroke: none;
+}
+</style><g class="gp_8x1bzb"><path class="d0oi1tbtp"/><path class="lhm3w4bmj"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"keyline-icons:scan-sparkle-sharp-fill"} {...others} />);
+}
+
+export default Component;

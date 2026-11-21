@@ -1,10 +1,10 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
 import '../../css/s/s8xwu9g6i.css';
-import '../../css/x/xd6k6-cyk.css';
+import '../../css/s/stdxmbcpa.css';
 
 const viewBox = {"width":512,"height":512};
-const content = `<rect transform="rotate(-90 256 256)" class="s8xwu9g6i"/><path class="xd6k6-cyk"/>`;
+const content = `<rect transform="rotate(-90 256 256)" class="s8xwu9g6i"/><path class="stdxmbcpa"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

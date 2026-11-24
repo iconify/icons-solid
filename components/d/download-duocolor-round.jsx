@@ -10,15 +10,15 @@ const content = `<style>.nrj6p8qat {
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
 
-.riisj1nkm {
+.skxyjccos {
   stroke-opacity: 0.4;
-  d: path("M6 20h12");
+  d: path("M4 16a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4");
 }
 
 .tp9nqccpz {
   d: path("m8 12l4 4l4-4m-4 4V4");
 }
-</style><g class="nrj6p8qat"><path class="riisj1nkm"/><path class="tp9nqccpz"/></g>`;
+</style><g class="nrj6p8qat"><path class="skxyjccos"/><path class="tp9nqccpz"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

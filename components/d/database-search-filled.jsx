@@ -1,10 +1,10 @@
 import { Icon } from '@iconify/css-solid';
 import { splitProps } from 'solid-js';
-import '../../css/v/vapumvfpg.css';
+import '../../css/o/ohm245beh.css';
 import '../../css/e/edfoyo7yi.css';
 
 const viewBox = {"width":24,"height":24};
-const content = `<path class="vapumvfpg"/><path clip-rule="evenodd" class="edfoyo7yi"/>`;
+const content = `<path class="ohm245beh"/><path clip-rule="evenodd" class="edfoyo7yi"/>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

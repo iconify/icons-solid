@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/lucide",
   "type": "module",
-  "version": "1.0.65",
+  "version": "1.0.66",
   "homepage": "https://icon-sets.iconify.design/lucide/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "ISC",
@@ -221,6 +221,10 @@
     "./app-window-mac": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/app-window-mac.jsx"
+    },
+    "./app-window-plus": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/app-window-plus.jsx"
     },
     "./apple": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2054,6 +2058,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/circle-small.jsx"
     },
+    "./circle-speed-lines": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/circle-speed-lines.jsx"
+    },
     "./circle-star": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/circle-star.jsx"
@@ -3830,6 +3838,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/g/graph-hub.jsx"
     },
+    "./graph-path": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/g/graph-path.jsx"
+    },
     "./graph-ring": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/g/graph-ring.jsx"
@@ -4089,6 +4101,10 @@
     "./hockey-stick": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/h/hockey-stick.jsx"
+    },
+    "./hole": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/h/hole.jsx"
     },
     "./hop": {
       "types": "./types/vn2rmosy.d.ts",
@@ -5585,6 +5601,10 @@
     "./package-2": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/p/package-2.jsx"
+    },
+    "./package-arrow-bend-up-left": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/p/package-arrow-bend-up-left.jsx"
     },
     "./package-check": {
       "types": "./types/vn2rmosy.d.ts",
@@ -7421,6 +7441,10 @@
     "./square-plus": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/square-plus.jsx"
+    },
+    "./square-plus-corner": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/square-plus-corner.jsx"
     },
     "./square-power": {
       "types": "./types/vn2rmosy.d.ts",

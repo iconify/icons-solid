@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/f/ft5dv1b6b.css';
+import '../../css/n/n1lsf0bnc.css';
+import '../../css/h/hl26z1bam.css';
+import '../../css/n/n8kf28bbi.css';
+
+const viewBox = {"width":16,"height":16};
+const content = `<g class="ft5dv1b6b"><g clip-path="url(#SVGRVeuBdhT)" clip-rule="evenodd" class="n1lsf0bnc"><path class="hl26z1bam"/></g><defs><clipPath id="SVGRVeuBdhT"><path class="n8kf28bbi"/></clipPath></defs></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"gravity-ui:incognito"} {...others} />);
+}
+
+export default Component;

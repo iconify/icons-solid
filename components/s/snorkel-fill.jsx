@@ -1,0 +1,31 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.bo9trfbpm {
+  fill: currentColor;
+  d: path("M10 7L15 7C17.2092 7 19 8.7908 19 11C19 13.7614 16.7614 16 14 16L12.9142 16C12.3837 16 11.875 15.7892 11.5 15.4142L10 13.9L8.5 15.4142C8.125 15.7892 7.6163 16 7.0858 16L6 16C3.2386 16 1 13.7614 1 11C1 8.7908 2.7908 7 5 7Z");
+  stroke: none;
+}
+
+.itepumbtr {
+  d: path("M22 5L22 14C22 16.7614 19.7614 19 17 19L10 19");
+}
+
+.nrj6p8qat {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+</style><g class="nrj6p8qat"><path class="bo9trfbpm"/><path class="itepumbtr"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"keyline-icons:snorkel-fill"} {...others} />);
+}
+
+export default Component;

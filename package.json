@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/cbi",
   "type": "module",
-  "version": "1.0.51",
+  "version": "1.0.52",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -3493,6 +3493,10 @@
     "./mammotion-luba-top": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/m/mammotion-luba-top.jsx"
+    },
+    "./mapy": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/m/mapy.jsx"
     },
     "./maria-db": {
       "types": "./types/vn2rmosy.d.ts",

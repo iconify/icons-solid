@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/devicon-plain",
   "type": "module",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "homepage": "https://icon-sets.iconify.design/devicon-plain/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "MIT",
@@ -302,6 +302,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/bevyengine-wordmark.jsx"
     },
+    "./binijs": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/b/binijs.jsx"
+    },
     "./biome-wordmark": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/b/biome-wordmark.jsx"
@@ -517,6 +521,10 @@
     "./codepen": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/c/codepen.jsx"
+    },
+    "./codewars-wordmark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/c/codewars-wordmark.jsx"
     },
     "./codex": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2678,6 +2686,10 @@
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/r/rollup-wordmark.jsx"
     },
+    "./rqlite": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rqlite.jsx"
+    },
     "./rspec": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/r/rspec.jsx"
@@ -2685,6 +2697,10 @@
     "./rspec-wordmark": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/r/rspec-wordmark.jsx"
+    },
+    "./rstan": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/r/rstan.jsx"
     },
     "./rstudio": {
       "types": "./types/vn2rmosy.d.ts",
@@ -2897,6 +2913,14 @@
     "./starship-wordmark": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/s/starship-wordmark.jsx"
+    },
+    "./statuspage": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/statuspage.jsx"
+    },
+    "./statuspage-wordmark": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/s/statuspage-wordmark.jsx"
     },
     "./stenciljs": {
       "types": "./types/vn2rmosy.d.ts",

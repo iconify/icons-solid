@@ -1,7 +1,7 @@
 {
   "name": "@iconify-solid/cbi",
   "type": "module",
-  "version": "1.0.52",
+  "version": "1.0.53",
   "homepage": "https://icon-sets.iconify.design/cbi/",
   "bugs": "https://github.com/iconify/icons-solid/issues",
   "license": "CC-BY-NC-SA-4.0",
@@ -497,6 +497,10 @@
     "./arcam": {
       "types": "./types/vn2rmosy.d.ts",
       "default": "./components/a/arcam.jsx"
+    },
+    "./arcane": {
+      "types": "./types/vn2rmosy.d.ts",
+      "default": "./components/a/arcane.jsx"
     },
     "./ard": {
       "types": "./types/vn2rmosy.d.ts",

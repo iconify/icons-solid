@@ -1,0 +1,31 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+
+const viewBox = {"width":24,"height":24};
+const content = `<style>.d87qwbc_t {
+  d: path("M10 12C10 14.2091 8.209 16 6 16C3.791 16 2 14.2091 2 12C2 9.7909 3.791 8 6 8C8.209 8 10 9.7909 10 12ZM10 12H12M12 12L1.707 1.7071M12 12L22.293 22.2929");
+}
+
+.gp_8x1bzb {
+  fill: none;
+  stroke: currentColor;
+  stroke-linejoin: round;
+  stroke-width: var(--svg-stroke-width--2px, 2px);
+}
+
+.gqcoxpoaq {
+  fill: currentColor;
+  fill-opacity: var(--svg-fill-opacity--0-4, 0.4);
+  d: path("M10.872 10.8724C10.956 11.2347 11 11.6122 11 12C11 14.7614 8.761 17 6 17C3.239 17 1 14.7614 1 12C1 9.2386 3.239 7 6 7C6.388 7 6.765 7.0441 7.128 7.1277L10.872 10.8724ZM16.657 13V11H17.657H23V13H22V15.3431V16.3431H20V15.3431V13H17.657H16.657Z");
+  stroke: none;
+}
+</style><g class="gp_8x1bzb"><path class="gqcoxpoaq"/><path class="d87qwbc_t"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"keyline-icons:key-off-sharp-two-tone"} {...others} />);
+}
+
+export default Component;

@@ -9,8 +9,8 @@ const content = `<style>.f0yusve5z {
   stroke: none;
 }
 
-.gzpnowbqk {
-  d: path("M2 12.625L11.5618 17.2864C11.7001 17.3538 11.85 17.3875 12 17.3875M2 17.2375L11.5618 21.8989C11.7001 21.9663 11.85 22 12 22M17 19.5L18.6667 21.1667L22 17.8333");
+.kh2du4bni {
+  d: path("M2 12.625L11.5618 17.2864C11.7001 17.3538 11.85 17.3875 12 17.3875M2 17.2375L11.5618 21.8989C11.7001 21.9663 11.85 22 12 22M16 19L18 21L22 17");
 }
 
 .nrj6p8qat {
@@ -20,7 +20,7 @@ const content = `<style>.f0yusve5z {
   stroke-linejoin: round;
   stroke-width: var(--svg-stroke-width--2px, 2px);
 }
-</style><g class="nrj6p8qat"><path class="f0yusve5z"/><path class="gzpnowbqk"/></g>`;
+</style><g class="nrj6p8qat"><path class="f0yusve5z"/><path class="kh2du4bni"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

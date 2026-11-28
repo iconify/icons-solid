@@ -16,7 +16,7 @@ const content = `<style>.b0acwmbzg {
   stroke-width: var(--svg-stroke-width--4px, 4px);
   rx: 16px;
 }
-</style><g transform="translate(2 2)scale(.21212)"><rect class="e_ezxwzva"/><path class="b0acwmbzg"/></g>`;
+</style><g transform="translate(2.1 2.1)scale(.21068)"><rect class="e_ezxwzva"/><path class="b0acwmbzg"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

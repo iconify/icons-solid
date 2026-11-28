@@ -67,7 +67,7 @@ const content = `<style>.fc29076ss {
   fill: none;
   stroke-width: var(--svg-stroke-width--0-56px, 0.56px);
 }
-</style><g class="yp8lfkb4l"><ellipse class="wxfyecbjg"/><ellipse transform="rotate(-66)" class="ly87scc6a"/><ellipse transform="rotate(66)" class="jyh6nzbko"/><circle class="ftgcdn_po"/><g class="yikj7jbzz"><circle class="uxcqtzbip"/><circle class="fc29076ss"/><circle class="ojc8knb_c"/><circle class="mgc37kb1g"/></g></g>`;
+</style><g transform="translate(.34 .34)scale(.97892)" class="yp8lfkb4l"><ellipse class="wxfyecbjg"/><ellipse transform="rotate(-66)" class="ly87scc6a"/><ellipse transform="rotate(66)" class="jyh6nzbko"/><circle class="ftgcdn_po"/><g class="yikj7jbzz"><circle class="uxcqtzbip"/><circle class="fc29076ss"/><circle class="ojc8knb_c"/><circle class="mgc37kb1g"/></g></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

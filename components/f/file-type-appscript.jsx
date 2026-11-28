@@ -72,7 +72,7 @@ const content = `<style>.b0x6sgbww {
   r: 1.67px;
   fill: var(--svg-color--fff, #fff);
 }
-</style><rect class="hrcfc5buf"/><circle class="pns4aob3g"/><rect transform="rotate(-144 14.99 19.03)" class="e2iqol_wv"/><circle class="jnpicbbrp"/><rect transform="rotate(72 19.19 15.96)" class="b0x6sgbww"/><circle class="tqjot-qqb"/><rect transform="rotate(-72 24.31 15.96)" class="oqdql2w1s"/><circle class="ezb6a2b2f"/><circle class="yu5oottbd"/>`;
+</style><g transform="translate(.37 .34)scale(.9789)"><rect class="hrcfc5buf"/><circle class="pns4aob3g"/><rect transform="rotate(-144 14.99 19.03)" class="e2iqol_wv"/><circle class="jnpicbbrp"/><rect transform="rotate(72 19.19 15.96)" class="b0x6sgbww"/><circle class="tqjot-qqb"/><rect transform="rotate(-72 24.31 15.96)" class="oqdql2w1s"/><circle class="ezb6a2b2f"/><circle class="yu5oottbd"/></g>`;
 
 /** @param props {{width?: string; height?: string;}} */
 function Component(props) {

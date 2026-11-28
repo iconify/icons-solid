@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/p/p7_zzsbit.css';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/b/b00ennbgq.css';
+import '../../css/v/vati7obtv.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="p7_zzsbit secondary"/><g class="dt0cm9dhy primary"><path class="b00ennbgq"/><path class="vati7obtv"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconaut:hexagon-half-duo"} {...others} />);
+}
+
+export default Component;

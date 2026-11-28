@@ -1,0 +1,19 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/j/jk0nhwb5n.css';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/w/w5j7cdbmb.css';
+import '../../css/r/r4pn0xbvk.css';
+import '../../css/a/am1vutbfv.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<path class="jk0nhwb5n secondary"/><g class="dt0cm9dhy primary"><path class="w5j7cdbmb"/><path class="r4pn0xbvk"/><path class="am1vutbfv"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconaut:calendar-week-duo"} {...others} />);
+}
+
+export default Component;

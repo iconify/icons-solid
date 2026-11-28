@@ -1,0 +1,18 @@
+import { Icon } from '@iconify/css-solid';
+import { splitProps } from 'solid-js';
+import '../../css/d/dt0cm9dhy.css';
+import '../../css/h/hn3nmybwz.css';
+import '../../css/s/s-527o7ge.css';
+import '../../css/w/wmu9zebde.css';
+
+const viewBox = {"width":24,"height":24};
+const content = `<g class="dt0cm9dhy"><path class="hn3nmybwz"/><path class="s-527o7ge"/><path class="wmu9zebde"/></g>`;
+
+/** @param props {{width?: string; height?: string;}} */
+function Component(props) {
+	const [local, others] = splitProps(props, ["width","height"]);
+
+	return (<Icon width={local.width} height={local.height} viewBox={viewBox} content={content} fallback={"iconaut:weight-tilde"} {...others} />);
+}
+
+export default Component;
